@@ -1,0 +1,211 @@
+
+(EDIF
+  (rename &5990110007F "5990110007F")
+  (EDIFVersion 2 0 0)
+  (EDIFLevel 0)
+  (keywordMap (keywordLevel 0))
+  (status
+    (written
+      (timestamp 2022 08 14 10 55 33)
+      (dataOrigin "SnapEDA snapeda.comCopyright - This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0")
+      (program "SnapEDA Converter")
+    )
+  )
+  (library
+    (rename &5990110007F "5990110007F")
+    (EDIFLevel 0)
+    (technology
+      (numberDefinition
+        (scale 1 (e 254 -9) (unit DISTANCE))
+        (gridMap 1 1)
+      )
+      (figureGroup PINNAME
+        (cornerType TRUNCATE)
+        (endType TRUNCATE)
+        (pathWidth 0)
+        (textHeight 4811)
+      )
+      (figureGroup PINNUMBER
+        (cornerType TRUNCATE)
+        (endType TRUNCATE)
+        (textHeight 9000)
+        (pathWidth 0)
+      )
+      (figureGroup PORT
+        (pathWidth 1000)
+        (textHeight 9000)
+      )
+      (figureGroup PARTBODY
+        (pathWidth 1000)
+        (borderWidth 1000)
+        (textHeight 6000)
+      )
+    )
+    (cell
+      (rename &5990110007F "5990110007F")
+      (cellType GENERIC)
+      (view
+        (rename NORMAL "Normal")
+        (viewType SCHEMATIC)
+        (interface
+          (designator "D")
+          (property (rename VALUE "Value") (string "5990110007F"))
+          (port
+            (rename A "A")
+            (property
+              (rename TYPE "Type")
+              (string "PAS")
+            )
+            (designator "A")
+            (property
+              (rename ORDER "Order")
+              (integer 0)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename C "C")
+            (property
+              (rename TYPE "Type")
+              (string "PAS")
+            )
+            (designator "C")
+            (property
+              (rename ORDER "Order")
+              (integer 1)
+              (owner "OrCAD")
+            )
+          )
+          (symbol
+            (boundingBox (rectangle (pt -30000 -6000) (pt 20000 16401)))
+            (portImplementation
+              (name C)
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERLEFT)
+                  (orientation R0)
+                  (origin (pt 16062 0))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt 20000 0)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt 20000 0)
+                    (pt 0 0)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name A)
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin (pt -26062 0))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt -30000 0)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt -30000 0)
+                    (pt -20000 0)
+                  )
+                )
+              )
+            )
+            (figure PARTBODY
+              (path (pointList (pt -10000 6000) (pt -10000 0)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -10000 0) (pt -10000 -6000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -10000 -6000) (pt 0 0)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 0 0) (pt -10000 6000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 0 6000) (pt 0 -6000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -10000 0) (pt -20000 0)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 4000 16000) (pt -3000 8000)))
+            )
+            (keywordDisplay DESIGNATOR
+              (display PARTBODY
+                (justify LOWERLEFT)
+                (orientation R0)
+                (origin (pt -12200 17700))
+              )
+            )
+            (propertyDisplay VALUE
+              (display PARTBODY
+                (justify LOWERLEFT)
+                (orientation R0)
+                (origin (pt -14000 -13000))
+              )
+            )
+            (figure PARTBODY
+              (path (pointList (pt 2700 12200) (pt 500 14098)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 500 14098) (pt 4000 16000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 4000 16000) (pt 2700 12200)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 2700 12200) (pt 2799 15098)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 2799 15098) (pt 2299 15098)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 1200 13799) (pt 2098 14401)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -901 16401) (pt -7901 8401)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -2200 12598) (pt -4401 14500)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -4401 14500) (pt -901 16401)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -901 16401) (pt -2200 12598)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -2200 12598) (pt -2098 15499)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -2098 15499) (pt -2598 15499)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -3700 14200) (pt -2799 14799)))
+            )
+            (property (rename PCB_Footprint "PCB Footprint") (string "LEDSC125X200X90-2N"))
+          )
+        )
+      )
+    )
+  )
+)

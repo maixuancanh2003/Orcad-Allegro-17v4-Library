@@ -1,0 +1,18 @@
+\t (00:00:01) allegro 17.4 P001 Windows SPB 64-bit Edition
+\t (00:00:01)     Journal start - Sat Oct 26 23:45:46 2024
+\t (00:00:01)         Host=DESKTOP-OLN9DLP User=Admin Pid=5340 CPUs=8
+\t (00:00:01) CmdLine= C:\Cadence\SPB_17.4\tools\bin\allegro.exe
+\t (00:00:01) 
+   (00:00:01) Loading axlcore.cxt 
+\t (00:00:03) Starting new design...
+\i (00:00:04) trapsize 116667
+\i (00:00:04) generaledit 
+\i (00:00:13) open 
+\i (00:00:27) fillin "menu_cancel"
+\i (00:00:27) generaledit 
+\i (00:00:32) open 
+\i (00:00:33) fillin "menu_cancel"
+\i (00:00:33) generaledit 
+\i (00:00:35) new 
+\i (00:00:44) newdrawfillin "test.brd" "Board"
+\t (00:00:44)     Journal end - Sat Oct 26 23:46:30 2024

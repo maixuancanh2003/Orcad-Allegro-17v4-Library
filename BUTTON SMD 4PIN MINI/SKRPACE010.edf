@@ -1,0 +1,270 @@
+
+(EDIF
+  (rename SKRPACE010 "SKRPACE010")
+  (EDIFVersion 2 0 0)
+  (EDIFLevel 0)
+  (keywordMap (keywordLevel 0))
+  (status
+    (written
+      (timestamp 2022 08 14 04 59 10)
+      (dataOrigin "SnapEDA snapeda.comCopyright - This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0")
+      (program "SnapEDA Converter")
+    )
+  )
+  (library
+    (rename SKRPACE010 "SKRPACE010")
+    (EDIFLevel 0)
+    (technology
+      (numberDefinition
+        (scale 1 (e 254 -9) (unit DISTANCE))
+        (gridMap 1 1)
+      )
+      (figureGroup PINNAME
+        (cornerType TRUNCATE)
+        (endType TRUNCATE)
+        (pathWidth 0)
+        (textHeight 4811)
+      )
+      (figureGroup PINNUMBER
+        (cornerType TRUNCATE)
+        (endType TRUNCATE)
+        (textHeight 9000)
+        (pathWidth 0)
+      )
+      (figureGroup PORT
+        (pathWidth 1000)
+        (textHeight 9000)
+      )
+      (figureGroup PARTBODY
+        (pathWidth 1000)
+        (borderWidth 1000)
+        (textHeight 6000)
+      )
+    )
+    (cell
+      (rename SKRPACE010 "SKRPACE010")
+      (cellType GENERIC)
+      (view
+        (rename NORMAL "Normal")
+        (viewType SCHEMATIC)
+        (interface
+          (designator "S")
+          (property (rename VALUE "Value") (string "SKRPACE010"))
+          (port
+            (rename &1 "1")
+            (direction INOUT)
+            (property
+              (rename TYPE "Type")
+              (string "IO")
+            )
+            (designator "1")
+            (property
+              (rename ORDER "Order")
+              (integer 0)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename &2 "2")
+            (direction INOUT)
+            (property
+              (rename TYPE "Type")
+              (string "IO")
+            )
+            (designator "2")
+            (property
+              (rename ORDER "Order")
+              (integer 1)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename &3 "3")
+            (direction INOUT)
+            (property
+              (rename TYPE "Type")
+              (string "IO")
+            )
+            (designator "3")
+            (property
+              (rename ORDER "Order")
+              (integer 2)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename &4 "4")
+            (direction INOUT)
+            (property
+              (rename TYPE "Type")
+              (string "IO")
+            )
+            (designator "4")
+            (property
+              (rename ORDER "Order")
+              (integer 3)
+              (owner "OrCAD")
+            )
+          )
+          (symbol
+            (boundingBox (rectangle (pt -20000 -10000) (pt 20000 10000)))
+            (portImplementation
+              (name &1)
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin (pt -16062 10000))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt -20000 10000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt -20000 10000)
+                    (pt -10000 10000)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name &3)
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin (pt -16062 -10000))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt -20000 -10000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt -20000 -10000)
+                    (pt -10000 -10000)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name &4)
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERLEFT)
+                  (orientation R0)
+                  (origin (pt 16062 -10000))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt 20000 -10000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt 20000 -10000)
+                    (pt 10000 -10000)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name &2)
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERLEFT)
+                  (orientation R0)
+                  (origin (pt 16062 10000))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt 20000 10000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt 20000 10000)
+                    (pt 10000 10000)
+                  )
+                )
+              )
+            )
+            (figure PARTBODY
+              (path (pointList (pt -10000 10000) (pt 0 10000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 0 10000) (pt 10000 10000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -10000 -10000) (pt 0 -10000)))
+            )
+            (figure PARTBODY
+              (circle (pt -1000 -4000) (pt 1000 -4000))
+            )
+            (figure PARTBODY
+              (circle (pt -1000 3000) (pt 1000 3000))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 0 -10000) (pt 10000 -10000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 0 3000) (pt 0 10000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 0 -4000) (pt 0 -10000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -4000 4000) (pt -4000 0)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -4000 0) (pt -4000 -5000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -4000 0) (pt -7000 0)))
+            )
+            (keywordDisplay DESIGNATOR
+              (display PARTBODY
+                (justify LOWERLEFT)
+                (orientation R0)
+                (origin (pt -10011 20023))
+              )
+            )
+            (propertyDisplay VALUE
+              (display PARTBODY
+                (justify LOWERLEFT)
+                (orientation R0)
+                (origin (pt -10015 -20031))
+              )
+            )
+            (figure PARTBODY
+              (path (pointList (pt 20000 -10000) (pt -20000 -10000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -20000 10000) (pt 20000 10000)))
+            )
+            (property (rename PCB_Footprint "PCB Footprint") (string "SW_SKRPACE010"))
+          )
+        )
+      )
+    )
+  )
+)

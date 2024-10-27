@@ -1,0 +1,222 @@
+
+(EDIF
+  (rename S20K275 "S20K275")
+  (EDIFVersion 2 0 0)
+  (EDIFLevel 0)
+  (keywordMap (keywordLevel 0))
+  (status
+    (written
+      (timestamp 2023 12 01 19 02 16)
+      (dataOrigin "SnapEDA snapeda.comCopyright - This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0")
+      (program "SnapEDA Converter")
+    )
+  )
+  (library
+    (rename S20K275 "S20K275")
+    (EDIFLevel 0)
+    (technology
+      (numberDefinition
+        (scale 1 (e 254 -9) (unit DISTANCE))
+        (gridMap 1 1)
+      )
+      (figureGroup PINNAME
+        (cornerType TRUNCATE)
+        (endType TRUNCATE)
+        (pathWidth 0)
+        (textHeight 4811)
+      )
+      (figureGroup PINNUMBER
+        (cornerType TRUNCATE)
+        (endType TRUNCATE)
+        (textHeight 9000)
+        (pathWidth 0)
+      )
+      (figureGroup PORT
+        (pathWidth 1000)
+        (textHeight 9000)
+      )
+      (figureGroup PARTBODY
+        (pathWidth 1000)
+        (borderWidth 1000)
+        (textHeight 6000)
+      )
+    )
+    (cell
+      (rename VDR "VDR")
+      (cellType GENERIC)
+      (view
+        (rename NORMAL "Normal")
+        (viewType SCHEMATIC)
+        (interface
+          (designator "R")
+          (property (rename VALUE "Value") (string "VDR"))
+          (port
+            (rename &1 "1")
+            (property
+              (rename TYPE "Type")
+              (string "PAS")
+            )
+            (designator "1")
+            (property
+              (rename ORDER "Order")
+              (integer 0)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename &2 "2")
+            (property
+              (rename TYPE "Type")
+              (string "PAS")
+            )
+            (designator "2")
+            (property
+              (rename ORDER "Order")
+              (integer 1)
+              (owner "OrCAD")
+            )
+          )
+          (symbol
+            (boundingBox (rectangle (pt -20000 -12700) (pt 24000 20000)))
+            (portImplementation
+              (name &2)
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt 24000 0)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name &1)
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt -20000 0)
+                  )
+                )
+              )
+            )
+            (figure PARTBODY
+              (path (pointList (pt -15000 -3500) (pt 15000 -3500)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 15000 -3500) (pt 15000 0)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 15000 3500) (pt -15000 3500)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -15000 -3500) (pt -15000 0)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 15000 0) (pt 20000 0)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 15000 0) (pt 15000 3500)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -20000 0) (pt -15000 0)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -15000 0) (pt -15000 3500)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 10000 10000) (pt -10000 -10000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -10000 -10000) (pt -15000 -10000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -5700 -12700) (pt -299 -12700)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 700 -11700) (pt -299 -12700)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 700 -11700) (pt 700 -9500)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -299 -8499) (pt 700 -9500)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -299 -8499) (pt -5700 -8499)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 22500 20000) (pt 22500 10000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 22500 10000) (pt 24000 15000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 24000 15000) (pt 20999 15000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 20999 15000) (pt 22500 10000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 17500 10000) (pt 17500 20000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 17500 20000) (pt 19000 15000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 19000 15000) (pt 16000 15000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 16000 15000) (pt 17500 20000)))
+            )
+            (keywordDisplay DESIGNATOR
+              (display PARTBODY
+                (justify LOWERLEFT)
+                (orientation R0)
+                (origin (pt 5000 -14598))
+              )
+            )
+            (propertyDisplay VALUE
+              (display PARTBODY
+                (justify LOWERLEFT)
+                (orientation R0)
+                (origin (pt 5000 -22500))
+              )
+            )
+            (property (rename PCB_Footprint "PCB Footprint") (string "S20K275"))
+            (property
+              (rename SnapEDA_Link "SnapEDA_Link")
+              (string
+              (stringDisplay "https://www.snapeda.com/parts/S20K275/EPCOS+-+TDK+Electronics/view-part/?ref=snap"))
+            )
+            (property
+              (rename Description "Description")
+              (string
+              (stringDisplay "
+VARISTOR RDL 275VRMS 21MM PICK#200673
+"))
+            )
+            (property
+              (rename Package "Package")
+              (string
+              (stringDisplay "None"))
+            )
+            (property
+              (rename MF "MF")
+              (string
+              (stringDisplay "TDK Electronics"))
+            )
+            (property
+              (rename MP "MP")
+              (string
+              (stringDisplay "S20K275"))
+            )
+            (property
+              (rename Check_prices "Check_prices")
+              (string
+              (stringDisplay "https://www.snapeda.com/parts/S20K275/EPCOS+-+TDK+Electronics/view-part/?ref=eda"))
+            )
+          )
+        )
+      )
+    )
+  )
+)

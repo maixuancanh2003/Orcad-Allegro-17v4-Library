@@ -1,0 +1,201 @@
+
+(EDIF
+  (rename CM7V_45_T1A_45_32768KHZ_45_125PF_45_20PPM_45_TA_45_QC "CM7V-T1A-32768KHZ-125PF-20PPM-TA-QC")
+  (EDIFVersion 2 0 0)
+  (EDIFLevel 0)
+  (keywordMap (keywordLevel 0))
+  (status
+    (written
+      (timestamp 2024 03 22 05 49 46)
+      (dataOrigin "SnapEDA snapeda.comCopyright - This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0")
+      (program "SnapEDA Converter")
+    )
+  )
+  (library
+    (rename CM7V_45_T1A_45_32768KHZ_45_125PF_45_20PPM_45_TA_45_QC "CM7V-T1A-32768KHZ-125PF-20PPM-TA-QC")
+    (EDIFLevel 0)
+    (technology
+      (numberDefinition
+        (scale 1 (e 254 -9) (unit DISTANCE))
+        (gridMap 1 1)
+      )
+      (figureGroup PINNAME
+        (cornerType TRUNCATE)
+        (endType TRUNCATE)
+        (pathWidth 0)
+        (textHeight 4811)
+      )
+      (figureGroup PINNUMBER
+        (cornerType TRUNCATE)
+        (endType TRUNCATE)
+        (textHeight 9000)
+        (pathWidth 0)
+      )
+      (figureGroup PORT
+        (pathWidth 1000)
+        (textHeight 9000)
+      )
+      (figureGroup PARTBODY
+        (pathWidth 1000)
+        (borderWidth 1000)
+        (textHeight 6000)
+      )
+    )
+    (cell
+      (rename CM7V_45_T1A_45_32768KHZ_45_125PF_45_20PPM_45_TA_45_QC "CM7V-T1A-32768KHZ-125PF-20PPM-TA-QC")
+      (cellType GENERIC)
+      (view
+        (rename NORMAL "Normal")
+        (viewType SCHEMATIC)
+        (interface
+          (designator "Y")
+          (property (rename VALUE "Value") (string "CM7V-T1A-32768KHZ-125PF-20PPM-TA-QC"))
+          (port
+            (rename &1 "1")
+            (property
+              (rename TYPE "Type")
+              (string "PAS")
+            )
+            (designator "1")
+            (property
+              (rename ORDER "Order")
+              (integer 0)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename &2 "2")
+            (property
+              (rename TYPE "Type")
+              (string "PAS")
+            )
+            (designator "2")
+            (property
+              (rename ORDER "Order")
+              (integer 1)
+              (owner "OrCAD")
+            )
+          )
+          (symbol
+            (boundingBox (rectangle (pt -20000 -10000) (pt 20000 10000)))
+            (portImplementation
+              (name &2)
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERLEFT)
+                  (orientation R0)
+                  (origin (pt 16062 0))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt 20000 0)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt 20000 0)
+                    (pt 10000 0)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name &1)
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin (pt -16062 0))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt -20000 0)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt -20000 0)
+                    (pt -10000 0)
+                  )
+                )
+              )
+            )
+            (figure PARTBODY
+              (path (pointList (pt -5500 10000) (pt 5500 10000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 5500 10000) (pt 5500 -10000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 5500 -10000) (pt -5500 -10000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -5500 10000) (pt -5500 -10000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 9200 10000) (pt 9200 -10000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -9200 10000) (pt -9200 -10000)))
+            )
+            (keywordDisplay DESIGNATOR
+              (display PARTBODY
+                (justify LOWERLEFT)
+                (orientation R0)
+                (origin (pt -20000 15000))
+              )
+            )
+            (propertyDisplay VALUE
+              (display PARTBODY
+                (justify LOWERLEFT)
+                (orientation R0)
+                (origin (pt -20000 -20000))
+              )
+            )
+            (property (rename PCB_Footprint "PCB Footprint") (string "XTAL_CM7V-T1A-32768KHZ-125PF-20PPM-TA-QC"))
+            (property
+              (rename SnapEDA_Link "SnapEDA_Link")
+              (string
+              (stringDisplay "https://www.snapeda.com/parts/CM7V-T1A-32.768KHZ-12.5PF-20PPM-TA-QC/Micro+Crystal/view-part/?ref=snap"))
+            )
+            (property
+              (rename Description "Description")
+              (string
+              (stringDisplay "
+Tuning Fork Crystal 32.768kHz in SMD 1.5 x 3.2 mm package
+"))
+            )
+            (property
+              (rename Package "Package")
+              (string
+              (stringDisplay "SMD-2 Micro Crystal"))
+            )
+            (property
+              (rename MF "MF")
+              (string
+              (stringDisplay "Micro Crystal"))
+            )
+            (property
+              (rename MP "MP")
+              (string
+              (stringDisplay "CM7V-T1A-32.768KHZ-12.5PF-20PPM-TA-QC"))
+            )
+            (property
+              (rename Check_prices "Check_prices")
+              (string
+              (stringDisplay "https://www.snapeda.com/parts/CM7V-T1A-32.768KHZ-12.5PF-20PPM-TA-QC/Micro+Crystal/view-part/?ref=eda"))
+            )
+          )
+        )
+      )
+    )
+  )
+)

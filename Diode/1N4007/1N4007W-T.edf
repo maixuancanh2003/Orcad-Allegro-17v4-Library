@@ -1,0 +1,203 @@
+
+(EDIF
+  (rename &1N4007W_45_T "1N4007W-T")
+  (EDIFVersion 2 0 0)
+  (EDIFLevel 0)
+  (keywordMap (keywordLevel 0))
+  (status
+    (written
+      (timestamp 2023 10 28 13 49 06)
+      (dataOrigin "SnapEDA snapeda.comCopyright - This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0")
+      (program "SnapEDA Converter")
+    )
+  )
+  (library
+    (rename &1N4007W_45_T "1N4007W-T")
+    (EDIFLevel 0)
+    (technology
+      (numberDefinition
+        (scale 1 (e 254 -9) (unit DISTANCE))
+        (gridMap 1 1)
+      )
+      (figureGroup PINNAME
+        (cornerType TRUNCATE)
+        (endType TRUNCATE)
+        (pathWidth 0)
+        (textHeight 4811)
+      )
+      (figureGroup PINNUMBER
+        (cornerType TRUNCATE)
+        (endType TRUNCATE)
+        (textHeight 9000)
+        (pathWidth 0)
+      )
+      (figureGroup PORT
+        (pathWidth 1000)
+        (textHeight 9000)
+      )
+      (figureGroup PARTBODY
+        (pathWidth 1000)
+        (borderWidth 1000)
+        (textHeight 6000)
+      )
+    )
+    (cell
+      (rename &1N4007W_45_T "1N4007W-T")
+      (cellType GENERIC)
+      (view
+        (rename NORMAL "Normal")
+        (viewType SCHEMATIC)
+        (interface
+          (designator "D")
+          (property (rename VALUE "Value") (string "1N4007W-T"))
+          (port
+            (rename K "K")
+            (direction INOUT)
+            (property
+              (rename TYPE "Type")
+              (string "IO")
+            )
+            (designator "1")
+            (property
+              (rename ORDER "Order")
+              (integer 0)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename A "A")
+            (direction INOUT)
+            (property
+              (rename TYPE "Type")
+              (string "IO")
+            )
+            (designator "2")
+            (property
+              (rename ORDER "Order")
+              (integer 1)
+              (owner "OrCAD")
+            )
+          )
+          (symbol
+            (boundingBox (rectangle (pt 0 -10000) (pt 60000 10000)))
+            (portImplementation
+              (name K)
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin (pt 3937 0))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt 0 0)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt 0 0)
+                    (pt 10000 0)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name A)
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERLEFT)
+                  (orientation R0)
+                  (origin (pt 56062 0))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt 60000 0)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt 60000 0)
+                    (pt 50000 0)
+                  )
+                )
+              )
+            )
+            (figure PARTBODY
+              (path (pointList (pt 20000 10000) (pt 20000 -10000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 10000 0) (pt 20000 0)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 40000 0) (pt 50000 0)))
+            )
+            (keywordDisplay DESIGNATOR
+              (display PARTBODY
+                (justify CENTERLEFT)
+                (orientation R0)
+                (origin (pt 45000 20000))
+              )
+            )
+            (propertyDisplay VALUE
+              (display PARTBODY
+                (justify CENTERLEFT)
+                (orientation R0)
+                (origin (pt 45000 10000))
+              )
+            )
+            (figure PARTBODY
+              (polygon
+                (pointList
+                  (pt 20000 0)
+                  (pt 40000 10000)
+                  (pt 40000 -10000)
+                )
+              )
+            )
+            (property (rename PCB_Footprint "PCB Footprint") (string "SODFL3818X130N"))
+            (property
+              (rename SnapEDA_Link "SnapEDA_Link")
+              (string
+              (stringDisplay "https://www.snapeda.com/parts/1N4007W/Rectron/view-part/?ref=snap"))
+            )
+            (property
+              (rename Description "Description")
+              (string
+              (stringDisplay "
+Diode Standard 1000 V 1A Surface Mount SOD-123F
+"))
+            )
+            (property
+              (rename Package "Package")
+              (string
+              (stringDisplay "SOD-123F Rectron"))
+            )
+            (property
+              (rename MF "MF")
+              (string
+              (stringDisplay "Rectron USA"))
+            )
+            (property
+              (rename MP "MP")
+              (string
+              (stringDisplay "1N4007W"))
+            )
+            (property
+              (rename Check_prices "Check_prices")
+              (string
+              (stringDisplay "https://www.snapeda.com/parts/1N4007W/Rectron/view-part/?ref=eda"))
+            )
+          )
+        )
+      )
+    )
+  )
+)

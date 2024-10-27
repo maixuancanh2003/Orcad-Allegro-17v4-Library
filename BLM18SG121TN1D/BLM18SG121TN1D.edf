@@ -1,0 +1,195 @@
+
+(EDIF
+  (rename BLM18SG121TN1D "BLM18SG121TN1D")
+  (EDIFVersion 2 0 0)
+  (EDIFLevel 0)
+  (keywordMap (keywordLevel 0))
+  (status
+    (written
+      (timestamp 2022 08 14 05 26 25)
+      (dataOrigin "SnapEDA snapeda.comCopyright - This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0")
+      (program "SnapEDA Converter")
+    )
+  )
+  (library
+    (rename BLM18SG121TN1D "BLM18SG121TN1D")
+    (EDIFLevel 0)
+    (technology
+      (numberDefinition
+        (scale 1 (e 254 -9) (unit DISTANCE))
+        (gridMap 1 1)
+      )
+      (figureGroup PINNAME
+        (cornerType TRUNCATE)
+        (endType TRUNCATE)
+        (pathWidth 0)
+        (textHeight 4811)
+      )
+      (figureGroup PINNUMBER
+        (cornerType TRUNCATE)
+        (endType TRUNCATE)
+        (textHeight 9000)
+        (pathWidth 0)
+      )
+      (figureGroup PORT
+        (pathWidth 1000)
+        (textHeight 9000)
+      )
+      (figureGroup PARTBODY
+        (pathWidth 1000)
+        (borderWidth 1000)
+        (textHeight 6000)
+      )
+    )
+    (cell
+      (rename BLM18SG121TN1D "BLM18SG121TN1D")
+      (cellType GENERIC)
+      (view
+        (rename NORMAL "Normal")
+        (viewType SCHEMATIC)
+        (interface
+          (designator "FL")
+          (property (rename VALUE "Value") (string "BLM18SG121TN1D"))
+          (port
+            (rename &1 "1")
+            (property
+              (rename TYPE "Type")
+              (string "PAS")
+            )
+            (designator "1")
+            (property
+              (rename ORDER "Order")
+              (integer 0)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename &2 "2")
+            (property
+              (rename TYPE "Type")
+              (string "PAS")
+            )
+            (designator "2")
+            (property
+              (rename ORDER "Order")
+              (integer 1)
+              (owner "OrCAD")
+            )
+          )
+          (symbol
+            (boundingBox (rectangle (pt -60000 -7500) (pt 50000 7500)))
+            (portImplementation
+              (name &2)
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt 50000 0)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt 50000 0)
+                    (pt 40000 0)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name &1)
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt -60000 0)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt -60000 0)
+                    (pt -50000 0)
+                  )
+                )
+              )
+            )
+            (figure PARTBODY
+              (path (pointList (pt 0 0) (pt 2500 7500)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 2500 7500) (pt 7500 -7500)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 7500 -7500) (pt 12500 7500)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 12500 7500) (pt 17500 -7500)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 17500 -7500) (pt 22500 7500)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 22500 7500) (pt 27500 -7500)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 27500 -7500) (pt 32500 7500)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 32500 7500) (pt 37500 -7500)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 37500 -7500) (pt 40000 0)))
+            )
+            (keywordDisplay DESIGNATOR
+              (display PARTBODY
+                (justify LOWERLEFT)
+                (orientation R0)
+                (origin (pt -50015 20003))
+              )
+            )
+            (propertyDisplay VALUE
+              (display PARTBODY
+                (justify LOWERLEFT)
+                (orientation R0)
+                (origin (pt -50039 -20027))
+              )
+            )
+            (figure PARTBODY
+              (openShape
+                (curve
+                  (arc (pt -50000 0) (pt -45000 5000) (pt -40000 0))
+                )
+              )
+            )
+            (figure PARTBODY
+              (openShape
+                (curve
+                  (arc (pt -40000 0) (pt -35000 5000) (pt -30000 0))
+                )
+              )
+            )
+            (figure PARTBODY
+              (openShape
+                (curve
+                  (arc (pt -30000 0) (pt -25000 5000) (pt -20000 0))
+                )
+              )
+            )
+            (figure PARTBODY
+              (openShape
+                (curve
+                  (arc (pt -20000 0) (pt -15000 5000) (pt -10000 0))
+                )
+              )
+            )
+            (figure PARTBODY
+              (path (pointList (pt 0 0) (pt -10000 0)))
+            )
+            (property (rename PCB_Footprint "PCB Footprint") (string "BEADC1608X65N"))
+          )
+        )
+      )
+    )
+  )
+)

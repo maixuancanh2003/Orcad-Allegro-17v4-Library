@@ -1,0 +1,3 @@
+#STEP_FILE ! FILE_SIZE ! MOD_TIME
+
+Terminal2pin.stp ! 158796 ! 1558431738

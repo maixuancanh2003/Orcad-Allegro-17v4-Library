@@ -1,0 +1,95 @@
+\t (00:00:08) allegro 17.4 P001 Windows SPB 64-bit Edition
+\t (00:00:08)     Journal start - Tue Oct 22 10:43:04 2024
+\t (00:00:08)         Host=DESKTOP-OLN9DLP User=Admin Pid=17492 CPUs=8
+\t (00:00:08) CmdLine= c:\cadence\spb_17.4\tools\bin\allegro.exe D:\Allegro\Project\CanhMai\Lib\Schematic_And_FootPrint\USB-Micro\AMPHENOL_10118194-0001LF.dra
+\t (00:00:08) 
+   (00:00:08) Loading axlcore.cxt 
+\t (00:00:08) Opening existing design...
+\i (00:00:09) fillin yes 
+\i (00:00:09) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged AMPHENOL_10118194-0001LF
+\d (00:00:09) Design opened: D:/Allegro/Project/CanhMai/Lib/Schematic_And_FootPrint/USB-Micro/AMPHENOL_10118194-0001LF.dra
+\i (00:00:10) trapsize 2654
+\i (00:00:10) trapsize 2737
+\i (00:00:10) trapsize 2654
+\i (00:00:10) trapsize 2682
+\i (00:00:10) trapsize 2682
+\i (00:00:10) generaledit 
+\i (00:00:11) 3d 
+\i (00:00:12) generaledit 
+\i (00:00:21) QtSignal pcb3dViewer pcb3dViewer closed
+\i (00:00:22) zoom in 1 
+\i (00:00:22) setwindow pcb
+\i (00:00:22) zoom in -4.3482 -0.0961
+\i (00:00:22) trapsize 1341
+\i (00:01:54) step pkg map 
+\i (00:01:57) setwindow form.pkgmap3d
+\i (00:01:57) FORM pkgmap3d stplist UsbMicro.STEP 
+\i (00:01:58) FORM pkgmap3d stplist UsbMicro.STEP 
+\i (00:01:58) FORM pkgmap3d stplist UsbMicro.STEP 
+\i (00:02:00) FORM pkgmap3d rotation_x 90 
+\i (00:02:04) FORM pkgmap3d save_current  
+\i (00:02:05) FORM pkgmap3d done  
+\i (00:02:05) setwindow pcb
+\i (00:02:05) generaledit 
+\i (00:02:06) pick grid 10.0282 5.7511
+\t (00:02:06) last pick:  10.1600 5.0800
+\i (00:02:07) 3d 
+\i (00:02:08) generaledit 
+\i (00:02:08) QtSignal pcb3dViewer pcb3dViewerCanvas keyPressEvent 16777248 33554432 false 1
+\i (00:02:08) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasMousePressEvent 504 182 824 317 4 4 33554432 +
+\i (00:02:08) QtSignal 195.045 134.813 201.422
+\i (00:02:08) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 195.045 134.813 201.422 193.562 +
+\i (00:02:08) QtSignal 132.342 200.213
+\i (00:02:08) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 188.58 137.085 196.224 186.725 +
+\i (00:02:08) QtSignal 133.016 193.903
+\i (00:02:08) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 178.594 139.943 187.435 177.29 +
+\i (00:02:08) QtSignal 131.443 180.715
+\i (00:02:08) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 161.008 142.757 167.448 157.596 +
+\i (00:02:08) QtSignal 130.81 163.037
+\i (00:02:08) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 137.245 140.683 145.18 135.326 +
+\i (00:02:08) QtSignal 129.821 142.876
+\i (00:02:08) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 118.549 134.353 127.654 120.516 +
+\i (00:02:08) QtSignal 124.34 123.786
+\i (00:02:08) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 106.6 125.592 110.578 107.828 +
+\i (00:02:08) QtSignal 116.804 109.421
+\i (00:02:08) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 96.8556 115.972 98.0197 98.3813 +
+\i (00:02:08) QtSignal 106.011 98.1127
+\i (00:02:08) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 87.0442 103.164 85.9527 89.2687 +
+\i (00:02:08) QtSignal 97.6716 85.7543
+\i (00:02:08) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 83.532 95.2924 79.2428 87.3647 +
+\i (00:02:08) QtSignal 90.5106 78.025
+\i (00:02:08) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 82.9526 88.1002 72.6451 84.795 +
+\i (00:02:08) QtSignal 84.6158 72.9387
+\i (00:02:08) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 81.7262 82.5288 68.8634 83.6767 +
+\i (00:02:08) QtSignal 79.1192 69.3012
+\i (00:02:08) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 80.8446 76.88 65.3978 81.8716 +
+\i (00:02:08) QtSignal 75.2167 65.6882
+\i (00:02:08) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 80.5459 74.0348 63.776 81.5975 +
+\i (00:02:08) QtSignal 72.3938 64.1022
+\i (00:02:08) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 80.3299 71.1813 62.2358 80.19 +
+\i (00:02:08) QtSignal 70.0665 63.0673
+\i (00:02:08) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 79.2939 69.1562 61.7233 80.3814 +
+\i (00:02:08) QtSignal 67.5503 62.1027
+\i (00:02:08) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 79.1796 66.2881 60.3273 80.4068 +
+\i (00:02:08) QtSignal 65.7977 59.8748
+\i (00:02:08) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 80.1135 65.4676 59.42 81.2357 +
+\i (00:02:08) QtSignal 63.8992 59.8517
+\i (00:02:08) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 80.1396 62.612 58.1273 81.3891 +
+\i (00:02:08) QtSignal 62.1474 57.7097
+\i (00:02:08) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 81.1357 61.8279 57.29 82.3958 +
+\i (00:02:08) QtSignal 61.3766 56.8899
+\i (00:02:08) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 82.1619 61.0674 56.485 82.0567 +
+\i (00:02:08) QtSignal 59.9897 57.3691
+\i (00:02:08) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 81.3265 58.9902 56.0885 82.5967 +
+\i (00:02:08) QtSignal 58.5524 55.7059
+\i (00:02:09) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasMouseReleaseEvent 448 233 768 368 4 0 +
+\i (00:02:09) QtSignal 33554432 82.3808 58.2464 55.322
+\i (00:02:09) QtSignal pcb3dViewer pcb3dViewer closed
+\i (00:02:10) pick grid 8.9017 7.1726
+\t (00:02:10) last pick:  10.1600 7.6200
+\i (00:02:10) save 
+\i (00:02:11) fillin yes 
+\t (00:02:11) Symbol 'amphenol_10118194-0001lf.psm' created.
+\i (00:02:11) generaledit 
+\i (00:02:14) exit 
+\t (00:02:15)     Journal end - Tue Oct 22 10:45:11 2024

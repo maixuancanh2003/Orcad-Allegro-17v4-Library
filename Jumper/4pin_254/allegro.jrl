@@ -1,0 +1,51 @@
+\t (00:00:01) allegro 17.4 P001 Windows SPB 64-bit Edition
+\t (00:00:01)     Journal start - Tue Oct 22 22:17:37 2024
+\t (00:00:01)         Host=DESKTOP-OLN9DLP User=Admin Pid=1424 CPUs=8
+\t (00:00:01) CmdLine= c:\cadence\spb_17.4\tools\bin\allegro.exe D:\Allegro\Project\CanhMai\Lib\Schematic_And_FootPrint\Homnayyyyyyyyyyyyyyyyyyyyyyyyyyyy\Jumper\4pin_254\SAMTEC_TSW-104-08-L-S-LL.dra
+\t (00:00:01) 
+   (00:00:01) Loading axlcore.cxt 
+\t (00:00:02) Opening existing design...
+\i (00:00:02) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged SAMTEC_TSW-104-08-L-S-LL
+\d (00:00:02) Design opened: D:/Allegro/Project/CanhMai/Lib/Schematic_And_FootPrint/Homnayyyyyyyyyyyyyyyyyyyyyyyyyyyy/Jumper/4pin_254/SAMTEC_TSW-104-08-L-S-LL.dra
+\i (00:00:02) trapsize 4317
+\i (00:00:02) trapsize 4452
+\i (00:00:02) trapsize 4317
+\i (00:00:02) trapsize 4362
+\i (00:00:02) trapsize 4362
+\i (00:00:03) generaledit 
+\i (00:00:07) prepopup -20.1594 -1.6974
+\i (00:00:24) pick grid -11.6098 8.9459
+\t (00:00:24) last pick:  -12.7000 10.1600
+\i (00:00:25) zoom in 1 
+\i (00:00:25) setwindow pcb
+\i (00:00:25) zoom in 6.4490 -1.5229
+\i (00:00:25) trapsize 2181
+\i (00:00:25) zoom in 1 
+\i (00:00:25) setwindow pcb
+\i (00:00:25) zoom in 6.0564 9.6875
+\i (00:00:25) trapsize 1091
+\i (00:00:25) zoom out 1 
+\i (00:00:25) setwindow pcb
+\i (00:00:25) zoom out 2.5668 5.1510
+\i (00:00:25) trapsize 2181
+\i (00:00:26) zoom out 1 
+\i (00:00:26) setwindow pcb
+\i (00:00:26) zoom out 2.6105 0.0038
+\i (00:00:26) trapsize 4362
+\i (00:00:26) zoom in 1 
+\i (00:00:26) setwindow pcb
+\i (00:00:26) zoom in -4.5433 -0.3888
+\i (00:00:26) trapsize 2181
+\i (00:00:27) zoom in 1 
+\i (00:00:27) setwindow pcb
+\i (00:00:27) zoom in 0.6912 2.6646
+\i (00:00:27) trapsize 1091
+\i (00:00:29) show measure 
+\i (00:00:31) pick grid -0.0067 0.0038
+\t (00:00:31) last pick:  0.0000 0.0000
+\i (00:00:32) pick grid 2.6105 -0.0617
+\t (00:00:32) last pick:  2.5400 0.0000
+\i (00:00:47) setwindow text
+\i (00:00:47) close
+\i (00:01:36) exit 
+\t (00:01:36)     Journal end - Tue Oct 22 22:19:12 2024

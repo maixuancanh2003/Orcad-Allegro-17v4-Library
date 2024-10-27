@@ -1,0 +1,196 @@
+
+(EDIF
+  (rename B130_45_13_45_F "B130-13-F")
+  (EDIFVersion 2 0 0)
+  (EDIFLevel 0)
+  (keywordMap (keywordLevel 0))
+  (status
+    (written
+      (timestamp 2019 02 25 01 03 53)
+      (dataOrigin "SnapEDA snapeda.comCopyright - This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0")
+      (program "SnapEDA Converter")
+    )
+  )
+  (library
+    (rename B130_45_13_45_F "B130-13-F")
+    (EDIFLevel 0)
+    (technology
+      (numberDefinition
+        (scale 1 (e 254 -9) (unit DISTANCE))
+        (gridMap 1 1)
+      )
+      (figureGroup PINNAME
+        (cornerType TRUNCATE)
+        (endType TRUNCATE)
+        (pathWidth 0)
+        (textHeight 4811)
+      )
+      (figureGroup PINNUMBER
+        (cornerType TRUNCATE)
+        (endType TRUNCATE)
+        (textHeight 9000)
+        (pathWidth 0)
+      )
+      (figureGroup PORT
+        (pathWidth 1000)
+        (textHeight 9000)
+      )
+      (figureGroup PARTBODY
+        (pathWidth 1000)
+        (borderWidth 1000)
+        (textHeight 6000)
+      )
+    )
+    (cell
+      (rename SCHOTTKY "SCHOTTKY")
+      (cellType GENERIC)
+      (view
+        (rename NORMAL "Normal")
+        (viewType SCHEMATIC)
+        (interface
+          (designator "U")
+          (property (rename VALUE "Value") (string "SCHOTTKY"))
+          (port
+            (rename A "A")
+            (designator "A")
+            (property
+              (rename TYPE "Type")
+              (string "PAS")
+            )
+            (property
+              (rename ORDER "Order")
+              (integer 0)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename C "C")
+            (designator "C")
+            (property
+              (rename TYPE "Type")
+              (string "PAS")
+            )
+            (property
+              (rename ORDER "Order")
+              (integer 1)
+              (owner "OrCAD")
+            )
+          )
+          (symbol
+            (boundingBox (rectangle (pt 0 -5000) (pt 19685 5000)))
+            (portImplementation
+              (name A)
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt 0 0)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt 0 0)
+                    (pt 10000 0)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name C)
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt 19685 0)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt 19685 0)
+                    (pt 9685 0)
+                  )
+                )
+              )
+            )
+            (figure PARTBODY
+              (path (pointList (pt 5000 -5000) (pt 15000 0)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 15000 0) (pt 5000 5000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 17500 5000) (pt 15000 5000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 15000 5000) (pt 15000 0)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 5000 5000) (pt 5000 -5000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 15000 0) (pt 15000 -5000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 17500 5000) (pt 17500 4000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 15000 -5000) (pt 12500 -5000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 12500 -4000) (pt 12500 -5000)))
+            )
+            (keywordDisplay DESIGNATOR
+              (display PARTBODY
+                (justify LOWERLEFT)
+                (orientation R0)
+                (origin (pt 1000 7500))
+              )
+            )
+            (propertyDisplay VALUE
+              (display PARTBODY
+                (justify LOWERLEFT)
+                (orientation R0)
+                (origin (pt 1000 -13499))
+              )
+            )
+            (property (rename PCB_Footprint "PCB Footprint") (string "SMA"))
+            (property
+              (rename Digi_Key_Part_Number "Digi_Key_Part_Number")
+              (string
+              (stringDisplay "B130-FDICT-ND"))
+            )
+            (property
+              (rename Package "Package")
+              (string
+              (stringDisplay "DO-214 Multicomp"))
+            )
+            (property
+              (rename MP "MP")
+              (string
+              (stringDisplay "B130-13-F"))
+            )
+            (property
+              (rename Description "Description")
+              (string
+              (stringDisplay "
+Diode, Schottky, 1a, 30v, Do-214ac-2, Full Reel
+"))
+            )
+            (property
+              (rename Digi_Key_Purchase_URL "Digi_Key_Purchase_URL")
+              (string
+              (stringDisplay "https://www.digikey.in/product-detail/en/diodes-incorporated/B130-13-F/B130-FDICT-ND/815318?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol"))
+            )
+            (property
+              (rename MF "MF")
+              (string
+              (stringDisplay "Multicomp"))
+            )
+          )
+        )
+      )
+    )
+  )
+)

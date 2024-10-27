@@ -1,0 +1,2067 @@
+
+(EDIF
+  (rename HR911105A "HR911105A")
+  (EDIFVersion 2 0 0)
+  (EDIFLevel 0)
+  (keywordMap (keywordLevel 0))
+  (status
+    (written
+      (timestamp 2022 08 14 04 33 11)
+      (dataOrigin "SnapEDA snapeda.comCopyright - This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0")
+      (program "SnapEDA Converter")
+    )
+  )
+  (library
+    (rename HR911105A "HR911105A")
+    (EDIFLevel 0)
+    (technology
+      (numberDefinition
+        (scale 1 (e 254 -9) (unit DISTANCE))
+        (gridMap 1 1)
+      )
+      (figureGroup PINNAME
+        (cornerType TRUNCATE)
+        (endType TRUNCATE)
+        (pathWidth 0)
+        (textHeight 4811)
+      )
+      (figureGroup PINNUMBER
+        (cornerType TRUNCATE)
+        (endType TRUNCATE)
+        (textHeight 9000)
+        (pathWidth 0)
+      )
+      (figureGroup PORT
+        (pathWidth 1000)
+        (textHeight 9000)
+      )
+      (figureGroup PARTBODY
+        (pathWidth 1000)
+        (borderWidth 1000)
+        (textHeight 6000)
+      )
+    )
+    (cell
+      (rename HR911105A "HR911105A")
+      (cellType GENERIC)
+      (view
+        (rename NORMAL "Normal")
+        (viewType SCHEMATIC)
+        (interface
+          (designator "J")
+          (property (rename VALUE "Value") (string "HR911105A"))
+          (port
+            (rename TD_43_ "TD+")
+            (property
+              (rename TYPE "Type")
+              (string "PAS")
+            )
+            (designator "1")
+            (property
+              (rename ORDER "Order")
+              (integer 0)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename TD_45_ "TD-")
+            (property
+              (rename TYPE "Type")
+              (string "PAS")
+            )
+            (designator "2")
+            (property
+              (rename ORDER "Order")
+              (integer 1)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename RD_43_ "RD+")
+            (property
+              (rename TYPE "Type")
+              (string "PAS")
+            )
+            (designator "3")
+            (property
+              (rename ORDER "Order")
+              (integer 2)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename P4 "P4")
+            (property
+              (rename TYPE "Type")
+              (string "PAS")
+            )
+            (designator "4")
+            (property
+              (rename ORDER "Order")
+              (integer 3)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename P5 "P5")
+            (property
+              (rename TYPE "Type")
+              (string "PAS")
+            )
+            (designator "5")
+            (property
+              (rename ORDER "Order")
+              (integer 4)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename RD_45_ "RD-")
+            (property
+              (rename TYPE "Type")
+              (string "PAS")
+            )
+            (designator "6")
+            (property
+              (rename ORDER "Order")
+              (integer 5)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename GND "GND")
+            (property
+              (rename TYPE "Type")
+              (string "POWER")
+            )
+            (property PORTTYPE
+              (string "supply")
+              (owner "Schematic_TSC")
+            )
+            (property SUPPLYTYPE
+              (string "power")
+              (owner "Schematic_TSC")
+            )
+            (designator "8")
+            (property
+              (rename ORDER "Order")
+              (integer 6)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename GA "GA")
+            (property
+              (rename TYPE "Type")
+              (string "PAS")
+            )
+            (designator "9")
+            (property
+              (rename ORDER "Order")
+              (integer 7)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename GC "GC")
+            (property
+              (rename TYPE "Type")
+              (string "PAS")
+            )
+            (designator "10")
+            (property
+              (rename ORDER "Order")
+              (integer 8)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename YC "YC")
+            (property
+              (rename TYPE "Type")
+              (string "PAS")
+            )
+            (designator "11")
+            (property
+              (rename ORDER "Order")
+              (integer 9)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename YA "YA")
+            (property
+              (rename TYPE "Type")
+              (string "PAS")
+            )
+            (designator "12")
+            (property
+              (rename ORDER "Order")
+              (integer 10)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename SHIELD "SHIELD")
+            (property
+              (rename TYPE "Type")
+              (string "PAS")
+            )
+            (designator "15")
+            (property
+              (rename ORDER "Order")
+              (integer 11)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename SHIELD__1 "SHIELD__1")
+            (property
+              (rename TYPE "Type")
+              (string "PAS")
+            )
+            (designator "16")
+            (property
+              (rename ORDER "Order")
+              (integer 12)
+              (owner "OrCAD")
+            )
+          )
+          (symbol
+            (boundingBox (rectangle (pt -150000 -140000) (pt 130000 140000)))
+            (portImplementation
+              (name GA)
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin (pt -146062 -40000))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt -150000 -40000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt -150000 -40000)
+                    (pt -130000 -40000)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name GC)
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin (pt -146062 -60000))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt -150000 -60000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt -150000 -60000)
+                    (pt -130000 -60000)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name GND)
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin (pt -146062 -10000))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt -150000 -10000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt -150000 -10000)
+                    (pt -130000 -10000)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name P4)
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin (pt -146062 50000))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt -150000 50000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt -150000 50000)
+                    (pt -130000 50000)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name P5)
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin (pt -146062 100000))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt -150000 100000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt -150000 100000)
+                    (pt -130000 100000)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name RD_43_)
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin (pt -146062 80000))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt -150000 80000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt -150000 80000)
+                    (pt -130000 80000)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name RD_45_)
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin (pt -146062 120000))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt -150000 120000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt -150000 120000)
+                    (pt -130000 120000)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name SHIELD
+                (display PINNAME
+                  (justify CENTERLEFT)
+                  (orientation R0)
+                  (origin (pt -130000 -130000))
+                )
+              )
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin (pt -146062 -130000))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt -150000 -130000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt -150000 -130000)
+                    (pt -130000 -130000)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name TD_43_)
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin (pt -146062 30000))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt -150000 30000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt -150000 30000)
+                    (pt -130000 30000)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name TD_45_)
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin (pt -146062 70000))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt -150000 70000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt -150000 70000)
+                    (pt -130000 70000)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name YA)
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin (pt -146062 -90000))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt -150000 -90000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt -150000 -90000)
+                    (pt -130000 -90000)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name YC)
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin (pt -146062 -110000))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt -150000 -110000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt -150000 -110000)
+                    (pt -130000 -110000)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name SHIELD__1
+                (display PINNAME
+                  (justify CENTERLEFT)
+                  (orientation R0)
+                  (origin (pt -130000 -140000))
+                )
+              )
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin (pt -146062 -140000))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt -150000 -140000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt -150000 -140000)
+                    (pt -130000 -140000)
+                  )
+                )
+              )
+            )
+            (figure PARTBODY
+              (path (pointList (pt 92500 127499) (pt 65000 127499)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 65000 127499) (pt 65000 117500)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 65000 117500) (pt 92500 117500)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 65000 117500) (pt 65000 17500)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 65000 17500) (pt 62500 15000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 62500 15000) (pt 67500 12500)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 67500 12500) (pt 62500 10000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 62500 10000) (pt 67500 7500)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 67500 7500) (pt 62500 5000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 62500 5000) (pt 67500 2500)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 67500 2500) (pt 62500 0)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 62500 0) (pt 65000 -2500)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 65000 -2500) (pt 65000 -10000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 92500 97500) (pt 75000 97500)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 75000 97500) (pt 75000 87500)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 75000 87500) (pt 92500 87500)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 75000 17500) (pt 72500 15000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 72500 15000) (pt 77499 12500)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 77499 12500) (pt 72500 10000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 72500 10000) (pt 77499 7500)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 77499 7500) (pt 72500 5000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 72500 5000) (pt 77499 2500)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 77499 2500) (pt 72500 0)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 72500 0) (pt 75000 -2500)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 75000 -2500) (pt 75000 -10000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 75000 87500) (pt 75000 17500)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 92500 107500) (pt 50000 107500)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 50000 107500) (pt 50000 120000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 50000 120000) (pt 27500 120000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 27500 120000) (pt 27500 107500)))
+            )
+            (figure PARTBODY
+              (openShape
+                (curve
+                  (arc (pt 27500 107500) (pt 26767 105732) (pt 25000 105000))
+                )
+              )
+            )
+            (figure PARTBODY
+              (openShape
+                (curve
+                  (arc (pt 25000 105000) (pt 23232 105732) (pt 22500 107500))
+                )
+              )
+            )
+            (figure PARTBODY
+              (openShape
+                (curve
+                  (arc (pt 22500 107500) (pt 21767 105732) (pt 20000 105000))
+                )
+              )
+            )
+            (figure PARTBODY
+              (openShape
+                (curve
+                  (arc (pt 20000 105000) (pt 18232 105732) (pt 17500 107500))
+                )
+              )
+            )
+            (figure PARTBODY
+              (openShape
+                (curve
+                  (arc (pt 17500 107500) (pt 16767 105732) (pt 15000 105000))
+                )
+              )
+            )
+            (figure PARTBODY
+              (openShape
+                (curve
+                  (arc (pt 15000 105000) (pt 13232 105732) (pt 12500 107500))
+                )
+              )
+            )
+            (figure PARTBODY
+              (openShape
+                (curve
+                  (arc (pt 12500 107500) (pt 11767 105732) (pt 10000 105000))
+                )
+              )
+            )
+            (figure PARTBODY
+              (openShape
+                (curve
+                  (arc (pt 10000 105000) (pt 8232 105732) (pt 7500 107500))
+                )
+              )
+            )
+            (figure PARTBODY
+              (openShape
+                (curve
+                  (arc (pt 7500 107500) (pt 6767 105732) (pt 5000 105000))
+                )
+              )
+            )
+            (figure PARTBODY
+              (openShape
+                (curve
+                  (arc (pt 5000 105000) (pt 3232 105732) (pt 2500 107500))
+                )
+              )
+            )
+            (figure PARTBODY
+              (path (pointList (pt 2500 107500) (pt 2500 120000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 2500 120000) (pt -30000 120000)))
+            )
+            (figure PARTBODY
+              (openShape
+                (curve
+                  (arc (pt -30000 120000) (pt -31767 119267) (pt -32500 117500))
+                )
+              )
+            )
+            (figure PARTBODY
+              (openShape
+                (curve
+                  (arc (pt -32500 117500) (pt -31767 115732) (pt -30000 115000))
+                )
+              )
+            )
+            (figure PARTBODY
+              (openShape
+                (curve
+                  (arc (pt -30000 115000) (pt -31586 114086) (pt -32500 112500))
+                )
+              )
+            )
+            (figure PARTBODY
+              (openShape
+                (curve
+                  (arc (pt -32500 112500) (pt -31767 110732) (pt -30000 110000))
+                )
+              )
+            )
+            (figure PARTBODY
+              (openShape
+                (curve
+                  (arc (pt -30000 110000) (pt -31767 109267) (pt -32500 107500))
+                )
+              )
+            )
+            (figure PARTBODY
+              (openShape
+                (curve
+                  (arc (pt -32500 107500) (pt -31767 105732) (pt -30000 105000))
+                )
+              )
+            )
+            (figure PARTBODY
+              (openShape
+                (curve
+                  (arc (pt -30000 105000) (pt -31767 104267) (pt -32500 102500))
+                )
+              )
+            )
+            (figure PARTBODY
+              (openShape
+                (curve
+                  (arc (pt -32500 102500) (pt -31767 100732) (pt -30000 100000))
+                )
+              )
+            )
+            (figure PARTBODY
+              (openShape
+                (curve
+                  (arc (pt -30000 100000) (pt -31767 99267) (pt -32500 97500))
+                )
+              )
+            )
+            (figure PARTBODY
+              (openShape
+                (curve
+                  (arc (pt -32500 97500) (pt -31767 95732) (pt -30000 95000))
+                )
+              )
+            )
+            (figure PARTBODY
+              (openShape
+                (curve
+                  (arc (pt -30000 95000) (pt -31767 94267) (pt -32500 92500))
+                )
+              )
+            )
+            (figure PARTBODY
+              (openShape
+                (curve
+                  (arc (pt -32500 92500) (pt -31767 90732) (pt -30000 90000))
+                )
+              )
+            )
+            (figure PARTBODY
+              (openShape
+                (curve
+                  (arc (pt -30000 90000) (pt -31767 89267) (pt -32500 87500))
+                )
+              )
+            )
+            (figure PARTBODY
+              (openShape
+                (curve
+                  (arc (pt -32500 87500) (pt -31767 85732) (pt -30000 85000))
+                )
+              )
+            )
+            (figure PARTBODY
+              (openShape
+                (curve
+                  (arc (pt -30000 85000) (pt -31767 84267) (pt -32500 82500))
+                )
+              )
+            )
+            (figure PARTBODY
+              (openShape
+                (curve
+                  (arc (pt -32500 82500) (pt -31767 80732) (pt -30000 80000))
+                )
+              )
+            )
+            (figure PARTBODY
+              (path (pointList (pt -30000 80000) (pt -12500 80000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -12500 80000) (pt 2500 80000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 2500 80000) (pt 2500 92500)))
+            )
+            (figure PARTBODY
+              (openShape
+                (curve
+                  (arc (pt 2500 92500) (pt 3232 94267) (pt 5000 95000))
+                )
+              )
+            )
+            (figure PARTBODY
+              (openShape
+                (curve
+                  (arc (pt 5000 95000) (pt 6767 94267) (pt 7500 92500))
+                )
+              )
+            )
+            (figure PARTBODY
+              (openShape
+                (curve
+                  (arc (pt 7500 92500) (pt 8232 94267) (pt 10000 95000))
+                )
+              )
+            )
+            (figure PARTBODY
+              (openShape
+                (curve
+                  (arc (pt 10000 95000) (pt 11767 94267) (pt 12500 92500))
+                )
+              )
+            )
+            (figure PARTBODY
+              (openShape
+                (curve
+                  (arc (pt 12500 92500) (pt 13232 94267) (pt 15000 95000))
+                )
+              )
+            )
+            (figure PARTBODY
+              (openShape
+                (curve
+                  (arc (pt 15000 95000) (pt 16767 94267) (pt 17500 92500))
+                )
+              )
+            )
+            (figure PARTBODY
+              (openShape
+                (curve
+                  (arc (pt 17500 92500) (pt 18232 94267) (pt 20000 95000))
+                )
+              )
+            )
+            (figure PARTBODY
+              (openShape
+                (curve
+                  (arc (pt 20000 95000) (pt 21767 94267) (pt 22500 92500))
+                )
+              )
+            )
+            (figure PARTBODY
+              (openShape
+                (curve
+                  (arc (pt 22500 92500) (pt 23232 94267) (pt 25000 95000))
+                )
+              )
+            )
+            (figure PARTBODY
+              (openShape
+                (curve
+                  (arc (pt 25000 95000) (pt 26767 94267) (pt 27500 92500))
+                )
+              )
+            )
+            (figure PARTBODY
+              (path (pointList (pt 27500 92500) (pt 27500 77499)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 0 102500) (pt 30000 102500)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 0 97500) (pt 30000 97500)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 92500 77499) (pt 27500 77499)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -35000 122500) (pt -35000 77499)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -40000 122500) (pt -40000 77499)))
+            )
+            (figure PARTBODY
+              (openShape
+                (curve
+                  (arc (pt -45000 80000) (pt -43232 80732) (pt -42500 82500))
+                )
+              )
+            )
+            (figure PARTBODY
+              (openShape
+                (curve
+                  (arc (pt -42500 82500) (pt -43232 84267) (pt -45000 85000))
+                )
+              )
+            )
+            (figure PARTBODY
+              (openShape
+                (curve
+                  (arc (pt -45000 85000) (pt -43413 85913) (pt -42500 87500))
+                )
+              )
+            )
+            (figure PARTBODY
+              (openShape
+                (curve
+                  (arc (pt -42500 87500) (pt -43232 89267) (pt -45000 90000))
+                )
+              )
+            )
+            (figure PARTBODY
+              (openShape
+                (curve
+                  (arc (pt -45000 90000) (pt -43232 90732) (pt -42500 92500))
+                )
+              )
+            )
+            (figure PARTBODY
+              (openShape
+                (curve
+                  (arc (pt -42500 92500) (pt -43232 94267) (pt -45000 95000))
+                )
+              )
+            )
+            (figure PARTBODY
+              (openShape
+                (curve
+                  (arc (pt -45000 95000) (pt -43232 95732) (pt -42500 97500))
+                )
+              )
+            )
+            (figure PARTBODY
+              (openShape
+                (curve
+                  (arc (pt -42500 97500) (pt -43232 99267) (pt -45000 100000))
+                )
+              )
+            )
+            (figure PARTBODY
+              (openShape
+                (curve
+                  (arc (pt -45000 100000) (pt -43232 100732) (pt -42500 102500))
+                )
+              )
+            )
+            (figure PARTBODY
+              (openShape
+                (curve
+                  (arc (pt -42500 102500) (pt -43232 104267) (pt -45000 105000))
+                )
+              )
+            )
+            (figure PARTBODY
+              (openShape
+                (curve
+                  (arc (pt -45000 105000) (pt -43232 105732) (pt -42500 107500))
+                )
+              )
+            )
+            (figure PARTBODY
+              (openShape
+                (curve
+                  (arc (pt -42500 107500) (pt -43232 109267) (pt -45000 110000))
+                )
+              )
+            )
+            (figure PARTBODY
+              (openShape
+                (curve
+                  (arc (pt -45000 110000) (pt -43232 110732) (pt -42500 112500))
+                )
+              )
+            )
+            (figure PARTBODY
+              (openShape
+                (curve
+                  (arc (pt -42500 112500) (pt -43232 114267) (pt -45000 115000))
+                )
+              )
+            )
+            (figure PARTBODY
+              (openShape
+                (curve
+                  (arc (pt -45000 115000) (pt -43232 115732) (pt -42500 117500))
+                )
+              )
+            )
+            (figure PARTBODY
+              (openShape
+                (curve
+                  (arc (pt -42500 117500) (pt -43232 119267) (pt -45000 120000))
+                )
+              )
+            )
+            (figure PARTBODY
+              (path (pointList (pt -45000 120000) (pt -130000 120000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -130000 80000) (pt -45000 80000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -45000 100000) (pt -130000 100000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 92500 67500) (pt 27500 67500)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 27500 67500) (pt 27500 57500)))
+            )
+            (figure PARTBODY
+              (openShape
+                (curve
+                  (arc (pt 27500 57500) (pt 26767 55732) (pt 25000 55000))
+                )
+              )
+            )
+            (figure PARTBODY
+              (openShape
+                (curve
+                  (arc (pt 25000 55000) (pt 23232 55732) (pt 22500 57500))
+                )
+              )
+            )
+            (figure PARTBODY
+              (openShape
+                (curve
+                  (arc (pt 22500 57500) (pt 21767 55732) (pt 20000 55000))
+                )
+              )
+            )
+            (figure PARTBODY
+              (openShape
+                (curve
+                  (arc (pt 20000 55000) (pt 18232 55732) (pt 17500 57500))
+                )
+              )
+            )
+            (figure PARTBODY
+              (openShape
+                (curve
+                  (arc (pt 17500 57500) (pt 16767 55732) (pt 15000 55000))
+                )
+              )
+            )
+            (figure PARTBODY
+              (openShape
+                (curve
+                  (arc (pt 15000 55000) (pt 13232 55732) (pt 12500 57500))
+                )
+              )
+            )
+            (figure PARTBODY
+              (openShape
+                (curve
+                  (arc (pt 12500 57500) (pt 11767 55732) (pt 10000 55000))
+                )
+              )
+            )
+            (figure PARTBODY
+              (openShape
+                (curve
+                  (arc (pt 10000 55000) (pt 8232 55732) (pt 7500 57500))
+                )
+              )
+            )
+            (figure PARTBODY
+              (openShape
+                (curve
+                  (arc (pt 7500 57500) (pt 6767 55732) (pt 5000 55000))
+                )
+              )
+            )
+            (figure PARTBODY
+              (openShape
+                (curve
+                  (arc (pt 5000 55000) (pt 3232 55732) (pt 2500 57500))
+                )
+              )
+            )
+            (figure PARTBODY
+              (path (pointList (pt 2500 57500) (pt 2500 70000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 2500 70000) (pt -12500 70000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -12500 70000) (pt -30000 70000)))
+            )
+            (figure PARTBODY
+              (openShape
+                (curve
+                  (arc (pt -30000 70000) (pt -31767 69267) (pt -32500 67500))
+                )
+              )
+            )
+            (figure PARTBODY
+              (openShape
+                (curve
+                  (arc (pt -32500 67500) (pt -31767 65732) (pt -30000 65000))
+                )
+              )
+            )
+            (figure PARTBODY
+              (openShape
+                (curve
+                  (arc (pt -30000 65000) (pt -31586 64086) (pt -32500 62500))
+                )
+              )
+            )
+            (figure PARTBODY
+              (openShape
+                (curve
+                  (arc (pt -32500 62500) (pt -31767 60732) (pt -30000 60000))
+                )
+              )
+            )
+            (figure PARTBODY
+              (openShape
+                (curve
+                  (arc (pt -30000 60000) (pt -31767 59267) (pt -32500 57500))
+                )
+              )
+            )
+            (figure PARTBODY
+              (openShape
+                (curve
+                  (arc (pt -32500 57500) (pt -31767 55732) (pt -30000 55000))
+                )
+              )
+            )
+            (figure PARTBODY
+              (openShape
+                (curve
+                  (arc (pt -30000 55000) (pt -31767 54267) (pt -32500 52500))
+                )
+              )
+            )
+            (figure PARTBODY
+              (openShape
+                (curve
+                  (arc (pt -32500 52500) (pt -31767 50732) (pt -30000 50000))
+                )
+              )
+            )
+            (figure PARTBODY
+              (openShape
+                (curve
+                  (arc (pt -30000 50000) (pt -31767 49267) (pt -32500 47500))
+                )
+              )
+            )
+            (figure PARTBODY
+              (openShape
+                (curve
+                  (arc (pt -32500 47500) (pt -31767 45732) (pt -30000 45000))
+                )
+              )
+            )
+            (figure PARTBODY
+              (openShape
+                (curve
+                  (arc (pt -30000 45000) (pt -31767 44267) (pt -32500 42500))
+                )
+              )
+            )
+            (figure PARTBODY
+              (openShape
+                (curve
+                  (arc (pt -32500 42500) (pt -31767 40732) (pt -30000 40000))
+                )
+              )
+            )
+            (figure PARTBODY
+              (openShape
+                (curve
+                  (arc (pt -30000 40000) (pt -31767 39267) (pt -32500 37500))
+                )
+              )
+            )
+            (figure PARTBODY
+              (openShape
+                (curve
+                  (arc (pt -32500 37500) (pt -31767 35732) (pt -30000 35000))
+                )
+              )
+            )
+            (figure PARTBODY
+              (openShape
+                (curve
+                  (arc (pt -30000 35000) (pt -31767 34267) (pt -32500 32500))
+                )
+              )
+            )
+            (figure PARTBODY
+              (openShape
+                (curve
+                  (arc (pt -32500 32500) (pt -31767 30732) (pt -30000 30000))
+                )
+              )
+            )
+            (figure PARTBODY
+              (path (pointList (pt -30000 30000) (pt -22500 30000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -22500 30000) (pt -12500 30000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -12500 30000) (pt 2500 30000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 2500 30000) (pt 2500 42500)))
+            )
+            (figure PARTBODY
+              (openShape
+                (curve
+                  (arc (pt 2500 42500) (pt 3232 44267) (pt 5000 45000))
+                )
+              )
+            )
+            (figure PARTBODY
+              (openShape
+                (curve
+                  (arc (pt 5000 45000) (pt 6767 44267) (pt 7500 42500))
+                )
+              )
+            )
+            (figure PARTBODY
+              (openShape
+                (curve
+                  (arc (pt 7500 42500) (pt 8232 44267) (pt 10000 45000))
+                )
+              )
+            )
+            (figure PARTBODY
+              (openShape
+                (curve
+                  (arc (pt 10000 45000) (pt 11767 44267) (pt 12500 42500))
+                )
+              )
+            )
+            (figure PARTBODY
+              (openShape
+                (curve
+                  (arc (pt 12500 42500) (pt 13232 44267) (pt 15000 45000))
+                )
+              )
+            )
+            (figure PARTBODY
+              (openShape
+                (curve
+                  (arc (pt 15000 45000) (pt 16767 44267) (pt 17500 42500))
+                )
+              )
+            )
+            (figure PARTBODY
+              (openShape
+                (curve
+                  (arc (pt 17500 42500) (pt 18232 44267) (pt 20000 45000))
+                )
+              )
+            )
+            (figure PARTBODY
+              (openShape
+                (curve
+                  (arc (pt 20000 45000) (pt 21767 44267) (pt 22500 42500))
+                )
+              )
+            )
+            (figure PARTBODY
+              (openShape
+                (curve
+                  (arc (pt 22500 42500) (pt 23232 44267) (pt 25000 45000))
+                )
+              )
+            )
+            (figure PARTBODY
+              (openShape
+                (curve
+                  (arc (pt 25000 45000) (pt 26767 44267) (pt 27500 42500))
+                )
+              )
+            )
+            (figure PARTBODY
+              (path (pointList (pt 27500 42500) (pt 27500 30000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 0 52500) (pt 30000 52500)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 0 47500) (pt 30000 47500)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 92500 57500) (pt 50000 57500)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 50000 57500) (pt 50000 30000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 50000 30000) (pt 27500 30000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -35000 72500) (pt -35000 27500)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -40000 72500) (pt -40000 27500)))
+            )
+            (figure PARTBODY
+              (openShape
+                (curve
+                  (arc (pt -45000 30000) (pt -43232 30732) (pt -42500 32500))
+                )
+              )
+            )
+            (figure PARTBODY
+              (openShape
+                (curve
+                  (arc (pt -42500 32500) (pt -43232 34267) (pt -45000 35000))
+                )
+              )
+            )
+            (figure PARTBODY
+              (openShape
+                (curve
+                  (arc (pt -45000 35000) (pt -43413 35913) (pt -42500 37500))
+                )
+              )
+            )
+            (figure PARTBODY
+              (openShape
+                (curve
+                  (arc (pt -42500 37500) (pt -43232 39267) (pt -45000 40000))
+                )
+              )
+            )
+            (figure PARTBODY
+              (openShape
+                (curve
+                  (arc (pt -45000 40000) (pt -43232 40732) (pt -42500 42500))
+                )
+              )
+            )
+            (figure PARTBODY
+              (openShape
+                (curve
+                  (arc (pt -42500 42500) (pt -43232 44267) (pt -45000 45000))
+                )
+              )
+            )
+            (figure PARTBODY
+              (openShape
+                (curve
+                  (arc (pt -45000 45000) (pt -43232 45732) (pt -42500 47500))
+                )
+              )
+            )
+            (figure PARTBODY
+              (openShape
+                (curve
+                  (arc (pt -42500 47500) (pt -43232 49267) (pt -45000 50000))
+                )
+              )
+            )
+            (figure PARTBODY
+              (openShape
+                (curve
+                  (arc (pt -45000 50000) (pt -43232 50732) (pt -42500 52500))
+                )
+              )
+            )
+            (figure PARTBODY
+              (openShape
+                (curve
+                  (arc (pt -42500 52500) (pt -43232 54267) (pt -45000 55000))
+                )
+              )
+            )
+            (figure PARTBODY
+              (openShape
+                (curve
+                  (arc (pt -45000 55000) (pt -43232 55732) (pt -42500 57500))
+                )
+              )
+            )
+            (figure PARTBODY
+              (openShape
+                (curve
+                  (arc (pt -42500 57500) (pt -43232 59267) (pt -45000 60000))
+                )
+              )
+            )
+            (figure PARTBODY
+              (openShape
+                (curve
+                  (arc (pt -45000 60000) (pt -43232 60732) (pt -42500 62500))
+                )
+              )
+            )
+            (figure PARTBODY
+              (openShape
+                (curve
+                  (arc (pt -42500 62500) (pt -43232 64267) (pt -45000 65000))
+                )
+              )
+            )
+            (figure PARTBODY
+              (openShape
+                (curve
+                  (arc (pt -45000 65000) (pt -43232 65732) (pt -42500 67500))
+                )
+              )
+            )
+            (figure PARTBODY
+              (openShape
+                (curve
+                  (arc (pt -42500 67500) (pt -43232 69267) (pt -45000 70000))
+                )
+              )
+            )
+            (figure PARTBODY
+              (path (pointList (pt -45000 70000) (pt -130000 70000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -45000 30000) (pt -130000 30000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -30000 100000) (pt -10000 100000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -10000 100000) (pt -10000 82500)))
+            )
+            (figure PARTBODY
+              (openShape
+                (curve
+                  (arc (pt -10000 82500) (pt -11767 81767) (pt -12500 80000))
+                )
+              )
+            )
+            (figure PARTBODY
+              (openShape
+                (curve
+                  (arc (pt -12500 80000) (pt -11767 78232) (pt -10000 77499))
+                )
+              )
+            )
+            (figure PARTBODY
+              (path (pointList (pt -10000 77499) (pt -10000 72500)))
+            )
+            (figure PARTBODY
+              (openShape
+                (curve
+                  (arc (pt -10000 72500) (pt -11767 71767) (pt -12500 70000))
+                )
+              )
+            )
+            (figure PARTBODY
+              (openShape
+                (curve
+                  (arc (pt -12500 70000) (pt -11767 68232) (pt -10000 67500))
+                )
+              )
+            )
+            (figure PARTBODY
+              (path (pointList (pt -10000 67500) (pt -10000 32500)))
+            )
+            (figure PARTBODY
+              (openShape
+                (curve
+                  (arc (pt -10000 32500) (pt -11767 31767) (pt -12500 30000))
+                )
+              )
+            )
+            (figure PARTBODY
+              (openShape
+                (curve
+                  (arc (pt -12500 30000) (pt -11767 28232) (pt -10000 27500))
+                )
+              )
+            )
+            (figure PARTBODY
+              (path (pointList (pt -10000 27500) (pt -10000 17500)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -10000 17500) (pt -12500 15000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -12500 15000) (pt -7500 12500)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -7500 12500) (pt -12500 10000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -12500 10000) (pt -7500 7500)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -7500 7500) (pt -12500 5000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -12500 5000) (pt -7500 2500)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -7500 2500) (pt -12500 0)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -12500 0) (pt -10000 -2500)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -10000 -2500) (pt -10000 -10000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -20000 27500) (pt -20000 17500)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -20000 17500) (pt -22500 15000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -22500 15000) (pt -17500 12500)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -17500 12500) (pt -22500 10000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -22500 10000) (pt -17500 7500)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -17500 7500) (pt -22500 5000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -22500 5000) (pt -17500 2500)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -17500 2500) (pt -22500 0)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -22500 0) (pt -20000 -2500)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -20000 -2500) (pt -20000 -10000)))
+            )
+            (figure PARTBODY
+              (openShape
+                (curve
+                  (arc (pt -20000 32500) (pt -21767 31767) (pt -22500 30000))
+                )
+              )
+            )
+            (figure PARTBODY
+              (openShape
+                (curve
+                  (arc (pt -22500 30000) (pt -21767 28232) (pt -20000 27500))
+                )
+              )
+            )
+            (figure PARTBODY
+              (path (pointList (pt -20000 32500) (pt -20000 50000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -20000 50000) (pt -30000 50000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -130000 50000) (pt -45000 50000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 75000 -10000) (pt -20000 -10000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -20000 -10000) (pt -60000 -10000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -60000 -10000) (pt -60000 -15000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -60000 -10000) (pt -60000 -5000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -62500 -5000) (pt -62500 -10000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -62500 -10000) (pt -62500 -15000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -62500 -10000) (pt -130000 -10000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -117500 -80000) (pt -117500 -90000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -117500 -90000) (pt -117500 -100000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -117500 -100000) (pt -107500 -90000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -107500 -90000) (pt -113500 -83999)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -113500 -83999) (pt -116000 -81500)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -116000 -81500) (pt -117500 -80000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -107500 -80000) (pt -107500 -90000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -107500 -90000) (pt -107500 -100000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -117500 -90000) (pt -130000 -90000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -107500 -90000) (pt -90000 -90000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -116000 -81500) (pt -108500 -74000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -113500 -83999) (pt -106000 -76500)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -108500 -74000) (pt -112000 -75000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -108500 -74000) (pt -109500 -77499)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -106000 -76500) (pt -109500 -77499)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -106000 -76500) (pt -107000 -80000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -117500 -50000) (pt -117500 -40000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -117500 -40000) (pt -117500 -30000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -117500 -30000) (pt -107500 -40000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -107500 -40000) (pt -113500 -46000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -113500 -46000) (pt -116000 -48500)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -116000 -48500) (pt -117500 -50000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -107500 -50000) (pt -107500 -40000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -107500 -40000) (pt -107500 -30000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -117500 -40000) (pt -130000 -40000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -107500 -40000) (pt -90000 -40000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -116000 -48500) (pt -108500 -56000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -113500 -46000) (pt -106000 -53500)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -108500 -56000) (pt -112000 -55000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -108500 -56000) (pt -109500 -52500)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -106000 -53500) (pt -109500 -52500)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -106000 -53500) (pt -107000 -50000)))
+            )
+            (figure PARTBODY
+              (circle (pt 74291 87500) (pt 75708 87500))
+            )
+            (figure PARTBODY
+              (circle (pt 64291 117500) (pt 65708 117500))
+            )
+            (annotate
+              (stringDisplay "J8"
+                (display PARTBODY
+                  (justify LOWERLEFT)
+                  (orientation R0)
+                  (origin (pt 108141 125708))
+                )
+              )
+            )
+            (annotate
+              (stringDisplay "J7"
+                (display PARTBODY
+                  (justify LOWERLEFT)
+                  (orientation R0)
+                  (origin (pt 108145 115618))
+                )
+              )
+            )
+            (annotate
+              (stringDisplay "J6 RX-"
+                (display PARTBODY
+                  (justify LOWERLEFT)
+                  (orientation R0)
+                  (origin (pt 108141 105578))
+                )
+              )
+            )
+            (annotate
+              (stringDisplay "J5"
+                (display PARTBODY
+                  (justify LOWERLEFT)
+                  (orientation R0)
+                  (origin (pt 108177 95531))
+                )
+              )
+            )
+            (annotate
+              (stringDisplay "J4"
+                (display PARTBODY
+                  (justify LOWERLEFT)
+                  (orientation R0)
+                  (origin (pt 108106 85452))
+                )
+              )
+            )
+            (annotate
+              (stringDisplay "J3 RX+"
+                (display PARTBODY
+                  (justify LOWERLEFT)
+                  (orientation R0)
+                  (origin (pt 108098 75401))
+                )
+              )
+            )
+            (annotate
+              (stringDisplay "J2 TX-"
+                (display PARTBODY
+                  (justify LOWERLEFT)
+                  (orientation R0)
+                  (origin (pt 108098 65279))
+                )
+              )
+            )
+            (annotate
+              (stringDisplay "J1 TX+"
+                (display PARTBODY
+                  (justify LOWERLEFT)
+                  (orientation R0)
+                  (origin (pt 108027 55145))
+                )
+              )
+            )
+            (annotate
+              (stringDisplay "Yellow LED"
+                (display PARTBODY
+                  (justify LOWERLEFT)
+                  (orientation R0)
+                  (origin (pt -100531 -85452))
+                )
+              )
+            )
+            (annotate
+              (stringDisplay "Green LED"
+                (display PARTBODY
+                  (justify LOWERLEFT)
+                  (orientation R0)
+                  (origin (pt -100362 -35125))
+                )
+              )
+            )
+            (annotate
+              (stringDisplay "75ohm"
+                (display PARTBODY
+                  (justify LOWERLEFT)
+                  (orientation R90)
+                  (origin (pt 85401 -2578))
+                )
+              )
+            )
+            (annotate
+              (stringDisplay "75ohm"
+                (display PARTBODY
+                  (justify LOWERLEFT)
+                  (orientation R90)
+                  (origin (pt 60374 -2606))
+                )
+              )
+            )
+            (annotate
+              (stringDisplay "75ohm"
+                (display PARTBODY
+                  (justify LOWERLEFT)
+                  (orientation R90)
+                  (origin (pt 0 -2625))
+                )
+              )
+            )
+            (annotate
+              (stringDisplay "75ohm"
+                (display PARTBODY
+                  (justify LOWERLEFT)
+                  (orientation R90)
+                  (origin (pt -25157 -2578))
+                )
+              )
+            )
+            (annotate
+              (stringDisplay "1000pF"
+                (display PARTBODY
+                  (justify LOWERLEFT)
+                  (orientation R0)
+                  (origin (pt -72838 4889))
+                )
+              )
+            )
+            (annotate
+              (stringDisplay "2KV"
+                (display PARTBODY
+                  (justify LOWERLEFT)
+                  (orientation R0)
+                  (origin (pt -67838 -2645))
+                )
+              )
+            )
+            (figure PARTBODY
+              (rectangle (pt 90232 125326) (pt 105000 130000))
+            )
+            (figure PARTBODY
+              (rectangle (pt 90507 115649) (pt 105000 120000))
+            )
+            (figure PARTBODY
+              (rectangle (pt 90137 105161) (pt 105000 110000))
+            )
+            (figure PARTBODY
+              (rectangle (pt 90409 95433) (pt 105000 100000))
+            )
+            (figure PARTBODY
+              (rectangle (pt 90496 85468) (pt 105000 90000))
+            )
+            (figure PARTBODY
+              (rectangle (pt 90393 75326) (pt 105000 80000))
+            )
+            (figure PARTBODY
+              (rectangle (pt 90566 65409) (pt 105000 70000))
+            )
+            (figure PARTBODY
+              (rectangle (pt 90216 55133) (pt 105000 60000))
+            )
+            (figure PARTBODY
+              (circle (pt -20700 -10000) (pt -19299 -10000))
+            )
+            (figure PARTBODY
+              (circle (pt -10700 -10000) (pt -9299 -10000))
+            )
+            (figure PARTBODY
+              (circle (pt 64299 -10000) (pt 65700 -10000))
+            )
+            (figure PARTBODY
+              (circle (pt -48098 117500) (pt -46901 117500))
+            )
+            (figure PARTBODY
+              (circle (pt -48098 97500) (pt -46901 97500))
+            )
+            (figure PARTBODY
+              (circle (pt -48098 67500) (pt -46901 67500))
+            )
+            (figure PARTBODY
+              (circle (pt -48098 47500) (pt -46901 47500))
+            )
+            (figure PARTBODY
+              (circle (pt -28098 117500) (pt -26901 117500))
+            )
+            (figure PARTBODY
+              (circle (pt -28098 97500) (pt -26901 97500))
+            )
+            (figure PARTBODY
+              (circle (pt -28098 67500) (pt -26901 67500))
+            )
+            (figure PARTBODY
+              (circle (pt -28098 47500) (pt -26901 47500))
+            )
+            (figure PARTBODY
+              (circle (pt 4401 110000) (pt 5598 110000))
+            )
+            (figure PARTBODY
+              (circle (pt 4401 90000) (pt 5598 90000))
+            )
+            (figure PARTBODY
+              (circle (pt 4401 60000) (pt 5598 60000))
+            )
+            (figure PARTBODY
+              (circle (pt 4401 40000) (pt 5598 40000))
+            )
+            (annotate
+              (stringDisplay "RD-"
+                (display PARTBODY
+                  (justify LOWERLEFT)
+                  (orientation R0)
+                  (origin (pt -127948 122929))
+                )
+              )
+            )
+            (annotate
+              (stringDisplay "P5"
+                (display PARTBODY
+                  (justify LOWERLEFT)
+                  (orientation R0)
+                  (origin (pt -128090 102972))
+                )
+              )
+            )
+            (annotate
+              (stringDisplay "RD+"
+                (display PARTBODY
+                  (justify LOWERLEFT)
+                  (orientation R0)
+                  (origin (pt -127925 82775))
+                )
+              )
+            )
+            (annotate
+              (stringDisplay "TD-"
+                (display PARTBODY
+                  (justify LOWERLEFT)
+                  (orientation R0)
+                  (origin (pt -128007 72787))
+                )
+              )
+            )
+            (annotate
+              (stringDisplay "P4"
+                (display PARTBODY
+                  (justify LOWERLEFT)
+                  (orientation R0)
+                  (origin (pt -128125 52759))
+                )
+              )
+            )
+            (annotate
+              (stringDisplay "TD+"
+                (display PARTBODY
+                  (justify LOWERLEFT)
+                  (orientation R0)
+                  (origin (pt -128224 32685))
+                )
+              )
+            )
+            (annotate
+              (stringDisplay "GND"
+                (display PARTBODY
+                  (justify LOWERLEFT)
+                  (orientation R0)
+                  (origin (pt -128141 -7539))
+                )
+              )
+            )
+            (figure PARTBODY
+              (path (pointList (pt -130000 -60000) (pt -90000 -60000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -90000 -60000) (pt -90000 -40000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -130000 -110000) (pt -90000 -110000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -90000 -110000) (pt -90000 -90000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -130000 140000) (pt 130000 140000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 130000 140000) (pt 130000 -150000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 130000 -150000) (pt -130000 -150000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -130000 -150000) (pt -130000 140000)))
+            )
+            (keywordDisplay DESIGNATOR
+              (display PARTBODY
+                (justify LOWERLEFT)
+                (orientation R0)
+                (origin (pt -130622 142681))
+              )
+            )
+            (propertyDisplay VALUE
+              (display PARTBODY
+                (justify LOWERLEFT)
+                (orientation R0)
+                (origin (pt -130409 -160472))
+              )
+            )
+            (property (rename PCB_Footprint "PCB Footprint") (string "HANRUN_HR911105A"))
+            (property (rename NC "NC") (string "7"))
+          )
+        )
+      )
+    )
+  )
+)

@@ -1,0 +1,305 @@
+
+(EDIF
+  (rename EL3H7_45_G "EL3H7-G")
+  (EDIFVersion 2 0 0)
+  (EDIFLevel 0)
+  (keywordMap (keywordLevel 0))
+  (status
+    (written
+      (timestamp 2022 08 14 06 11 27)
+      (dataOrigin "SnapEDA snapeda.comCopyright - This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0")
+      (program "SnapEDA Converter")
+    )
+  )
+  (library
+    (rename EL3H7_45_G "EL3H7-G")
+    (EDIFLevel 0)
+    (technology
+      (numberDefinition
+        (scale 1 (e 254 -9) (unit DISTANCE))
+        (gridMap 1 1)
+      )
+      (figureGroup PINNAME
+        (cornerType TRUNCATE)
+        (endType TRUNCATE)
+        (pathWidth 0)
+        (textHeight 4811)
+      )
+      (figureGroup PINNUMBER
+        (cornerType TRUNCATE)
+        (endType TRUNCATE)
+        (textHeight 9000)
+        (pathWidth 0)
+      )
+      (figureGroup PORT
+        (pathWidth 1000)
+        (textHeight 9000)
+      )
+      (figureGroup PARTBODY
+        (pathWidth 1000)
+        (borderWidth 1000)
+        (textHeight 6000)
+      )
+    )
+    (cell
+      (rename EL3H7_45_G "EL3H7-G")
+      (cellType GENERIC)
+      (view
+        (rename NORMAL "Normal")
+        (viewType SCHEMATIC)
+        (interface
+          (designator "U")
+          (property (rename VALUE "Value") (string "EL3H7-G"))
+          (port
+            (rename A "A")
+            (property
+              (rename TYPE "Type")
+              (string "PAS")
+            )
+            (designator "1")
+            (property
+              (rename ORDER "Order")
+              (integer 0)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename C "C")
+            (property
+              (rename TYPE "Type")
+              (string "PAS")
+            )
+            (designator "2")
+            (property
+              (rename ORDER "Order")
+              (integer 1)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename E "E")
+            (property
+              (rename TYPE "Type")
+              (string "PAS")
+            )
+            (designator "3")
+            (property
+              (rename ORDER "Order")
+              (integer 2)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename CO "CO")
+            (property
+              (rename TYPE "Type")
+              (string "PAS")
+            )
+            (designator "4")
+            (property
+              (rename ORDER "Order")
+              (integer 3)
+              (owner "OrCAD")
+            )
+          )
+          (symbol
+            (boundingBox (rectangle (pt -60000 -20000) (pt 60000 20000)))
+            (portImplementation
+              (name A)
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin (pt -56062 10000))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt -60000 10000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt -60000 10000)
+                    (pt -40000 10000)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name C)
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin (pt -56062 -10000))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt -60000 -10000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt -60000 -10000)
+                    (pt -40000 -10000)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name CO)
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERLEFT)
+                  (orientation R0)
+                  (origin (pt 56062 10000))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt 60000 10000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt 60000 10000)
+                    (pt 40000 10000)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name E)
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERLEFT)
+                  (orientation R0)
+                  (origin (pt 56062 -10000))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt 60000 -10000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt 60000 -10000)
+                    (pt 40000 -10000)
+                  )
+                )
+              )
+            )
+            (figure PARTBODY
+              (path (pointList (pt 30000 10000) (pt 20000 0)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 20000 0) (pt 30000 -10000)))
+            )
+            (keywordDisplay DESIGNATOR
+              (display PARTBODY
+                (justify LOWERLEFT)
+                (orientation R0)
+                (origin (pt -40019 22019))
+              )
+            )
+            (figure PARTBODY
+              (rectangle (pt 18515 -8007) (pt 21500 8000))
+            )
+            (figure PARTBODY
+              (polygon
+                (pointList
+                  (pt 27500 -5500)
+                  (pt 29000 -9000)
+                  (pt 25000 -7000)
+                )
+              )
+            )
+            (figure PARTBODY
+              (path (pointList (pt -40000 20000) (pt 40000 20000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 40000 20000) (pt 40000 10000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 40000 10000) (pt 40000 -10000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -40000 20000) (pt -40000 10000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -40000 10000) (pt -40000 -10000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 30000 -10000) (pt 40000 -10000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 30000 10000) (pt 40000 10000)))
+            )
+            (propertyDisplay VALUE
+              (display PARTBODY
+                (justify LOWERLEFT)
+                (orientation R0)
+                (origin (pt -40003 -30003))
+              )
+            )
+            (figure PARTBODY
+              (path (pointList (pt -25000 5000) (pt -20000 -5000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -20000 -5000) (pt -15000 5000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -25000 -5000) (pt -20000 -5000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -20000 -5000) (pt -15000 -5000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -25000 5000) (pt -20000 5000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -20000 5000) (pt -15000 5000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -20000 -5000) (pt -20000 -10000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -20000 5000) (pt -20000 10000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -40000 10000) (pt -20000 10000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -40000 -10000) (pt -20000 -10000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -40000 -10000) (pt -40000 -20000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -40000 -20000) (pt 40000 -20000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 40000 -20000) (pt 40000 -10000)))
+            )
+            (property (rename PCB_Footprint "PCB Footprint") (string "SOIC127P700X200-4N"))
+          )
+        )
+      )
+    )
+  )
+)

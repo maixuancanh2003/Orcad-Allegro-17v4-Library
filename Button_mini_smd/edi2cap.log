@@ -1,0 +1,39 @@
+
+Copyright (c) 2006-2019, Elgris Technologies, Inc.
+
+EDIF 2 0 0 to OrCAD Capture Schematic Conversion Program SPB 17.40_1.111 built Jul 26 2019
+
+Started on Mon Oct 21 16:39:12 2024
+
+Reading config file C:\Cadence\SPB_17.4\tools\capture\CAP2EDI.CFG
+
+Processing EDIF 2 0 0  file D:\Allegro\Project\CanhMai\Lib\Schematic_And_FootPrint\Button_mini_smd\SKRKAEE010.edf
+
+This EDIF file has unrecognized origin.
+
+EDIF 200 parsing finished
+
+Design has no schematics => OrCAD Schematic will not be created
+Library D:\ALLEGRO\PROJECT\CANHMAI\LIB\SCHEMATIC_AND_FOOTPRINT\BUTTON_MINI_SMD\SKRKAEE010.OLB is created
+              Design Unit is equal to 0.00001000 inches
+              Calculated pinSpacing is equal to : 0.40000004 inches
+              Calculated grid resolution is equal to: 40000 Design Units
+Design file has no schematics
+Converting Unreferenced Symbols from Design libraries
+Writing D:\ALLEGRO\PROJECT\CANHMAI\LIB\SCHEMATIC_AND_FOOTPRINT\BUTTON_MINI_SMD\SKRKAEE010.INI file
+Library D:\ALLEGRO\PROJECT\CANHMAI\LIB\SCHEMATIC_AND_FOOTPRINT\BUTTON_MINI_SMD\SKRKAEE010.OLB is being saved
+   ADVICE: If you DON'T LIKE the result:
+    Do another orcadwrite run using one of the following sets of OrCAD writer options:
+        'Min pin to pin spacing'=0.20000 inch(s), 'Grid'=20000 design unit(s), 
+             results in 0 hotspots out of grid
+        'Min pin to pin spacing'=0.16000 inch(s), 'Grid'=16000 design unit(s), 
+             results in 0 hotspots out of grid
+        'Min pin to pin spacing'=0.10000 inch(s), 'Grid'=10000 design unit(s), 
+             results in 0 hotspots out of grid
+        'Min pin to pin spacing'=0.08000 inch(s), 'Grid'=8000 design unit(s), 
+             results in 0 hotspots out of grid
+
+Finished on Mon Oct 21 16:39:12 2024
+
+
+0 errors detected, 0 warnings detected
