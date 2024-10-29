@@ -1,0 +1,26 @@
+\t (00:00:04) allegro 17.4 P001 Windows SPB 64-bit Edition
+\t (00:00:04)     Journal start - Tue Oct 22 11:14:58 2024
+\t (00:00:04)         Host=DESKTOP-OLN9DLP User=Admin Pid=57780 CPUs=8
+\t (00:00:04) CmdLine= c:\cadence\spb_17.4\tools\bin\allegro.exe D:\Allegro\Project\CanhMai\Lib\Schematic_And_FootPrint\MicroSD-1-A\CUI_MSD-1-A.dra
+\t (00:00:04) 
+   (00:00:04) Loading axlcore.cxt 
+\t (00:00:04) Opening existing design...
+\i (00:00:05) fillin yes 
+\i (00:00:05) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged CUI_MSD-1-A
+\d (00:00:05) Design opened: D:/Allegro/Project/CanhMai/Lib/Schematic_And_FootPrint/MicroSD-1-A/CUI_MSD-1-A.dra
+\i (00:00:05) trapsize 17158
+\i (00:00:05) trapsize 18291
+\i (00:00:05) trapsize 17735
+\i (00:00:05) trapsize 18291
+\i (00:00:06) trapsize 11295
+\i (00:00:06) trapsize 11295
+\i (00:00:06) generaledit 
+\i (00:00:07) 3d 
+\i (00:00:08) generaledit 
+\i (00:00:09) QtSignal pcb3dViewer pcb3dViewer closed
+\i (00:00:10) save 
+\i (00:00:11) fillin yes 
+\t (00:00:11) Symbol 'cui_msd-1-a.psm' created.
+\i (00:00:11) generaledit 
+\i (00:00:13) exit 
+\t (00:00:14)     Journal end - Tue Oct 22 11:15:07 2024

@@ -1,125 +1,180 @@
 \t (00:00:01) allegro 17.4 P001 Windows SPB 64-bit Edition
-\t (00:00:01)     Journal start - Mon Oct 28 11:27:01 2024
-\t (00:00:01)         Host=DESKTOP-OLN9DLP User=Admin Pid=11232 CPUs=8
+\t (00:00:01)     Journal start - Tue Oct 29 23:46:31 2024
+\t (00:00:01)         Host=DESKTOP-OLN9DLP User=Admin Pid=22824 CPUs=8
 \t (00:00:01) CmdLine= c:\cadence\spb_17.4\tools\bin\allegro.exe D:\Allegro\Project\CanhMai\Lib\Schematic_And_FootPrint\CuonCamSMD\CDRH127_LDNP-470MC\IND_CDRH127LDNP-470MC_SUM.dra
 \t (00:00:01) 
    (00:00:01) Loading axlcore.cxt 
 \t (00:00:01) Opening existing design...
-\i (00:00:03) fillin yes 
-\i (00:00:03) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged IND_CDRH127LDNP-470MC_SUM
-\d (00:00:03) Design opened: D:/Allegro/Project/CanhMai/Lib/Schematic_And_FootPrint/CuonCamSMD/CDRH127_LDNP-470MC/IND_CDRH127LDNP-470MC_SUM.dra
-\i (00:00:03) trapsize 10053
-\i (00:00:03) trapsize 10717
-\i (00:00:03) trapsize 10390
-\i (00:00:03) trapsize 10717
-\i (00:00:03) trapsize 6618
-\i (00:00:03) trapsize 6618
-\i (00:00:04) generaledit 
-\i (00:00:05) save 
-\i (00:00:06) fillin yes 
-\t (00:00:06) Symbol 'ind_cdrh127ldnp-470mc_sum.psm' created.
-\i (00:00:06) generaledit 
-\i (00:00:07) zoom in 1 
-\i (00:00:07) setwindow pcb
-\i (00:00:07) zoom in 6.6241 1.5625
-\i (00:00:07) trapsize 3309
-\i (00:00:09) show measure 
-\i (00:00:10) pick grid -5.4198 0.2391
-\t (00:00:10) last pick:  -5.7150 0.0000
-\i (00:00:11) pick grid 4.9697 -0.2903
-\t (00:00:11) last pick:  5.0800 0.0000
-\i (00:00:14) setwindow text
-\i (00:00:14) close
-\i (00:01:25) pick grid 10.3961 4.2096
-\t (00:01:25) last pick:  10.1600 4.4450
-\i (00:01:27) pick grid 5.8962 0.3714
-\t (00:01:27) last pick:  5.7150 0.6350
-\i (00:01:27) pick grid 4.7712 -0.0256
-\t (00:01:27) last pick:  5.0800 0.0000
-\i (00:01:28) pick grid -5.2875 0.2391
-\t (00:01:28) last pick:  -5.0800 0.0000
-\i (00:01:40) zoom in 1 
-\i (00:01:40) setwindow pcb
-\i (00:01:40) zoom in -6.9419 0.0405
-\i (00:01:40) trapsize 1654
-\i (00:01:40) zoom in 1 
-\i (00:01:40) setwindow pcb
-\i (00:01:40) zoom in -6.9418 0.0736
-\i (00:01:40) trapsize 827
-\i (00:01:41) pick grid -6.5282 2.8199
-\t (00:01:41) last pick:  -6.3500 2.5400
-\i (00:01:43) pick grid -6.4455 -2.6892
-\t (00:01:43) last pick:  -6.3500 -2.5400
-\i (00:01:43) pick grid -6.5778 2.9853
-\t (00:01:43) last pick:  -6.3500 3.1750
-\i (00:01:44) setwindow text
-\i (00:01:44) close
-\i (00:01:45) pick grid -6.5282 2.8199
-\t (00:01:45) last pick:  -6.3500 2.5400
-\i (00:01:46) pick grid -6.4124 2.7537
-\t (00:01:46) last pick:  -6.3500 2.5400
-\i (00:01:47) pick grid -6.4951 2.7702
-\t (00:01:47) last pick:  -6.3500 2.5400
-\i (00:01:47) pick grid -6.4124 2.7041
-\t (00:01:47) last pick:  -6.3500 2.5400
-\i (00:01:48) pick grid -6.4951 2.8033
-\t (00:01:48) last pick:  -6.3500 2.5400
-\i (00:01:48) pick grid dbl -6.4951 2.8364
-\t (00:01:48) last pick:  -6.3500 2.5400
-\i (00:01:49) pick grid -6.5613 -2.6562
-\t (00:01:49) last pick:  -6.3500 -2.5400
-\i (00:01:50) setwindow text
-\i (00:01:50) close
-\i (00:01:51) pick grid -2.7396 4.4577
-\t (00:01:51) last pick:  -2.5400 4.4450
-\i (00:01:52) pick grid -6.0153 4.9375
-\t (00:01:52) last pick:  -5.7150 5.0800
-\i (00:01:53) pick grid -4.9565 4.3254
-\t (00:01:53) last pick:  -5.0800 4.4450
-\i (00:01:54) pick grid -6.4455 2.7041
-\t (00:01:54) last pick:  -6.3500 2.5400
-\i (00:01:55) setwindow text
-\i (00:01:55) close
-\i (00:01:56) prepopup -3.7984 5.4338
-\i (00:01:56) done 
-\i (00:01:56) generaledit 
-\i (00:01:59) show measure 
-\i (00:02:01) pick grid -6.4455 2.8529
-\t (00:02:01) last pick:  -6.3500 2.5400
-\i (00:02:03) pick grid -6.4951 -2.6231
-\t (00:02:03) last pick:  -6.3500 -2.5400
-\i (00:02:05) setwindow text
-\i (00:02:05) close
-\i (00:02:05) save 
-\i (00:02:06) fillin no 
-\i (00:02:09) fillin "menu_cancel"
-\i (00:02:09) generaledit 
-\i (00:02:11) pick grid -5.0062 0.9669
-\t (00:02:11) last pick:  -5.0800 1.2700
-\i (00:02:12) pick grid -5.3205 0.1232
-\t (00:02:12) last pick:  -5.0800 0.0000
-\i (00:02:14) show measure 
-\i (00:02:15) pick grid -4.8903 0.1232
-\t (00:02:15) last pick:  -5.0800 0.0000
-\i (00:02:19) pick grid 4.7547 0.3879
-\t (00:02:19) last pick:  4.4450 0.6350
-\i (00:03:30) setwindow text
-\i (00:03:30) close
-\i (00:03:32) step pkg map 
-\i (00:03:36) setwindow form.pkgmap3d
-\i (00:03:36) FORM pkgmap3d stplist CuonCamDoi.STEP 
-\i (00:03:37) FORM pkgmap3d stplist Connector_fuse.STEP 
-\i (00:03:37) FORM pkgmap3d stplist Connector_fuse.STEP 
-\i (00:03:38) FORM pkgmap3d stplist Connector_fuse.STEP 
-\i (00:03:39) FORM pkgmap3d stplist CuonCamDoi.STEP 
-\i (00:03:43) FORM pkgmap3d stplist D8-L.step 
-\i (00:03:44) FORM pkgmap3d stplist D8-M.step 
-\i (00:03:44) FORM pkgmap3d stplist DIPSWITCH3.STEP 
-\i (00:03:44) FORM pkgmap3d stplist Diode_schottky.STEP 
-\i (00:03:47) FORM pkgmap3d done  
-\i (00:03:47) setwindow pcb
-\i (00:03:47) generaledit 
-\i (00:03:49) exit 
-\e (00:03:49) Do you want to save the changes you made to D:/Allegro/Project/CanhMai/Lib/Schematic_And_FootPrint/CuonCamSMD/CDRH127_LDNP-470MC/IND_CDRH127LDNP-470MC_SUM.dra?
-\i (00:03:50) fillin no 
-\t (00:03:50)     Journal end - Mon Oct 28 11:30:50 2024
+\i (00:00:23) fillin yes 
+\i (00:00:23) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged IND_CDRH127LDNP-470MC_SUM
+\d (00:00:24) Design opened: D:/Allegro/Project/CanhMai/Lib/Schematic_And_FootPrint/CuonCamSMD/CDRH127_LDNP-470MC/IND_CDRH127LDNP-470MC_SUM.dra
+\i (00:00:24) trapsize 6549
+\i (00:00:24) trapsize 6754
+\i (00:00:24) trapsize 6549
+\i (00:00:24) trapsize 6618
+\i (00:00:24) trapsize 6618
+\i (00:00:25) generaledit 
+\i (00:03:08) zoom in 1 
+\i (00:03:08) setwindow pcb
+\i (00:03:08) zoom in -9.6551 -4.9227
+\i (00:03:08) trapsize 3309
+\i (00:03:12) chg origin 
+\t (00:03:12) Pick new location for drawing origin.
+\i (00:03:13) QtSignal ColorVisibilityPane CVPGlobalVisOff clicked
+\i (00:03:13) QtSignal ColorVisibilityPane CVPGlobalVisOff clicked
+\i (00:03:14) QtSignal ColorVisibilityPane CVPGlobalVisOn clicked
+\i (00:03:16) step pkg map 
+\i (00:04:18) setwindow form.pkgmap3d
+\i (00:04:18) FORM pkgmap3d namefilter_stp LDNP-470MC--3DModel-STEP-56544* 
+\i (00:04:19) FORM pkgmap3d stplist LDNP-470MC--3DModel-STEP-56544.STEP 
+\i (00:04:20) FORM pkgmap3d stplist LDNP-470MC--3DModel-STEP-56544.STEP 
+\i (00:04:24) FORM pkgmap3d rotation_x 90 
+\i (00:04:27) FORM pkgmap3d view_orientation Top 
+\i (00:04:28) FORM pkgmap3d overlay YES 
+\i (00:04:32) FORM pkgmap3d save_current  
+\i (00:04:33) FORM pkgmap3d done  
+\i (00:04:33) setwindow pcb
+\i (00:04:33) generaledit 
+\i (00:04:34) 3d 
+\i (00:04:34) generaledit 
+\i (00:04:35) QtSignal pcb3dViewer pcb3dViewerCanvas keyPressEvent 16777248 33554432 false 1
+\i (00:04:35) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasMousePressEvent 599 213 919 348 4 4 33554432 +
+\i (00:04:35) QtSignal 314.24 683.317 259.106
+\i (00:04:35) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 314.24 683.317 259.106 315.388 +
+\i (00:04:35) QtSignal 686.758 261.914
+\i (00:04:35) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 324.595 677.333 269.496 329.252 +
+\i (00:04:35) QtSignal 681.851 269.552
+\i (00:04:35) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 344.54 665.292 282.035 346.935 +
+\i (00:04:35) QtSignal 667.478 282.118
+\i (00:04:35) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 354.364 658.932 288.379 359.22 +
+\i (00:04:35) QtSignal 663.23 288.6
+\i (00:04:35) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 373.694 645.539 301.207 378.676 +
+\i (00:04:35) QtSignal 649.684 301.537
+\i (00:04:35) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 392.57 631.252 314.206 396.233 +
+\i (00:04:35) QtSignal 632.134 311.59
+\i (00:04:35) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 401.756 624.373 316.773 404.336 +
+\i (00:04:35) QtSignal 626.325 317.02
+\i (00:04:35) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 410.805 616.756 323.57 414.553 +
+\i (00:04:35) QtSignal 617.516 321.037
+\i (00:04:35) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 419.788 609.47 326.439 426.222 +
+\i (00:04:35) QtSignal 612.018 324.264
+\i (00:04:35) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 437.24 593.815 336.675 443.8 +
+\i (00:04:35) QtSignal 596.153 334.644
+\i (00:04:35) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 454.066 577.423 347.473 461.953 +
+\i (00:04:35) QtSignal 578.269 342.866
+\i (00:04:35) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 470.72 560.586 354.989 474.746 +
+\i (00:04:35) QtSignal 560.836 352.806
+\i (00:04:35) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 478.732 551.918 359.236 486.86 +
+\i (00:04:35) QtSignal 552.245 354.994
+\i (00:04:35) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 494.327 533.941 368.323 502.59 +
+\i (00:04:35) QtSignal 533.921 364.338
+\i (00:04:35) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 509.117 515.257 378.456 518.827 +
+\i (00:04:35) QtSignal 513.307 372.24
+\i (00:04:35) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 524.075 495.478 386.162 529.686 +
+\i (00:04:35) QtSignal 493.367 382.084
+\i (00:04:35) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 531.674 485.037 389.102 535.95 +
+\i (00:04:35) QtSignal 484.51 387.526
+\i (00:04:35) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 537.811 475.116 395.889 542.102 +
+\i (00:04:35) QtSignal 474.506 394.387
+\i (00:04:35) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 543.683 465.07 402.93 547.987 +
+\i (00:04:35) QtSignal 464.376 401.504
+\i (00:04:35) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 549.282 454.903 410.223 553.596 +
+\i (00:04:35) QtSignal 454.127 408.874
+\i (00:04:35) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 554.599 444.625 417.766 556.004 +
+\i (00:04:35) QtSignal 442.664 415.599
+\i (00:04:35) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 555.934 443.554 414.732 560.259 +
+\i (00:04:35) QtSignal 442.655 413.499
+\i (00:04:35) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 560.866 433.229 422.753 565.196 +
+\i (00:04:35) QtSignal 432.249 421.6
+\i (00:04:35) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 565.497 422.812 431.017 571.239 +
+\i (00:04:35) QtSignal 419.671 427.897
+\i (00:04:35) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 571.249 410.889 436.775 572.658 +
+\i (00:04:35) QtSignal 408.73 434.809
+\i (00:04:35) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 572.685 409.38 434.101 577.014 +
+\i (00:04:35) QtSignal 408.164 433.191
+\i (00:04:35) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 576.474 398.963 443.295 579.393 +
+\i (00:04:35) QtSignal 399.906 444.351
+\i (00:04:35) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 578.463 390.162 455.234 582.783 +
+\i (00:04:35) QtSignal 388.833 454.451
+\i (00:04:35) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 581.696 379.545 464.661 586.006 +
+\i (00:04:35) QtSignal 378.14 463.961
+\i (00:04:35) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 584.586 368.88 474.309 590.277 +
+\i (00:04:35) QtSignal 365.089 471.895
+\i (00:04:35) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 588.609 356.262 481.905 589.985 +
+\i (00:04:35) QtSignal 353.878 480.192
+\i (00:04:35) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 590.08 354.268 479.716 595.714 +
+\i (00:04:35) QtSignal 350.223 477.601
+\i (00:04:35) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 593.467 341.609 488.205 599.051 +
+\i (00:04:35) QtSignal 337.391 486.308
+\i (00:04:35) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 596.328 328.919 497.282 598.977 +
+\i (00:04:35) QtSignal 323.809 494.294
+\i (00:04:35) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 599.103 324.126 493.843 603.28 +
+\i (00:04:35) QtSignal 322.232 493.751
+\i (00:04:35) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 599.778 314.149 505.583 601.063 +
+\i (00:04:35) QtSignal 311.5 504.225
+\i (00:04:35) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 601.106 311.59 504.087 602.377 +
+\i (00:04:35) QtSignal 308.911 502.775
+\i (00:04:35) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 602.406 308.969 502.682 603.662 +
+\i (00:04:35) QtSignal 306.261 501.416
+\i (00:04:35) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 603.677 306.289 501.37 604.918 +
+\i (00:04:35) QtSignal 303.553 500.15
+\i (00:04:35) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 604.918 303.553 500.15 606.143 +
+\i (00:04:35) QtSignal 300.79 498.977
+\i (00:04:35) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 606.127 300.763 499.024 607.336 +
+\i (00:04:35) QtSignal 297.973 497.899
+\i (00:04:35) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 607.303 297.921 497.995 608.495 +
+\i (00:04:35) QtSignal 295.105 496.917
+\i (00:04:35) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 608.445 295.031 497.061 609.621 +
+\i (00:04:35) QtSignal 292.19 496.031
+\i (00:04:35) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 609.552 292.094 496.225 607.847 +
+\i (00:04:35) QtSignal 288.535 493.886
+\i (00:04:35) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 612.198 294.61 481.299 610.46 +
+\i (00:04:35) QtSignal 291.005 479.058
+\i (00:04:35) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 614.643 296.752 466.392 612.872 +
+\i (00:04:35) QtSignal 293.103 464.25
+\i (00:04:35) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 616.886 298.524 451.515 617.997 +
+\i (00:04:35) QtSignal 295.594 450.683
+\i (00:04:35) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 617.87 295.435 451.088 614.957 +
+\i (00:04:35) QtSignal 294.675 449.878
+\i (00:04:35) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 619.009 299.694 436.613 617.175 +
+\i (00:04:35) QtSignal 295.964 434.673
+\i (00:04:36) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 620.851 300.736 421.83 621.931 +
+\i (00:04:36) QtSignal 297.767 421.1
+\i (00:04:36) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 621.785 297.592 421.618 622.85 +
+\i (00:04:36) QtSignal 294.605 420.939
+\i (00:04:36) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 622.685 294.422 421.511 623.735 +
+\i (00:04:36) QtSignal 291.42 420.884
+\i (00:04:36) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 623.551 291.231 421.51 621.643 +
+\i (00:04:36) QtSignal 287.414 419.829
+\i (00:04:36) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 625.346 291.14 406.958 622.387 +
+\i (00:04:36) QtSignal 290.326 405.903
+\i (00:04:36) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 626.115 293.924 392.274 624.163 +
+\i (00:04:36) QtSignal 290.063 390.751
+\i (00:04:36) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 627.459 293.399 377.844 624.472 +
+\i (00:04:36) QtSignal 292.558 376.896
+\i (00:04:36) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 627.787 295.762 363.182 624.787 +
+\i (00:04:36) QtSignal 294.907 362.288
+\i (00:04:36) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 627.856 298.032 348.559 628.863 +
+\i (00:04:36) QtSignal 294.986 348.09
+\i (00:04:36) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 628.687 294.811 348.902 625.676 +
+\i (00:04:36) QtSignal 293.945 348.061
+\i (00:04:36) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 628.577 296.755 334.287 625.554 +
+\i (00:04:36) QtSignal 295.877 333.501
+\i (00:04:36) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 628.212 298.609 319.72 625.178 +
+\i (00:04:36) QtSignal 297.72 318.988
+\i (00:04:36) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 627.593 300.373 305.207 624.55 +
+\i (00:04:36) QtSignal 299.474 304.53
+\i (00:04:36) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 626.723 302.047 290.751 623.671 +
+\i (00:04:36) QtSignal 301.138 290.129
+\i (00:04:36) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 625.603 303.632 276.357 622.544 +
+\i (00:04:36) QtSignal 302.713 275.791
+\i (00:04:36) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 624.237 305.128 262.032 621.171 +
+\i (00:04:36) QtSignal 304.199 261.521
+\i (00:04:36) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasMouseReleaseEvent 622 270 942 405 4 0 +
+\i (00:04:36) QtSignal 33554432 622.626 306.534 247.779
+\i (00:05:22) QtSignal pcb3dViewer pcb3dViewer closed
+\i (00:05:24) exit 
+\e (00:05:24) Do you want to save the changes you made to IND_CDRH127LDNP-470MC_SUM.dra?
+\i (00:05:24) fillin yes 
+\t (00:05:25) Symbol 'ind_cdrh127ldnp-470mc_sum.psm' created.
+\t (00:05:25)     Journal end - Tue Oct 29 23:51:56 2024

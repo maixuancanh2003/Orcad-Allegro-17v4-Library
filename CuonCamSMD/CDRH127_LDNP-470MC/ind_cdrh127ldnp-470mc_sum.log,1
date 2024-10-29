@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : IND_CDRH127LDNP-470MC_SUM.dra                 )
+(    Software Version : unreleased                                    )
+(    Date/Time        : Mon Oct 28 11:27:06 2024                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = D:/Allegro/Project/CanhMai/Lib/Schematic_And_FootPrint/CuonCamSMD/CDRH127_LDNP-470MC
+    Name      = ind_cdrh127ldnp-470mc_sum.psm
+    User      = Admin
+    Machine   = DESKTOP-OLN9DLP
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

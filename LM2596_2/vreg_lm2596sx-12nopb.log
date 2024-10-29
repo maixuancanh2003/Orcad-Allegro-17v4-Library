@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : VREG_LM2596SX-12NOPB.dra                      )
+(    Software Version : unreleased                                    )
+(    Date/Time        : Tue Oct 29 23:45:09 2024                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = D:/Allegro/Project/CanhMai/Lib/Schematic_And_FootPrint/LM2596_2
+    Name      = vreg_lm2596sx-12nopb.psm
+    User      = Admin
+    Machine   = DESKTOP-OLN9DLP
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : SOIC127P600X180-16N.dra                       )
+(    Software Version : unreleased                                    )
+(    Date/Time        : Tue Oct 29 22:59:01 2024                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = D:/Allegro/Project/CanhMai/Lib/Schematic_And_FootPrint/CH340G
+    Name      = soic127p600x180-16n.psm
+    User      = Admin
+    Machine   = DESKTOP-OLN9DLP
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

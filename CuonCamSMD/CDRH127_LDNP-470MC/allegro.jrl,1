@@ -1,0 +1,125 @@
+\t (00:00:01) allegro 17.4 P001 Windows SPB 64-bit Edition
+\t (00:00:01)     Journal start - Mon Oct 28 11:27:01 2024
+\t (00:00:01)         Host=DESKTOP-OLN9DLP User=Admin Pid=11232 CPUs=8
+\t (00:00:01) CmdLine= c:\cadence\spb_17.4\tools\bin\allegro.exe D:\Allegro\Project\CanhMai\Lib\Schematic_And_FootPrint\CuonCamSMD\CDRH127_LDNP-470MC\IND_CDRH127LDNP-470MC_SUM.dra
+\t (00:00:01) 
+   (00:00:01) Loading axlcore.cxt 
+\t (00:00:01) Opening existing design...
+\i (00:00:03) fillin yes 
+\i (00:00:03) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged IND_CDRH127LDNP-470MC_SUM
+\d (00:00:03) Design opened: D:/Allegro/Project/CanhMai/Lib/Schematic_And_FootPrint/CuonCamSMD/CDRH127_LDNP-470MC/IND_CDRH127LDNP-470MC_SUM.dra
+\i (00:00:03) trapsize 10053
+\i (00:00:03) trapsize 10717
+\i (00:00:03) trapsize 10390
+\i (00:00:03) trapsize 10717
+\i (00:00:03) trapsize 6618
+\i (00:00:03) trapsize 6618
+\i (00:00:04) generaledit 
+\i (00:00:05) save 
+\i (00:00:06) fillin yes 
+\t (00:00:06) Symbol 'ind_cdrh127ldnp-470mc_sum.psm' created.
+\i (00:00:06) generaledit 
+\i (00:00:07) zoom in 1 
+\i (00:00:07) setwindow pcb
+\i (00:00:07) zoom in 6.6241 1.5625
+\i (00:00:07) trapsize 3309
+\i (00:00:09) show measure 
+\i (00:00:10) pick grid -5.4198 0.2391
+\t (00:00:10) last pick:  -5.7150 0.0000
+\i (00:00:11) pick grid 4.9697 -0.2903
+\t (00:00:11) last pick:  5.0800 0.0000
+\i (00:00:14) setwindow text
+\i (00:00:14) close
+\i (00:01:25) pick grid 10.3961 4.2096
+\t (00:01:25) last pick:  10.1600 4.4450
+\i (00:01:27) pick grid 5.8962 0.3714
+\t (00:01:27) last pick:  5.7150 0.6350
+\i (00:01:27) pick grid 4.7712 -0.0256
+\t (00:01:27) last pick:  5.0800 0.0000
+\i (00:01:28) pick grid -5.2875 0.2391
+\t (00:01:28) last pick:  -5.0800 0.0000
+\i (00:01:40) zoom in 1 
+\i (00:01:40) setwindow pcb
+\i (00:01:40) zoom in -6.9419 0.0405
+\i (00:01:40) trapsize 1654
+\i (00:01:40) zoom in 1 
+\i (00:01:40) setwindow pcb
+\i (00:01:40) zoom in -6.9418 0.0736
+\i (00:01:40) trapsize 827
+\i (00:01:41) pick grid -6.5282 2.8199
+\t (00:01:41) last pick:  -6.3500 2.5400
+\i (00:01:43) pick grid -6.4455 -2.6892
+\t (00:01:43) last pick:  -6.3500 -2.5400
+\i (00:01:43) pick grid -6.5778 2.9853
+\t (00:01:43) last pick:  -6.3500 3.1750
+\i (00:01:44) setwindow text
+\i (00:01:44) close
+\i (00:01:45) pick grid -6.5282 2.8199
+\t (00:01:45) last pick:  -6.3500 2.5400
+\i (00:01:46) pick grid -6.4124 2.7537
+\t (00:01:46) last pick:  -6.3500 2.5400
+\i (00:01:47) pick grid -6.4951 2.7702
+\t (00:01:47) last pick:  -6.3500 2.5400
+\i (00:01:47) pick grid -6.4124 2.7041
+\t (00:01:47) last pick:  -6.3500 2.5400
+\i (00:01:48) pick grid -6.4951 2.8033
+\t (00:01:48) last pick:  -6.3500 2.5400
+\i (00:01:48) pick grid dbl -6.4951 2.8364
+\t (00:01:48) last pick:  -6.3500 2.5400
+\i (00:01:49) pick grid -6.5613 -2.6562
+\t (00:01:49) last pick:  -6.3500 -2.5400
+\i (00:01:50) setwindow text
+\i (00:01:50) close
+\i (00:01:51) pick grid -2.7396 4.4577
+\t (00:01:51) last pick:  -2.5400 4.4450
+\i (00:01:52) pick grid -6.0153 4.9375
+\t (00:01:52) last pick:  -5.7150 5.0800
+\i (00:01:53) pick grid -4.9565 4.3254
+\t (00:01:53) last pick:  -5.0800 4.4450
+\i (00:01:54) pick grid -6.4455 2.7041
+\t (00:01:54) last pick:  -6.3500 2.5400
+\i (00:01:55) setwindow text
+\i (00:01:55) close
+\i (00:01:56) prepopup -3.7984 5.4338
+\i (00:01:56) done 
+\i (00:01:56) generaledit 
+\i (00:01:59) show measure 
+\i (00:02:01) pick grid -6.4455 2.8529
+\t (00:02:01) last pick:  -6.3500 2.5400
+\i (00:02:03) pick grid -6.4951 -2.6231
+\t (00:02:03) last pick:  -6.3500 -2.5400
+\i (00:02:05) setwindow text
+\i (00:02:05) close
+\i (00:02:05) save 
+\i (00:02:06) fillin no 
+\i (00:02:09) fillin "menu_cancel"
+\i (00:02:09) generaledit 
+\i (00:02:11) pick grid -5.0062 0.9669
+\t (00:02:11) last pick:  -5.0800 1.2700
+\i (00:02:12) pick grid -5.3205 0.1232
+\t (00:02:12) last pick:  -5.0800 0.0000
+\i (00:02:14) show measure 
+\i (00:02:15) pick grid -4.8903 0.1232
+\t (00:02:15) last pick:  -5.0800 0.0000
+\i (00:02:19) pick grid 4.7547 0.3879
+\t (00:02:19) last pick:  4.4450 0.6350
+\i (00:03:30) setwindow text
+\i (00:03:30) close
+\i (00:03:32) step pkg map 
+\i (00:03:36) setwindow form.pkgmap3d
+\i (00:03:36) FORM pkgmap3d stplist CuonCamDoi.STEP 
+\i (00:03:37) FORM pkgmap3d stplist Connector_fuse.STEP 
+\i (00:03:37) FORM pkgmap3d stplist Connector_fuse.STEP 
+\i (00:03:38) FORM pkgmap3d stplist Connector_fuse.STEP 
+\i (00:03:39) FORM pkgmap3d stplist CuonCamDoi.STEP 
+\i (00:03:43) FORM pkgmap3d stplist D8-L.step 
+\i (00:03:44) FORM pkgmap3d stplist D8-M.step 
+\i (00:03:44) FORM pkgmap3d stplist DIPSWITCH3.STEP 
+\i (00:03:44) FORM pkgmap3d stplist Diode_schottky.STEP 
+\i (00:03:47) FORM pkgmap3d done  
+\i (00:03:47) setwindow pcb
+\i (00:03:47) generaledit 
+\i (00:03:49) exit 
+\e (00:03:49) Do you want to save the changes you made to D:/Allegro/Project/CanhMai/Lib/Schematic_And_FootPrint/CuonCamSMD/CDRH127_LDNP-470MC/IND_CDRH127LDNP-470MC_SUM.dra?
+\i (00:03:50) fillin no 
+\t (00:03:50)     Journal end - Mon Oct 28 11:30:50 2024
