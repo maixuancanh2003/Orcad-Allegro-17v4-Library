@@ -1,0 +1,21 @@
+\t (00:00:01) allegro 17.4 P001 Windows SPB 64-bit Edition
+\t (00:00:01)     Journal start - Tue Oct 29 14:52:01 2024
+\t (00:00:01)         Host=DESKTOP-OLN9DLP User=Admin Pid=16356 CPUs=8
+\t (00:00:01) CmdLine= C:\Cadence\SPB_17.4\tools\bin\allegro.exe
+\t (00:00:01) 
+   (00:00:01) Loading axlcore.cxt 
+\t (00:00:04) Opening existing design...
+\i (00:00:07) fillin yes 
+\i (00:00:07) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged SAMTEC_MTMM-103-06-S-S-230
+\d (00:00:07) Design opened: D:/Allegro/Project/CanhMai/Lib/Schematic_And_FootPrint/Jumper/3pin_254/SAMTEC_MTMM-103-06-S-S-230.dra
+\i (00:00:07) trapsize 1496
+\i (00:00:07) trapsize 1543
+\i (00:00:07) trapsize 1496
+\i (00:00:08) trapsize 1511
+\i (00:00:08) trapsize 1511
+\i (00:00:08) generaledit 
+\i (00:00:10) new 
+\i (00:00:13) newdrawfillin "menu_cancel"
+\i (00:00:14) generaledit 
+\i (01:44:06) exit 
+\t (01:44:07)     Journal end - Tue Oct 29 16:36:07 2024

@@ -1,0 +1,34 @@
+\t (00:00:01) allegro 17.4 P001 Windows SPB 64-bit Edition
+\t (00:00:01)     Journal start - Mon Oct 28 11:09:35 2024
+\t (00:00:01)         Host=DESKTOP-OLN9DLP User=Admin Pid=30972 CPUs=8
+\t (00:00:01) CmdLine= c:\cadence\spb_17.4\tools\bin\allegro.exe D:\Allegro\Project\CanhMai\Lib\Schematic_And_FootPrint\SWITCH_POWER\SW_1825116-1.dra
+\t (00:00:01) 
+   (00:00:01) Loading axlcore.cxt 
+\t (00:00:01) Opening existing design...
+\i (00:00:02) fillin yes 
+\i (00:00:02) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged SW_1825116-1
+\d (00:00:02) Design opened: D:/Allegro/Project/CanhMai/Lib/Schematic_And_FootPrint/SWITCH_POWER/SW_1825116-1.dra
+\i (00:00:02) trapsize 10783
+\i (00:00:02) trapsize 11495
+\i (00:00:02) trapsize 11145
+\i (00:00:02) trapsize 11495
+\i (00:00:02) trapsize 7098
+\i (00:00:02) trapsize 7098
+\i (00:00:03) generaledit 
+\i (00:00:04) zoom in 1 
+\i (00:00:04) setwindow pcb
+\i (00:00:04) zoom in -8.7979 6.4517
+\i (00:00:04) trapsize 3549
+\i (00:00:04) zoom in 1 
+\i (00:00:04) setwindow pcb
+\i (00:00:04) zoom in -7.8041 4.3932
+\i (00:00:04) trapsize 1775
+\i (00:00:06) show measure 
+\i (00:00:07) pick grid 0.0750 0.0633
+\t (00:00:07) last pick:  0.0000 0.0000
+\i (00:00:11) pick grid 3.1273 0.0633
+\t (00:00:11) last pick:  3.1750 0.0000
+\i (00:21:21) setwindow text
+\i (00:21:21) close
+\i (00:21:22) exit 
+\t (00:21:23)     Journal end - Mon Oct 28 11:30:56 2024

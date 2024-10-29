@@ -1,0 +1,10 @@
+﻿"Symbol";"Value";"Unit";
+"TraceParts.PartNumber";"10-22112012-051217";"";
+"REFERENCE";"20020327D061B01LF";"";
+"TraceParts.PartTitle";"Terminal Blocks Fixed, horizontal wire-inlet, 3.81 mm pitch, 6 position";"";
+"TraceParts.InstanceId";"10-22112012-0512175GHJKHE8M4KBADHM2JCWM2R71";"";
+"SUPPLIER";"FCI";"";
+"DESIGN";"Terminal Blocks Fixed, horizontal wire-inlet, 3.81 mm pitch, 6 position";"";
+"TRACEPARTS";"TRACEPARTS";"";
+"TraceParts.PartLanguage";"en";"";
+"TraceParts.PartVersion";"1.0.3";"";

@@ -1,0 +1,94 @@
+\t (00:00:01) allegro 17.4 P001 Windows SPB 64-bit Edition
+\t (00:00:01)     Journal start - Mon Oct 28 23:48:40 2024
+\t (00:00:01)         Host=DESKTOP-OLN9DLP User=Admin Pid=20368 CPUs=8
+\t (00:00:01) CmdLine= c:\cadence\spb_17.4\tools\bin\allegro.exe D:\Allegro\Project\CanhMai\Lib\Schematic_And_FootPrint\DRV8825_STEPPER_MOTOR_DRIVER_CARRIER\IC_DRV8825_STEPPER_MOTOR_DRIVER_CARRIER.dra
+\t (00:00:01) 
+   (00:00:01) Loading axlcore.cxt 
+\t (00:00:01) Opening existing design...
+\i (00:00:02) fillin yes 
+\i (00:00:02) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged IC_DRV8825_STEPPER_MOTOR_DRIVER_CARRIER
+\d (00:00:02) Design opened: D:/Allegro/Project/CanhMai/Lib/Schematic_And_FootPrint/DRV8825_STEPPER_MOTOR_DRIVER_CARRIER/IC_DRV8825_STEPPER_MOTOR_DRIVER_CARRIER.dra
+\i (00:00:02) trapsize 7929
+\i (00:00:02) trapsize 8178
+\i (00:00:02) trapsize 7929
+\i (00:00:02) trapsize 8012
+\i (00:00:02) trapsize 10585
+\i (00:00:03) generaledit 
+\i (00:00:04) zoom in 1 
+\i (00:00:04) setwindow pcb
+\i (00:00:04) zoom in 3.7199 -12.4173
+\i (00:00:04) trapsize 5293
+\i (00:00:05) zoom in 1 
+\i (00:00:05) setwindow pcb
+\i (00:00:05) zoom in -1.8061 -12.4173
+\i (00:00:05) trapsize 2646
+\i (00:00:05) zoom in 1 
+\i (00:00:05) setwindow pcb
+\i (00:00:05) zoom in -1.8060 -12.4172
+\i (00:00:05) trapsize 1323
+\i (00:00:05) pick grid -1.8060 -12.1261
+\t (00:00:05) last pick:  -2.5400 -12.7000
+\i (00:00:06) prepopup -1.8060 -12.1261
+\i (00:00:13) add text 
+\t (00:00:13) Pick text location.
+\i (00:00:14) pick grid -5.4843 -11.6233
+\t (00:00:14) last pick:  -5.0800 -12.7000
+\t (00:00:14) Enter text string.
+\i (00:00:16) setwindow pcb
+\i (00:00:16) zoom out 1 
+\i (00:00:16) setwindow pcb
+\i (00:00:16) zoom out -5.2197 -6.8070
+\i (00:00:16) trapsize 2646
+\i (00:00:16) zoom in 1 
+\i (00:00:16) setwindow pcb
+\i (00:00:16) zoom in -5.2197 -6.8071
+\i (00:00:16) trapsize 1323
+\i (00:00:21) pick grid -8.1306 -13.0787
+\t (00:00:21) last pick:  -7.6200 -12.7000
+\t (00:00:21) Enter text string.
+\i (00:00:23) setwindow pcb
+\i (00:00:23) prepopup -3.8437 -11.7291
+\i (00:00:25) done 
+\i (00:00:25) generaledit 
+\i (00:00:36) setwindow form.find
+\i (00:00:36) FORM find all_off  
+\i (00:00:38) FORM find all_on  
+\i (00:00:38) setwindow pcb
+\i (00:00:38) pick grid -5.2197 -12.5495
+\t (00:00:38) last pick:  -5.0800 -12.7000
+\i (00:00:39) pick grid -5.2197 -12.1525
+\t (00:00:39) last pick:  -5.0800 -12.7000
+\i (00:00:39) pick grid dbl -5.2197 -12.1525
+\t (00:00:39) last pick:  -5.0800 -12.7000
+\i (00:00:40) prepopup -5.2197 -12.1525
+\i (00:00:42) pop dyn_option_select @:@Delete 
+\i (00:00:42) delete 
+\i (00:00:42) generaledit 
+\i (00:00:42) pick grid -3.9495 -12.3907
+\t (00:00:42) last pick:  -5.0800 -12.7000
+\i (00:00:43) prepopup -3.8966 -12.3642
+\i (00:00:44) pop dyn_option_select @:@Delete 
+\i (00:00:44) delete 
+\i (00:00:44) generaledit 
+\i (00:00:46) save 
+\i (00:00:47) fillin yes 
+\e (00:00:47) ERROR(SPMHSY-31): 'D:/Allegro/Project/CanhMai/Lib/Schematic_And_FootPrint/DRV8825_STEPPER_MOTOR_DRIVER_CARRIER/IC_DRV8825_STEPPER_MOTOR_DRIVER_CARRIER.dra', name too long
+\i (00:00:48) generaledit 
+\i (00:00:48) zoom in 1 
+\i (00:00:48) setwindow pcb
+\i (00:00:48) zoom in 4.6774 -9.1358
+\i (00:00:48) trapsize 662
+\i (00:00:48) zoom in 1 
+\i (00:00:48) setwindow pcb
+\i (00:00:48) zoom in 4.6775 -9.1357
+\i (00:00:48) trapsize 331
+\i (00:00:48) zoom out 1 
+\i (00:00:48) setwindow pcb
+\i (00:00:48) zoom out 4.6775 -9.1357
+\i (00:00:48) trapsize 662
+\i (00:00:49) zoom out 1 
+\i (00:00:49) setwindow pcb
+\i (00:00:49) zoom out 4.6776 -9.1356
+\i (00:00:49) trapsize 1323
+\i (00:00:51) exit 
+\t (00:00:51)     Journal end - Mon Oct 28 23:49:31 2024

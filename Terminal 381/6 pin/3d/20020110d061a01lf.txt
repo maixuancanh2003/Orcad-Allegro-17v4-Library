@@ -1,0 +1,13 @@
+﻿"Symbol";"Value";"Unit";
+"TraceParts.PartNumber";"10-22112012-062815";"";
+"REFERENCE";"20020110D061A01LF";"";
+"TraceParts.PartTitle";"Terminal Blocks Pluggable socket, right angle, 3.81 mm pitch, 6 position";"";
+"TraceParts.InstanceId";"10-22112012-062815C1K7AKJT39GS2ZXQPGDT6KT70";"";
+"DESIGN";"Terminal Blocks Pluggable socket, right angle, 3.81 mm pitch, 6 position";"";
+"TraceParts.PartStatus";"Published";"";
+"TraceParts.PartStatusId";"";"";
+"SUPPLIER";"FCI";"";
+"TraceParts.PartVersion";"1.0.3";"";
+"TRACEPARTS";"TRACEPARTS";"";
+"TraceParts.PartLanguage";"en";"";
+"TraceParts.ClassPath";"FCI:10-22112012-062815";"";

@@ -1,0 +1,44 @@
+\t (00:00:02) allegro 17.4 P001 Windows SPB 64-bit Edition
+\t (00:00:02)     Journal start - Mon Oct 28 12:14:05 2024
+\t (00:00:02)         Host=DESKTOP-OLN9DLP User=Admin Pid=13484 CPUs=8
+\t (00:00:02) CmdLine= c:\cadence\spb_17.4\tools\bin\allegro.exe D:\Allegro\Project\CanhMai\Lib\Schematic_And_FootPrint\Xtal-8MHz\XTAL_ECS-80-20-20A-TR.dra
+\t (00:00:02) 
+   (00:00:02) Loading axlcore.cxt 
+\t (00:00:05) Opening existing design...
+\i (00:00:06) fillin yes 
+\i (00:00:06) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged XTAL_ECS-80-20-20A-TR
+\d (00:00:07) Design opened: D:/Allegro/Project/CanhMai/Lib/Schematic_And_FootPrint/Xtal-8MHz/XTAL_ECS-80-20-20A-TR.dra
+\i (00:00:07) trapsize 4918
+\i (00:00:07) trapsize 5243
+\i (00:00:07) trapsize 5083
+\i (00:00:07) trapsize 5243
+\i (00:00:07) trapsize 3603
+\i (00:00:07) trapsize 3603
+\i (00:00:08) generaledit 
+\i (00:00:08) zoom in 1 
+\i (00:00:08) setwindow pcb
+\i (00:00:08) zoom in 3.2355 -3.2399
+\i (00:00:08) trapsize 1801
+\i (00:00:12) show measure 
+\i (00:00:13) pick grid -3.2496 0.1828
+\t (00:00:13) last pick:  -3.1750 0.0000
+\i (00:00:14) pick grid 3.1634 -0.0334
+\t (00:00:14) last pick:  3.1750 0.0000
+\i (00:00:16) setwindow text
+\i (00:00:16) close
+\i (00:00:16) zoom in 1 
+\i (00:00:16) setwindow pcb
+\i (00:00:16) zoom in 1.3620 -0.2856
+\i (00:00:16) trapsize 901
+\i (00:00:17) zoom out 1 
+\i (00:00:17) setwindow pcb
+\i (00:00:17) zoom out 1.3620 -0.7540
+\i (00:00:17) trapsize 1801
+\i (00:00:39) pick grid -3.1055 0.1828
+\t (00:00:39) last pick:  -3.1750 0.0000
+\i (00:00:40) pick grid 3.1274 0.1108
+\t (00:00:40) last pick:  3.1750 0.0000
+\i (00:12:28) setwindow text
+\i (00:12:28) close
+\i (00:12:28) exit 
+\t (00:12:29)     Journal end - Mon Oct 28 12:26:32 2024

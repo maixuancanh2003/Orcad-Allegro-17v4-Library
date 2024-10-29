@@ -1,0 +1,66 @@
+\t (00:00:01) allegro 17.4 P001 Windows SPB 64-bit Edition
+\t (00:00:01)     Journal start - Mon Oct 28 23:51:31 2024
+\t (00:00:01)         Host=DESKTOP-OLN9DLP User=Admin Pid=23968 CPUs=8
+\t (00:00:01) CmdLine= c:\cadence\spb_17.4\tools\bin\allegro.exe D:\Allegro\Project\CanhMai\Lib\Schematic_And_FootPrint\A4988_MODULE\DRV8825\DRV8825.dra
+\t (00:00:01) 
+   (00:00:01) Loading axlcore.cxt 
+\t (00:00:01) Opening existing design...
+\i (00:00:02) fillin yes 
+\i (00:00:02) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged DRV8825
+\d (00:00:02) Design opened: D:/Allegro/Project/CanhMai/Lib/Schematic_And_FootPrint/A4988_MODULE/DRV8825/DRV8825.dra
+\i (00:00:02) trapsize 1309
+\i (00:00:02) trapsize 1350
+\i (00:00:02) trapsize 1309
+\i (00:00:02) trapsize 1323
+\i (00:00:02) trapsize 1323
+\i (00:00:03) generaledit 
+\i (00:00:04) zoom out 1 
+\i (00:00:04) setwindow pcb
+\i (00:00:04) zoom out 0.8403 -5.1928
+\i (00:00:04) trapsize 2646
+\i (00:00:04) save 
+\i (00:00:05) fillin yes 
+\t (00:00:05) Symbol 'drv8825.psm' created.
+\i (00:00:05) generaledit 
+\i (00:00:06) save 
+\i (00:00:07) fillin yes 
+\t (00:00:07) Symbol 'drv8825.psm' created.
+\i (00:00:07) generaledit 
+\i (00:00:07) zoom in 1 
+\i (00:00:07) setwindow pcb
+\i (00:00:07) zoom in -0.9592 0.6819
+\i (00:00:07) trapsize 1323
+\i (00:00:08) zoom out 1 
+\i (00:00:08) setwindow pcb
+\i (00:00:08) zoom out -0.9592 0.7878
+\i (00:00:08) trapsize 2646
+\i (00:09:34) zoom in 1 
+\i (00:09:34) setwindow pcb
+\i (00:09:34) zoom in -0.4828 0.5232
+\i (00:09:34) trapsize 1323
+\i (00:09:35) zoom in 1 
+\i (00:09:35) setwindow pcb
+\i (00:09:35) zoom in -0.4828 0.5232
+\i (00:09:35) trapsize 662
+\i (00:09:35) zoom out 1 
+\i (00:09:35) setwindow pcb
+\i (00:09:35) zoom out 0.1788 -0.0722
+\i (00:09:35) trapsize 1323
+\i (00:09:36) zoom out 1 
+\i (00:09:36) setwindow pcb
+\i (00:09:36) zoom out 0.2317 0.5100
+\i (00:09:36) trapsize 2646
+\i (00:09:37) zoom in 1 
+\i (00:09:37) setwindow pcb
+\i (00:09:37) zoom in -6.4899 10.9365
+\i (00:09:37) trapsize 1323
+\i (00:09:38) zoom out 1 
+\i (00:09:38) setwindow pcb
+\i (00:09:38) zoom out -6.3311 9.0841
+\i (00:09:38) trapsize 2646
+\i (00:09:50) zoom out 1 
+\i (00:09:50) setwindow pcb
+\i (00:09:50) zoom out 1.1315 -7.4816
+\i (00:09:51) trapsize 5293
+\i (00:25:08) exit 
+\t (00:25:08)     Journal end - Tue Oct 29 00:16:39 2024

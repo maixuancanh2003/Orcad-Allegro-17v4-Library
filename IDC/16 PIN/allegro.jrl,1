@@ -1,0 +1,95 @@
+\t (00:00:02) allegro 17.4 P001 Windows SPB 64-bit Edition
+\t (00:00:02)     Journal start - Tue Oct 29 22:13:36 2024
+\t (00:00:02)         Host=DESKTOP-OLN9DLP User=Admin Pid=1632 CPUs=8
+\t (00:00:02) CmdLine= c:\cadence\spb_17.4\tools\bin\allegro.exe D:\Allegro\Project\CanhMai\Lib\Schematic_And_FootPrint\IDC\16 PIN\SAMTEC_FFMD-08-X-X-X.dra
+\t (00:00:02) 
+   (00:00:02) Loading axlcore.cxt 
+\t (00:00:03) Opening existing design...
+\i (00:00:04) fillin yes 
+\i (00:00:04) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged SAMTEC_FFMD-08-X-X-X
+\d (00:00:04) Design opened: D:/Allegro/Project/CanhMai/Lib/Schematic_And_FootPrint/IDC/16 PIN/SAMTEC_FFMD-08-X-X-X.dra
+\i (00:00:04) trapsize 5715
+\i (00:00:04) trapsize 5894
+\i (00:00:04) trapsize 5715
+\i (00:00:04) trapsize 5775
+\i (00:00:04) trapsize 5775
+\i (00:00:05) generaledit 
+\i (00:00:08) pick grid -13.4642 8.0814
+\t (00:00:08) last pick:  -12.7000 7.6200
+\i (00:00:09) drag_start grid -13.0022 7.9659
+\i (00:00:09) drag_stop 8.4809 -9.3592
+\i (00:00:10) pick grid 7.0949 -8.2042
+\t (00:00:10) last pick:  7.6200 -7.6200
+\i (00:00:11) zoom in 1 
+\i (00:00:11) setwindow pcb
+\i (00:00:11) zoom in 1.7819 -2.1982
+\i (00:00:11) trapsize 2888
+\i (00:00:11) zoom in 1 
+\i (00:00:11) setwindow pcb
+\i (00:00:11) zoom in 1.7819 10.2759
+\i (00:00:11) trapsize 1444
+\i (00:00:13) pick grid 0.5692 9.9294
+\t (00:00:13) last pick:  0.0000 10.1600
+\i (00:00:14) pick grid 4.3230 0.6027
+\t (00:00:14) last pick:  5.0800 0.0000
+\i (00:00:15) pick grid 3.6877 4.1255
+\t (00:00:15) last pick:  2.5400 5.0800
+\i (00:00:16) pick grid -6.1010 2.8550
+\t (00:00:16) last pick:  -5.0800 2.5400
+\i (00:00:16) drag_start grid -6.5630 2.7106
+\i (00:00:16) move 
+\t (00:00:16) last pick:  -7.1550 2.0000
+\t (00:00:16) Pick new location for the element(s).
+\i (00:00:17) drag_stop grid -5.5812 2.6817
+\i (00:00:17) generaledit 
+\i (00:00:17) pick grid -0.7302 3.2015
+\t (00:00:17) last pick:  0.0000 2.5400
+\i (00:00:18) pick grid -2.8092 4.3853
+\t (00:00:18) last pick:  -2.5400 5.0800
+\i (00:00:18) undo 
+\i (00:00:18) trapsize 1444
+\i (00:00:19) generaledit 
+\i (00:00:20) move 
+\t (00:00:20) last pick:  -7.1550 2.0000
+\t (00:00:20) Pick new location for the element(s).
+\i (00:00:21) pick grid -6.8517 3.7501
+\t (00:00:21) last pick:  -7.6200 2.5400
+\i (00:00:21) generaledit 
+\i (00:00:21) pick grid -5.9566 2.8261
+\t (00:00:21) last pick:  -5.0800 2.5400
+\i (00:00:22) pick grid -3.8487 2.6528
+\t (00:00:22) last pick:  -5.0800 2.5400
+\i (00:00:23) pick grid -1.6831 2.7106
+\t (00:00:23) last pick:  -2.5400 2.5400
+\i (00:00:23) pick grid -2.1739 3.1148
+\t (00:00:23) last pick:  -2.5400 2.5400
+\i (00:00:23) pick grid dbl -2.1739 3.1148
+\t (00:00:23) last pick:  -2.5400 2.5400
+\i (00:00:23) pick grid -2.3183 2.8550
+\t (00:00:23) last pick:  -2.5400 2.5400
+\i (00:00:24) undo 
+\i (00:00:24) trapsize 1444
+\i (00:00:24) generaledit 
+\i (00:00:25) drag_start grid -7.1982 3.9233
+\i (00:00:25) drag_stop -4.5417 2.5951
+\i (00:00:26) drag_start grid -6.1587 2.7683
+\i (00:00:26) drag_stop grid -5.3502 2.7683
+\i (00:00:27) pick grid -5.2058 2.5662
+\t (00:00:27) last pick:  -5.0800 2.5400
+\i (00:00:28) drag_start grid -5.3502 2.4796
+\i (00:00:28) move 
+\t (00:00:28) last pick:  -7.1550 2.0000
+\t (00:00:28) Pick new location for the element(s).
+\i (00:00:28) drag_stop grid -4.2529 2.4796
+\i (00:00:28) generaledit 
+\i (00:00:29) pick grid -3.4444 2.9416
+\t (00:00:29) last pick:  -2.5400 2.5400
+\i (00:00:29) undo 
+\i (00:00:29) trapsize 1444
+\i (00:00:29) generaledit 
+\i (00:00:31) save 
+\i (00:00:32) fillin yes 
+\t (00:00:33) Symbol 'samtec_ffmd-08-x-x-x.psm' created.
+\i (00:00:33) generaledit 
+\i (00:00:34) exit 
+\t (00:00:35)     Journal end - Tue Oct 29 22:14:09 2024

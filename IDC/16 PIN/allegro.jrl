@@ -1,0 +1,17 @@
+\t (00:00:01) allegro 17.4 P001 Windows SPB 64-bit Edition
+\t (00:00:01)     Journal start - Tue Oct 29 22:14:58 2024
+\t (00:00:01)         Host=DESKTOP-OLN9DLP User=Admin Pid=33544 CPUs=8
+\t (00:00:01) CmdLine= C:\Cadence\SPB_17.4\tools\bin\allegro.exe
+\t (00:00:01) 
+   (00:00:01) Loading axlcore.cxt 
+\t (00:00:04) Opening existing design...
+\i (00:00:09) fillin no 
+\t (00:00:09) Starting new design...
+\i (00:00:09) trapsize 116667
+\i (00:00:10) generaledit 
+\i (00:00:14) trapsize 1218
+\i (00:00:14) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged unnamed
+\i (00:00:14) opencd D:/Allegro/Project/CanhMai/CNCMachineDevelopBoard/CNCMachineDevelopBoard.brd 
+\t (00:00:14) Opening existing design...
+\i (00:00:14) trapsize 195
+\t (00:00:14)     Journal end - Tue Oct 29 22:15:11 2024
