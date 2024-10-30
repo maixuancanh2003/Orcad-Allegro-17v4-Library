@@ -1,0 +1,42 @@
+\t (00:00:01) allegro 17.4 P001 Windows SPB 64-bit Edition
+\t (00:00:01)     Journal start - Wed Oct 30 10:32:35 2024
+\t (00:00:01)         Host=DESKTOP-OLN9DLP User=Admin Pid=9960 CPUs=8
+\t (00:00:01) CmdLine= c:\cadence\spb_17.4\tools\bin\allegro.exe D:\Allegro\Project\CanhMai\Lib\Schematic_And_FootPrint\74LSNEW\IC_74LVC125APW.dra
+\t (00:00:01) 
+   (00:00:01) Loading axlcore.cxt 
+\t (00:00:01) Opening existing design...
+\i (00:05:40) fillin no 
+\t (00:05:40) Starting new design...
+\i (00:05:43) trapsize 116667
+\i (00:05:44) exit 
+\t (00:05:44)     Journal end - Wed Oct 30 10:38:19 2024
+b/Schematic_And_FootPrint/74LSNEW/IC_74LVC125APW.dra
+\i (00:00:02) trapsize 4918
+\i (00:00:02) trapsize 5243
+\i (00:00:02) trapsize 5083
+\i (00:00:02) trapsize 5243
+\i (00:00:02) trapsize 3322
+\i (00:00:02) trapsize 3322
+\i (00:00:03) generaledit 
+\i (00:00:04) 3d 
+\i (00:00:04) generaledit 
+\i (00:00:05) QtSignal pcb3dViewer pcb3dViewer closed
+\i (00:00:06) define materials 
+\i (00:00:08) generaledit 
+\i (00:00:09) define materials 
+\i (00:00:10) generaledit 
+\i (00:00:12) step pkg map 
+\i (00:00:15) setwindow form.pkgmap3d
+\i (00:00:15) FORM pkgmap3d namefilter_stp 74* 
+\i (00:00:16) FORM pkgmap3d stplist 74LVC125APW.STEP 
+\i (00:00:16) FORM pkgmap3d stplist 74LVC125APW.STEP 
+\i (00:00:18) FORM pkgmap3d rotation_x 90 
+\i (00:00:20) FORM pkgmap3d save_current  
+\i (00:00:21) FORM pkgmap3d done  
+\i (00:00:21) setwindow pcb
+\i (00:00:21) generaledit 
+\i (00:00:22) exit 
+\e (00:00:22) Do you want to save the changes you made to IC_74LVC125APW.dra?
+\i (00:00:23) fillin yes 
+\t (00:00:23) Symbol 'ic_74lvc125apw.psm' created.
+\t (00:00:23)     Journal end - Wed Oct 30 10:33:01 2024

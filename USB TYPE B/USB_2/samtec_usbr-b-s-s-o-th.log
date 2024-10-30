@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : SAMTEC_USBR-B-S-S-O-TH.dra                    )
+(    Software Version : unreleased                                    )
+(    Date/Time        : Wed Oct 30 09:56:08 2024                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = D:/Allegro/Project/CanhMai/Lib/Schematic_And_FootPrint/USB TYPE B/USB_2
+    Name      = samtec_usbr-b-s-s-o-th.psm
+    User      = Admin
+    Machine   = DESKTOP-OLN9DLP
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

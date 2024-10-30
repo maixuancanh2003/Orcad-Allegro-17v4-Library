@@ -1,0 +1,35 @@
+\t (00:00:02) allegro 17.4 P001 Windows SPB 64-bit Edition
+\t (00:00:02)     Journal start - Sat Oct 26 23:12:21 2024
+\t (00:00:02)         Host=DESKTOP-OLN9DLP User=Admin Pid=18480 CPUs=8
+\t (00:00:02) CmdLine= c:\cadence\spb_17.4\tools\bin\allegro.exe D:\Allegro\Project\CanhMai\Lib\Schematic_And_FootPrint\BLM18SG121TN1D\BEADC1608X65N.dra
+\t (00:00:02) 
+   (00:00:02) Loading axlcore.cxt 
+\t (00:00:03) Opening existing design...
+\i (00:01:09) fillin yes 
+\i (00:01:11) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged BEADC1608X65N
+\d (00:01:11) Design opened: D:/Allegro/Project/CanhMai/Lib/Schematic_And_FootPrint/BLM18SG121TN1D/BEADC1608X65N.dra
+\i (00:01:12) trapsize 1982
+\i (00:01:12) trapsize 2113
+\i (00:01:12) trapsize 2048
+\i (00:01:12) trapsize 2113
+\i (00:01:12) trapsize 1483
+\i (00:01:12) trapsize 1483
+\i (00:01:12) generaledit 
+\i (00:01:15) exit 
+\t (00:01:16)     Journal end - Sat Oct 26 23:13:35 2024
+0
+\i (00:00:10) pick grid 6.3816 -0.8811
+\t (00:00:10) last pick:  7.6200 0.0000
+\i (00:00:10) pick grid dbl 6.3816 -0.8811
+\t (00:00:10) last pick:  7.6200 0.0000
+\i (00:00:10) prepopup 6.1739 -1.0591
+\i (00:00:11) pick grid 5.3136 -0.9997
+\t (00:00:11) last pick:  5.0800 0.0000
+\i (00:00:12) pick grid 4.7796 -1.2074
+\t (00:00:12) last pick:  5.0800 0.0000
+\i (00:00:12) settoggle smooth_mode Off Minimal Full 
+\i (00:00:12) options smooth_level Off 
+\i (00:00:12) trapsize 1483
+\i (00:00:13) generaledit 
+\i (00:01:06) exit 
+\t (00:01:07)     Journal end - Sat Oct 26 23:13:26 2024

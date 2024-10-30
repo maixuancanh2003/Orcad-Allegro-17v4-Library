@@ -1,12 +1,15 @@
 \t (00:00:01) allegro 17.4 P001 Windows SPB 64-bit Edition
-\t (00:00:01)     Journal start - Mon Oct 28 23:01:23 2024
-\t (00:00:01)         Host=DESKTOP-OLN9DLP User=Admin Pid=9484 CPUs=8
+\t (00:00:01)     Journal start - Wed Oct 30 13:26:34 2024
+\t (00:00:01)         Host=DESKTOP-OLN9DLP User=Admin Pid=31508 CPUs=8
 \t (00:00:01) CmdLine= C:\Cadence\SPB_17.4\tools\bin\allegro.exe
 \t (00:00:01) 
    (00:00:01) Loading axlcore.cxt 
-\t (00:00:03) Starting new design...
-\i (00:00:04) trapsize 116667
-\i (00:00:05) generaledit 
-\i (00:00:07) new 
-\i (00:00:27) newdrawfillin "CNCMachineDevelopBoard.brd" "Board"
-\t (00:00:27)     Journal end - Mon Oct 28 23:01:50 2024
+\t (00:00:02) Starting new design...
+\i (00:00:02) trapsize 116667
+\i (00:00:03) generaledit 
+\i (00:00:08) trapsize 1218
+\i (00:00:08) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged unnamed
+\i (00:00:08) opencd D:/Allegro/Project/CanhMai/CNCMachineDevelopBoard/CNCMachineDevelopBoard.brd 
+\t (00:00:08) Opening existing design...
+\i (00:00:08) trapsize 88
+\t (00:00:08)     Journal end - Wed Oct 30 13:26:41 2024

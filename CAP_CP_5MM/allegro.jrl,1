@@ -1,0 +1,35 @@
+\t (00:00:01) allegro 17.4 P001 Windows SPB 64-bit Edition
+\t (00:00:01)     Journal start - Wed Oct 30 10:02:32 2024
+\t (00:00:01)         Host=DESKTOP-OLN9DLP User=Admin Pid=16660 CPUs=8
+\t (00:00:01) CmdLine= c:\cadence\spb_17.4\tools\bin\allegro.exe D:\Allegro\Project\CanhMai\Lib\Schematic_And_FootPrint\CAP_CP_5MM\CAPPRD500W50D630H1120.dra
+\t (00:00:01) 
+   (00:00:01) Loading axlcore.cxt 
+\t (00:00:01) Opening existing design...
+\i (00:00:02) fillin yes 
+\i (00:00:02) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged CAPPRD500W50D630H1120
+\d (00:00:02) Design opened: D:/Allegro/Project/CanhMai/Lib/Schematic_And_FootPrint/CAP_CP_5MM/CAPPRD500W50D630H1120.dra
+\i (00:00:02) trapsize 5957
+\i (00:00:02) trapsize 6350
+\i (00:00:02) trapsize 6157
+\i (00:00:02) trapsize 6350
+\i (00:00:02) trapsize 3921
+\i (00:00:02) trapsize 3921
+\i (00:00:03) generaledit 
+\i (00:00:03) zoom in 1 
+\i (00:00:03) setwindow pcb
+\i (00:00:03) zoom in 0.5773 6.9260
+\i (00:00:03) trapsize 1961
+\i (00:00:04) zoom out 1 
+\i (00:00:04) setwindow pcb
+\i (00:00:04) zoom out 0.5773 6.9260
+\i (00:00:04) trapsize 3921
+\i (00:00:04) zoom in 1 
+\i (00:00:04) setwindow pcb
+\i (00:00:04) zoom in -0.3639 -0.5245
+\i (00:00:04) trapsize 1961
+\i (00:00:05) zoom in 1 
+\i (00:00:05) setwindow pcb
+\i (00:00:05) zoom in -0.3638 -0.5245
+\i (00:00:05) trapsize 980
+\i (00:03:46) exit 
+\t (00:03:46)     Journal end - Wed Oct 30 10:06:17 2024

@@ -1,0 +1,199 @@
+
+(EDIF
+  (rename WCAP_45_CSGP_0603 "WCAP-CSGP_0603")
+  (EDIFVersion 2 0 0)
+  (EDIFLevel 0)
+  (keywordMap (keywordLevel 0))
+  (status
+    (written
+      (timestamp 2024 08 16 11 46 13)
+      (dataOrigin "SnapEDA snapeda.comCopyright - This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0")
+      (program "SnapEDA Converter")
+    )
+  )
+  (library
+    (rename WCAP_45_CSGP_0603 "WCAP-CSGP_0603")
+    (EDIFLevel 0)
+    (technology
+      (numberDefinition
+        (scale 1 (e 254 -9) (unit DISTANCE))
+        (gridMap 1 1)
+      )
+      (figureGroup PINNAME
+        (cornerType TRUNCATE)
+        (endType TRUNCATE)
+        (pathWidth 0)
+        (textHeight 4811)
+      )
+      (figureGroup PINNUMBER
+        (cornerType TRUNCATE)
+        (endType TRUNCATE)
+        (textHeight 9000)
+        (pathWidth 0)
+      )
+      (figureGroup PORT
+        (pathWidth 1000)
+        (textHeight 9000)
+      )
+      (figureGroup PARTBODY
+        (pathWidth 1000)
+        (borderWidth 1000)
+        (textHeight 6000)
+      )
+    )
+    (cell
+      (rename C "C")
+      (cellType GENERIC)
+      (view
+        (rename NORMAL "Normal")
+        (viewType SCHEMATIC)
+        (interface
+          (designator "C")
+          (property (rename VALUE "Value") (string "C"))
+          (port
+            (rename &1 "1")
+            (property
+              (rename TYPE "Type")
+              (string "PAS")
+            )
+            (designator "1")
+            (property
+              (rename ORDER "Order")
+              (integer 0)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename &2 "2")
+            (property
+              (rename TYPE "Type")
+              (string "PAS")
+            )
+            (designator "2")
+            (property
+              (rename ORDER "Order")
+              (integer 1)
+              (owner "OrCAD")
+            )
+          )
+          (symbol
+            (boundingBox (rectangle (pt -10000 -7500) (pt 20000 7500)))
+            (portImplementation
+              (name &1)
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt -10000 0)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt -10000 0)
+                    (pt 0 0)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name &2)
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt 20000 0)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt 20000 0)
+                    (pt 10000 0)
+                  )
+                )
+              )
+            )
+            (keywordDisplay DESIGNATOR
+              (display PARTBODY
+                (justify LOWERCENTER)
+                (orientation R0)
+                (origin (pt 5000 10000))
+              )
+            )
+            (propertyDisplay VALUE
+              (display PARTBODY
+                (justify LOWERCENTER)
+                (orientation R0)
+                (origin (pt 5000 -20000))
+              )
+            )
+            (figure PARTBODY
+              (path (pointList (pt 7500 7500) (pt 7500 2500)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 7500 0) (pt 7500 -5000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 7500 -7500) (pt 7500 -7500)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 2500 -7500) (pt 2500 -2500)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 2500 0) (pt 2500 5000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 2500 7500) (pt 2500 7500)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 0 0) (pt 31 0)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 7500 0) (pt 2531 0)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 7590 0) (pt 7618 0)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 15090 0) (pt 10118 0)))
+            )
+            (property (rename PCB_Footprint "PCB Footprint") (string "WCAP-CSGP_0603_R"))
+            (property
+              (rename SnapEDA_Link "SnapEDA_Link")
+              (string
+              (stringDisplay "https://www.snapeda.com/parts/885012206026/Wurth+Electronics/view-part/?ref=snap"))
+            )
+            (property
+              (rename Description "Description")
+              (string
+              (stringDisplay "
+Capacitor Multilayer Ceramic 1uF MLCC 10 V X7R Dielectric 0603 Surface Mount | Wurth Electronics 885012206026
+"))
+            )
+            (property
+              (rename Package "Package")
+              (string
+              (stringDisplay "0603 Wurth Electronics"))
+            )
+            (property
+              (rename MF "MF")
+              (string
+              (stringDisplay "Würth Elektronik"))
+            )
+            (property
+              (rename MP "MP")
+              (string
+              (stringDisplay "885012206026"))
+            )
+            (property
+              (rename Check_prices "Check_prices")
+              (string
+              (stringDisplay "https://www.snapeda.com/parts/885012206026/Wurth+Electronics/view-part/?ref=eda"))
+            )
+          )
+        )
+      )
+    )
+  )
+)

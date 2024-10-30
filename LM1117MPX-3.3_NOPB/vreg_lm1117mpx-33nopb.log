@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : VREG_LM1117MPX-33NOPB.dra                     )
+(    Software Version : unreleased                                    )
+(    Date/Time        : Wed Oct 30 10:20:56 2024                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = D:/Allegro/Project/CanhMai/Lib/Schematic_And_FootPrint/LM1117MPX-3.3_NOPB
+    Name      = vreg_lm1117mpx-33nopb.psm
+    User      = Admin
+    Machine   = DESKTOP-OLN9DLP
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+
