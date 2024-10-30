@@ -1,0 +1,23 @@
+\t (00:00:00) padstack_editor 17.4 P001 Windows SPB 64-bit Edition
+\t (00:00:00)     Journal start - Thu Oct 31 00:15:20 2024
+\t (00:00:00)         Host=DESKTOP-OLN9DLP User=Admin Pid=14624 CPUs=8
+\t (00:00:00) CmdLine= c:\cadence\spb_17.4\tools\bin\padstack_editor.exe D:\Allegro\Project\CanhMai\Lib\Schematic_And_FootPrint\TMS-101-21-G-S\111111.pad
+\t (00:00:00) 
+\d (00:00:03) QtSignal GuidedTabsParent GuidedTabs currentChanged Drill
+\d (00:00:04) QtSignal GuidedTabsParent GuidedTabs currentChanged "Secondary Drill"
+\d (00:00:05) QtSignal GuidedTabsParent GuidedTabs currentChanged Drill
+\d (00:00:06) QtSignal GuidedTabsParent GuidedTabs currentChanged Start
+\d (00:00:06) QtSignal GuidedTabsParent GuidedTabs currentChanged Drill
+\d (00:00:07) QtSignal GuidedTabsParent GuidedTabs currentChanged "Secondary Drill"
+\d (00:00:08) QtSignal GuidedTabsParent GuidedTabs currentChanged "Drill Symbol"
+\d (00:00:10) QtSignal GuidedTabsParent GuidedTabs currentChanged "Drill Offset"
+\d (00:00:11) QtSignal GuidedTabsParent GuidedTabs currentChanged "Design Layers"
+\d (00:00:12) QtSignal GuidedTabsParent GuidedTabs currentChanged "Mask Layers"
+\d (00:00:15) QtSignal GuidedMaskLayersTab PadShape CurrentIndexChanged None
+\d (00:00:16) QtSignal GuidedMaskLayersTab LayersTable cellClicked 0 Pad 0 1
+\d (00:00:23) QtSignal GuidedMaskLayersTab PadDiameter editingFinished 4.5000
+\d (00:00:23) QtSignal GuidedTabsParent GuidedMaskLayersTab keyPressEvent 16777220 0 false 1 
+\d (00:00:24) QtSignal GuidedMaskLayersTab LayersTable itemSelectionChanged 1 Pad
+\d (00:00:24) QtSignal GuidedMaskLayersTab LayersTable cellClicked 1 Pad 1 1
+\d (00:00:30) QtSignal MainWindow Save triggered
+\t (00:00:31)     Journal end - Thu Oct 31 00:15:51 2024

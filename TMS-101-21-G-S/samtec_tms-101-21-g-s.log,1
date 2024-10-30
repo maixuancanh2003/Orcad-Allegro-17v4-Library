@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : SAMTEC_TMS-101-21-G-S.dra                     )
+(    Software Version : unreleased                                    )
+(    Date/Time        : Thu Oct 31 00:07:53 2024                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = C:/Users/Admin/Downloads/TMS-101-21-G-S
+    Name      = samtec_tms-101-21-g-s.psm
+    User      = Admin
+    Machine   = DESKTOP-OLN9DLP
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

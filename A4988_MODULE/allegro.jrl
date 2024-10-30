@@ -1,31 +1,310 @@
 \t (00:00:01) allegro 17.4 P001 Windows SPB 64-bit Edition
-\t (00:00:01)     Journal start - Tue Oct 29 00:20:10 2024
-\t (00:00:01)         Host=DESKTOP-OLN9DLP User=Admin Pid=14292 CPUs=8
-\t (00:00:01) CmdLine= C:\Cadence\SPB_17.4\tools\bin\allegro.exe
+\t (00:00:01)     Journal start - Wed Oct 30 23:56:22 2024
+\t (00:00:01)         Host=DESKTOP-OLN9DLP User=Admin Pid=22536 CPUs=8
+\t (00:00:01) CmdLine= c:\cadence\spb_17.4\tools\bin\allegro.exe D:\Allegro\Project\CanhMai\Lib\Schematic_And_FootPrint\A4988_MODULE\A4988.dra
 \t (00:00:01) 
    (00:00:01) Loading axlcore.cxt 
-\t (00:00:01) Starting new design...
-\i (00:00:01) trapsize 116667
-\i (00:00:02) generaledit 
-\i (00:00:05) open 
-\i (00:00:07) fillin "menu_cancel"
-\i (00:00:07) generaledit 
-\i (00:00:52) open 
-\e (00:04:05) Window is disabled, command may not be allowed: xname_flush !
-\e (00:04:05) Window is disabled, command may not be allowed: xname_flush
-\i (00:04:05) fillin "menu_cancel"
-\i (00:04:05) generaledit 
-\i (00:04:07) exit 
-\t (00:04:08)     Journal end - Tue Oct 29 00:24:17 2024
-trapsize 10585
-\i (00:00:03) generaledit 
-\i (00:00:05) save 
-\i (00:00:05) fillin yes 
-\t (00:00:06) Symbol 'a4988.psm' created.
-\i (00:00:06) generaledit 
+\t (00:00:01) Opening existing design...
+\i (00:00:02) fillin yes 
+\i (00:00:02) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged A4988
+\d (00:00:02) Design opened: D:/Allegro/Project/CanhMai/Lib/Schematic_And_FootPrint/A4988_MODULE/A4988.dra
+\i (00:00:02) trapsize 10475
+\i (00:00:02) trapsize 10803
+\i (00:00:02) trapsize 10475
+\i (00:00:02) trapsize 10585
+\i (00:00:02) trapsize 10585
+\i (00:00:03) zoom in 1 
+\i (00:00:03) setwindow pcb
+\i (00:00:03) zoom in -8.1705 0.9200
+\i (00:00:03) trapsize 5293
+\i (00:00:03) zoom in 1 
+\i (00:00:03) setwindow pcb
+\i (00:00:03) zoom in -6.0534 1.5551
+\i (00:00:03) trapsize 2646
+\i (00:00:04) zoom in 1 
+\i (00:00:04) setwindow pcb
+\i (00:00:04) zoom in -4.6774 9.1235
+\i (00:00:04) trapsize 1323
+\i (00:00:05) zoom out 1 
+\i (00:00:05) setwindow pcb
+\i (00:00:05) zoom out -6.1858 6.2656
+\i (00:00:05) trapsize 2646
+\i (00:00:06) zoom out 1 
+\i (00:00:06) setwindow pcb
+\i (00:00:06) zoom out -6.1857 6.2655
+\i (00:00:06) trapsize 5293
 \i (00:00:06) zoom in 1 
 \i (00:00:06) setwindow pcb
-\i (00:00:06) zoom in -1.1843 2.8253
-\i (00:00:06) trapsize 5293
-\i (00:02:29) exit 
-\t (00:02:30)     Journal end - Tue Oct 29 00:24:03 2024
+\i (00:00:06) zoom in -5.2331 2.6666
+\i (00:00:06) trapsize 2646
+\i (00:00:06) zoom in 1 
+\i (00:00:06) setwindow pcb
+\i (00:00:06) zoom in -5.2331 2.6667
+\i (00:00:06) trapsize 1323
+\i (00:00:08) zoom out 1 
+\i (00:00:08) setwindow pcb
+\i (00:00:08) zoom out -5.3389 9.0178
+\i (00:00:08) trapsize 2646
+\i (00:00:08) zoom out 1 
+\i (00:00:08) setwindow pcb
+\i (00:00:08) zoom out -5.3390 8.6473
+\i (00:00:08) trapsize 5293
+\i (00:00:10) delete 
+\i (00:00:11) zoom in 1 
+\i (00:00:11) setwindow pcb
+\i (00:00:11) zoom in -6.9267 6.0011
+\i (00:00:11) trapsize 2646
+\i (00:00:11) pick grid -6.5562 8.4886
+\t (00:00:11) last pick:  -7.6200 7.6200
+\t (00:00:11) Pin "T_Q102_153_M153, 1"
+\i (00:00:12) pick grid -6.2386 8.6474
+\t (00:00:12) last pick:  -5.0800 7.6200
+\t (00:00:12) Shape "Package Geometry/Place_Bound_Top"
+\i (00:00:12) pick grid dbl -6.2386 8.6474
+\t (00:00:12) last pick:  -5.0800 7.6200
+\i (00:00:13) pick grid -6.1857 6.7421
+\t (00:00:13) last pick:  -5.0800 7.6200
+\t (00:00:13) Pin "T_N102_153_M153, 2"
+\i (00:00:13) pick grid dbl -6.1857 6.7421
+\t (00:00:13) last pick:  -5.0800 7.6200
+\i (00:00:13) pick grid -6.1857 6.6891
+\t (00:00:13) last pick:  -5.0800 7.6200
+\i (00:00:13) pick grid -6.3445 4.2545
+\t (00:00:13) last pick:  -5.0800 5.0800
+\t (00:00:13) Pin "T_N102_153_M153, 3"
+\i (00:00:13) pick grid dbl -6.2916 4.1487
+\t (00:00:13) last pick:  -5.0800 5.0800
+\i (00:00:14) pick grid -6.5562 2.1375
+\t (00:00:14) last pick:  -7.6200 2.5400
+\t (00:00:14) Pin "T_N102_153_M153, 4"
+\i (00:00:14) pick grid dbl -6.5562 1.9258
+\t (00:00:14) last pick:  -7.6200 2.5400
+\i (00:00:14) pick grid -6.7679 -1.8848
+\t (00:00:14) last pick:  -7.6200 -2.5400
+\t (00:00:14) Pin "T_N102_153_M153, 5"
+\i (00:00:14) pick grid dbl -6.7679 -1.9378
+\t (00:00:14) last pick:  -7.6200 -2.5400
+\i (00:00:15) pick grid -6.5033 -4.2136
+\t (00:00:15) last pick:  -7.6200 -5.0800
+\t (00:00:15) Pin "T_N102_153_M153, 6"
+\i (00:00:15) pick grid dbl -6.5033 -4.2665
+\t (00:00:15) last pick:  -7.6200 -5.0800
+\i (00:00:15) pick grid -6.3974 -6.3306
+\t (00:00:15) last pick:  -7.6200 -5.0800
+\t (00:00:15) Pin "T_N102_153_M153, 7"
+\i (00:00:15) pick grid dbl -6.3974 -6.3835
+\t (00:00:15) last pick:  -7.6200 -7.6200
+\i (00:00:16) pick grid -6.6091 -8.7122
+\t (00:00:16) last pick:  -7.6200 -7.6200
+\t (00:00:16) Pin "T_N102_153_M153, 8"
+\i (00:00:16) pick grid dbl -6.6091 -8.7122
+\t (00:00:16) last pick:  -7.6200 -7.6200
+\i (00:00:16) pick grid 4.8757 -8.4476
+\t (00:00:16) last pick:  5.0800 -7.6200
+\i (00:00:16) pick grid 6.3577 -7.5479
+\t (00:00:16) last pick:  7.6200 -7.6200
+\i (00:00:17) pick grid 6.3577 -6.8598
+\t (00:00:17) last pick:  7.6200 -7.6200
+\t (00:00:17) Pin "T_N102_153_M153, 10"
+\i (00:00:17) pick grid dbl 6.3577 -6.7540
+\t (00:00:17) last pick:  7.6200 -7.6200
+\i (00:00:17) pick grid 6.5694 -4.9016
+\t (00:00:17) last pick:  7.6200 -5.0800
+\t (00:00:17) Pin "T_N102_153_M153, 11"
+\i (00:00:17) pick grid 6.6752 -3.8431
+\t (00:00:17) last pick:  7.6200 -5.0800
+\i (00:00:17) pick grid dbl 6.6752 -3.7901
+\t (00:00:17) last pick:  7.6200 -2.5400
+\i (00:00:18) pick grid 6.6752 -0.8792
+\t (00:00:18) last pick:  7.6200 0.0000
+\t (00:00:18) Pin "T_N102_153_M153, 12"
+\i (00:00:18) pick grid dbl 6.6752 -0.8263
+\t (00:00:18) last pick:  7.6200 0.0000
+\i (00:00:18) pick grid 6.6752 1.4495
+\t (00:00:18) last pick:  7.6200 2.5400
+\t (00:00:18) Pin "T_N102_153_M153, 13"
+\i (00:00:18) pick grid dbl 6.6752 1.5024
+\t (00:00:18) last pick:  7.6200 2.5400
+\i (00:00:18) pick grid 5.9343 4.3604
+\t (00:00:18) last pick:  5.0800 5.0800
+\t (00:00:18) Pin "T_N102_153_M153, 14"
+\i (00:00:19) pick grid dbl 5.9343 4.4133
+\t (00:00:19) last pick:  5.0800 5.0800
+\i (00:00:19) pick grid 6.1989 5.8952
+\t (00:00:19) last pick:  5.0800 5.0800
+\t (00:00:19) Pin "T_N102_153_M153, 15"
+\i (00:00:19) pick grid dbl 6.1989 5.8952
+\t (00:00:19) last pick:  5.0800 5.0800
+\i (00:00:19) pick grid 6.5164 8.8591
+\t (00:00:19) last pick:  7.6200 7.6200
+\t (00:00:19) Pin "T_N102_153_M153, 16"
+\i (00:00:20) pick grid dbl 6.5164 8.8591
+\t (00:00:20) last pick:  7.6200 7.6200
+\i (00:00:21) pick grid 5.9872 -10.1412
+\t (00:00:21) last pick:  5.0800 -10.1600
+\t (00:00:21) Line "Package Geometry/Assembly_Top"
+\i (00:00:21) pick grid 6.0401 -9.8237
+\t (00:00:21) last pick:  5.0800 -10.1600
+\t (00:00:21) Pin "T_N102_153_M153, 9"
+\i (00:00:21) pick grid dbl 5.7755 -10.0883
+\t (00:00:21) last pick:  5.0800 -10.1600
+\t (00:00:21) Line "Package Geometry/Silkscreen_Top"
+\i (00:00:21) pick grid 5.7755 -10.0883
+\t (00:00:21) last pick:  5.0800 -10.1600
+\i (00:00:23) zoom in 1 
+\i (00:00:23) setwindow pcb
+\i (00:00:23) zoom in 0.5888 5.3660
+\i (00:00:23) trapsize 1323
+\i (00:00:23) prepopup 0.4565 5.6307
+\i (00:00:24) done 
+\i (00:00:24) zoom out 1 
+\i (00:00:24) setwindow pcb
+\i (00:00:24) zoom out -3.6981 10.0235
+\i (00:00:24) trapsize 2646
+\i (00:00:28) delete 
+\i (00:00:28) pick grid 3.0763 -11.1468
+\t (00:00:28) last pick:  2.5400 -10.1600
+\t (00:00:28) Text "A4988_Stepper_Motor_Driver_Carrier"
+\i (00:00:29) pick grid 2.8646 -10.9351
+\t (00:00:29) last pick:  2.5400 -10.1600
+\t (00:00:29) Text "A4988_Stepper_Motor_Driver_Carrier"
+\i (00:00:29) pick grid dbl 2.8646 -10.9351
+\t (00:00:29) last pick:  2.5400 -10.1600
+\i (00:00:30) prepopup 0.6417 -0.2970
+\i (00:00:31) done 
+\i (00:00:37) add pin 
+\t (00:00:37) Using 'T_N102_153_M153.pad'.
+\i (00:00:37) pick grid 2.8646 1.1849
+\t (00:00:37) last pick:  2.5400 0.0000
+\t (00:00:37) Using 'T_N102_153_M153.pad'.
+\i (00:00:39) pick grid 0.9063 -1.1438
+\t (00:00:39) last pick:  0.0000 0.0000
+\t (00:00:39) Using 'T_N102_153_M153.pad'.
+\i (00:00:41) prepopup 16.3077 1.2908
+\i (00:00:41) done 
+\t (00:00:41) Exiting from Add Pin.
+\i (00:00:41) zoom out 1 
+\i (00:00:41) setwindow pcb
+\i (00:00:41) zoom out 16.3077 1.2908
+\i (00:00:41) trapsize 5293
+\i (00:00:42) zoom in 1 
+\i (00:00:42) setwindow pcb
+\i (00:00:42) zoom in 1.8061 0.7615
+\i (00:00:42) trapsize 2646
+\i (00:00:42) zoom in 1 
+\i (00:00:42) setwindow pcb
+\i (00:00:42) zoom in 1.8061 0.7615
+\i (00:00:42) trapsize 1323
+\i (00:00:46) add pin 
+\t (00:00:46) Using 'T_N102_153_M153.pad'.
+\i (00:00:46) pick grid -1.2107 1.1320
+\t (00:00:46) last pick:  0.0000 0.0000
+\t (00:00:46) Using 'T_N102_153_M153.pad'.
+\i (00:00:48) setwindow form.mini
+\i (00:00:48) FORM mini pad_browse  
+\i (00:00:55) fillin "Mxc-drillm3"
+\t (00:00:55) Using 'MXC-DRILLM3.pad'.
+\i (00:00:57) setwindow pcb
+\i (00:00:57) pick grid 1.2504 0.3910
+\t (00:00:57) last pick:  0.0000 0.0000
+\t (00:00:57) Using 'MXC-DRILLM3.pad'.
+\i (00:00:58) pick grid 1.1445 -4.3193
+\t (00:00:58) last pick:  0.0000 -5.0800
+\t (00:00:58) Using 'MXC-DRILLM3.pad'.
+\i (00:00:59) prepopup 4.6905 -2.0700
+\i (00:01:01) cancel 
+\t (00:01:01) Exiting from Add Pin.
+\i (00:01:03) delete 
+\i (00:01:03) pick grid 0.5359 0.3381
+\t (00:01:03) last pick:  0.0000 0.0000
+\t (00:01:03) Pin "T_N102_153_M153, 11"
+\i (00:01:03) pick grid dbl 0.5359 0.3381
+\t (00:01:03) last pick:  0.0000 0.0000
+\i (00:01:04) pick grid 2.8646 0.0206
+\t (00:01:04) last pick:  2.5400 0.0000
+\t (00:01:04) Pin "T_N102_153_M153, 10"
+\i (00:01:04) pick grid dbl 2.8646 0.0206
+\t (00:01:04) last pick:  2.5400 0.0000
+\i (00:01:06) add pin 
+\t (00:01:06) Using 'T_N102_153_M153.pad'.
+\i (00:01:08) setwindow form.mini
+\i (00:01:08) FORM mini pad_browse  
+\i (00:01:09) fillin "Mxc-drillm3"
+\t (00:01:09) Using 'MXC-DRILLM3.pad'.
+\i (00:01:11) setwindow pcb
+\i (00:01:11) pick grid 0.2977 -1.2497
+\t (00:01:11) last pick:  0.0000 0.0000
+\t (00:01:11) Using 'MXC-DRILLM3.pad'.
+\i (00:01:11) prepopup 3.4203 -1.2761
+\i (00:01:12) done 
+\t (00:01:12) Exiting from Add Pin.
+\i (00:01:13) save 
+\i (00:01:16) fillin no 
+\i (00:01:17) fillin "menu_cancel"
+\i (00:01:19) save_as 
+\i (00:01:21) fillin "menu_cancel"
+\i (00:01:21) zoom out 1 
+\i (00:01:21) setwindow pcb
+\i (00:01:21) zoom out 3.4468 3.5401
+\i (00:01:21) trapsize 2646
+\i (00:01:21) zoom out 1 
+\i (00:01:21) setwindow pcb
+\i (00:01:21) zoom out 3.0234 3.3284
+\i (00:01:21) trapsize 5293
+\i (00:01:22) zoom in 1 
+\i (00:01:22) setwindow pcb
+\i (00:01:22) zoom in -7.8793 11.2673
+\i (00:01:22) trapsize 2646
+\i (00:01:22) zoom in 1 
+\i (00:01:22) setwindow pcb
+\i (00:01:22) zoom in -7.7734 11.1615
+\i (00:01:22) trapsize 1323
+\i (00:01:23) zoom in 1 
+\i (00:01:23) setwindow pcb
+\i (00:01:23) zoom in -9.6258 9.9178
+\i (00:01:23) trapsize 662
+\i (00:01:25) delete 
+\i (00:01:26) pick grid -8.2497 9.5738
+\t (00:01:26) last pick:  -7.6200 10.1600
+\t (00:01:26) Line "Package Geometry/Assembly_Top"
+\i (00:01:26) pick grid dbl -8.2497 9.5606
+\t (00:01:26) last pick:  -7.6200 10.1600
+\t (00:01:26) Line "Package Geometry/Silkscreen_Top"
+\i (00:01:26) pick grid -8.3688 9.5209
+\t (00:01:26) last pick:  -7.6200 10.1600
+\i (00:01:27) pick grid dbl -8.3688 9.5209
+\t (00:01:27) last pick:  -7.6200 10.1600
+\i (00:01:27) zoom out 1 
+\i (00:01:27) setwindow pcb
+\i (00:01:27) zoom out -8.2629 9.5341
+\i (00:01:27) trapsize 1323
+\i (00:01:28) move 
+\t (00:01:28) Select element(s) to move.
+\i (00:01:29) drag_start grid -10.1154 12.8949
+\i (00:01:29) drag_stop -1.8854 8.0786
+\i (00:01:30) pick grid -5.9607 10.6984
+\t (00:01:30) last pick:  -5.0800 10.1600
+\t (00:01:30) Pick new location for the element(s).
+\i (00:01:31) pick grid -2.2030 3.7916
+\t (00:01:31) last pick:  -2.5400 2.5400
+\i (00:01:32) zoom out 1 
+\i (00:01:32) setwindow pcb
+\i (00:01:32) zoom out -1.7002 1.5688
+\i (00:01:32) trapsize 2646
+\i (00:01:32) zoom out 1 
+\i (00:01:32) setwindow pcb
+\i (00:01:32) zoom out -1.6473 1.5687
+\i (00:01:32) trapsize 5293
+\i (00:01:32) zoom in 1 
+\i (00:01:32) setwindow pcb
+\i (00:01:32) zoom in -2.2429 3.0507
+\i (00:01:32) trapsize 2646
+\i (00:01:36) save_as 
+\i (00:02:21) fillin "D:/Allegro/Project/CanhMai/Lib/Schematic_And_FootPrint/1202/FInalDrillM3.dra"
+\i (00:02:21) cd "D:/Allegro/Project/CanhMai/Lib/Schematic_And_FootPrint/1202"
+\t (00:02:21) Symbol 'finaldrillm3.psm' created.
+\i (00:02:23) save 
+\i (00:02:24) fillin no 
+\i (00:02:26) fillin "menu_cancel"
+\i (00:02:27) exit 
+\t (00:02:27)     Journal end - Wed Oct 30 23:58:48 2024
