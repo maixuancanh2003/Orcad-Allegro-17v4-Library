@@ -1,63 +1,75 @@
-\t (00:00:00) allegro 17.4 P001 Windows SPB 64-bit Edition
-\t (00:00:00)     Journal start - Wed Oct 30 23:44:31 2024
-\t (00:00:00)         Host=DESKTOP-OLN9DLP User=Admin Pid=22728 CPUs=8
-\t (00:00:00) CmdLine= C:\Cadence\SPB_17.4\tools\bin\allegro.exe
-\t (00:00:00) 
-   (00:00:00) Loading axlcore.cxt 
-\t (00:00:00) Opening existing design...
-\i (00:00:02) fillin no 
-\t (00:00:02) Starting new design...
-\i (00:00:03) trapsize 116667
-\i (00:00:03) placementedit 
-\i (00:00:04) trapsize 730
-\i (00:00:04) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged unnamed
-\i (00:00:04) opencd D:/Allegro/Project/CanhMai/CNCMachineDevelopBoard/Test.brd 
-\e (00:00:04) Do you want to save the changes you made to unnamed?
-\i (00:00:05) fillin no 
-\t (00:00:05) Opening existing design...
-\i (00:00:12) fillin no 
-\e (00:00:12) Failed to open design since it is locked - D:/Allegro/Project/CanhMai/CNCMachineDevelopBoard/Test.brd
-\t (00:00:12) Starting new design...
-\i (00:00:12) trapsize 1019
-\i (00:00:13) fillin "menu_cancel"
-\i (00:00:13) placementedit 
-\i (00:00:14) zoom out 1 
-\i (00:00:14) setwindow pcb
-\i (00:00:14) zoom out 18712.3 10823.8
-\i (00:00:14) trapsize 1019
-\i (00:00:14) zoom out 1 
-\i (00:00:14) setwindow pcb
-\i (00:00:14) zoom out 18732.6 10783.0
-\i (00:00:14) trapsize 1019
-\i (00:00:14) zoom out 1 
-\i (00:00:14) setwindow pcb
-\i (00:00:14) zoom out 18732.6 10783.0
-\i (00:00:14) trapsize 1019
-\i (00:00:14) zoom in 1 
-\i (00:00:14) setwindow pcb
-\i (00:00:14) zoom in 18732.6 10783.0
-\i (00:00:14) trapsize 510
-\i (00:00:15) zoom in 1 
-\i (00:00:15) setwindow pcb
-\i (00:00:15) zoom in 15710.4 10783.0
-\i (00:00:15) trapsize 255
-\i (00:00:15) zoom in 1 
-\i (00:00:15) setwindow pcb
-\i (00:00:15) zoom in 15710.4 10783.0
-\i (00:00:15) trapsize 127
-\i (00:00:15) zoom in 1 
-\i (00:00:15) setwindow pcb
-\i (00:00:15) zoom in 15677.4 10813.7
-\i (00:00:15) trapsize 64
-\i (00:00:16) open 
-\e (00:00:16) Do you want to save the changes you made to unnamed?
-\i (00:00:17) fillin no 
-\i (00:00:19) fillin "menu_cancel"
-\i (00:00:19) placementedit 
-\i (00:00:21) open 
-\e (00:00:21) Do you want to save the changes you made to unnamed?
-\i (00:00:22) fillin yes 
-\i (00:00:23) fillin "menu_cancel"
-\i (00:00:24) placementedit 
-\i (00:00:24) exit 
-\t (00:00:25)     Journal end - Wed Oct 30 23:44:56 2024
+\t (00:00:01) allegro 17.4 P001 Windows SPB 64-bit Edition
+\t (00:00:01)     Journal start - Wed Oct 30 23:54:14 2024
+\t (00:00:01)         Host=DESKTOP-OLN9DLP User=Admin Pid=31900 CPUs=8
+\t (00:00:01) CmdLine= c:\cadence\spb_17.4\tools\bin\allegro.exe D:\Allegro\Project\CanhMai\Lib\Schematic_And_FootPrint\Drill M3\DrillM3.dra
+\t (00:00:01) 
+   (00:00:01) Loading axlcore.cxt 
+\t (00:00:01) Opening existing design...
+\i (00:00:02) fillin yes 
+\i (00:00:02) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged DrillM3
+\d (00:00:02) Design opened: D:/Allegro/Project/CanhMai/Lib/Schematic_And_FootPrint/Drill M3/DrillM3.dra
+\i (00:00:02) trapsize 114
+\i (00:00:02) trapsize 118
+\i (00:00:02) trapsize 114
+\i (00:00:02) trapsize 146
+\i (00:00:02) trapsize 146
+\i (00:00:09) zoom in 1 
+\i (00:00:09) setwindow pcb
+\i (00:00:09) zoom in 223.9 -156.9
+\i (00:00:09) trapsize 73
+\i (00:00:09) zoom in 1 
+\i (00:00:09) setwindow pcb
+\i (00:00:09) zoom in 212.2 -148.2
+\i (00:00:09) trapsize 36
+\i (00:00:13) move 
+\t (00:00:13) Select element(s) to move.
+\i (00:00:13) pick grid -26.5 41.2
+\t (00:00:13) last pick:  0.0 0.0
+\t (00:00:13) last pick:  0.0 0.0
+\t (00:00:13) Pick new location for the element(s).
+\i (00:00:14) pick grid -49.1 29.5
+\t (00:00:14) last pick:  0.0 0.0
+\i (00:00:15) pick grid -175.8 129.3
+\t (00:00:15) last pick:  -200.0 100.0
+\i (00:00:18) save 
+\i (00:00:18) fillin yes 
+\e (00:00:19) ERROR(SPMHGE-7): Error(s) occurred, check logfile.
+\i (00:00:42) setwindow text
+\i (00:00:42) close
+\i (00:01:01) add text 
+\t (00:01:01) Pick text location.
+\i (00:01:02) pick grid -74.6 143.8
+\t (00:01:02) last pick:  -100.0 100.0
+\t (00:01:02) Enter text string.
+\i (00:01:10) setwindow pcb
+\i (00:01:10) pick -100.0 100.0
+\t (00:01:10) Enter text string.
+\i (00:01:15) setwindow form.mini
+\i (00:01:15) FORM mini subclass SILKSCREEN_TOP 
+\i (00:01:18) setwindow pcb
+\i (00:01:18) pick -100.0 69.0
+\t (00:01:18) Enter text string.
+\i (00:01:22) setwindow pcb
+\i (00:01:22) prepopup -170.0 179.5
+\i (00:01:23) done 
+\i (00:01:24) zoom in 1 
+\i (00:01:24) setwindow pcb
+\i (00:01:24) zoom in -74.6 125.6
+\i (00:01:24) trapsize 18
+\i (00:01:24) zoom out 1 
+\i (00:01:24) setwindow pcb
+\i (00:01:24) zoom out -74.5 125.6
+\i (00:01:24) trapsize 36
+\i (00:01:24) zoom out 1 
+\i (00:01:24) setwindow pcb
+\i (00:01:24) zoom out -74.6 125.6
+\i (00:01:24) trapsize 73
+\i (00:01:25) save 
+\i (00:01:26) fillin yes 
+\e (00:01:26) ERROR(SPMHGE-7): Error(s) occurred, check logfile.
+\i (00:01:38) setwindow text
+\i (00:01:38) close
+\i (00:01:40) add text 
+\t (00:01:40) Pick text location.
+\i (00:01:55) exit 
+\t (00:01:55)     Journal end - Wed Oct 30 23:56:09 2024
