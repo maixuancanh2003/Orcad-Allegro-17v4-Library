@@ -1,10 +1,6 @@
-\t (00:00:00) padstack_editor 17.4 P001 Windows SPB 64-bit Edition
-\t (00:00:00)     Journal start - Thu Oct 31 00:16:34 2024
-\t (00:00:00)         Host=DESKTOP-OLN9DLP User=Admin Pid=34524 CPUs=8
-\t (00:00:00) CmdLine= c:\cadence\spb_17.4\tools\bin\padstack_editor.exe D:\Allegro\Project\CanhMai\Lib\Schematic_And_FootPrint\TMS-101-21-G-S\111111.pad
-\t (00:00:00) 
-\d (00:00:02) QtSignal GuidedTabsParent GuidedTabs currentChanged "Drill Offset"
-\d (00:00:03) QtSignal GuidedTabsParent GuidedTabs currentChanged "Design Layers"
-\d (00:00:05) QtSignal MainWindow SaveAs triggered
-\d (00:00:07) QtFillin 222222222222.pad
-\t (00:00:11)     Journal end - Thu Oct 31 00:16:44 2024
+\t (00:00:02) padstack_editor 17.4 P001 Windows SPB 64-bit Edition
+\t (00:00:02)     Journal start - Thu Oct 31 07:41:29 2024
+\t (00:00:02)         Host=DESKTOP-OLN9DLP User=Admin Pid=22584 CPUs=8
+\t (00:00:02) CmdLine= c:\cadence\spb_17.4\tools\bin\padstack_editor.exe D:\Allegro\Project\CanhMai\Lib\Schematic_And_FootPrint\TMS-101-21-G-S\222222222222.pad
+\t (00:00:02) 
+\t (00:00:03)     Journal end - Thu Oct 31 07:41:31 2024
