@@ -1,14 +1,23 @@
 (---------------------------------------------------------------------)
 (                                                                     )
-(    Downrev Design                                                   )
+(    CREATE SYMBOL                                                    )
 (                                                                     )
 (    Drawing          : TE_STS121RA04.dra                             )
 (    Software Version : unreleased                                    )
-(    Date/Time        : Fri Nov  1 22:35:53 2024                      )
+(    Date/Time        : Mon Oct 28 11:15:39 2024                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
 
+Create Symbol of type: PACKAGE
+    Directory = D:/Allegro/Project/CanhMai/Lib/Schematic_And_FootPrint/SWITCHPOWER3
+    Name      = te_sts121ra04.psm
+    User      = Admin
+    Machine   = DESKTOP-OLN9DLP
 
-Changes made to design for 17.2 compatibility.
+
+Create symbol started.
+ 
+
+Create symbol completed.
 
