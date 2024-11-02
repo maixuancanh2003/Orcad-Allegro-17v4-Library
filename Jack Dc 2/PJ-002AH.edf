@@ -1,0 +1,278 @@
+
+(EDIF
+  (rename PJ_45_002AH "PJ-002AH")
+  (EDIFVersion 2 0 0)
+  (EDIFLevel 0)
+  (keywordMap (keywordLevel 0))
+  (status
+    (written
+      (timestamp 2022 12 23 18 55 03)
+      (dataOrigin "SnapEDA snapeda.comCopyright - This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0")
+      (program "SnapEDA Converter")
+    )
+  )
+  (library
+    (rename PJ_45_002AH "PJ-002AH")
+    (EDIFLevel 0)
+    (technology
+      (numberDefinition
+        (scale 1 (e 254 -9) (unit DISTANCE))
+        (gridMap 1 1)
+      )
+      (figureGroup PINNAME
+        (cornerType TRUNCATE)
+        (endType TRUNCATE)
+        (pathWidth 0)
+        (textHeight 4811)
+      )
+      (figureGroup PINNUMBER
+        (cornerType TRUNCATE)
+        (endType TRUNCATE)
+        (textHeight 9000)
+        (pathWidth 0)
+      )
+      (figureGroup PORT
+        (pathWidth 1000)
+        (textHeight 9000)
+      )
+      (figureGroup PARTBODY
+        (pathWidth 1000)
+        (borderWidth 1000)
+        (textHeight 6000)
+      )
+    )
+    (cell
+      (rename PJ_45_002AH "PJ-002AH")
+      (cellType GENERIC)
+      (view
+        (rename NORMAL "Normal")
+        (viewType SCHEMATIC)
+        (interface
+          (designator "J")
+          (property (rename VALUE "Value") (string "PJ-002AH"))
+          (port
+            (rename &1 "1")
+            (property
+              (rename TYPE "Type")
+              (string "PAS")
+            )
+            (designator "1")
+            (property
+              (rename ORDER "Order")
+              (integer 0)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename &2 "2")
+            (property
+              (rename TYPE "Type")
+              (string "PAS")
+            )
+            (designator "2")
+            (property
+              (rename ORDER "Order")
+              (integer 1)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename &3 "3")
+            (property
+              (rename TYPE "Type")
+              (string "PAS")
+            )
+            (designator "3")
+            (property
+              (rename ORDER "Order")
+              (integer 2)
+              (owner "OrCAD")
+            )
+          )
+          (symbol
+            (boundingBox (rectangle (pt -27500 -10000) (pt 20000 17500)))
+            (portImplementation
+              (name &1)
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERLEFT)
+                  (orientation R0)
+                  (origin (pt 16062 10000))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt 20000 10000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt 20000 10000)
+                    (pt 0 10000)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name &3)
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERLEFT)
+                  (orientation R0)
+                  (origin (pt 16062 0))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt 20000 0)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt 20000 0)
+                    (pt 0 0)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name &2)
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERLEFT)
+                  (orientation R0)
+                  (origin (pt 16062 -10000))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt 20000 -10000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt 20000 -10000)
+                    (pt 0 -10000)
+                  )
+                )
+              )
+            )
+            (figure PARTBODY
+              (openShape
+                (curve
+                  (arc (pt -22500 5000) (pt -27500 10000) (pt -22500 15000))
+                )
+              )
+            )
+            (figure PARTBODY
+              (path (pointList (pt -22500 15000) (pt -5000 15000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -5000 15000) (pt -5000 5000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -5000 5000) (pt -22500 5000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -5000 5000) (pt -5000 2500)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -5000 2500) (pt 0 2500)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 0 2500) (pt 0 17500)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 0 17500) (pt -5000 17500)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -5000 17500) (pt -5000 15000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 0 -10000) (pt -12500 -10000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -12500 -10000) (pt -15000 -5000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -15000 -5000) (pt -17500 -10000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 0 0) (pt 0 -10000)))
+            )
+            (keywordDisplay DESIGNATOR
+              (display PARTBODY
+                (justify LOWERLEFT)
+                (orientation R0)
+                (origin (pt -30027 20019))
+              )
+            )
+            (propertyDisplay VALUE
+              (display PARTBODY
+                (justify LOWERLEFT)
+                (orientation R0)
+                (origin (pt -30043 -20031))
+              )
+            )
+            (figure PARTBODY
+              (polygon
+                (pointList
+                  (pt 0 -10000)
+                  (pt -2000 -5000)
+                  (pt 2000 -5000)
+                )
+              )
+            )
+            (property (rename PCB_Footprint "PCB Footprint") (string "CUI_PJ-002AH"))
+            (property
+              (rename Purchase_URL "Purchase_URL")
+              (string
+              (stringDisplay "https://pricing.snapeda.com/search/part/PJ-002AH/?ref=eda"))
+            )
+            (property
+              (rename MF "MF")
+              (string
+              (stringDisplay "CUI Devices"))
+            )
+            (property
+              (rename Description "Description")
+              (string
+              (stringDisplay "
+2.0 x 6.5 mm, 5.0 A, Horizontal, Through Hole, Dc Power Jack Connector
+"))
+            )
+            (property
+              (rename CUI_purchase_URL "CUI_purchase_URL")
+              (string
+              (stringDisplay "https://www.cuidevices.com/product/interconnect/connectors/dc-power-connectors/jacks/pj-002ah?utm_source=snapeda.com&utm_medium=referral&utm_campaign=snapedaBOM"))
+            )
+            (property
+              (rename MP "MP")
+              (string
+              (stringDisplay "PJ-002AH"))
+            )
+            (property
+              (rename Package "Package")
+              (string
+              (stringDisplay "None"))
+            )
+            (property
+              (rename Digi_Key_Part_Number "Digi_Key_Part_Number")
+              (string
+              (stringDisplay "CP-002AH-ND"))
+            )
+          )
+        )
+      )
+    )
+  )
+)

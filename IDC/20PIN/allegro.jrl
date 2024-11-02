@@ -1,0 +1,34 @@
+\t (00:00:01) allegro 17.4 P001 Windows SPB 64-bit Edition
+\t (00:00:01)     Journal start - Sat Nov  2 09:38:07 2024
+\t (00:00:01)         Host=DESKTOP-OLN9DLP User=Admin Pid=620 CPUs=8
+\t (00:00:01) CmdLine= c:\cadence\spb_17.4\tools\bin\allegro.exe D:\Allegro\Project\CanhMai\Lib\Schematic_And_FootPrint\IDC\20PIN\SAMTEC_FFMD-10-01.dra
+\t (00:00:01) 
+   (00:00:01) Loading axlcore.cxt 
+\t (00:00:01) Opening existing design...
+\i (00:00:02) fillin yes 
+\i (00:00:02) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged SAMTEC_FFMD-10-01
+\d (00:00:02) Design opened: D:/Allegro/Project/CanhMai/Lib/Schematic_And_FootPrint/IDC/20PIN/SAMTEC_FFMD-10-01.dra
+\i (00:00:02) trapsize 6483
+\i (00:00:02) trapsize 6687
+\i (00:00:02) trapsize 6483
+\i (00:00:02) trapsize 8275
+\i (00:00:02) trapsize 8275
+\i (00:00:03) etchedit 
+\i (00:00:04) 3d 
+\i (00:00:04) etchedit 
+\i (00:00:05) QtSignal pcb3dViewer pcb3dViewerCanvas keyPressEvent 16777251 134217728 false 1
+\i (00:00:14) step pkg map 
+\i (00:00:16) setwindow form.pkgmap3d
+\i (00:00:16) FORM pkgmap3d namefilter_stp IDC* 
+\i (00:00:18) FORM pkgmap3d stplist IDC20PIN.STEP 
+\i (00:00:18) FORM pkgmap3d stplist IDC20PIN.STEP 
+\i (00:00:22) FORM pkgmap3d overlay YES 
+\i (00:00:24) FORM pkgmap3d view_orientation Bottom 
+\i (00:15:51) FORM pkgmap3d done  
+\i (00:15:51) setwindow pcb
+\i (00:15:51) etchedit 
+\i (00:15:53) exit 
+\e (00:15:53) Do you want to save the changes you made to SAMTEC_FFMD-10-01.dra?
+\i (00:15:56) fillin no 
+\i (00:15:56) QtSignal pcb3dViewer pcb3dViewer closed
+\t (00:15:58)     Journal end - Sat Nov  2 09:54:05 2024

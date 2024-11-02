@@ -1,21 +1,87 @@
 \t (00:00:01) allegro 17.4 P001 Windows SPB 64-bit Edition
-\t (00:00:01)     Journal start - Tue Oct 29 14:52:01 2024
-\t (00:00:01)         Host=DESKTOP-OLN9DLP User=Admin Pid=16356 CPUs=8
-\t (00:00:01) CmdLine= C:\Cadence\SPB_17.4\tools\bin\allegro.exe
+\t (00:00:01)     Journal start - Wed Oct 30 09:01:05 2024
+\t (00:00:01)         Host=DESKTOP-OLN9DLP User=Admin Pid=26660 CPUs=8
+\t (00:00:01) CmdLine= c:\cadence\spb_17.4\tools\bin\allegro.exe D:\Allegro\Project\CanhMai\Lib\Schematic_And_FootPrint\Jumper\3pin_254\SAMTEC_MTMM-103-06-S-S-230.dra
 \t (00:00:01) 
    (00:00:01) Loading axlcore.cxt 
-\t (00:00:04) Opening existing design...
-\i (00:00:07) fillin yes 
-\i (00:00:07) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged SAMTEC_MTMM-103-06-S-S-230
-\d (00:00:07) Design opened: D:/Allegro/Project/CanhMai/Lib/Schematic_And_FootPrint/Jumper/3pin_254/SAMTEC_MTMM-103-06-S-S-230.dra
-\i (00:00:07) trapsize 1496
-\i (00:00:07) trapsize 1543
-\i (00:00:07) trapsize 1496
-\i (00:00:08) trapsize 1511
-\i (00:00:08) trapsize 1511
-\i (00:00:08) generaledit 
-\i (00:00:10) new 
-\i (00:00:13) newdrawfillin "menu_cancel"
-\i (00:00:14) generaledit 
-\i (01:44:06) exit 
-\t (01:44:07)     Journal end - Tue Oct 29 16:36:07 2024
+\t (00:00:01) Opening existing design...
+\i (00:00:05) fillin yes 
+\i (00:00:05) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged SAMTEC_MTMM-103-06-S-S-230
+\d (00:00:05) Design opened: D:/Allegro/Project/CanhMai/Lib/Schematic_And_FootPrint/Jumper/3pin_254/SAMTEC_MTMM-103-06-S-S-230.dra
+\i (00:00:06) trapsize 1496
+\i (00:00:06) trapsize 1543
+\i (00:00:06) trapsize 1496
+\i (00:00:06) trapsize 1511
+\i (00:00:06) trapsize 1511
+\i (00:00:06) generaledit 
+\i (00:00:08) zoom in 1 
+\i (00:00:08) setwindow pcb
+\i (00:00:08) zoom in 4.2365 -0.5497
+\i (00:00:08) trapsize 756
+\i (00:00:09) zoom in 1 
+\i (00:00:09) setwindow pcb
+\i (00:00:09) zoom in 4.2365 -0.5496
+\i (00:00:09) trapsize 378
+\i (00:00:10) zoom out 1 
+\i (00:00:10) setwindow pcb
+\i (00:00:10) zoom out 4.2366 -0.5496
+\i (00:00:10) trapsize 756
+\i (00:00:16) zoom out 1 
+\i (00:00:16) setwindow pcb
+\i (00:00:16) zoom out 0.5486 0.3421
+\i (00:00:16) trapsize 1511
+\i (00:00:17) zoom in 1 
+\i (00:00:17) setwindow pcb
+\i (00:00:17) zoom in -0.1465 -0.8972
+\i (00:00:17) trapsize 756
+\i (00:00:17) zoom in 1 
+\i (00:00:17) setwindow pcb
+\i (00:00:17) zoom in -0.1465 -0.8972
+\i (00:00:17) trapsize 378
+\i (00:00:22) zoom out 1 
+\i (00:00:22) setwindow pcb
+\i (00:00:22) zoom out -0.1314 -1.0106
+\i (00:00:22) trapsize 756
+\i (00:00:24) zoom out 1 
+\i (00:00:24) setwindow pcb
+\i (00:00:24) zoom out 1.5766 -1.9929
+\i (00:00:24) trapsize 1511
+\i (00:00:25) zoom out 1 
+\i (00:00:25) setwindow pcb
+\i (00:00:25) zoom out 2.0904 -0.9954
+\i (00:00:25) trapsize 3023
+\i (00:00:25) zoom in 1 
+\i (00:00:25) setwindow pcb
+\i (00:00:25) zoom in -1.5976 -2.2425
+\i (00:00:25) trapsize 1511
+\i (00:00:25) zoom in 1 
+\i (00:00:25) setwindow pcb
+\i (00:00:25) zoom in -1.5976 -2.2425
+\i (00:00:25) trapsize 756
+\i (00:04:58) step pkg map 
+\i (00:05:21) setwindow form.pkgmap3d
+\i (00:05:21) FORM pkgmap3d namefilter_stp J* 
+\i (00:05:27) FORM pkgmap3d namefilter_stp jum* 
+\i (00:05:28) FORM pkgmap3d stplist jumper254_3p.stp 
+\i (00:05:29) FORM pkgmap3d stplist jumper254_3p.stp 
+\i (00:05:31) FORM pkgmap3d overlay YES 
+\i (00:05:34) FORM pkgmap3d view_orientation Top 
+\i (00:05:53) FORM pkgmap3d view_orientation Front Left 
+\i (00:05:58) FORM pkgmap3d save_current  
+\i (00:05:59) FORM pkgmap3d done  
+\i (00:05:59) setwindow pcb
+\i (00:05:59) generaledit 
+\i (00:06:04) show measure 
+\i (00:06:05) pick grid -0.0408 -0.1416
+\t (00:06:05) last pick:  0.0000 0.0000
+\i (00:06:05) pick grid dbl -0.0408 -0.1416
+\t (00:06:05) last pick:  0.0000 0.0000
+\i (00:06:08) pick grid 1.9694 0.0700
+\t (00:06:08) last pick:  1.9050 0.0000
+\i (00:06:09) setwindow text
+\i (00:06:09) close
+\i (00:06:10) exit 
+\e (00:06:10) Do you want to save the changes you made to SAMTEC_MTMM-103-06-S-S-230.dra?
+\i (00:06:12) fillin yes 
+\t (00:06:12) Symbol 'samtec_mtmm-103-06-s-s-230.psm' created.
+\t (00:06:13)     Journal end - Wed Oct 30 09:07:17 2024

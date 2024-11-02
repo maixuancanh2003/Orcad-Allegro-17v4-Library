@@ -1,0 +1,813 @@
+
+(EDIF
+  (rename LM324PW "LM324PW")
+  (EDIFVersion 2 0 0)
+  (EDIFLevel 0)
+  (keywordMap (keywordLevel 0))
+  (status
+    (written
+      (timestamp 2022 08 14 07 28 41)
+      (dataOrigin "SnapEDA snapeda.comCopyright - This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0")
+      (program "SnapEDA Converter")
+    )
+  )
+  (library
+    (rename LM324PW "LM324PW")
+    (EDIFLevel 0)
+    (technology
+      (numberDefinition
+        (scale 1 (e 254 -9) (unit DISTANCE))
+        (gridMap 1 1)
+      )
+      (figureGroup PINNAME
+        (cornerType TRUNCATE)
+        (endType TRUNCATE)
+        (pathWidth 0)
+        (textHeight 4811)
+      )
+      (figureGroup PINNUMBER
+        (cornerType TRUNCATE)
+        (endType TRUNCATE)
+        (textHeight 9000)
+        (pathWidth 0)
+      )
+      (figureGroup PORT
+        (pathWidth 1000)
+        (textHeight 9000)
+      )
+      (figureGroup PARTBODY
+        (pathWidth 1000)
+        (borderWidth 1000)
+        (textHeight 6000)
+      )
+    )
+    (cell
+      (rename LM324PW_1 "LM324PW-1")
+      (cellType GENERIC)
+      (property (rename SOURCE_PACKAGE "Source Package") (string "LM324PW"))
+      (property (rename PACKAGEHETEROGENEOUS "PackageHeterogeneous") (string "LM324PW"))
+      (property (rename POSITIONINPACKAGE "PositionInPackage") (string "-1,_,_,_"))
+      (property (rename NUMBER_DEVICES_IN_PACKAGE "Number devices in Package") (string "1"))
+      (view
+        (rename NORMAL "Normal")
+        (viewType SCHEMATIC)
+        (interface
+          (designator "U")
+          (property (rename VALUE "Value") (string "LM324PW"))
+          (port
+            (rename &_43_IN1 "+IN1")
+            (direction INPUT)
+            (property
+              (rename TYPE "Type")
+              (string "DBO_IN")
+            )
+            (designator "3")
+            (property
+              (rename ORDER "Order")
+              (integer 0)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename &_45_IN1 "-IN1")
+            (direction INPUT)
+            (property
+              (rename TYPE "Type")
+              (string "DBO_IN")
+            )
+            (designator "2")
+            (property
+              (rename ORDER "Order")
+              (integer 1)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename GND "GND")
+            (property
+              (rename TYPE "Type")
+              (string "POWER")
+            )
+            (property PORTTYPE
+              (string "supply")
+              (owner "Schematic_TSC")
+            )
+            (property SUPPLYTYPE
+              (string "power")
+              (owner "Schematic_TSC")
+            )
+            (designator "11")
+            (property
+              (rename ORDER "Order")
+              (integer 2)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename OUT1 "OUT1")
+            (direction OUTPUT)
+            (property
+              (rename TYPE "Type")
+              (string "DBO_OUT")
+            )
+            (designator "1")
+            (property
+              (rename ORDER "Order")
+              (integer 3)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename VCC "VCC")
+            (property
+              (rename TYPE "Type")
+              (string "POWER")
+            )
+            (property PORTTYPE
+              (string "supply")
+              (owner "Schematic_TSC")
+            )
+            (property SUPPLYTYPE
+              (string "power")
+              (owner "Schematic_TSC")
+            )
+            (designator "4")
+            (property
+              (rename ORDER "Order")
+              (integer 4)
+              (owner "OrCAD")
+            )
+          )
+          (symbol
+            (boundingBox (rectangle (pt -30000 -30000) (pt 30000 30000)))
+            (portImplementation
+              (name &_45_IN1)
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin (pt -26062 -10000))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt -30000 -10000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt -30000 -10000)
+                    (pt -20000 -10000)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name &_43_IN1)
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin (pt -26062 10000))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt -30000 10000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt -30000 10000)
+                    (pt -20000 10000)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name OUT1)
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERLEFT)
+                  (orientation R0)
+                  (origin (pt 26062 0))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt 30000 0)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt 30000 0)
+                    (pt 20000 0)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name VCC)
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify LOWERCENTER)
+                  (orientation R0)
+                  (origin (pt 0 26062))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt 0 30000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt 0 30000)
+                    (pt 0 10000)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name GND)
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify UPPERCENTER)
+                  (orientation R0)
+                  (origin (pt 0 -26062))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt 0 -30000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt 0 -30000)
+                    (pt 0 -10000)
+                  )
+                )
+              )
+            )
+            (figure PARTBODY
+              (path (pointList (pt -20000 20000) (pt -20000 -20000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -20000 -20000) (pt 20000 0)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 20000 0) (pt -20000 20000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -15000 12500) (pt -15000 7500)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -17500 10000) (pt -12500 10000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -17500 -10000) (pt -12500 -10000)))
+            )
+            (keywordDisplay DESIGNATOR
+              (display PARTBODY
+                (justify LOWERLEFT)
+                (orientation R0)
+                (origin (pt 10011 12515))
+              )
+            )
+            (propertyDisplay VALUE
+              (display PARTBODY
+                (justify LOWERLEFT)
+                (orientation R0)
+                (origin (pt 10011 -20023))
+              )
+            )
+            (property (rename PCB_Footprint "PCB Footprint") (string "SOP65P640X120-14N"))
+          )
+        )
+      )
+    )
+    (cell
+      (rename LM324PW_2 "LM324PW-2")
+      (cellType GENERIC)
+      (property (rename SOURCE_PACKAGE "Source Package") (string "LM324PW"))
+      (property (rename PACKAGEHETEROGENEOUS "PackageHeterogeneous") (string "LM324PW"))
+      (property (rename POSITIONINPACKAGE "PositionInPackage") (string "_,-2,_,_"))
+      (property (rename NUMBER_DEVICES_IN_PACKAGE "Number devices in Package") (string "1"))
+      (view
+        (rename NORMAL "Normal")
+        (viewType SCHEMATIC)
+        (interface
+          (designator "U")
+          (property (rename VALUE "Value") (string "LM324PW"))
+          (port
+            (rename &_43_IN2 "+IN2")
+            (direction INPUT)
+            (property
+              (rename TYPE "Type")
+              (string "DBO_IN")
+            )
+            (designator "5")
+            (property
+              (rename ORDER "Order")
+              (integer 0)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename &_45_IN2 "-IN2")
+            (direction INPUT)
+            (property
+              (rename TYPE "Type")
+              (string "DBO_IN")
+            )
+            (designator "6")
+            (property
+              (rename ORDER "Order")
+              (integer 1)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename OUT2 "OUT2")
+            (direction OUTPUT)
+            (property
+              (rename TYPE "Type")
+              (string "DBO_OUT")
+            )
+            (designator "7")
+            (property
+              (rename ORDER "Order")
+              (integer 2)
+              (owner "OrCAD")
+            )
+          )
+          (symbol
+            (boundingBox (rectangle (pt -30000 -20000) (pt 30000 20000)))
+            (portImplementation
+              (name &_45_IN2)
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin (pt -26062 -10000))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt -30000 -10000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt -30000 -10000)
+                    (pt -20000 -10000)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name &_43_IN2)
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin (pt -26062 10000))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt -30000 10000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt -30000 10000)
+                    (pt -20000 10000)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name OUT2)
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERLEFT)
+                  (orientation R0)
+                  (origin (pt 26062 0))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt 30000 0)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt 30000 0)
+                    (pt 20000 0)
+                  )
+                )
+              )
+            )
+            (figure PARTBODY
+              (path (pointList (pt -20000 20000) (pt -20000 -20000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -20000 -20000) (pt 20000 0)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 20000 0) (pt -20000 20000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -15000 12500) (pt -15000 7500)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -17500 10000) (pt -12500 10000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -17500 -10000) (pt -12500 -10000)))
+            )
+            (keywordDisplay DESIGNATOR
+              (display PARTBODY
+                (justify LOWERLEFT)
+                (orientation R0)
+                (origin (pt 10011 12515))
+              )
+            )
+            (propertyDisplay VALUE
+              (display PARTBODY
+                (justify LOWERLEFT)
+                (orientation R0)
+                (origin (pt 10015 -20035))
+              )
+            )
+            (property (rename PCB_Footprint "PCB Footprint") (string "SOP65P640X120-14N"))
+          )
+        )
+      )
+    )
+    (cell
+      (rename LM324PW_3 "LM324PW-3")
+      (cellType GENERIC)
+      (property (rename SOURCE_PACKAGE "Source Package") (string "LM324PW"))
+      (property (rename PACKAGEHETEROGENEOUS "PackageHeterogeneous") (string "LM324PW"))
+      (property (rename POSITIONINPACKAGE "PositionInPackage") (string "_,_,-3,_"))
+      (property (rename NUMBER_DEVICES_IN_PACKAGE "Number devices in Package") (string "1"))
+      (view
+        (rename NORMAL "Normal")
+        (viewType SCHEMATIC)
+        (interface
+          (designator "U")
+          (property (rename VALUE "Value") (string "LM324PW"))
+          (port
+            (rename &_43_IN3 "+IN3")
+            (direction INPUT)
+            (property
+              (rename TYPE "Type")
+              (string "DBO_IN")
+            )
+            (designator "10")
+            (property
+              (rename ORDER "Order")
+              (integer 0)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename &_45_IN3 "-IN3")
+            (direction INPUT)
+            (property
+              (rename TYPE "Type")
+              (string "DBO_IN")
+            )
+            (designator "9")
+            (property
+              (rename ORDER "Order")
+              (integer 1)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename OUT3 "OUT3")
+            (direction OUTPUT)
+            (property
+              (rename TYPE "Type")
+              (string "DBO_OUT")
+            )
+            (designator "8")
+            (property
+              (rename ORDER "Order")
+              (integer 2)
+              (owner "OrCAD")
+            )
+          )
+          (symbol
+            (boundingBox (rectangle (pt -30000 -20000) (pt 30000 20000)))
+            (portImplementation
+              (name &_45_IN3)
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin (pt -26062 -10000))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt -30000 -10000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt -30000 -10000)
+                    (pt -20000 -10000)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name &_43_IN3)
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin (pt -26062 10000))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt -30000 10000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt -30000 10000)
+                    (pt -20000 10000)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name OUT3)
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERLEFT)
+                  (orientation R0)
+                  (origin (pt 26062 0))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt 30000 0)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt 30000 0)
+                    (pt 20000 0)
+                  )
+                )
+              )
+            )
+            (figure PARTBODY
+              (path (pointList (pt -20000 20000) (pt -20000 -20000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -20000 -20000) (pt 20000 0)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 20000 0) (pt -20000 20000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -15000 12500) (pt -15000 7500)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -17500 10000) (pt -12500 10000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -17500 -10000) (pt -12500 -10000)))
+            )
+            (keywordDisplay DESIGNATOR
+              (display PARTBODY
+                (justify LOWERLEFT)
+                (orientation R0)
+                (origin (pt 10007 12511))
+              )
+            )
+            (propertyDisplay VALUE
+              (display PARTBODY
+                (justify LOWERLEFT)
+                (orientation R0)
+                (origin (pt 10015 -20027))
+              )
+            )
+            (property (rename PCB_Footprint "PCB Footprint") (string "SOP65P640X120-14N"))
+          )
+        )
+      )
+    )
+    (cell
+      (rename LM324PW_4 "LM324PW-4")
+      (cellType GENERIC)
+      (property (rename SOURCE_PACKAGE "Source Package") (string "LM324PW"))
+      (property (rename PACKAGEHETEROGENEOUS "PackageHeterogeneous") (string "LM324PW"))
+      (property (rename POSITIONINPACKAGE "PositionInPackage") (string "_,_,_,-4"))
+      (property (rename NUMBER_DEVICES_IN_PACKAGE "Number devices in Package") (string "1"))
+      (view
+        (rename NORMAL "Normal")
+        (viewType SCHEMATIC)
+        (interface
+          (designator "U")
+          (property (rename VALUE "Value") (string "LM324PW"))
+          (port
+            (rename &_43_IN4 "+IN4")
+            (direction INPUT)
+            (property
+              (rename TYPE "Type")
+              (string "DBO_IN")
+            )
+            (designator "12")
+            (property
+              (rename ORDER "Order")
+              (integer 0)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename &_45_IN4 "-IN4")
+            (direction INPUT)
+            (property
+              (rename TYPE "Type")
+              (string "DBO_IN")
+            )
+            (designator "13")
+            (property
+              (rename ORDER "Order")
+              (integer 1)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename OUT4 "OUT4")
+            (direction OUTPUT)
+            (property
+              (rename TYPE "Type")
+              (string "DBO_OUT")
+            )
+            (designator "14")
+            (property
+              (rename ORDER "Order")
+              (integer 2)
+              (owner "OrCAD")
+            )
+          )
+          (symbol
+            (boundingBox (rectangle (pt -30000 -20000) (pt 30000 20000)))
+            (portImplementation
+              (name &_45_IN4)
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin (pt -26062 -10000))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt -30000 -10000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt -30000 -10000)
+                    (pt -20000 -10000)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name &_43_IN4)
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin (pt -26062 10000))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt -30000 10000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt -30000 10000)
+                    (pt -20000 10000)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name OUT4)
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERLEFT)
+                  (orientation R0)
+                  (origin (pt 26062 0))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt 30000 0)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt 30000 0)
+                    (pt 20000 0)
+                  )
+                )
+              )
+            )
+            (figure PARTBODY
+              (path (pointList (pt -20000 20000) (pt -20000 -20000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -20000 -20000) (pt 20000 0)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 20000 0) (pt -20000 20000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -15000 12500) (pt -15000 7500)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -17500 10000) (pt -12500 10000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -17500 -10000) (pt -12500 -10000)))
+            )
+            (keywordDisplay DESIGNATOR
+              (display PARTBODY
+                (justify LOWERLEFT)
+                (orientation R0)
+                (origin (pt 10019 12523))
+              )
+            )
+            (propertyDisplay VALUE
+              (display PARTBODY
+                (justify LOWERLEFT)
+                (orientation R0)
+                (origin (pt 10011 -20023))
+              )
+            )
+            (property (rename PCB_Footprint "PCB Footprint") (string "SOP65P640X120-14N"))
+          )
+        )
+      )
+    )
+  )
+)

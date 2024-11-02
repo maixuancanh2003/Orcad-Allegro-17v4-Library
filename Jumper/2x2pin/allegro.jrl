@@ -1,0 +1,40 @@
+\t (00:00:01) allegro 17.4 P001 Windows SPB 64-bit Edition
+\t (00:00:01)     Journal start - Sat Nov  2 09:45:14 2024
+\t (00:00:01)         Host=DESKTOP-OLN9DLP User=Admin Pid=31224 CPUs=8
+\t (00:00:01) CmdLine= c:\cadence\spb_17.4\tools\bin\allegro.exe D:\Allegro\Project\CanhMai\Lib\Schematic_And_FootPrint\Jumper\2x2pin\TE_5-146250-2.dra
+\t (00:00:01) 
+   (00:00:01) Loading axlcore.cxt 
+\t (00:00:01) Opening existing design...
+\i (00:00:12) fillin yes 
+\i (00:00:12) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged TE_5-146250-2
+\d (00:00:12) Design opened: D:/Allegro/Project/CanhMai/Lib/Schematic_And_FootPrint/Jumper/2x2pin/TE_5-146250-2.dra
+\i (00:00:12) trapsize 5450
+\i (00:00:12) trapsize 5810
+\i (00:00:12) trapsize 5633
+\i (00:00:12) trapsize 5810
+\i (00:00:12) trapsize 3588
+\i (00:00:12) trapsize 3588
+\i (00:00:13) etchedit 
+\i (00:00:15) zoom in 1 
+\i (00:00:15) setwindow pcb
+\i (00:00:15) zoom in -6.1899 4.2927
+\i (00:00:15) trapsize 1794
+\i (00:00:16) show measure 
+\i (00:00:17) pick grid -1.3108 1.5662
+\t (00:00:17) last pick:  -1.2700 1.2700
+\i (00:00:18) pick grid 1.2005 1.2075
+\t (00:00:18) last pick:  1.2700 1.2700
+\i (00:00:19) setwindow text
+\i (00:00:19) close
+\i (00:00:21) step pkg map 
+\i (00:00:23) setwindow form.pkgmap3d
+\i (00:00:23) FORM pkgmap3d namefilter_stp jp* 
+\i (00:00:24) FORM pkgmap3d stplist jp2x2.STEP 
+\i (00:00:24) FORM pkgmap3d stplist jp2x2.STEP 
+\i (00:08:24) FORM pkgmap3d done  
+\i (00:08:25) setwindow pcb
+\i (00:08:25) etchedit 
+\i (00:08:25) exit 
+\e (00:08:25) Do you want to save the changes you made to TE_5-146250-2.dra?
+\i (00:08:27) fillin no 
+\t (00:08:31)     Journal end - Sat Nov  2 09:53:45 2024

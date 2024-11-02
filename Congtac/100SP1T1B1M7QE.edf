@@ -1,0 +1,218 @@
+
+(EDIF
+  (rename &100SP1T1B1M7QE "100SP1T1B1M7QE")
+  (EDIFVersion 2 0 0)
+  (EDIFLevel 0)
+  (keywordMap (keywordLevel 0))
+  (status
+    (written
+      (timestamp 2023 05 25 06 34 51)
+      (dataOrigin "SnapEDA snapeda.comCopyright - This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0")
+      (program "SnapEDA Converter")
+    )
+  )
+  (library
+    (rename &100SP1T1B1M7QE "100SP1T1B1M7QE")
+    (EDIFLevel 0)
+    (technology
+      (numberDefinition
+        (scale 1 (e 254 -9) (unit DISTANCE))
+        (gridMap 1 1)
+      )
+      (figureGroup PINNAME
+        (cornerType TRUNCATE)
+        (endType TRUNCATE)
+        (pathWidth 0)
+        (textHeight 4811)
+      )
+      (figureGroup PINNUMBER
+        (cornerType TRUNCATE)
+        (endType TRUNCATE)
+        (textHeight 9000)
+        (pathWidth 0)
+      )
+      (figureGroup PORT
+        (pathWidth 1000)
+        (textHeight 9000)
+      )
+      (figureGroup PARTBODY
+        (pathWidth 1000)
+        (borderWidth 1000)
+        (textHeight 6000)
+      )
+    )
+    (cell
+      (rename &100SP1T1B1M7QE "100SP1T1B1M7QE")
+      (cellType GENERIC)
+      (view
+        (rename NORMAL "Normal")
+        (viewType SCHEMATIC)
+        (interface
+          (designator "SW")
+          (property (rename VALUE "Value") (string "100SP1T1B1M7QE"))
+          (port
+            (rename UP "UP")
+            (direction INOUT)
+            (property
+              (rename TYPE "Type")
+              (string "IO")
+            )
+            (designator "1")
+            (property
+              (rename ORDER "Order")
+              (integer 0)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename COM "COM")
+            (direction INOUT)
+            (property
+              (rename TYPE "Type")
+              (string "IO")
+            )
+            (designator "2")
+            (property
+              (rename ORDER "Order")
+              (integer 1)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename DN "DN")
+            (direction INOUT)
+            (property
+              (rename TYPE "Type")
+              (string "IO")
+            )
+            (designator "3")
+            (property
+              (rename ORDER "Order")
+              (integer 2)
+              (owner "OrCAD")
+            )
+          )
+          (symbol
+            (boundingBox (rectangle (pt -140000 -1000) (pt -40000 41000)))
+            (portImplementation
+              (name COM
+                (display PINNAME
+                  (justify CENTERLEFT)
+                  (orientation R0)
+                  (origin (pt -120000 20000))
+                )
+              )
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin (pt -136062 20000))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt -140000 20000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt -140000 20000)
+                    (pt -120000 20000)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name UP
+                (display PINNAME
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin (pt -60000 40000))
+                )
+              )
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERLEFT)
+                  (orientation R0)
+                  (origin (pt -43937 40000))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt -40000 40000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt -40000 40000)
+                    (pt -60000 40000)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name DN
+                (display PINNAME
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin (pt -60000 0))
+                )
+              )
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERLEFT)
+                  (orientation R0)
+                  (origin (pt -43937 0))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt -40000 0)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt -40000 0)
+                    (pt -60000 0)
+                  )
+                )
+              )
+            )
+            (figure PARTBODY
+              (circle (pt -61000 40000) (pt -59000 40000))
+            )
+            (figure PARTBODY
+              (circle (pt -61000 0) (pt -59000 0))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -120000 20000) (pt -100000 20000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -100000 20000) (pt -60000 40000)))
+            )
+            (figure PARTBODY
+              (polygon
+                (pointList
+                  (pt -60000 40000)
+                  (pt -63000 36000)
+                  (pt -65000 40000)
+                )
+              )
+            )
+            (property (rename PCB_Footprint "PCB Footprint") (string "100SP1T1B1M7QE"))
+            (property (rename NC "NC") (string "4,5"))
+          )
+        )
+      )
+    )
+  )
+)

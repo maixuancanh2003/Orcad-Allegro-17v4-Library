@@ -1,87 +1,2109 @@
-\t (00:00:01) allegro 17.4 P001 Windows SPB 64-bit Edition
-\t (00:00:01)     Journal start - Wed Oct 30 09:01:05 2024
-\t (00:00:01)         Host=DESKTOP-OLN9DLP User=Admin Pid=26660 CPUs=8
-\t (00:00:01) CmdLine= c:\cadence\spb_17.4\tools\bin\allegro.exe D:\Allegro\Project\CanhMai\Lib\Schematic_And_FootPrint\Jumper\3pin_254\SAMTEC_MTMM-103-06-S-S-230.dra
-\t (00:00:01) 
-   (00:00:01) Loading axlcore.cxt 
-\t (00:00:01) Opening existing design...
-\i (00:00:05) fillin yes 
-\i (00:00:05) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged SAMTEC_MTMM-103-06-S-S-230
-\d (00:00:05) Design opened: D:/Allegro/Project/CanhMai/Lib/Schematic_And_FootPrint/Jumper/3pin_254/SAMTEC_MTMM-103-06-S-S-230.dra
-\i (00:00:06) trapsize 1496
-\i (00:00:06) trapsize 1543
-\i (00:00:06) trapsize 1496
-\i (00:00:06) trapsize 1511
-\i (00:00:06) trapsize 1511
-\i (00:00:06) generaledit 
-\i (00:00:08) zoom in 1 
-\i (00:00:08) setwindow pcb
-\i (00:00:08) zoom in 4.2365 -0.5497
-\i (00:00:08) trapsize 756
-\i (00:00:09) zoom in 1 
-\i (00:00:09) setwindow pcb
-\i (00:00:09) zoom in 4.2365 -0.5496
-\i (00:00:09) trapsize 378
-\i (00:00:10) zoom out 1 
-\i (00:00:10) setwindow pcb
-\i (00:00:10) zoom out 4.2366 -0.5496
-\i (00:00:10) trapsize 756
-\i (00:00:16) zoom out 1 
-\i (00:00:16) setwindow pcb
-\i (00:00:16) zoom out 0.5486 0.3421
-\i (00:00:16) trapsize 1511
-\i (00:00:17) zoom in 1 
-\i (00:00:17) setwindow pcb
-\i (00:00:17) zoom in -0.1465 -0.8972
-\i (00:00:17) trapsize 756
-\i (00:00:17) zoom in 1 
-\i (00:00:17) setwindow pcb
-\i (00:00:17) zoom in -0.1465 -0.8972
-\i (00:00:17) trapsize 378
-\i (00:00:22) zoom out 1 
-\i (00:00:22) setwindow pcb
-\i (00:00:22) zoom out -0.1314 -1.0106
-\i (00:00:22) trapsize 756
-\i (00:00:24) zoom out 1 
-\i (00:00:24) setwindow pcb
-\i (00:00:24) zoom out 1.5766 -1.9929
-\i (00:00:24) trapsize 1511
-\i (00:00:25) zoom out 1 
-\i (00:00:25) setwindow pcb
-\i (00:00:25) zoom out 2.0904 -0.9954
-\i (00:00:25) trapsize 3023
-\i (00:00:25) zoom in 1 
-\i (00:00:25) setwindow pcb
-\i (00:00:25) zoom in -1.5976 -2.2425
-\i (00:00:25) trapsize 1511
-\i (00:00:25) zoom in 1 
-\i (00:00:25) setwindow pcb
-\i (00:00:25) zoom in -1.5976 -2.2425
-\i (00:00:25) trapsize 756
-\i (00:04:58) step pkg map 
-\i (00:05:21) setwindow form.pkgmap3d
-\i (00:05:21) FORM pkgmap3d namefilter_stp J* 
-\i (00:05:27) FORM pkgmap3d namefilter_stp jum* 
-\i (00:05:28) FORM pkgmap3d stplist jumper254_3p.stp 
-\i (00:05:29) FORM pkgmap3d stplist jumper254_3p.stp 
-\i (00:05:31) FORM pkgmap3d overlay YES 
-\i (00:05:34) FORM pkgmap3d view_orientation Top 
-\i (00:05:53) FORM pkgmap3d view_orientation Front Left 
-\i (00:05:58) FORM pkgmap3d save_current  
-\i (00:05:59) FORM pkgmap3d done  
-\i (00:05:59) setwindow pcb
-\i (00:05:59) generaledit 
-\i (00:06:04) show measure 
-\i (00:06:05) pick grid -0.0408 -0.1416
-\t (00:06:05) last pick:  0.0000 0.0000
-\i (00:06:05) pick grid dbl -0.0408 -0.1416
-\t (00:06:05) last pick:  0.0000 0.0000
-\i (00:06:08) pick grid 1.9694 0.0700
-\t (00:06:08) last pick:  1.9050 0.0000
-\i (00:06:09) setwindow text
-\i (00:06:09) close
-\i (00:06:10) exit 
-\e (00:06:10) Do you want to save the changes you made to SAMTEC_MTMM-103-06-S-S-230.dra?
-\i (00:06:12) fillin yes 
-\t (00:06:12) Symbol 'samtec_mtmm-103-06-s-s-230.psm' created.
-\t (00:06:13)     Journal end - Wed Oct 30 09:07:17 2024
+\t (00:00:02) allegro 17.4 P001 Windows SPB 64-bit Edition
+\t (00:00:02)     Journal start - Sat Nov  2 12:12:38 2024
+\t (00:00:02)         Host=DESKTOP-OLN9DLP User=Admin Pid=43388 CPUs=8
+\t (00:00:02) CmdLine= c:\cadence\spb_17.4\tools\bin\allegro.exe D:\Allegro\Project\CanhMai\Lib\Schematic_And_FootPrint\Jumper\3pin_200\SAMTEC_MTMM-103-06-S-S-230.dra
+\t (00:00:02) 
+   (00:00:02) Loading axlcore.cxt 
+\t (00:00:02) Opening existing design...
+\i (00:02:18) fillin yes 
+\i (00:02:18) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged SAMTEC_MTMM-103-06-S-S-230
+\d (00:02:18) Design opened: D:/Allegro/Project/CanhMai/Lib/Schematic_And_FootPrint/Jumper/3pin_200/SAMTEC_MTMM-103-06-S-S-230.dra
+\i (00:02:19) trapsize 748
+\i (00:02:19) trapsize 771
+\i (00:02:19) trapsize 748
+\i (00:02:19) trapsize 954
+\i (00:02:19) trapsize 954
+\i (00:02:20) etchedit 
+\i (00:02:20) zoom out 1 
+\i (00:02:20) setwindow pcb
+\i (00:02:20) zoom out 2.7869 -0.3635
+\i (00:02:20) trapsize 1909
+\i (00:02:20) zoom out 1 
+\i (00:02:20) setwindow pcb
+\i (00:02:20) zoom out 2.7870 -0.3635
+\i (00:02:20) trapsize 3818
+\i (00:02:21) zoom in 1 
+\i (00:02:21) setwindow pcb
+\i (00:02:21) zoom in 5.0210 -4.2601
+\i (00:02:21) trapsize 1909
+\i (00:02:21) zoom in 1 
+\i (00:02:21) setwindow pcb
+\i (00:02:21) zoom in 4.9064 -1.8263
+\i (00:02:21) trapsize 954
+\i (00:02:21) zoom out 1 
+\i (00:02:21) setwindow pcb
+\i (00:02:21) zoom out 1.8711 -0.0509
+\i (00:02:21) trapsize 1909
+\i (00:02:22) zoom in 1 
+\i (00:02:22) setwindow pcb
+\i (00:02:22) zoom in -1.2978 1.5336
+\i (00:02:22) trapsize 954
+\i (00:02:23) 3d 
+\i (00:02:24) etchedit 
+\i (00:02:25) QtSignal pcb3dViewer pcb3dViewerCanvas keyPressEvent 16777248 33554432 false 1
+\i (00:02:25) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasMousePressEvent 772 268 772 333 4 4 33554432 +
+\i (00:02:25) QtSignal 286.997 -385.145 146.278
+\i (00:02:25) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 286.997 -385.145 146.278 +
+\i (00:02:25) QtSignal 287.917 -384.225 146.278
+\i (00:02:26) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 288.99 -385.32 147.164 287.597 +
+\i (00:02:26) QtSignal -385.766 148.278
+\i (00:02:26) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 287.585 -385.732 148.241 +
+\i (00:02:26) QtSignal 286.694 -384.841 150.515
+\i (00:02:26) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 288.875 -387.022 152.155 +
+\i (00:02:26) QtSignal 287.121 -387.107 154.47
+\i (00:02:26) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 288.345 -388.264 155.258 +
+\i (00:02:26) QtSignal 284.725 -386.475 163.513
+\i (00:02:26) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 292.911 -394.053 167.791 +
+\i (00:02:26) QtSignal 290.623 -393.558 173.99
+\i (00:02:26) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 296.841 -399.125 176.223 +
+\i (00:02:26) QtSignal 296.444 -398.694 178.755
+\i (00:02:26) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 299.511 -401.455 179.63 298.307 +
+\i (00:02:26) QtSignal -402.046 182.208
+\i (00:02:26) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 300.29 -403.754 182.637 300.027 +
+\i (00:02:26) QtSignal -403.441 185.204
+\i (00:02:26) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 303.312 -406.304 185.812 +
+\i (00:02:26) QtSignal 302.259 -407.028 188.423
+\i (00:02:26) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 304.443 -408.851 188.689 +
+\i (00:02:26) QtSignal 304.38 -408.753 189.983
+\i (00:02:26) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 306.108 -410.211 190.158 +
+\i (00:02:26) QtSignal 305.13 -410.953 194.08
+\i (00:02:26) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 309.317 -414.353 194.263 +
+\i (00:02:26) QtSignal 308.494 -415.359 194.298
+\i (00:02:26) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 307.255 -414.365 194.274 +
+\i (00:02:26) QtSignal 307.262 -414.325 195.573
+\i (00:02:26) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 309.114 -415.785 195.588 +
+\i (00:02:26) QtSignal 308.308 -416.806 195.624
+\i (00:02:26) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 307.07 -415.846 195.628 307.095 +
+\i (00:02:26) QtSignal -415.82 196.927
+\i (00:02:26) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 308.99 -417.263 196.9 308.245 +
+\i (00:02:26) QtSignal -418.285 198.234
+\i (00:02:26) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 308.946 -418.784 198.195 +
+\i (00:02:26) QtSignal 308.298 -419.834 200.827
+\i (00:02:26) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 311.055 -421.775 200.61 311.055 +
+\i (00:02:26) QtSignal -421.775 200.61
+\i (00:02:26) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 311.055 -421.775 200.61 309.651 +
+\i (00:02:26) QtSignal -423.925 201.975
+\i (00:02:26) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 309.28 -423.619 201.988 308.8 +
+\i (00:02:26) QtSignal -424.785 204.606
+\i (00:02:26) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 311.809 -426.683 204.189 +
+\i (00:02:26) QtSignal 311.579 -427.973 208.084
+\i (00:02:26) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 316.913 -431.225 207.078 +
+\i (00:02:26) QtSignal 316.661 -432.533 209.661
+\i (00:02:26) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 319.92 -434.439 208.879 320.17 +
+\i (00:02:26) QtSignal -434.561 210.149
+\i (00:02:26) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 322.399 -435.875 209.56 322.164 +
+\i (00:02:26) QtSignal -438.651 214.661
+\i (00:02:26) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 329.159 -442.397 212.384 +
+\i (00:02:26) QtSignal 329.159 -442.397 212.384
+\i (00:02:26) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 329.159 -442.397 212.384 +
+\i (00:02:26) QtSignal 329.505 -442.571 213.625
+\i (00:02:26) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 331.819 -443.829 212.777 +
+\i (00:02:26) QtSignal 332.184 -444.013 214.01
+\i (00:02:26) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 334.504 -445.275 213.108 +
+\i (00:02:26) QtSignal 334.888 -445.47 214.335
+\i (00:02:26) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 337.211 -446.734 213.38 337.802 +
+\i (00:02:26) QtSignal -448.494 217.046
+\i (00:02:26) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 343.808 -451.606 214.295 +
+\i (00:02:26) QtSignal 344.126 -453.229 216.685
+\i (00:02:26) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 347.824 -455.052 214.794 +
+\i (00:02:26) QtSignal 348.816 -455.557 217.143
+\i (00:02:26) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 353.585 -457.924 214.504 +
+\i (00:02:26) QtSignal 354.069 -459.629 216.808
+\i (00:02:26) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 357.838 -461.393 214.538 +
+\i (00:02:26) QtSignal 360.68 -462.832 220.201
+\i (00:02:26) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 372.706 -468.489 211.946 +
+\i (00:02:26) QtSignal 373.455 -470.319 214.076
+\i (00:02:26) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 377.237 -471.982 211.121 +
+\i (00:02:26) QtSignal 380.684 -473.701 216.354
+\i (00:02:26) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 392.403 -478.866 206.048 +
+\i (00:02:26) QtSignal 393.398 -480.805 207.97
+\i (00:02:26) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 397.1 -482.31 204.308 398.702 +
+\i (00:02:26) QtSignal -483.094 206.198
+\i (00:02:26) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 403.183 -484.92 201.479 404.845 +
+\i (00:02:26) QtSignal -485.729 203.306
+\i (00:02:26) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 409.233 -487.505 198.355 +
+\i (00:02:26) QtSignal 410.954 -488.337 200.116
+\i (00:02:26) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 415.24 -490.059 194.936 418.264 +
+\i (00:02:26) QtSignal -492.956 198.28
+\i (00:02:26) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 425.898 -495.728 188.108 +
+\i (00:02:26) QtSignal 425.898 -495.728 188.108
+\i (00:02:26) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 425.898 -495.728 188.108 +
+\i (00:02:26) QtSignal 426.84 -496.175 188.884
+\i (00:02:26) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 428.836 -496.892 185.995 +
+\i (00:02:26) QtSignal 429.791 -497.343 186.753
+\i (00:02:26) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 431.754 -498.043 183.81 433.688 +
+\i (00:02:26) QtSignal -498.954 185.288
+\i (00:02:26) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 437.52 -500.303 179.22 437.005 +
+\i (00:02:26) QtSignal -501.495 179.16
+\i (00:02:26) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 436.385 -501.29 180.17 436.385 +
+\i (00:02:26) QtSignal -501.29 180.17
+\i (00:02:26) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 436.385 -501.29 180.17 438.366 +
+\i (00:02:26) QtSignal -502.219 181.573
+\i (00:02:26) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 442.1 -503.374 175.297 442.61 +
+\i (00:02:26) QtSignal -505.041 175.88
+\i (00:02:26) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 443.854 -505.36 173.689 444.424 +
+\i (00:02:26) QtSignal -509.906 174.678
+\i (00:02:26) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 446.464 -510.109 171.016 +
+\i (00:02:26) QtSignal 447.639 -513.477 171.908
+\i (00:02:26) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 450.221 -513.579 167.067 +
+\i (00:02:26) QtSignal 451.483 -516.954 167.8
+\i (00:02:26) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 454.053 -516.806 162.748 +
+\i (00:02:26) QtSignal 454.983 -521.389 163.082
+\i (00:02:26) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 457.155 -520.909 158.666 +
+\i (00:02:26) QtSignal 457.155 -520.909 158.666
+\i (00:02:26) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 457.155 -520.909 158.666 +
+\i (00:02:26) QtSignal 457.831 -526.681 158.439
+\i (00:02:26) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 459.738 -525.852 154.506 +
+\i (00:02:26) QtSignal 459.738 -525.852 154.506
+\i (00:02:26) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 459.738 -525.852 154.506 +
+\i (00:02:26) QtSignal 460.521 -527.514 154.57
+\i (00:02:26) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 461.816 -526.936 151.78 461.479 +
+\i (00:02:26) QtSignal -528.127 151.38
+\i (00:02:26) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 461.145 -528.285 152.109 +
+\i (00:02:26) QtSignal 460.818 -529.471 151.689
+\i (00:02:26) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 460.489 -529.637 152.393 +
+\i (00:02:26) QtSignal 461.31 -531.282 152.376
+\i (00:02:26) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 462.635 -530.514 149.543 +
+\i (00:02:26) QtSignal 464.006 -534.96 148.969
+\i (00:02:26) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 466.38 -533.156 143.802 466.38 +
+\i (00:02:26) QtSignal -533.156 143.802
+\i (00:02:26) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 466.38 -533.156 143.802 466.1 +
+\i (00:02:26) QtSignal -534.315 143.283
+\i (00:02:26) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 465.836 -534.523 143.875 +
+\i (00:02:26) QtSignal 466.731 -536.12 143.699
+\i (00:02:26) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 468.037 -534.984 140.771 +
+\i (00:02:26) QtSignal 467.775 -536.128 140.212
+\i (00:02:26) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 467.534 -536.346 140.759 +
+\i (00:02:26) QtSignal 468.708 -536.783 141.103
+\i (00:02:26) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 470.231 -535.341 137.6 470.907 +
+\i (00:02:26) QtSignal -538.044 136.768
+\i (00:02:26) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 471.965 -536.885 134.299 +
+\i (00:02:26) QtSignal 472.92 -538.425 133.988
+\i (00:02:26) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 474.165 -536.96 130.991 473.936 +
+\i (00:02:26) QtSignal -538.071 130.355
+\i (00:02:26) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 473.749 -538.299 130.812 +
+\i (00:02:26) QtSignal 473.528 -539.401 130.157
+\i (00:02:26) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 473.347 -539.628 130.591 +
+\i (00:02:26) QtSignal 473.133 -540.72 129.917
+\i (00:02:26) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 472.959 -540.944 130.327 +
+\i (00:02:26) QtSignal 473.953 -542.436 129.921
+\i (00:02:26) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 475.221 -540.69 126.948 475.024 +
+\i (00:02:26) QtSignal -541.761 126.236
+\i (00:02:26) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 474.87 -541.981 126.603 474.491 +
+\i (00:02:26) QtSignal -544.101 125.144
+\i (00:02:26) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 474.211 -544.513 125.791 +
+\i (00:02:26) QtSignal 473.341 -549.698 121.964
+\i (00:02:26) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 472.823 -550.514 123.078 +
+\i (00:02:26) QtSignal 472.421 -553.437 120.525
+\i (00:02:26) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 472.177 -553.849 121.008 +
+\i (00:02:26) QtSignal 470.422 -558.114 116.243
+\i (00:02:26) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 468.668 -561.303 119.209 +
+\i (00:02:26) QtSignal 467.264 -563.463 116.003
+\i (00:02:26) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 465.598 -566.475 118.482 +
+\i (00:02:26) QtSignal 464.197 -570.098 113.108
+\i (00:02:26) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 462.658 -572.936 115.001 +
+\i (00:02:26) QtSignal 461.488 -574.671 111.461
+\i (00:02:26) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 459.931 -577.518 113.135 +
+\i (00:02:26) QtSignal 456.643 -580.847 104.407
+\i (00:02:26) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 452.136 -589.042 107.701 +
+\i (00:02:26) QtSignal 451.297 -590.162 103.834
+\i (00:02:26) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 449.919 -592.561 104.635 +
+\i (00:02:26) QtSignal 449.319 -593.986 99.5008
+\i (00:02:26) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 448.283 -595.806 99.9035 +
+\i (00:02:26) QtSignal 447.517 -596.076 97.1115
+\i (00:02:26) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 446.068 -598.566 97.6225 +
+\i (00:02:26) QtSignal 445.358 -598.74 94.8083
+\i (00:02:26) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 443.939 -601.137 95.1904 +
+\i (00:02:26) QtSignal 443.939 -601.137 95.1904
+\i (00:02:26) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 443.939 -601.137 95.1904 +
+\i (00:02:26) QtSignal 444.16 -601.475 93.9542
+\i (00:02:26) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 444.449 -600.992 93.879 444.681 +
+\i (00:02:26) QtSignal -601.311 92.6397
+\i (00:02:26) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 444.979 -600.807 92.5713 +
+\i (00:02:26) QtSignal 444.128 -600.507 90.9698
+\i (00:02:26) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 442.465 -603.303 91.2521 +
+\i (00:02:26) QtSignal 441.637 -602.965 89.6463
+\i (00:02:26) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 439.961 -605.707 89.8549 +
+\i (00:02:26) QtSignal 439.961 -605.707 89.8549
+\i (00:02:26) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 439.961 -605.707 89.8549 +
+\i (00:02:26) QtSignal 440.229 -605.968 88.6091
+\i (00:02:26) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 440.574 -605.408 88.5721 +
+\i (00:02:26) QtSignal 439.501 -604.77 88.2089
+\i (00:02:26) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 437.471 -608.017 88.3826 +
+\i (00:02:26) QtSignal 436.41 -607.36 88.0183
+\i (00:02:26) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 434.337 -610.553 88.1723 +
+\i (00:02:26) QtSignal 433.568 -610.118 86.56
+\i (00:02:26) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 431.843 -612.701 86.6109 +
+\i (00:02:26) QtSignal 431.099 -612.229 84.9975
+\i (00:02:27) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 429.368 -614.754 84.981 429.672 +
+\i (00:02:27) QtSignal -614.957 83.733
+\i (00:02:27) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 430.085 -614.36 83.743 429.38 +
+\i (00:02:27) QtSignal -613.831 82.1298
+\i (00:02:27) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 427.672 -616.286 81.9981 +
+\i (00:02:27) QtSignal 426.662 -615.553 81.6335
+\i (00:02:27) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 424.494 -618.571 81.4617 +
+\i (00:02:27) QtSignal 423.827 -617.986 79.8512
+\i (00:02:27) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 422.092 -620.332 79.6446 +
+\i (00:02:27) QtSignal 420.812 -619.09 76.4292
+\i (00:02:27) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 417.386 -623.56 75.7792 417.756 +
+\i (00:02:27) QtSignal -623.671 74.5374
+\i (00:02:27) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 418.271 -623.015 74.6395 +
+\i (00:02:27) QtSignal 416.743 -621.499 72.6864
+\i (00:02:27) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 412.814 -626.392 71.7144 +
+\i (00:02:27) QtSignal 411.357 -624.788 69.7781
+\i (00:02:27) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 407.376 -629.458 68.6612 +
+\i (00:02:27) QtSignal 406.889 -628.642 67.0869
+\i (00:02:27) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 405.178 -630.567 66.5495 +
+\i (00:02:27) QtSignal 404.721 -629.718 64.984
+\i (00:02:27) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 403.024 -631.579 64.4013 +
+\i (00:02:27) QtSignal 402.596 -630.697 62.8457
+\i (00:02:27) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 400.914 -632.494 62.2199 +
+\i (00:02:27) QtSignal 400.517 -631.58 60.6751
+\i (00:02:27) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 398.852 -633.315 60.0085 +
+\i (00:02:27) QtSignal 398.013 -632.376 59.6874
+\i (00:02:27) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 395.677 -634.737 58.7651 +
+\i (00:02:27) QtSignal 394.972 -632.815 55.711
+\i (00:02:27) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 391.721 -635.954 54.2116 +
+\i (00:02:27) QtSignal 391.43 -634.932 52.7114
+\i (00:02:27) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 389.816 -636.43 51.9342 390.334 +
+\i (00:02:27) QtSignal -636.378 50.7424
+\i (00:02:27) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 391.072 -635.698 51.1033 +
+\i (00:02:27) QtSignal 390.828 -634.631 49.6254
+\i (00:02:27) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 389.27 -636.051 48.7892 389.819 +
+\i (00:02:27) QtSignal -635.97 47.6131
+\i (00:02:27) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 390.585 -635.278 48.0289 +
+\i (00:02:27) QtSignal 389.823 -634.264 47.7435
+\i (00:02:27) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 387.525 -636.314 46.4645 +
+\i (00:02:27) QtSignal 389.219 -636.027 42.9616
+\i (00:02:27) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 391.636 -633.882 44.4091 +
+\i (00:02:27) QtSignal 392.112 -632.581 41.8528
+\i (00:02:27) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 391.555 -633.069 41.4122 +
+\i (00:02:27) QtSignal 392.196 -632.905 40.2927
+\i (00:02:27) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 393.019 -632.175 40.8837 +
+\i (00:02:27) QtSignal 395.569 -630.248 35.0738
+\i (00:02:27) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 397.856 -628.171 36.7716 +
+\i (00:02:27) QtSignal 399.312 -627.686 34.6716
+\i (00:02:27) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 401.024 -626.134 36.2781 +
+\i (00:02:27) QtSignal 403.291 -625.331 33.2058
+\i (00:02:27) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 405.87 -622.93 35.8837 408.256 +
+\i (00:02:27) QtSignal -622.016 32.935
+\i (00:02:27) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 410.806 -619.562 35.9197 +
+\i (00:02:27) QtSignal 414.022 -619.593 33.3563
+\i (00:02:27) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 418.162 -615.388 38.97 435.413 +
+\i (00:02:27) QtSignal -617.418 28.3608
+\i (00:02:27) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 453.119 -592.587 69.3649 +
+\i (00:02:27) QtSignal 461.639 -590.811 65.6399
+\i (00:02:27) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 465.479 -579.961 83.9539 +
+\i (00:02:27) QtSignal 465.479 -579.961 83.9539
+\i (00:02:27) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 465.479 -579.961 83.954 470.899 +
+\i (00:02:27) QtSignal -580.96 83.7337
+\i (00:02:27) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 472.346 -572.43 98.6168 482.977 +
+\i (00:02:27) QtSignal -570.01 96.477
+\i (00:02:27) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 482.163 -555.988 122.559 +
+\i (00:02:27) QtSignal 487.86 -554.821 122.495
+\i (00:02:27) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 485.596 -547.044 137.559 +
+\i (00:02:27) QtSignal 493.805 -546.612 138.877
+\i (00:02:27) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 487.451 -534.563 163.163 +
+\i (00:02:27) QtSignal 490.203 -533.739 163.609
+\i (00:02:27) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 487.558 -529.792 171.235 +
+\i (00:02:27) QtSignal 490.278 -528.917 171.777
+\i (00:02:27) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 487.268 -525.027 179.432 +
+\i (00:02:27) QtSignal 488.242 -524.167 179.393
+\i (00:02:27) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 487.305 -523.042 181.609 +
+\i (00:02:27) QtSignal 489.237 -521.301 181.569
+\i (00:02:27) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 487.227 -519.108 186.078 +
+\i (00:02:27) QtSignal 489.86 -518.128 186.83
+\i (00:02:27) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 486.076 -514.582 194.608 +
+\i (00:02:27) QtSignal 486.076 -514.582 194.608
+\i (00:02:27) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 486.076 -514.582 194.608 +
+\i (00:02:27) QtSignal 487.007 -513.676 194.663
+\i (00:02:27) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 485.827 -512.639 196.944 +
+\i (00:02:27) QtSignal 488.394 -511.599 197.827
+\i (00:02:27) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 484.101 -508.241 205.616 +
+\i (00:02:27) QtSignal 485.002 -507.31 205.728
+\i (00:02:27) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 483.661 -506.323 208.026 +
+\i (00:02:27) QtSignal 485.266 -506.166 208.909
+\i (00:02:27) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 481.949 -503.903 214.348 +
+\i (00:02:27) QtSignal 482.828 -502.956 214.497
+\i (00:02:27) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 481.37 -501.996 216.791 482.238 +
+\i (00:02:27) QtSignal -501.042 216.957
+\i (00:02:27) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 480.735 -500.111 219.263 +
+\i (00:02:27) QtSignal 482.294 -499.924 220.218
+\i (00:02:27) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 478.63 -497.823 225.613 480.856 +
+\i (00:02:27) QtSignal -498.39 227.393
+\i (00:02:27) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 474.753 -495.042 235.767 +
+\i (00:02:27) QtSignal 477.082 -493.845 237.031
+\i (00:02:27) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 471.185 -490.827 244.5 474.751 +
+\i (00:02:27) QtSignal -491.089 247.53
+\i (00:02:27) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 463.235 -485.792 260.673 +
+\i (00:02:27) QtSignal 470.772 -485.143 267.445
+\i (00:02:27) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 441.885 -474.168 294.259 +
+\i (00:02:27) QtSignal 445.835 -475.556 299.868
+\i (00:02:27) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 424.195 -467.532 315.607 +
+\i (00:02:27) QtSignal 428.124 -465.323 320.291
+\i (00:02:27) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 406.434 -458.075 333.255 +
+\i (00:02:27) QtSignal 413.633 -458.044 346.594
+\i (00:02:27) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 354.004 -442.337 371.404 +
+\i (00:02:27) QtSignal 358.434 -438.716 382.932
+\i (00:02:27) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 302.562 -426.526 394.561 +
+\i (00:02:27) QtSignal 305.525 -420.714 408.792
+\i (00:02:27) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 232.698 -410.943 410.678 +
+\i (00:02:27) QtSignal 232.719 -408.5 414.679
+\i (00:02:27) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 211.423 -406.094 412.403 +
+\i (00:02:27) QtSignal 210.995 -398.782 421.438
+\i (00:02:27) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 159.371 -397.347 411.572 +
+\i (00:02:27) QtSignal 159.371 -397.347 411.572
+\i (00:02:27) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 159.371 -397.347 411.572 +
+\i (00:02:27) QtSignal 157.957 -394.188 417.075
+\i (00:02:27) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 127.352 -395.178 407.928 +
+\i (00:02:27) QtSignal 126.559 -393.34 410.038
+\i (00:02:27) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 113.859 -394.04 405.445 111.555 +
+\i (00:02:27) QtSignal -388.009 410.54
+\i (00:02:27) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 78.3109 -392.177 396.608 +
+\i (00:02:27) QtSignal 76.6849 -390.92 399.657
+\i (00:02:27) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 59.66 -393.929 391.218 58.3481 +
+\i (00:02:27) QtSignal -392.152 393.109
+\i (00:02:27) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 46.17 -394.588 386.453 43.3498 +
+\i (00:02:27) QtSignal -391.073 390.129
+\i (00:02:27) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 19.4493 -397.26 375.634 17.849 +
+\i (00:02:27) QtSignal -395.55 377.358
+\i (00:02:27) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 6.25551 -399.05 369.51 5.13481 +
+\i (00:02:27) QtSignal -398.493 370.857
+\i (00:02:27) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent -2.66299 -401.031 365.243 +
+\i (00:02:27) QtSignal -3.25191 -399.911 365.546
+\i (00:02:27) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent -6.798 -401.107 362.896 -7.97192 +
+\i (00:02:27) QtSignal -400.567 364.205
+\i (00:02:27) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent -15.5858 -403.345 358.337 +
+\i (00:02:27) QtSignal -18.0026 -402.291 360.9
+\i (00:02:27) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent -32.862 -408.225 348.585 +
+\i (00:02:27) QtSignal -33.5197 -407.131 348.834
+\i (00:02:27) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent -36.8657 -408.517 345.877 +
+\i (00:02:27) QtSignal -37.4834 -409.111 346.854
+\i (00:02:27) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent -41.3474 -410.75 343.352 +
+\i (00:02:27) QtSignal -41.981 -411.35 344.314
+\i (00:02:27) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent -45.8144 -412.951 340.727 +
+\i (00:02:27) QtSignal -46.4883 -411.864 340.962
+\i (00:02:27) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent -49.7281 -413.25 337.853 +
+\i (00:02:27) QtSignal -50.3776 -413.857 338.801
+\i (00:02:27) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent -54.1282 -415.5 335.112 -54.8178 +
+\i (00:02:27) QtSignal -414.419 335.332
+\i (00:02:27) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent -57.9878 -415.841 332.135 +
+\i (00:02:27) QtSignal -58.6528 -416.455 333.068
+\i (00:02:27) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent -62.3177 -418.139 329.278 +
+\i (00:02:27) QtSignal -62.9977 -418.76 330.195
+\i (00:02:27) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent -66.627 -420.405 326.322 +
+\i (00:02:27) QtSignal -67.3218 -421.032 327.223
+\i (00:02:27) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent -70.9137 -422.637 323.266 +
+\i (00:02:27) QtSignal -71.6185 -421.563 323.471
+\i (00:02:27) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent -74.6275 -422.941 320.072 +
+\i (00:02:27) QtSignal -76.0659 -420.806 320.448
+\i (00:02:27) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent -82.0019 -423.794 313.55 +
+\i (00:02:27) QtSignal -84.9532 -421.269 314.902
+\i (00:02:27) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent -96.8326 -428.365 300.225 +
+\i (00:02:27) QtSignal -99.1959 -425.277 300.543
+\i (00:02:27) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent -107.37 -430.892 289.59 -111.497 +
+\i (00:02:27) QtSignal -425.875 289.869
+\i (00:02:27) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent -124.307 -436.797 271.134 +
+\i (00:02:27) QtSignal -126.073 -434.889 271.076
+\i (00:02:27) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent -130.827 -439.757 263.52 +
+\i (00:02:27) QtSignal -132.636 -437.892 263.395
+\i (00:02:27) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent -137.183 -443.061 255.789 +
+\i (00:02:27) QtSignal -139.957 -440.333 255.501
+\i (00:02:28) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent -146.383 -448.663 243.993 +
+\i (00:02:28) QtSignal -148.518 -445.401 242.686
+\i (00:02:28) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent -152.419 -451.099 235.152 +
+\i (00:02:28) QtSignal -153.397 -450.265 234.956
+\i (00:02:28) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent -155.287 -453.441 231.173 +
+\i (00:02:28) QtSignal -156.273 -452.62 230.96
+\i (00:02:28) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent -158.1 -455.868 227.176 -158.38 +
+\i (00:02:28) QtSignal -454.432 226.063
+\i (00:02:28) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent -158.317 -454.24 226.178 +
+\i (00:02:28) QtSignal -157.61 -453.626 225.278
+\i (00:02:28) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent -155.738 -450.083 229.095 +
+\i (00:02:28) QtSignal -155.039 -449.482 228.178
+\i (00:02:28) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent -153.123 -445.91 231.912 +
+\i (00:02:28) QtSignal -152.432 -445.324 230.98
+\i (00:02:28) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent -150.472 -441.723 234.63 +
+\i (00:02:28) QtSignal -149.789 -441.152 233.683
+\i (00:02:28) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent -147.788 -437.524 237.248 +
+\i (00:02:28) QtSignal -146.111 -437.761 236.531
+\i (00:02:28) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent -141.992 -430.649 243.467 +
+\i (00:02:28) QtSignal -140.999 -431.457 243.697
+\i (00:02:28) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent -138.885 -427.973 247.068 +
+\i (00:02:28) QtSignal -134.919 -427.997 244.571
+\i (00:02:28) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent -123.332 -410.922 261.369 +
+\i (00:02:28) QtSignal -123.332 -410.922 261.369
+\i (00:02:28) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent -123.333 -410.922 261.369 +
+\i (00:02:28) QtSignal -121.732 -411.277 260.536
+\i (00:02:28) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent -116.756 -404.461 266.907 +
+\i (00:02:28) QtSignal -115.177 -404.846 266.047
+\i (00:02:28) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent -110 -398.113 272.268 -109.386 +
+\i (00:02:28) QtSignal -397.645 271.223
+\i (00:02:28) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent -106.705 -394.225 274.269 +
+\i (00:02:28) QtSignal -105.159 -394.653 273.37
+\i (00:02:28) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent -99.7122 -387.958 279.278 +
+\i (00:02:28) QtSignal -99.122 -387.519 278.206
+\i (00:02:28) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent -96.3131 -384.128 281.087 +
+\i (00:02:28) QtSignal -95.3816 -385.024 281.233
+\i (00:02:28) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent -92.579 -381.719 284.021 +
+\i (00:02:28) QtSignal -90.5036 -381.781 281.988
+\i (00:02:28) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent -81.7025 -371.996 290.293 +
+\i (00:02:28) QtSignal -80.2438 -372.525 289.307
+\i (00:02:28) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent -74.1815 -366.078 294.579 +
+\i (00:02:28) QtSignal -73.6427 -365.696 293.46
+\i (00:02:28) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent -70.5369 -362.443 296.011 +
+\i (00:02:28) QtSignal -69.6437 -363.381 296.121
+\i (00:02:28) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent -66.5418 -360.202 298.595 +
+\i (00:02:28) QtSignal -66.0166 -359.835 297.464
+\i (00:02:28) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent -62.827 -356.635 299.934 +
+\i (00:02:28) QtSignal -61.4364 -357.235 298.891
+\i (00:02:28) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent -54.9827 -350.966 303.67 +
+\i (00:02:28) QtSignal -54.486 -350.627 302.518
+\i (00:02:28) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent -51.1955 -347.474 304.815 +
+\i (00:02:28) QtSignal -50.7135 -347.149 303.653
+\i (00:02:28) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent -47.405 -343.987 305.86 -46.0726 +
+\i (00:02:28) QtSignal -344.643 304.776
+\i (00:02:28) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent -39.3621 -338.428 309.052 +
+\i (00:02:28) QtSignal -38.0598 -339.112 307.949
+\i (00:02:28) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent -31.204 -333.017 312.057 +
+\i (00:02:28) QtSignal -29.9327 -333.728 310.936
+\i (00:02:28) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent -22.937 -327.756 314.874 +
+\i (00:02:28) QtSignal -21.6974 -328.494 313.735
+\i (00:02:28) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent -14.5677 -322.648 317.503 +
+\i (00:02:28) QtSignal -12.9563 -323.156 315.138
+\i (00:02:28) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent -2.05045 -314.597 320.421 +
+\i (00:02:28) QtSignal -2.05045 -314.597 320.421
+\i (00:02:28) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent -2.05048 -314.597 320.421 +
+\i (00:02:28) QtSignal -0.893417 -315.401 319.24
+\i (00:02:28) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 6.51935 -309.796 322.496 +
+\i (00:02:28) QtSignal 6.87295 -309.578 321.265
+\i (00:02:28) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 10.6028 -306.789 322.784 +
+\i (00:02:28) QtSignal 11.7085 -307.632 321.581
+\i (00:02:28) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 19.262 -302.147 324.495 19.5807 +
+\i (00:02:28) QtSignal -301.955 323.25
+\i (00:02:28) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 23.3683 -299.234 324.596 +
+\i (00:02:28) QtSignal 24.1202 -300.294 324.624
+\i (00:02:28) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 27.9628 -297.588 325.937 +
+\i (00:02:28) QtSignal 28.2639 -297.408 324.685
+\i (00:02:28) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 32.1015 -294.757 325.945 +
+\i (00:02:28) QtSignal 33.1184 -295.664 324.71
+\i (00:02:28) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 40.8948 -290.449 327.11 41.8753 +
+\i (00:02:28) QtSignal -291.38 325.864
+\i (00:02:28) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 49.7418 -286.309 328.092 +
+\i (00:02:28) QtSignal 50.4391 -287.407 328.103
+\i (00:02:28) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 54.4197 -284.917 329.157 +
+\i (00:02:28) QtSignal 55.3443 -285.884 327.895
+\i (00:02:28) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 63.3627 -281.115 329.947 +
+\i (00:02:28) QtSignal 63.5896 -280.983 328.674
+\i (00:02:28) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 67.5974 -278.623 329.591 +
+\i (00:02:28) QtSignal 68.4647 -279.624 328.315
+\i (00:02:28) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 76.5658 -274.998 330.027 +
+\i (00:02:28) QtSignal 77.3943 -276.021 328.744
+\i (00:02:28) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 85.5614 -271.547 330.285 +
+\i (00:02:28) QtSignal 86.3507 -272.591 328.994
+\i (00:02:28) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 94.578 -268.271 330.365 95.3276 +
+\i (00:02:28) QtSignal -269.336 329.067
+\i (00:02:28) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 103.609 -265.17 330.269 104.19 +
+\i (00:02:28) QtSignal -266.333 330.256
+\i (00:02:28) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 108.366 -264.3 330.795 108.927 +
+\i (00:02:28) QtSignal -265.474 330.78
+\i (00:02:28) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 113.118 -263.524 331.316 +
+\i (00:02:28) QtSignal 113.246 -263.446 330.025
+\i (00:02:28) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 117.434 -261.541 330.517 +
+\i (00:02:28) QtSignal 118.082 -262.655 329.206
+\i (00:02:28) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 126.501 -258.958 330.066 +
+\i (00:02:28) QtSignal 127.107 -260.09 328.751
+\i (00:02:28) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 135.559 -256.551 329.445 +
+\i (00:02:28) QtSignal 136.124 -257.7 328.126
+\i (00:02:28) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 144.604 -254.319 328.655 +
+\i (00:02:28) QtSignal 145.127 -255.486 327.333
+\i (00:02:28) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 153.628 -252.264 327.698 +
+\i (00:02:28) QtSignal 154.108 -253.446 326.374
+\i (00:02:28) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 162.625 -250.384 326.576 +
+\i (00:02:28) QtSignal 163.06 -251.61 326.551
+\i (00:02:28) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 167.33 -250.136 326.591 167.746 +
+\i (00:02:28) QtSignal -251.341 325.267
+\i (00:02:28) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 176.302 -248.596 325.304 +
+\i (00:02:28) QtSignal 176.675 -249.815 323.979
+\i (00:02:28) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 185.232 -247.229 323.857 +
+\i (00:02:28) QtSignal 185.561 -248.461 322.533
+\i (00:02:28) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 194.114 -246.036 322.254 +
+\i (00:02:28) QtSignal 194.4 -247.281 320.931
+\i (00:02:28) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 202.943 -245.015 320.496 +
+\i (00:02:28) QtSignal 203.185 -246.271 319.175
+\i (00:02:28) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 211.713 -244.166 318.586 +
+\i (00:02:28) QtSignal 211.607 -244.169 317.291
+\i (00:02:28) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 215.844 -243.141 316.902 +
+\i (00:02:28) QtSignal 216.148 -244.405 316.88
+\i (00:02:28) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 220.394 -243.414 316.453 +
+\i (00:02:28) QtSignal 220.677 -244.683 316.433
+\i (00:02:28) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 224.917 -243.771 316.006 +
+\i (00:02:28) QtSignal 225.049 -245.053 314.695
+\i (00:02:28) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 233.538 -243.421 313.805 +
+\i (00:02:28) QtSignal 233.776 -244.699 313.789
+\i (00:02:28) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 237.993 -243.945 313.29 238.059 +
+\i (00:02:28) QtSignal -245.239 311.987
+\i (00:02:28) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 246.516 -243.917 310.95 246.537 +
+\i (00:02:28) QtSignal -245.219 309.652
+\i (00:02:28) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 254.952 -244.054 308.471 +
+\i (00:02:28) QtSignal 254.928 -245.362 307.179
+\i (00:02:28) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 263.296 -244.353 305.857 +
+\i (00:02:28) QtSignal 263.445 -245.645 305.853
+\i (00:02:28) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 267.583 -245.201 305.144 +
+\i (00:02:28) QtSignal 267.711 -246.495 305.144
+\i (00:02:29) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 271.834 -246.127 304.439 +
+\i (00:02:29) QtSignal 271.722 -247.444 303.161
+\i (00:02:29) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 280.017 -246.888 301.708 +
+\i (00:02:29) QtSignal 280.1 -248.186 301.715
+\i (00:02:29) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 284.176 -247.968 300.947 +
+\i (00:02:29) QtSignal 283.997 -249.289 299.682
+\i (00:02:29) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 292.214 -249.032 298.098 +
+\i (00:02:29) QtSignal 292.252 -250.332 298.114
+\i (00:02:29) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 296.276 -250.261 297.286 +
+\i (00:02:29) QtSignal 296.291 -251.561 297.306
+\i (00:02:29) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 300.293 -251.561 296.483 +
+\i (00:02:29) QtSignal 300.287 -252.861 296.508
+\i (00:02:29) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 304.266 -252.932 295.691 +
+\i (00:02:29) QtSignal 304.209 -255.532 295.75
+\i (00:02:29) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 312.073 -255.882 294.14 311.738 +
+\i (00:02:29) QtSignal -257.203 292.906
+\i (00:02:29) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 319.756 -257.814 291.23 319.66 +
+\i (00:02:29) QtSignal -259.11 291.274
+\i (00:02:29) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 323.523 -259.458 290.415 +
+\i (00:02:29) QtSignal 323.171 -263.341 290.559
+\i (00:02:29) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 334.519 -264.771 288.043 +
+\i (00:02:29) QtSignal 334.519 -264.771 288.043
+\i (00:02:29) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 334.519 -264.771 288.043 +
+\i (00:02:29) QtSignal 334.335 -266.057 288.106
+\i (00:02:29) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 338.078 -266.665 287.278 +
+\i (00:02:29) QtSignal 337.384 -269.252 286.146
+\i (00:02:29) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 348.757 -271.49 283.6 348.757 +
+\i (00:02:29) QtSignal -271.49 283.6
+\i (00:02:29) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 348.757 -271.49 283.6 348.508 +
+\i (00:02:29) QtSignal -272.765 283.677
+\i (00:02:29) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 352.136 -273.559 282.811 +
+\i (00:02:29) QtSignal 351.865 -274.829 282.893
+\i (00:02:29) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 355.457 -275.684 282.036 +
+\i (00:02:29) QtSignal 355.165 -276.948 282.123
+\i (00:02:29) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 358.721 -277.861 281.275 +
+\i (00:02:29) QtSignal 357.781 -281.638 281.553
+\i (00:02:29) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 368.158 -284.703 279.084 +
+\i (00:02:29) QtSignal 367.099 -287.2 278.037
+\i (00:02:29) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 377.66 -290.918 275.495 377.66 +
+\i (00:02:29) QtSignal -290.918 275.495
+\i (00:02:29) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 377.66 -290.918 275.495 375.565 +
+\i (00:02:29) QtSignal -297.046 276.083
+\i (00:02:29) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 391.458 -303.688 272.011 +
+\i (00:02:29) QtSignal 390.416 -306.054 272.298
+\i (00:02:29) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 396.527 -309.068 270.736 +
+\i (00:02:29) QtSignal 395.966 -310.232 270.89
+\i (00:02:29) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 398.964 -311.811 270.124 +
+\i (00:02:29) QtSignal 397.804 -314.117 270.442
+\i (00:02:29) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 403.638 -317.392 268.953 +
+\i (00:02:29) QtSignal 402.074 -319.664 268.033
+\i (00:02:29) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 411.138 -325.273 265.686 +
+\i (00:02:29) QtSignal 408.512 -329.706 266.4
+\i (00:02:29) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 419.085 -336.979 263.475 +
+\i (00:02:29) QtSignal 417.626 -339.096 263.872
+\i (00:02:29) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 422.653 -342.961 262.48 421.123 +
+\i (00:02:29) QtSignal -345.023 262.897
+\i (00:02:29) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 425.948 -349.012 261.561 +
+\i (00:02:29) QtSignal 422.753 -353.023 262.433
+\i (00:02:29) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 431.722 -361.271 259.947 +
+\i (00:02:29) QtSignal 429.129 -364.099 260.655
+\i (00:02:29) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 435.341 -370.555 258.932 +
+\i (00:02:29) QtSignal 433.52 -372.344 259.429
+\i (00:02:29) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 437.417 -376.765 258.347 +
+\i (00:02:29) QtSignal 433.657 -380.209 259.376
+\i (00:02:29) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 440.771 -389.181 257.399 +
+\i (00:02:29) QtSignal 437.784 -391.554 258.217
+\i (00:02:29) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 442.598 -398.443 256.877 +
+\i (00:02:29) QtSignal 440.53 -399.914 257.444
+\i (00:02:29) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 443.495 -404.573 256.618 +
+\i (00:02:29) QtSignal 442.437 -405.271 256.908
+\i (00:02:29) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 443.849 -407.62 256.514 439.569 +
+\i (00:02:29) QtSignal -410.335 257.687
+\i (00:02:29) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 444.642 -419.662 256.272 +
+\i (00:02:29) QtSignal 442.417 -420.861 256.882
+\i (00:02:29) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 444.676 -425.576 256.25 441.279 +
+\i (00:02:29) QtSignal -427.253 257.182
+\i (00:02:29) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 444.287 -434.284 256.34 443.128 +
+\i (00:02:29) QtSignal -434.781 256.658
+\i (00:02:29) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 444.043 -437.138 256.401 +
+\i (00:02:29) QtSignal 440.541 -438.565 257.362
+\i (00:02:29) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 442.98 -445.541 256.677 441.79 +
+\i (00:02:29) QtSignal -445.953 257.004
+\i (00:02:29) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 442.518 -448.285 256.799 +
+\i (00:02:29) QtSignal 441.321 -448.675 257.127
+\i (00:02:29) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 442.003 -450.998 256.935 +
+\i (00:02:29) QtSignal 439.598 -451.735 257.596
+\i (00:02:29) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 440.82 -456.329 257.25 439.605 +
+\i (00:02:29) QtSignal -456.654 257.584
+\i (00:02:29) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 440.153 -458.945 257.428 +
+\i (00:02:29) QtSignal 437.714 -459.55 258.098
+\i (00:02:29) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 438.675 -464.071 257.825 +
+\i (00:02:29) QtSignal 438.675 -464.071 257.825
+\i (00:02:29) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 438.675 -464.071 257.825 +
+\i (00:02:29) QtSignal 435.872 -464.585 257.248
+\i (00:02:29) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 437.306 -473.121 256.798 +
+\i (00:02:29) QtSignal 436.069 -473.335 257.138
+\i (00:02:29) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 436.394 -475.554 257.004 +
+\i (00:02:29) QtSignal 433.914 -475.937 257.686
+\i (00:02:29) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 434.442 -480.302 257.453 +
+\i (00:02:29) QtSignal 431.951 -480.594 258.14
+\i (00:02:29) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 432.324 -484.887 257.951 +
+\i (00:02:29) QtSignal 430.726 -484.963 257.045
+\i (00:02:29) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 431.064 -491.187 256.79 427.311 +
+\i (00:02:29) QtSignal -491.422 257.83
+\i (00:02:29) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 427.454 -497.611 257.555 +
+\i (00:02:29) QtSignal 427.454 -497.611 257.555
+\i (00:02:29) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 427.454 -497.611 257.555 +
+\i (00:02:29) QtSignal 426.202 -497.621 257.905
+\i (00:02:29) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 426.18 -499.663 257.833 423.676 +
+\i (00:02:29) QtSignal -499.638 258.534
+\i (00:02:29) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 423.533 -503.629 258.422 +
+\i (00:02:29) QtSignal 422.282 -503.571 258.774
+\i (00:02:29) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 422.162 -505.542 258.733 +
+\i (00:02:29) QtSignal 419.314 -505.334 258.187
+\i (00:02:29) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 418.552 -513.237 258.062 +
+\i (00:02:29) QtSignal 414.816 -512.861 259.121
+\i (00:02:29) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 414.076 -518.394 259.016 +
+\i (00:02:29) QtSignal 411.603 -518.008 259.724
+\i (00:02:29) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 410.971 -521.584 259.7 409.396 +
+\i (00:02:29) QtSignal -521.276 258.804
+\i (00:02:29) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 408.19 -527.003 258.781 406.966 +
+\i (00:02:29) QtSignal -526.743 259.135
+\i (00:02:29) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 406.576 -528.47 259.114 402.919 +
+\i (00:02:29) QtSignal -527.624 260.179
+\i (00:02:29) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 401.63 -532.566 260.167 400.428 +
+\i (00:02:29) QtSignal -532.218 260.522
+\i (00:02:29) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 399.95 -533.828 260.534 397.559 +
+\i (00:02:29) QtSignal -533.089 261.244
+\i (00:02:29) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 396.55 -536.197 261.291 395.368 +
+\i (00:02:29) QtSignal -535.784 261.645
+\i (00:02:29) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 394.832 -537.303 261.68 394.832 +
+\i (00:02:29) QtSignal -537.303 261.68
+\i (00:02:29) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 394.832 -537.303 261.68 390.968 +
+\i (00:02:29) QtSignal -535.908 261.49
+\i (00:02:29) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 387.71 -543.934 261.754 387.71 +
+\i (00:02:29) QtSignal -543.934 261.754
+\i (00:02:29) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 387.71 -543.934 261.754 386.561 +
+\i (00:02:29) QtSignal -543.437 262.105
+\i (00:02:29) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 385.953 -544.831 262.142 +
+\i (00:02:29) QtSignal 383.674 -543.794 262.843
+\i (00:02:29) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 382.427 -546.466 262.934 +
+\i (00:02:29) QtSignal 381.306 -545.907 263.284
+\i (00:02:29) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 380.66 -547.207 263.339 378.105 +
+\i (00:02:29) QtSignal -545.934 262.785
+\i (00:02:29) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 374.845 -551.927 263.076 +
+\i (00:02:29) QtSignal 373.756 -551.307 263.423
+\i (00:02:29) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 373.072 -552.511 263.471 +
+\i (00:02:29) QtSignal 371.994 -551.871 263.817
+\i (00:02:29) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 371.302 -553.043 263.871 +
+\i (00:02:29) QtSignal 369.169 -551.724 264.561
+\i (00:02:29) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 367.774 -553.954 264.683 +
+\i (00:02:29) QtSignal 366.731 -553.256 265.026
+\i (00:02:29) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 366.019 -554.334 265.095 +
+\i (00:02:29) QtSignal 362.606 -552.052 264.869
+\i (00:02:29) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 358.083 -558.225 265.342 +
+\i (00:02:29) QtSignal 357.093 -557.453 265.68
+\i (00:02:29) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 356.36 -558.405 265.746 354.097 +
+\i (00:02:29) QtSignal -556.674 265.165
+\i (00:02:29) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 350.086 -561.498 265.536 +
+\i (00:02:29) QtSignal 348.189 -559.848 266.203
+\i (00:02:29) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 346.725 -561.518 266.323 +
+\i (00:02:29) QtSignal 346.725 -561.518 266.323
+\i (00:02:29) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 346.725 -561.518 266.323 +
+\i (00:02:29) QtSignal 345.806 -560.659 266.654
+\i (00:02:29) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 345.069 -561.458 266.719 +
+\i (00:02:29) QtSignal 344.166 -560.582 267.049
+\i (00:02:29) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 343.431 -561.352 267.118 +
+\i (00:02:29) QtSignal 343.137 -561.184 265.863
+\i (00:02:29) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 340.386 -564.005 266.095 +
+\i (00:02:29) QtSignal 339.499 -563.113 266.423
+\i (00:02:29) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 338.763 -563.852 266.478 +
+\i (00:02:29) QtSignal 336.741 -561.85 265.875
+\i (00:02:29) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 332.413 -565.878 266.209 +
+\i (00:02:29) QtSignal 331.574 -564.938 266.533
+\i (00:02:29) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 330.849 -565.59 266.58 330.028 +
+\i (00:02:29) QtSignal -564.635 266.903
+\i (00:02:29) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 329.309 -565.259 266.954 +
+\i (00:02:29) QtSignal 328.242 -564.09 266.018
+\i (00:02:29) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 324.52 -567.161 266.271 324.52 +
+\i (00:02:29) QtSignal -567.161 266.271
+\i (00:02:29) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 324.52 -567.161 266.271 322.701 +
+\i (00:02:29) QtSignal -564.978 265.654
+\i (00:02:29) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 318.228 -568.418 265.902 +
+\i (00:02:29) QtSignal 316.497 -566.166 265.28
+\i (00:02:29) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 311.987 -569.368 265.476 +
+\i (00:02:29) QtSignal 310.556 -567.289 266.11
+\i (00:02:29) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 309.239 -568.176 266.157 +
+\i (00:02:29) QtSignal 308.353 -566.871 265.213
+\i (00:02:29) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 304.449 -569.309 265.356 +
+\i (00:02:29) QtSignal 302.944 -566.903 264.724
+\i (00:02:29) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 298.387 -569.533 264.844 +
+\i (00:02:29) QtSignal 297.599 -568.169 263.896
+\i (00:02:29) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 293.655 -570.318 263.94 292.307 +
+\i (00:02:29) QtSignal -567.821 263.305
+\i (00:02:29) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 287.762 -570.095 263.312 +
+\i (00:02:29) QtSignal 287.762 -570.095 263.312
+\i (00:02:29) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 287.762 -570.095 263.312 +
+\i (00:02:29) QtSignal 287.074 -568.679 262.363
+\i (00:02:29) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 283.113 -570.541 262.313 +
+\i (00:02:29) QtSignal 282.035 -568.258 262.939
+\i (00:02:30) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 280.957 -568.738 262.919 +
+\i (00:02:30) QtSignal 280.46 -567.578 263.233
+\i (00:02:30) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 279.936 -567.796 263.227 +
+\i (00:02:30) QtSignal 279.351 -566.332 262.279
+\i (00:02:30) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 275.371 -567.864 262.229 +
+\i (00:02:30) QtSignal 275.284 -567.561 260.968
+\i (00:02:30) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 271.828 -568.869 260.859 +
+\i (00:02:30) QtSignal 271.762 -568.558 259.599
+\i (00:02:30) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 268.324 -569.843 259.429 +
+\i (00:02:30) QtSignal 267.824 -568.347 258.484
+\i (00:02:30) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 263.893 -569.727 258.24 263.87 +
+\i (00:02:30) QtSignal -569.401 256.982
+\i (00:02:30) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 260.449 -570.581 256.707 +
+\i (00:02:30) QtSignal 260.013 -569.063 255.766
+\i (00:02:30) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 256.121 -570.318 255.405 +
+\i (00:02:30) QtSignal 255.708 -569.126 255.722
+\i (00:02:30) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 255.255 -569.267 255.677 +
+\i (00:02:30) QtSignal 255.275 -568.926 254.423
+\i (00:02:30) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 251.858 -569.944 254.06 251.508 +
+\i (00:02:30) QtSignal -568.399 253.128
+\i (00:02:30) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 247.663 -569.46 252.674 247.42 +
+\i (00:02:30) QtSignal -567.55 250.498
+\i (00:02:30) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 240.246 -569.346 249.5 240.353 +
+\i (00:02:30) QtSignal -568.982 248.257
+\i (00:02:30) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 237.002 -569.794 247.7 236.783 +
+\i (00:02:30) QtSignal -568.215 246.785
+\i (00:02:30) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 233.051 -569.039 246.121 +
+\i (00:02:30) QtSignal 233.202 -568.665 244.885
+\i (00:02:30) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 229.892 -569.377 244.236 +
+\i (00:02:30) QtSignal 229.91 -567.404 242.101
+\i (00:02:30) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 223.002 -568.72 240.606 223.002 +
+\i (00:02:30) QtSignal -568.72 240.606
+\i (00:02:30) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 223.002 -568.72 240.606 223.217 +
+\i (00:02:30) QtSignal -568.333 239.384
+\i (00:02:30) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 219.984 -568.924 238.595 +
+\i (00:02:30) QtSignal 219.918 -567.313 237.711
+\i (00:02:30) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 216.357 -567.886 236.801 +
+\i (00:02:30) QtSignal 216.616 -567.491 235.59
+\i (00:02:30) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 213.435 -567.984 234.718 +
+\i (00:02:30) QtSignal 213.716 -567.586 233.513
+\i (00:02:30) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 210.57 -568.057 232.593 211.215 +
+\i (00:02:30) QtSignal -564.007 228.475
+\i (00:02:30) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 198.421 -565.32 224.322 199.734 +
+\i (00:02:30) QtSignal -562.452 219.99
+\i (00:02:30) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 187.834 -563.193 215.301 +
+\i (00:02:30) QtSignal 188.561 -561.133 213.384
+\i (00:02:30) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 182.68 -561.292 210.761 183.51 +
+\i (00:02:30) QtSignal -559.228 208.89
+\i (00:02:30) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 177.804 -559.21 206.154 180.401 +
+\i (00:02:30) QtSignal -555.899 201.035
+\i (00:02:30) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 167.373 -555.316 193.928 +
+\i (00:02:30) QtSignal 167.373 -555.316 193.928
+\i (00:02:30) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 167.373 -555.316 193.928 +
+\i (00:02:30) QtSignal 168.681 -554.494 191.838
+\i (00:02:30) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 163.803 -554.154 188.793 +
+\i (00:02:30) QtSignal 166.417 -551.289 185.096
+\i (00:02:30) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 157.091 -550.249 178.691 +
+\i (00:02:30) QtSignal 157.857 -549.848 177.722
+\i (00:02:30) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 155.657 -549.557 176.07 156.442 +
+\i (00:02:30) QtSignal -549.159 175.113
+\i (00:02:30) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 154.288 -548.855 173.439 +
+\i (00:02:30) QtSignal 155.091 -548.46 172.497
+\i (00:02:30) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 152.984 -548.144 170.802 +
+\i (00:02:30) QtSignal 153.805 -547.751 169.874
+\i (00:02:30) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 151.746 -547.424 168.16 152.583 +
+\i (00:02:30) QtSignal -547.034 167.246
+\i (00:02:30) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 150.571 -546.696 165.514 +
+\i (00:02:30) QtSignal 151.426 -546.309 164.614
+\i (00:02:30) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 149.462 -545.959 162.865 +
+\i (00:02:30) QtSignal 150.333 -545.575 161.98
+\i (00:02:30) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 148.417 -545.215 160.214 +
+\i (00:02:30) QtSignal 149.305 -544.834 159.345
+\i (00:02:30) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 147.435 -544.464 157.564 +
+\i (00:02:30) QtSignal 148.34 -544.086 156.71
+\i (00:02:30) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasMouseReleaseEvent 686 228 686 293 4 0 +
+\i (00:02:30) QtSignal 33554432 146.518 -543.705 154.915
+\i (00:02:30) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasWheelEvent 686 228 686 293 0 0 -120
+\i (00:02:30) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasWheelEvent 686 228 686 293 0 0 -120
+\i (00:02:31) QtSignal pcb3dViewer pcb3dViewerCanvas keyPressEvent 16777248 33554432 false 1
+\i (00:02:31) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasMousePressEvent 683 233 683 298 4 4 33554432 +
+\i (00:02:31) QtSignal 0.446899 -576.291 150.695
+\i (00:02:31) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 0.446899 -576.291 150.695 +
+\i (00:02:31) QtSignal -0.301544 -569.564 152.879
+\i (00:02:31) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent -1.08455 -569.369 152.106 +
+\i (00:02:31) QtSignal -1.73453 -560.485 155.362
+\i (00:02:31) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent -2.31764 -560.293 154.807 +
+\i (00:02:31) QtSignal -2.54694 -549.38 159.432
+\i (00:02:31) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent -2.547 -549.38 159.432 -0.268326 +
+\i (00:02:31) QtSignal -535.979 164.248
+\i (00:02:31) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent -2.3065 -534.606 162.562 +
+\i (00:02:31) QtSignal 1.04559 -521.803 168.291
+\i (00:02:31) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 0.13298 -520.903 167.592 +
+\i (00:02:31) QtSignal 4.07838 -510.744 172.825
+\i (00:02:31) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 3.58963 -510.097 172.473 +
+\i (00:02:31) QtSignal 11.142 -496.358 179.692
+\i (00:02:31) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 10.4066 -494.883 179.186 +
+\i (00:02:31) QtSignal 15.2226 -487.929 184.086
+\i (00:02:31) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 15.5092 -488.096 184.322 +
+\i (00:02:31) QtSignal 21.5563 -480.173 191.163
+\i (00:02:31) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 22.988 -482.082 192.242 41.7756 +
+\i (00:02:31) QtSignal -464.276 207.385
+\i (00:02:31) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 45.6753 -468.681 210.027 +
+\i (00:02:31) QtSignal 45.6753 -468.681 210.027
+\i (00:02:31) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 45.6753 -468.681 210.027 +
+\i (00:02:31) QtSignal 60.7218 -460.499 220.842
+\i (00:02:31) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 63.102 -465.625 222.341 70.0919 +
+\i (00:02:31) QtSignal -463.068 228.679
+\i (00:02:31) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 71.2918 -468.432 229.446 +
+\i (00:02:31) QtSignal 77.1241 -466.982 233.928
+\i (00:02:31) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 77.7492 -470.514 234.285 +
+\i (00:02:31) QtSignal 83.6429 -469.471 238.8
+\i (00:02:31) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 84.1557 -473.449 239.058 +
+\i (00:02:31) QtSignal 90.0928 -472.817 243.593
+\i (00:02:31) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 90.4559 -477.232 243.722 +
+\i (00:02:31) QtSignal 93.7474 -477.117 244.345
+\i (00:02:31) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 93.7647 -476.168 244.357 +
+\i (00:02:31) QtSignal 96.4381 -476.146 248.274
+\i (00:02:31) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 96.4389 -481.856 248.184 +
+\i (00:02:31) QtSignal 99.7323 -481.907 248.806
+\i (00:02:31) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 99.7883 -481.125 248.843 +
+\i (00:02:31) QtSignal 105.752 -481.485 253.372
+\i (00:02:31) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 105.568 -486.901 253.128 +
+\i (00:02:31) QtSignal 110.181 -487.437 255.684
+\i (00:02:31) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 110.013 -490.036 255.503 +
+\i (00:02:31) QtSignal 114.607 -490.777 258.042
+\i (00:02:31) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 114.325 -493.569 257.791 +
+\i (00:02:31) QtSignal 118.893 -494.514 260.309
+\i (00:02:31) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 118.483 -497.492 259.98 123.018 +
+\i (00:02:31) QtSignal -498.64 262.473
+\i (00:02:31) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 122.467 -501.797 262.059 +
+\i (00:02:31) QtSignal 128.89 -503.368 263.163
+\i (00:02:31) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 129.03 -503.496 263.176 132.203 +
+\i (00:02:31) QtSignal -504.441 263.702
+\i (00:02:31) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 132.208 -504.573 263.688 +
+\i (00:02:31) QtSignal 142.3 -507.303 261.954
+\i (00:02:31) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 144.407 -502.155 262.811 +
+\i (00:02:31) QtSignal 149.32 -503.905 261.877
+\i (00:02:31) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 150.37 -501.55 262.238 155.799 +
+\i (00:02:31) QtSignal -503.263 257.983
+\i (00:02:31) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 159.475 -495.192 259.034 +
+\i (00:02:31) QtSignal 166.51 -497.925 253.302
+\i (00:02:31) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 171.648 -487.963 254.209 +
+\i (00:02:31) QtSignal 175.948 -489.686 244.678
+\i (00:02:31) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 184.443 -474.261 245.11 189.944 +
+\i (00:02:31) QtSignal -477.681 234.117
+\i (00:02:31) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 199.77 -461.379 233.153 204.933 +
+\i (00:02:31) QtSignal -469.138 193.885
+\i (00:02:31) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 233.599 -421.34 180.828 233.599 +
+\i (00:02:31) QtSignal -421.34 180.828
+\i (00:02:31) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 233.599 -421.34 180.828 230.586 +
+\i (00:02:31) QtSignal -427.657 163.69
+\i (00:02:31) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 243.7 -409.478 152.983 241.054 +
+\i (00:02:31) QtSignal -422.743 131.728
+\i (00:02:31) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 254.788 -404.212 115.926 +
+\i (00:02:31) QtSignal 244.351 -416.88 96.2274
+\i (00:02:31) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 255.465 -402.871 78.363 234.798 +
+\i (00:02:31) QtSignal -423.971 54.0993
+\i (00:02:31) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 243.011 -412.348 31.1112 +
+\i (00:02:31) QtSignal 213.244 -434.846 15.3326
+\i (00:02:31) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 215.061 -430.87 -0.467778 +
+\i (00:02:31) QtSignal 205.408 -439.115 -1.81462
+\i (00:02:31) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 205.354 -438.718 -5.80606 +
+\i (00:02:31) QtSignal 193.474 -447.866 -5.92692
+\i (00:02:31) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 193.19 -447.767 -8.88873 +
+\i (00:02:31) QtSignal 182.101 -451.72 -7.48928
+\i (00:02:31) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 181.967 -451.739 -8.30538 +
+\i (00:02:31) QtSignal 163.097 -461.044 -4.027
+\i (00:02:31) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 163.495 -460.958 -2.55164 +
+\i (00:02:31) QtSignal 163.495 -460.958 -2.55164
+\i (00:02:31) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 163.495 -460.958 -2.55164 +
+\i (00:02:31) QtSignal 132.268 -472.388 10.0612
+\i (00:02:31) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 137.846 -470.572 20.9619 +
+\i (00:02:31) QtSignal 137.846 -470.572 20.9619
+\i (00:02:31) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 137.846 -470.572 20.9619 +
+\i (00:02:31) QtSignal 115.612 -471.267 36.3213
+\i (00:02:31) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 125.37 -467.998 47.8425 115.543 +
+\i (00:02:31) QtSignal -469.192 58.3301
+\i (00:02:31) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 122.71 -467.267 64.5422 105.944 +
+\i (00:02:31) QtSignal -461.204 84.1546
+\i (00:02:31) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 124.95 -456.415 96.0449 112.477 +
+\i (00:02:31) QtSignal -449.28 118.316
+\i (00:02:31) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 138.368 -444.885 128.277 +
+\i (00:02:31) QtSignal 133.134 -435.462 143.327
+\i (00:02:31) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 153.775 -433.581 147.812 +
+\i (00:02:31) QtSignal 152.815 -429.588 153.111
+\i (00:02:31) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 160.514 -429.451 154.205 +
+\i (00:02:31) QtSignal 159.903 -427.798 159.204
+\i (00:02:31) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 166.651 -427.855 159.91 166.245 +
+\i (00:02:31) QtSignal -426.203 164.931
+\i (00:02:31) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 173.22 -426.347 165.4 173.151 +
+\i (00:02:31) QtSignal -424.352 168.093
+\i (00:02:31) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 177.365 -424.5 168.257 177.29 +
+\i (00:02:31) QtSignal -422.857 173.296
+\i (00:02:31) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 184.605 -423.204 173.37 184.881 +
+\i (00:02:31) QtSignal -419.233 178.764
+\i (00:02:31) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 193.877 -419.801 178.494 +
+\i (00:02:31) QtSignal 193.877 -419.801 178.494
+\i (00:02:31) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 193.877 -419.801 178.494 +
+\i (00:02:31) QtSignal 194.483 -415.851 183.877
+\i (00:02:31) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 203.769 -416.713 183.225 +
+\i (00:02:31) QtSignal 206.574 -404.957 199.3
+\i (00:02:31) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 236.935 -408.851 194.429 +
+\i (00:02:31) QtSignal 238.839 -405.063 199.623
+\i (00:02:31) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 249 -407.264 197.214 253.437 +
+\i (00:02:31) QtSignal -399.828 207.449
+\i (00:02:31) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 274.479 -405.164 200.949 +
+\i (00:02:31) QtSignal 279.998 -400.716 212.815
+\i (00:02:31) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 302.783 -407.935 203.424 +
+\i (00:02:31) QtSignal 308.795 -400.685 210.615
+\i (00:02:31) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 326.595 -407.52 201.412 343.223 +
+\i (00:02:31) QtSignal -392.65 219.212
+\i (00:02:31) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 387.434 -414.516 187.777 +
+\i (00:02:31) QtSignal 387.434 -414.516 187.777
+\i (00:02:31) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 387.434 -414.516 187.777 +
+\i (00:02:31) QtSignal 411.001 -400.603 204.139
+\i (00:02:31) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 454.227 -434.667 156.342 +
+\i (00:02:31) QtSignal 454.227 -434.667 156.342
+\i (00:02:31) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 454.227 -434.667 156.342 +
+\i (00:02:31) QtSignal 470.4 -428.108 162.508
+\i (00:02:31) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 489.5 -452.778 130.822 500.39 +
+\i (00:02:31) QtSignal -451.608 135.349
+\i (00:02:31) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 510.31 -469.679 112.732 531.263 +
+\i (00:02:31) QtSignal -464.923 116.704
+\i (00:02:31) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 543.369 -499.346 71.5634 +
+\i (00:02:31) QtSignal 551.716 -497.528 71.3791
+\i (00:02:31) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 553.822 -511.691 54.1332 +
+\i (00:02:31) QtSignal 565.562 -510.132 53.7317
+\i (00:02:31) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 566.241 -531.004 28.5585 +
+\i (00:02:31) QtSignal 576.234 -533.834 30.6886
+\i (00:02:31) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 574.371 -553.505 6.88274 +
+\i (00:02:31) QtSignal 581.04 -554.027 6.44804
+\i (00:02:31) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 578.608 -566.475 -8.93453 +
+\i (00:02:31) QtSignal 590.179 -569.036 -9.06906
+\i (00:02:31) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 583.301 -591.247 -37.4396 +
+\i (00:02:31) QtSignal 583.301 -591.247 -37.4396
+\i (00:02:31) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 583.301 -591.247 -37.4396 +
+\i (00:02:31) QtSignal 588.16 -593.356 -37.2361
+\i (00:02:31) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 584.071 -603.125 -49.7357 +
+\i (00:02:31) QtSignal 585.651 -604.744 -49.0266
+\i (00:02:31) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 583.993 -608.298 -53.6233 +
+\i (00:02:31) QtSignal 588.778 -610.579 -53.6406
+\i (00:02:31) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 583.836 -620.042 -66.4461 +
+\i (00:02:31) QtSignal 585.38 -621.733 -65.832
+\i (00:02:31) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 583.401 -625.177 -70.5479 +
+\i (00:02:31) QtSignal 586.568 -625.908 -71.3698
+\i (00:02:31) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 582.97 -631.723 -79.5646 +
+\i (00:02:31) QtSignal 584.487 -633.46 -79.014
+\i (00:02:31) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 582.267 -636.836 -83.7797 +
+\i (00:02:31) QtSignal 585.272 -640.355 -82.7415
+\i (00:02:31) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 580.563 -646.95 -92.4703 +
+\i (00:02:31) QtSignal 578.792 -650.674 -89.1426
+\i (00:02:31) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 579.663 -649.596 -87.186 +
+\i (00:02:31) QtSignal 572.659 -659.249 -78.1123
+\i (00:02:31) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 576.522 -654.606 -67.8243 +
+\i (00:02:31) QtSignal 570.985 -660.899 -62.8065
+\i (00:02:31) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 573.667 -657.527 -54.468 +
+\i (00:02:31) QtSignal 560.379 -671.813 -44.6432
+\i (00:02:31) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 564.22 -666.934 -26.4144 +
+\i (00:02:31) QtSignal 552.958 -674.603 -22.3626
+\i (00:02:31) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 555.592 -670.163 -2.94974 +
+\i (00:02:31) QtSignal 548.819 -680.641 -0.275911
+\i (00:02:31) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 548.661 -680.827 2.19114 +
+\i (00:02:31) QtSignal 540.962 -686.274 3.1173
+\i (00:02:32) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 541.085 -685.156 14.9707 +
+\i (00:02:32) QtSignal 531.452 -692.043 15.3052
+\i (00:02:32) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 530.712 -691.375 29.1175 +
+\i (00:02:32) QtSignal 520.597 -701.62 28.4488
+\i (00:02:32) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 519.331 -702.059 36.7823 +
+\i (00:02:32) QtSignal 511.788 -707.586 35.2409
+\i (00:02:32) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 509.993 -708.274 44.469 498.868 +
+\i (00:02:32) QtSignal -716.492 41.1855
+\i (00:02:32) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 495.599 -718.053 53.303 483.069 +
+\i (00:02:32) QtSignal -727.426 47.809
+\i (00:02:32) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 478.69 -729.812 59.5198 453.948 +
+\i (00:02:32) QtSignal -742.671 45.6057
+\i (00:02:32) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 440.581 -749.609 71.3449 +
+\i (00:02:32) QtSignal 440.581 -749.609 71.3449
+\i (00:02:32) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 440.581 -749.609 71.3449 +
+\i (00:02:32) QtSignal 426.286 -761.102 56.3488
+\i (00:02:32) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 421.005 -764.144 62.5196 +
+\i (00:02:32) QtSignal 413.765 -767.227 53.3528
+\i (00:02:32) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 407.157 -771.039 59.638 403.011 +
+\i (00:02:32) QtSignal -774.732 51.9575
+\i (00:02:32) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 401.582 -775.573 53.0476 +
+\i (00:02:32) QtSignal 396.079 -780.693 40.9818
+\i (00:02:32) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 394.958 -781.369 41.6885 +
+\i (00:02:32) QtSignal 387.062 -786.078 22.3036
+\i (00:02:32) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 382.887 -788.58 24.7037 376.848 +
+\i (00:02:32) QtSignal -789.126 6.13015
+\i (00:02:32) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 369.239 -793.631 8.97023 +
+\i (00:02:32) QtSignal 366.802 -794.825 -9.93763
+\i (00:02:32) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 366.73 -794.871 -9.47952 +
+\i (00:02:32) QtSignal 366.484 -794.498 -26.2268
+\i (00:02:32) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 367.475 -793.946 -25.7637 +
+\i (00:02:32) QtSignal 367.486 -790.402 -40.3243
+\i (00:02:32) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 363.444 -792.75 -40.4746 +
+\i (00:02:32) QtSignal 366.566 -790.504 -56.7806
+\i (00:02:32) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 370.734 -788.291 -54.9566 +
+\i (00:02:32) QtSignal 370.734 -788.291 -54.9566
+\i (00:02:32) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 370.734 -788.291 -54.9566 +
+\i (00:02:32) QtSignal 372.224 -785.721 -61.8352
+\i (00:02:32) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 371.367 -786.21 -62.0502 +
+\i (00:02:32) QtSignal 371.367 -786.21 -62.0502
+\i (00:02:32) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 371.367 -786.21 -62.0502 +
+\i (00:02:32) QtSignal 372.313 -786.005 -64.2125
+\i (00:02:32) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 373.751 -785.244 -63.4941 +
+\i (00:02:32) QtSignal 374.731 -785.021 -65.6397
+\i (00:02:32) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 376.189 -784.246 -64.8757 +
+\i (00:02:32) QtSignal 377.202 -784.005 -67.004
+\i (00:02:32) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasMouseReleaseEvent 545 387 545 452 4 0 +
+\i (00:02:32) QtSignal 33554432 378.679 -783.215 -66.1935
+\i (00:02:33) QtSignal pcb3dViewer pcb3dViewer closed
+\i (00:07:01) step pkg map 
+\i (00:07:04) setwindow form.pkgmap3d
+\i (00:07:04) FORM pkgmap3d namefilter_stp Dau* 
+\i (00:07:06) FORM pkgmap3d stplist Dauchup_Jumper_Jp3.STEP 
+\i (00:07:06) FORM pkgmap3d stplist Dauchup_Jumper_Jp3.STEP 
+\i (00:07:13) FORM pkgmap3d rotation_x 90 
+\i (00:07:15) FORM pkgmap3d offset_x 0 
+\i (00:07:16) FORM pkgmap3d offset_y 0 
+\i (00:07:18) FORM pkgmap3d offset_z 0 
+\i (00:07:26) FORM pkgmap3d view_orientation Bottom 
+\i (00:07:29) FORM pkgmap3d offset_z 0 
+\i (00:07:31) FORM pkgmap3d offset_z -5 
+\i (00:07:37) FORM pkgmap3d offset_z -10 
+\i (00:07:40) FORM pkgmap3d offset_z -20 
+\i (00:07:49) FORM pkgmap3d rotation_y 90 
+\i (00:07:50) FORM pkgmap3d rotation_y 0 
+\i (00:07:52) FORM pkgmap3d rotation_z 90 
+\i (00:07:56) FORM pkgmap3d rotation_z 0 
+\i (00:07:58) FORM pkgmap3d rotation_x 0 
+\i (00:08:00) FORM pkgmap3d rotation_x 180 
+\i (00:08:02) FORM pkgmap3d rotation_y 9 
+\i (00:08:04) FORM pkgmap3d rotation_x  
+\i (00:08:10) FORM pkgmap3d view_orientation Front Left 
+\i (00:08:21) FORM pkgmap3d rotation_x 90 
+\i (00:08:25) FORM pkgmap3d rotation_y 90 
+\i (00:08:32) FORM pkgmap3d rotation_y 0 
+\i (00:08:34) FORM pkgmap3d rotation_z 90 
+\i (00:08:43) FORM pkgmap3d view_orientation Bottom 
+\i (00:08:46) FORM pkgmap3d offset_z -50 
+\i (00:09:02) FORM pkgmap3d save_current  
+\i (00:09:03) FORM pkgmap3d done  
+\i (00:09:03) setwindow pcb
+\i (00:09:03) etchedit 
+\i (00:09:05) 3d 
+\i (00:09:05) etchedit 
+\i (00:09:17) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasWheelEvent 919 166 919 231 0 0 -120
+\i (00:09:17) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasWheelEvent 914 149 914 214 0 0 -360
+\i (00:09:18) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasWheelEvent 882 126 882 191 0 0 -120
+\i (00:09:18) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasWheelEvent 644 286 644 351 0 0 120
+\i (00:09:18) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasMousePressEvent 645 286 645 351 4 4 0 +
+\i (00:09:18) QtSignal -781.689 -237.425 -773.542
+\i (00:09:18) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent -781.689 -237.425 -773.542 -769.947 +
+\i (00:09:18) QtSignal -225.683 -773.542
+\i (00:09:18) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent -781.706 -237.442 -773.542 -769.964 +
+\i (00:09:18) QtSignal -225.7 -773.542
+\i (00:09:18) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent -781.724 -237.459 -773.542 -599.702 +
+\i (00:09:18) QtSignal 3.22818 -701.691
+\i (00:09:18) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent -781.942 -237.85 -773.753 -770.182 +
+\i (00:09:18) QtSignal -179.157 -716.272
+\i (00:09:18) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent -781.923 -237.969 -773.922 -617.475 +
+\i (00:09:18) QtSignal 90.7438 -572.739
+\i (00:09:18) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent -782.037 -238.566 -774.511 -782.037 +
+\i (00:09:18) QtSignal -238.566 -774.511
+\i (00:09:18) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent -782.037 -238.566 -774.511 -641.091 +
+\i (00:09:18) QtSignal 19.7128 -630.81
+\i (00:09:18) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent -782.153 -239.026 -774.933 -782.153 +
+\i (00:09:18) QtSignal -239.026 -774.933
+\i (00:09:18) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent -782.153 -239.026 -774.933 -770.411 +
+\i (00:09:18) QtSignal -227.284 -774.933
+\i (00:09:19) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent -782.17 -239.043 -774.933 -770.428 +
+\i (00:09:19) QtSignal -227.301 -774.933
+\i (00:09:19) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent -782.187 -239.06 -774.933 -776.312 +
+\i (00:09:19) QtSignal -221.451 -760.562
+\i (00:09:19) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent -782.187 -239.094 -774.975 -776.311 +
+\i (00:09:19) QtSignal -221.485 -760.605
+\i (00:09:19) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent -782.186 -239.128 -775.017 -776.311 +
+\i (00:09:19) QtSignal -221.52 -760.647
+\i (00:09:19) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent -782.186 -239.162 -775.06 -776.311 +
+\i (00:09:19) QtSignal -221.554 -760.689
+\i (00:09:19) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent -782.187 -239.197 -775.102 -764.561 +
+\i (00:09:19) QtSignal -186.372 -731.991
+\i (00:09:19) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent -782.186 -239.299 -775.228 -764.569 +
+\i (00:09:19) QtSignal -209.949 -760.858
+\i (00:09:19) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent -782.202 -239.35 -775.27 -770.452 +
+\i (00:09:19) QtSignal -204.133 -746.53
+\i (00:09:19) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent -782.203 -239.419 -775.354 -764.586 +
+\i (00:09:19) QtSignal -210.068 -760.984
+\i (00:09:19) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent -782.22 -239.47 -775.397 -776.344 +
+\i (00:09:19) QtSignal -221.861 -761.027
+\i (00:09:19) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent -782.219 -239.504 -775.439 -770.469 +
+\i (00:09:19) QtSignal -204.287 -746.699
+\i (00:09:19) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent -782.219 -239.572 -775.523 -758.726 +
+\i (00:09:19) QtSignal -192.613 -746.783
+\i (00:09:19) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent -782.235 -239.657 -775.608 -752.876 +
+\i (00:09:19) QtSignal -198.565 -761.237
+\i (00:09:19) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent -782.268 -239.726 -775.65 -764.651 +
+\i (00:09:19) QtSignal -210.376 -761.28
+\i (00:09:19) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent -782.285 -239.777 -775.692 -776.41 +
+\i (00:09:19) QtSignal -222.169 -761.321
+\i (00:09:19) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent -782.286 -239.811 -775.734 -776.411 +
+\i (00:09:19) QtSignal -222.203 -761.363
+\i (00:09:19) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent -782.285 -239.845 -775.776 -770.543 +
+\i (00:09:19) QtSignal -228.103 -775.776
+\i (00:09:19) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent -782.302 -239.862 -775.776 -770.56 +
+\i (00:09:19) QtSignal -228.12 -775.776
+\i (00:09:19) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent -782.319 -239.879 -775.776 -770.577 +
+\i (00:09:19) QtSignal -228.137 -775.776
+\i (00:09:19) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent -782.336 -239.896 -775.776 -758.852 +
+\i (00:09:19) QtSignal -216.412 -775.776
+\i (00:09:19) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasMouseReleaseEvent 739 233 739 298 4 0 +
+\i (00:09:19) QtSignal 0 -782.37 -239.929 -775.776
+\i (00:09:20) QtSignal pcb3dViewer pcb3dViewerCanvas keyPressEvent 16777248 33554432 false 1
+\i (00:09:20) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasMousePressEvent 768 229 768 294 4 4 33554432 +
+\i (00:09:20) QtSignal -38.7917 -438.334 -486.153
+\i (00:09:20) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent -38.7917 -438.334 -486.153 +
+\i (00:09:20) QtSignal -27.9804 -427.522 -486.153
+\i (00:09:20) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent -16.0101 -439.737 -476.28 +
+\i (00:09:20) QtSignal -5.037 -429.09 -476.147
+\i (00:09:20) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 6.84454 -441.713 -466.143 +
+\i (00:09:20) QtSignal 23.706 -415.355 -452.378
+\i (00:09:20) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 64.479 -462.168 -416.928 +
+\i (00:09:20) QtSignal 82.1043 -436.679 -402.499
+\i (00:09:20) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 122.169 -486.472 -367.59 +
+\i (00:09:20) QtSignal 140.531 -461.891 -352.519
+\i (00:09:20) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 179.772 -514.664 -318.252 +
+\i (00:09:20) QtSignal 241.952 -448.606 -284.793
+\i (00:09:20) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 337.409 -603.118 -196.153 +
+\i (00:09:20) QtSignal 358.267 -582.315 -178.812
+\i (00:09:20) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 392.513 -646.258 -146.951 +
+\i (00:09:20) QtSignal 440.004 -611.01 -125.135
+\i (00:09:20) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 491.302 -721.012 -75.2352 +
+\i (00:09:20) QtSignal 491.302 -721.012 -75.2352
+\i (00:09:20) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 491.302 -721.012 -75.2358 +
+\i (00:09:20) QtSignal 513.687 -703.289 -56.4393
+\i (00:09:20) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 542.884 -775.133 -26.9692 +
+\i (00:09:20) QtSignal 583.808 -755.904 -19.2607
+\i (00:09:20) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 609.152 -825.308 7.09424 +
+\i (00:09:20) QtSignal 618.627 -815.855 24.0668
+\i (00:09:20) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 635.63 -868.965 43.1796 663.586 +
+\i (00:09:20) QtSignal -858.042 49.0323
+\i (00:09:20) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 678.273 -907.169 65.6527 +
+\i (00:09:20) QtSignal 706.519 -897.218 71.8348
+\i (00:09:20) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 719.725 -947.942 88.3963 +
+\i (00:09:20) QtSignal 743.879 -935.466 109.119
+\i (00:09:20) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 761.875 -1018.57 134.831 +
+\i (00:09:20) QtSignal 800.664 -1003.35 159.352
+\i (00:09:20) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 820.437 -1116.92 190.886 +
+\i (00:09:20) QtSignal 845.179 -1107.46 212.494
+\i (00:09:20) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 857.146 -1196.07 234.274 +
+\i (00:09:20) QtSignal 911.208 -1182.47 263.703
+\i (00:09:20) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 924.147 -1333.76 296.004 +
+\i (00:09:20) QtSignal 949.274 -1327.93 318.434
+\i (00:09:20) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 953.065 -1422.11 335.402 +
+\i (00:09:20) QtSignal 992.94 -1416.43 362.146
+\i (00:09:20) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 993.138 -1544.36 381.482 +
+\i (00:09:20) QtSignal 1018.33 -1541.68 404.434
+\i (00:09:20) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 1014.91 -1639.87 416.348 +
+\i (00:09:20) QtSignal 1025.37 -1638.34 435.199
+\i (00:09:20) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 1021.81 -1705.16 441.617 +
+\i (00:09:20) QtSignal 1032.24 -1704.17 460.518
+\i (00:09:20) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 1027.85 -1771.59 465.524 +
+\i (00:09:20) QtSignal 1023.6 -1770.42 480.154
+\i (00:09:20) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 1021.38 -1805.51 481.981 +
+\i (00:09:20) QtSignal 996.343 -1805 458.714
+\i (00:09:20) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 1000.2 -1705.72 453.426 994.041 +
+\i (00:09:20) QtSignal -1707.88 419.887
+\i (00:09:20) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 996.17 -1607.46 411.257 1000.42 +
+\i (00:09:20) QtSignal -1609.15 396.679
+\i (00:09:20) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 1001.35 -1575.27 392.697 +
+\i (00:09:20) QtSignal 995.15 -1579.29 359.337
+\i (00:09:20) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 997.022 -1481.34 345.451 +
+\i (00:09:20) QtSignal 965.654 -1489.89 289.347
+\i (00:09:20) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 963.409 -1302.05 253.673 +
+\i (00:09:20) QtSignal 957.219 -1309.75 220.962
+\i (00:09:20) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 954.942 -1217.38 197.966 +
+\i (00:09:20) QtSignal 942.627 -1235.36 133.195
+\i (00:09:20) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 934.918 -1058.61 78.9563 +
+\i (00:09:20) QtSignal 912.478 -1088.39 -1.96887
+\i (00:09:20) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 896.54 -868.75 -90.2656 876.122 +
+\i (00:09:20) QtSignal -886.153 -124.163
+\i (00:09:20) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 866.602 -782.224 -175.462 +
+\i (00:09:20) QtSignal 860.931 -798.38 -205.031
+\i (00:09:21) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 852.919 -723.173 -246.27 +
+\i (00:09:21) QtSignal 847.372 -740.49 -275.198
+\i (00:09:21) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 838.948 -668.117 -318.602 +
+\i (00:09:21) QtSignal 824.426 -671.736 -321.731
+\i (00:09:21) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 821.527 -648.213 -336.677 +
+\i (00:09:21) QtSignal 826.081 -655.63 -349.234
+\i (00:09:21) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 823.026 -632.306 -364.417 +
+\i (00:09:21) QtSignal 827.609 -639.945 -376.829
+\i (00:09:21) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 824.727 -617.085 -392.261 +
+\i (00:09:21) QtSignal 829.338 -624.944 -404.525
+\i (00:09:21) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 826.629 -602.549 -420.193 +
+\i (00:09:21) QtSignal 816.772 -614.469 -435.291
+\i (00:09:21) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 810.891 -570.226 -467.345 +
+\i (00:09:21) QtSignal 796.424 -574.285 -470.177
+\i (00:09:21) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasMouseReleaseEvent 798 240 798 305 4 0 +
+\i (00:09:21) QtSignal 33554432 793.251 -552.445 -486.561
+\i (00:09:21) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasWheelEvent 760 143 760 208 0 0 120
+\i (00:09:21) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasWheelEvent 760 142 760 207 0 0 120
+\i (00:09:21) QtSignal pcb3dViewer pcb3dViewerCanvas keyPressEvent 16777248 33554432 false 1
+\i (00:09:21) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasMousePressEvent 760 175 760 240 4 4 33554432 +
+\i (00:09:21) QtSignal -126.526 -686.424 -633.618
+\i (00:09:21) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent -126.526 -686.424 -633.618 +
+\i (00:09:21) QtSignal -123.506 -691.79 -641.357
+\i (00:09:22) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent -126.973 -669.229 -658.675 +
+\i (00:09:22) QtSignal -133.056 -658.225 -643.407
+\i (00:09:22) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent -125.883 -704.165 -608.75 +
+\i (00:09:22) QtSignal -131.88 -693.707 -593.069
+\i (00:09:22) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent -124 -741.277 -559.622 -120.561 +
+\i (00:09:22) QtSignal -728.615 -541.818
+\i (00:09:22) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent -111.452 -787.433 -503.53 +
+\i (00:09:22) QtSignal -117.268 -778.11 -487.084
+\i (00:09:22) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent -108.951 -829.121 -456.486 +
+\i (00:09:22) QtSignal -105.305 -817.762 -437.863
+\i (00:09:22) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent -95.7181 -880.516 -403.207 +
+\i (00:09:22) QtSignal -94.7724 -865.837 -375.607
+\i (00:09:22) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent -81.4109 -958.754 -329.875 +
+\i (00:09:22) QtSignal -80.6599 -915.719 -236.017
+\i (00:09:22) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent -41.0541 -1255.48 -116.148 +
+\i (00:09:22) QtSignal -25.4483 -1240 -62.8257
+\i (00:09:22) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent -5.75267 -1440.72 -22.5016 +
+\i (00:09:22) QtSignal -5.75267 -1440.72 -22.5016
+\i (00:09:22) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent -5.75267 -1440.72 -22.5016 +
+\i (00:09:22) QtSignal 7.15001 -1417.97 122.185
+\i (00:09:22) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 36.6137 -1986.15 134.557 +
+\i (00:09:22) QtSignal 36.6137 -1986.15 134.557
+\i (00:09:22) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 36.6137 -1986.15 134.557 +
+\i (00:09:22) QtSignal 39.1157 -1989.45 165.558
+\i (00:09:22) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 47.6754 -2111.03 148.547 +
+\i (00:09:22) QtSignal 38.6825 -2124.91 226.545
+\i (00:09:22) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 62.2199 -2431.37 152.633 +
+\i (00:09:22) QtSignal 60.7235 -2446.77 200.626
+\i (00:09:22) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 78.0139 -2640.82 129.457 +
+\i (00:09:22) QtSignal 68.3006 -2676.1 211.192
+\i (00:09:22) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 103.082 -3008.91 39.9938 +
+\i (00:09:22) QtSignal 104.698 -3030.24 74.7091
+\i (00:09:22) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 122.368 -3177.47 -23.9341 +
+\i (00:09:22) QtSignal 114.598 -3230.53 47.7896
+\i (00:09:22) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 155.743 -3530.64 -207.875 +
+\i (00:09:22) QtSignal 162.657 -3580.77 -156.657
+\i (00:09:22) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 194.759 -3801.88 -406.929 +
+\i (00:09:22) QtSignal 197.824 -3833.87 -381.824
+\i (00:09:22) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 216.013 -3945.7 -537.562 +
+\i (00:09:22) QtSignal 208.043 -3986.81 -511.272
+\i (00:09:22) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 232.194 -4102.75 -703.806 +
+\i (00:09:22) QtSignal 226.187 -4137.41 -685.713
+\i (00:09:22) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 248.001 -4218.99 -848.758 +
+\i (00:09:22) QtSignal 253.459 -4246.7 -835.328
+\i (00:09:22) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 270.616 -4307.01 -976.692 +
+\i (00:09:22) QtSignal 255.628 -4407.91 -938.892
+\i (00:09:22) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 322.926 -4552.7 -1445.11 +
+\i (00:09:22) QtSignal 318.437 -4591.46 -1438.6
+\i (00:09:22) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 346.31 -4619.96 -1630.54 +
+\i (00:09:22) QtSignal 345.285 -4629.75 -1629.59
+\i (00:09:22) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 352.506 -4634.78 -1677.99 +
+\i (00:09:22) QtSignal 348.51 -4674.01 -1674.86
+\i (00:09:22) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 378.653 -4685.77 -1871.71 +
+\i (00:09:22) QtSignal 375.97 -4715.32 -1871.4
+\i (00:09:22) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 399.655 -4715.03 -2020.72 +
+\i (00:09:22) QtSignal 398.028 -4734.73 -2021.54
+\i (00:09:22) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 414.294 -4730.13 -2121.61 +
+\i (00:09:22) QtSignal 412.02 -4759.63 -2123.86
+\i (00:09:22) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 437.177 -4745.99 -2274.94 +
+\i (00:09:22) QtSignal 433.137 -4804.71 -2282.5
+\i (00:09:22) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 486.072 -4752.56 -2587.22 +
+\i (00:09:22) QtSignal 483.579 -4800.63 -2598.54
+\i (00:09:22) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 529.731 -4731.64 -2850.97 +
+\i (00:09:22) QtSignal 517.203 -4805.89 -2877.19
+\i (00:09:22) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 599.217 -4651.21 -3259.87 +
+\i (00:09:22) QtSignal 599.056 -4668.99 -3268.55
+\i (00:09:22) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 620.536 -4620.18 -3364.5 +
+\i (00:09:22) QtSignal 620.51 -4637.65 -3373.78
+\i (00:09:22) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 642.13 -4585.13 -3468.53 +
+\i (00:09:22) QtSignal 632.479 -4592.78 -3475.17
+\i (00:09:22) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 641.194 -4572.63 -3509.06 +
+\i (00:09:22) QtSignal 641.469 -4598.08 -3524.31
+\i (00:09:22) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 677.082 -4509.81 -3662.44 +
+\i (00:09:22) QtSignal 677.284 -4518.02 -3667.95
+\i (00:09:22) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 689.156 -4486.86 -3713.06 +
+\i (00:09:22) QtSignal 679.486 -4485.86 -3714.92
+\i (00:09:22) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 676.219 -4494.2 -3703.07 +
+\i (00:09:22) QtSignal 685.851 -4495.3 -3701.08
+\i (00:09:22) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 689.156 -4486.86 -3713.06 +
+\i (00:09:22) QtSignal 688.918 -4478.75 -3707.42
+\i (00:09:22) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 677.082 -4509.81 -3662.44 +
+\i (00:09:22) QtSignal 676.881 -4501.6 -3656.93
+\i (00:09:22) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 665.061 -4531.75 -3611.56 +
+\i (00:09:22) QtSignal 674.567 -4524.45 -3604.34
+\i (00:09:22) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 666.812 -4545.67 -3570.87 +
+\i (00:09:22) QtSignal 676.387 -4538.19 -3563.93
+\i (00:09:22) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 669.379 -4558.69 -3530.26 +
+\i (00:09:22) QtSignal 679.016 -4551.03 -3523.62
+\i (00:09:22) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 672.748 -4570.8 -3489.78 +
+\i (00:09:22) QtSignal 682.443 -4562.97 -3483.43
+\i (00:09:22) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 676.906 -4582.02 -3449.46 +
+\i (00:09:22) QtSignal 686.557 -4556.71 -3433.83
+\i (00:09:22) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 667.933 -4623.94 -3303.61 +
+\i (00:09:22) QtSignal 667.969 -4606.15 -3294.95
+\i (00:09:22) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 654.209 -4651.5 -3197.47 +
+\i (00:09:22) QtSignal 654.396 -4624.4 -3185.41
+\i (00:09:22) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 634.003 -4685.33 -3037.76 +
+\i (00:09:22) QtSignal 644.713 -4621.28 -3011.82
+\i (00:09:22) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 606.948 -4724.76 -2678.51 +
+\i (00:09:22) QtSignal 607.981 -4686.4 -2668.91
+\i (00:09:22) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 586.1 -4728.79 -2467.4 588.417 +
+\i (00:09:22) QtSignal -4660.67 -2455.3
+\i (00:09:22) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 552.218 -4699.6 -2105.53 +
+\i (00:09:22) QtSignal 553.127 -4679.87 -2104.46
+\i (00:09:22) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 543.195 -4683.07 -2004.55 +
+\i (00:09:22) QtSignal 544.661 -4653.44 -2003.98
+\i (00:09:22) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 530.241 -4651.69 -1855.57 +
+\i (00:09:22) QtSignal 531.857 -4622.08 -1856.55
+\i (00:09:22) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 518.008 -4612.64 -1709.94 +
+\i (00:09:22) QtSignal 518.595 -4602.8 -1710.78
+\i (00:09:22) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 514.095 -4597.96 -1662.21 +
+\i (00:09:22) QtSignal 514.698 -4588.15 -1663.22
+\i (00:09:22) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 510.265 -4582.48 -1614.9 +
+\i (00:09:22) QtSignal 510.884 -4572.68 -1616.08
+\i (00:09:22) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 506.521 -4566.19 -1568.04 +
+\i (00:09:22) QtSignal 507.155 -4556.41 -1569.4
+\i (00:09:22) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 502.861 -4549.1 -1521.64 +
+\i (00:09:22) QtSignal 503.51 -4539.35 -1523.16
+\i (00:09:22) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 499.287 -4531.24 -1475.7 +
+\i (00:09:22) QtSignal 499.952 -4521.52 -1477.39
+\i (00:09:22) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 495.8 -4512.61 -1430.25 496.479 +
+\i (00:09:22) QtSignal -4502.93 -1432.11
+\i (00:09:23) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 492.401 -4493.23 -1385.29 +
+\i (00:09:23) QtSignal 493.095 -4483.58 -1387.32
+\i (00:09:23) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 489.088 -4473.1 -1340.85 +
+\i (00:09:23) QtSignal 479.251 -4472.59 -1341.81
+\i (00:09:23) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 477.792 -4468.97 -1326.4 +
+\i (00:09:23) QtSignal 467.971 -4468.5 -1327.53
+\i (00:09:23) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 466.255 -4464.91 -1312.33 +
+\i (00:09:23) QtSignal 455.744 -4474.1 -1311.43
+\i (00:09:23) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 460.289 -4481.15 -1342.76 +
+\i (00:09:23) QtSignal 449.138 -4500.08 -1340.17
+\i (00:09:23) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 461.864 -4515.79 -1418.9 +
+\i (00:09:23) QtSignal 451.477 -4525.17 -1418.83
+\i (00:09:23) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 457.396 -4530.75 -1451.13 +
+\i (00:09:23) QtSignal 456.794 -4540.5 -1449.6
+\i (00:09:23) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 465.295 -4548.01 -1496.93 +
+\i (00:09:23) QtSignal 455.568 -4547.69 -1498.73
+\i (00:09:23) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 452.807 -4545.5 -1484.12 +
+\i (00:09:23) QtSignal 452.235 -4555.28 -1482.76
+\i (00:09:23) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 461.652 -4561.99 -1530.22 +
+\i (00:09:23) QtSignal 471.886 -4552.48 -1529.45
+\i (00:09:23) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 466.144 -4547.77 -1496.81 +
+\i (00:09:23) QtSignal 486.736 -4528.84 -1495.93
+\i (00:09:23) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 478.142 -4517.73 -1431.88 +
+\i (00:09:23) QtSignal 489.158 -4498.65 -1433.81
+\i (00:09:23) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 479.66 -4482.72 -1355.74 +
+\i (00:09:23) QtSignal 501.244 -4454.55 -1359.25
+\i (00:09:23) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 492.737 -4427.7 -1252.63 +
+\i (00:09:23) QtSignal 515.923 -4380.97 -1263.39
+\i (00:09:23) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 507.99 -4319.28 -1073.14 +
+\i (00:09:23) QtSignal 521.543 -4273.47 -1089.29
+\i (00:09:23) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 517.689 -4191.73 -893.656 +
+\i (00:09:23) QtSignal 531.331 -4147.63 -913.96
+\i (00:09:23) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 532.556 -4051.49 -729.994 +
+\i (00:09:23) QtSignal 535.559 -4017.3 -749.67
+\i (00:09:23) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 537.484 -3923.97 -599.625 +
+\i (00:09:23) QtSignal 541.2 -3883.06 -627.151
+\i (00:09:23) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasWheelEvent 794 94 794 159 4 33554432 +
+\i (00:09:23) QtSignal 120
+\i (00:09:23) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 389.979 -3356.19 -769.922 +
+\i (00:09:23) QtSignal 409.266 -3320.48 -799.195
+\i (00:09:23) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 420.129 -3202.84 -669.307 +
+\i (00:09:23) QtSignal 424.405 -3158.15 -713.923
+\i (00:09:23) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 441.872 -2962.04 -541.689 +
+\i (00:09:23) QtSignal 443.254 -2947.76 -560.6
+\i (00:09:23) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 450.282 -2869.34 -504.071 +
+\i (00:09:23) QtSignal 451.574 -2856.07 -523.707
+\i (00:09:23) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 458.784 -2775.86 -472.047 +
+\i (00:09:23) QtSignal 461.98 -2743.25 -526.197
+\i (00:09:23) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 481.682 -2525.17 -413.77 +
+\i (00:09:23) QtSignal 482.615 -2515.87 -435.589
+\i (00:09:23) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 490.269 -2431.54 -401.929 +
+\i (00:09:23) QtSignal 482.937 -2425.39 -416.808
+\i (00:09:23) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 488.072 -2356 -392.367 488.845 +
+\i (00:09:23) QtSignal -2348.64 -414.917
+\i (00:09:23) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 495.038 -2263.55 -389.369 +
+\i (00:09:23) QtSignal 488.059 -2254.72 -419.986
+\i (00:09:23) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 495.164 -2128.52 -389.953 +
+\i (00:09:23) QtSignal 480.154 -2121.5 -421.221
+\i (00:09:23) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 483.513 -1982.92 -398.019 +
+\i (00:09:23) QtSignal 453.359 -1974.33 -461.469
+\i (00:09:23) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 442.508 -1705.32 -443.679 +
+\i (00:09:23) QtSignal 435.557 -1706.17 -475.54
+\i (00:09:23) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 428.361 -1586.42 -481.392 +
+\i (00:09:23) QtSignal 406.298 -1591.95 -529.353
+\i (00:09:23) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 386.038 -1402.15 -554.524 +
+\i (00:09:23) QtSignal 371.401 -1408.42 -578.198
+\i (00:09:23) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 357.622 -1311.17 -599.556 +
+\i (00:09:23) QtSignal 335.822 -1322.24 -630.664
+\i (00:09:23) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 311.204 -1195.12 -666.938 +
+\i (00:09:23) QtSignal 304.496 -1201.51 -682.013
+\i (00:09:23) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 292.232 -1145.24 -701.815 +
+\i (00:09:23) QtSignal 285.081 -1149.6 -709.239
+\i (00:09:23) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 277.375 -1117 -721.768 277.987 +
+\i (00:09:23) QtSignal -1119.78 -729.146
+\i (00:09:23) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 272.666 -1097.57 -738.216 +
+\i (00:09:23) QtSignal 257.899 -1104.13 -745.442
+\i (00:09:23) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 246.8 -1063.08 -762.971 247.476 +
+\i (00:09:23) QtSignal -1066.12 -770.245
+\i (00:09:23) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 241.463 -1044.68 -779.985 +
+\i (00:09:23) QtSignal 233.823 -1046.76 -779.83
+\i (00:09:23) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 231.109 -1037.43 -784.178 +
+\i (00:09:23) QtSignal 231.82 -1040.59 -791.397
+\i (00:09:23) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 225.473 -1019.56 -801.456 +
+\i (00:09:23) QtSignal 226.22 -1022.83 -808.617
+\i (00:09:23) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 219.949 -1002.09 -818.999 +
+\i (00:09:23) QtSignal 220.732 -1005.49 -826.101
+\i (00:09:23) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 214.538 -985.05 -836.798 +
+\i (00:09:23) QtSignal 215.357 -988.567 -843.837
+\i (00:09:23) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 209.242 -968.427 -854.841 +
+\i (00:09:23) QtSignal 210.95 -975.694 -868.792
+\i (00:09:23) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 198.997 -936.454 -891.624 +
+\i (00:09:23) QtSignal 200.845 -944.183 -905.307
+\i (00:09:23) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 189.223 -906.196 -929.27 +
+\i (00:09:23) QtSignal 194.19 -926.648 -962.765
+\i (00:09:23) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 166.89 -838.154 -1026.64 +
+\i (00:09:23) QtSignal 169.211 -847.421 -1039.26
+\i (00:09:23) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 158.813 -814.013 -1066.69 +
+\i (00:09:23) QtSignal 154.884 -830.728 -1084.89
+\i (00:09:23) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 136.412 -775.877 -1134.05 +
+\i (00:09:23) QtSignal 137.739 -781.016 -1139.92
+\i (00:09:24) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 132.578 -765.902 -1154.58 +
+\i (00:09:24) QtSignal 133.938 -771.137 -1160.36
+\i (00:09:24) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 128.875 -756.367 -1175.2 +
+\i (00:09:24) QtSignal 130.267 -761.697 -1180.87
+\i (00:09:24) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 125.302 -747.275 -1195.89 +
+\i (00:09:24) QtSignal 126.726 -752.698 -1201.47
+\i (00:09:24) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 121.86 -738.623 -1216.65 +
+\i (00:09:24) QtSignal 123.316 -744.137 -1222.13
+\i (00:09:24) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 118.549 -730.409 -1237.47 +
+\i (00:09:24) QtSignal 120.035 -736.013 -1242.85
+\i (00:09:24) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 115.369 -722.636 -1258.34 +
+\i (00:09:24) QtSignal 119.921 -739.712 -1274.18
+\i (00:09:24) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 106.617 -701.936 -1321.14 +
+\i (00:09:24) QtSignal 108.223 -707.882 -1326.1
+\i (00:09:24) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 103.962 -695.906 -1342.1 +
+\i (00:09:24) QtSignal 105.597 -701.932 -1346.96
+\i (00:09:24) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 101.437 -690.307 -1363.07 +
+\i (00:09:24) QtSignal 95.5291 -698.708 -1367.52
+\i (00:09:24) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 88.9442 -681.696 -1391.99 +
+\i (00:09:24) QtSignal 90.6379 -687.878 -1396.63
+\i (00:09:24) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 86.3495 -677.057 -1412.92 +
+\i (00:09:24) QtSignal 88.0728 -683.314 -1417.45
+\i (00:09:24) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 83.8896 -672.841 -1433.82 +
+\i (00:09:24) QtSignal 76.3472 -675.215 -1433.41
+\i (00:09:24) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 74.1304 -669.927 -1441.88 +
+\i (00:09:24) QtSignal 75.8827 -676.256 -1446.29
+\i (00:09:24) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasMouseReleaseEvent 769 199 769 264 4 0 +
+\i (00:09:24) QtSignal 33554432 71.4773 -666.237 -1462.73
+\i (00:09:25) QtSignal pcb3dViewer pcb3dViewer closed
+\i (00:09:29) step pkg map 
+\i (00:09:31) setwindow form.pkgmap3d
+\i (00:09:31) FORM pkgmap3d offset_z 0 
+\i (00:09:35) FORM pkgmap3d save_current  
+\i (00:09:39) FORM pkgmap3d view_orientation Front Left 
+\i (00:09:45) FORM pkgmap3d offset_z 10 
+\i (00:09:47) FORM pkgmap3d offset_z -10 
+\i (00:09:49) FORM pkgmap3d offset_z -15 
+\i (00:09:51) FORM pkgmap3d offset_z -20 
+\i (00:09:55) FORM pkgmap3d offset_z -18 
+\i (00:10:00) FORM pkgmap3d save_current  
+\i (00:10:01) FORM pkgmap3d done  
+\i (00:10:01) setwindow pcb
+\i (00:10:01) etchedit 
+\i (00:10:02) 3d 
+\i (00:10:03) etchedit 
+\i (00:10:03) QtSignal pcb3dViewer pcb3dViewerCanvas keyPressEvent 16777248 33554432 false 1
+\i (00:10:04) QtSignal pcb3dViewer pcb3dViewerCanvas keyPressEvent 16777248 33554432 false 1
+\i (00:10:04) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasMousePressEvent 722 321 722 386 4 4 33554432 +
+\i (00:10:04) QtSignal 260.946 46.1637 309.769
+\i (00:10:04) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 260.946 46.1637 309.769 261.542 +
+\i (00:10:04) QtSignal 47.95 311.227
+\i (00:10:04) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 262.431 47.0352 311.956 261.854 +
+\i (00:10:04) QtSignal 47.6119 313.429
+\i (00:10:04) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 262.265 47.1836 313.751 262.915 +
+\i (00:10:04) QtSignal 48.9147 315.252
+\i (00:10:04) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 263.856 47.9074 315.978 265.226 +
+\i (00:10:04) QtSignal 51.2936 319.034
+\i (00:10:04) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 267.198 49.0354 320.529 269.461 +
+\i (00:10:04) QtSignal 53.8767 325.271
+\i (00:10:04) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 272.596 49.8954 327.542 272.596 +
+\i (00:10:04) QtSignal 49.8954 327.542
+\i (00:10:04) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 272.596 49.8954 327.542 275.616 +
+\i (00:10:04) QtSignal 53.9225 330.939
+\i (00:10:04) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 278.355 50.0577 332.786 280.647 +
+\i (00:10:04) QtSignal 52.4193 334.617
+\i (00:10:04) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 282.313 49.8632 335.687 282.879 +
+\i (00:10:04) QtSignal 51.5344 339.013
+\i (00:10:04) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 284.464 48.9603 339.978 286.891 +
+\i (00:10:04) QtSignal 51.1107 341.894
+\i (00:10:04) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 288.584 48.207 342.862 291.778 +
+\i (00:10:04) QtSignal 51.6895 348.22
+\i (00:10:04) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 295.046 45.3949 350.017 297.663 +
+\i (00:10:04) QtSignal 47.1965 352.04
+\i (00:10:04) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 299.318 43.7416 352.821 300.498 +
+\i (00:10:04) QtSignal 44.6727 354.668
+\i (00:10:04) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 301.545 42.3528 355.129 304.26 +
+\i (00:10:04) QtSignal 43.9456 357.197
+\i (00:10:04) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 305.847 40.1744 357.857 307.381 +
+\i (00:10:04) QtSignal 40.8354 358.077
+\i (00:10:04) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 307.93 39.4566 358.289 309.179 +
+\i (00:10:04) QtSignal 40.2276 360.165
+\i (00:10:04) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 310.139 37.6642 360.539 311.408 +
+\i (00:10:04) QtSignal 38.3807 362.422
+\i (00:10:04) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 312.352 35.7415 362.749 313.641 +
+\i (00:10:04) QtSignal 36.4031 364.639
+\i (00:10:04) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 314.565 33.6894 364.916 317.447 +
+\i (00:10:04) QtSignal 34.8471 367.046
+\i (00:10:04) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 318.822 30.4562 367.399 320.156 +
+\i (00:10:04) QtSignal 30.9784 369.302
+\i (00:10:04) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 320.995 28.0743 369.466 326.896 +
+\i (00:10:04) QtSignal 29.9412 373.759
+\i (00:10:04) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 329.221 20.2282 374.048 332.24 +
+\i (00:10:04) QtSignal 20.8761 376.204
+\i (00:10:04) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 333.225 15.8277 376.152 336.041 +
+\i (00:10:04) QtSignal 16.2432 379.972
+\i (00:10:04) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 337.117 9.51554 379.713 340.193 +
+\i (00:10:04) QtSignal 9.84529 381.861
+\i (00:10:04) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 340.906 4.439 381.468 343.782 +
+\i (00:10:04) QtSignal 4.44817 385.265
+\i (00:10:04) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 344.478 -2.71169 384.545 +
+\i (00:10:04) QtSignal 346.141 -2.5901 384.779
+\i (00:10:04) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 346.309 -4.62401 384.513 +
+\i (00:10:04) QtSignal 347.975 -4.53148 384.743
+\i (00:10:04) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 348.109 -6.59664 384.469 +
+\i (00:10:04) QtSignal 349.563 -6.76661 386.348
+\i (00:10:04) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 349.726 -10.4602 385.834 +
+\i (00:10:04) QtSignal 351.181 -10.6883 387.705
+\i (00:10:04) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 351.29 -14.431 387.108 352.747 +
+\i (00:10:04) QtSignal -14.7172 388.97
+\i (00:10:04) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 352.799 -18.5066 388.29 354.257 +
+\i (00:10:04) QtSignal -18.8505 390.141
+\i (00:10:04) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 354.251 -22.684 389.376 357.38 +
+\i (00:10:04) QtSignal -23.1382 391.422
+\i (00:10:04) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 357.213 -29.2507 390.078 +
+\i (00:10:04) QtSignal 360.124 -30.2261 393.72
+\i (00:10:04) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 359.622 -38.1968 391.738 +
+\i (00:10:04) QtSignal 367.082 -40.7699 399.088
+\i (00:10:04) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 364.585 -59.7413 393.357 +
+\i (00:10:04) QtSignal 367.414 -61.446 396.788
+\i (00:10:04) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 365.91 -69.7288 393.625 369.602 +
+\i (00:10:04) QtSignal -73.8076 401.756
+\i (00:10:04) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 365.75 -90.2135 394.327 366.817 +
+\i (00:10:04) QtSignal -92.1111 397.398
+\i (00:10:04) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 365.266 -98.0849 394.109 +
+\i (00:10:04) QtSignal 368.209 -99.7967 395.72
+\i (00:10:04) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 366.366 -106.152 391.955 +
+\i (00:10:04) QtSignal 366.366 -106.152 391.955
+\i (00:10:04) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 366.366 -106.152 391.955 +
+\i (00:10:04) QtSignal 366.067 -106.954 393.404
+\i (00:10:04) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 365.51 -108.784 392.254 365.204 +
+\i (00:10:04) QtSignal -109.611 393.688
+\i (00:10:04) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 364.646 -111.446 392.489 +
+\i (00:10:04) QtSignal 365.936 -112.812 393.952
+\i (00:10:04) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 364.648 -116.838 391.232 +
+\i (00:10:04) QtSignal 364.007 -118.585 394.037
+\i (00:10:04) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 362.809 -122.267 391.372 +
+\i (00:10:04) QtSignal 363.733 -124.646 394.139
+\i (00:10:04) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 361.742 -130.431 389.663 +
+\i (00:10:04) QtSignal 361.039 -132.36 392.332
+\i (00:10:04) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 359.771 -136.005 389.255 +
+\i (00:10:04) QtSignal 358.672 -139.027 393.149
+\i (00:10:04) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 356.774 -144.489 388.113 +
+\i (00:10:04) QtSignal 355.998 -146.629 390.593
+\i (00:10:04) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 354.755 -150.21 386.989 353.951 +
+\i (00:10:04) QtSignal -152.431 389.388
+\i (00:10:04) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 352.726 -155.968 385.57 350.722 +
+\i (00:10:04) QtSignal -156.555 386.716
+\i (00:10:04) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 350.757 -156.527 386.723 +
+\i (00:10:04) QtSignal 348.741 -157.152 387.826
+\i (00:10:04) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 348.765 -157.16 387.791 348.338 +
+\i (00:10:04) QtSignal -158.348 388.905
+\i (00:10:04) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 347.838 -160.089 386.821 +
+\i (00:10:04) QtSignal 347.406 -161.295 387.913
+\i (00:10:04) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 346.913 -163.021 385.775 +
+\i (00:10:04) QtSignal 346.476 -164.245 386.844
+\i (00:10:04) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 345.991 -165.953 384.653 +
+\i (00:10:04) QtSignal 343.948 -166.67 385.645
+\i (00:10:04) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 343.95 -166.764 385.494 342.345 +
+\i (00:10:04) QtSignal -166.258 385.417
+\i (00:10:04) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 342.716 -164.686 387.513 +
+\i (00:10:04) QtSignal 340.213 -166.715 389.459
+\i (00:10:05) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 339.894 -168.571 386.87 337.828 +
+\i (00:10:05) QtSignal -169.393 387.722
+\i (00:10:05) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 337.825 -169.583 387.425 +
+\i (00:10:05) QtSignal 335.298 -171.75 389.182
+\i (00:10:05) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 335.116 -173.635 386.315 +
+\i (00:10:05) QtSignal 333.038 -174.541 387.047
+\i (00:10:05) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 333.046 -174.798 386.62 332.585 +
+\i (00:10:05) QtSignal -176.158 387.499
+\i (00:10:05) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 332.481 -177.768 384.904 +
+\i (00:10:05) QtSignal 330.4 -178.721 385.562
+\i (00:10:05) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 330.42 -179.011 385.052 328.337 +
+\i (00:10:05) QtSignal -179.995 385.659
+\i (00:10:05) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 328.37 -180.309 385.096 326.288 +
+\i (00:10:05) QtSignal -181.322 385.653
+\i (00:10:05) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 326.336 -181.658 385.036 +
+\i (00:10:05) QtSignal 325.875 -183.078 385.814
+\i (00:10:05) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 325.987 -184.605 383.035 +
+\i (00:10:05) QtSignal 323.908 -185.662 383.515
+\i (00:10:05) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 323.979 -186.021 382.813 +
+\i (00:10:05) QtSignal 322.361 -185.658 382.514
+\i (00:10:05) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 322.2 -184.552 384.617 321.741 +
+\i (00:10:05) QtSignal -185.999 385.344
+\i (00:10:05) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 321.995 -187.482 382.484 +
+\i (00:10:05) QtSignal 319.923 -188.595 382.86
+\i (00:10:05) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 320.039 -188.987 382.048 +
+\i (00:10:05) QtSignal 319.586 -190.462 382.722
+\i (00:10:05) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 319.93 -191.883 379.775 319.48 +
+\i (00:10:05) QtSignal -193.37 380.423
+\i (00:10:05) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 319.843 -194.753 377.427 +
+\i (00:10:05) QtSignal 319.396 -196.252 378.049
+\i (00:10:05) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 319.777 -197.596 375.004 +
+\i (00:10:05) QtSignal 318.164 -197.26 374.654
+\i (00:10:05) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 317.875 -196.343 376.768 +
+\i (00:10:05) QtSignal 317.431 -197.854 377.363
+\i (00:10:05) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 317.888 -199.167 374.284 +
+\i (00:10:05) QtSignal 315.839 -200.366 374.475
+\i (00:10:05) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 316.037 -200.771 373.455 +
+\i (00:10:05) QtSignal 315.602 -202.304 373.997
+\i (00:10:05) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 316.155 -203.543 370.838 +
+\i (00:10:05) QtSignal 315.725 -205.087 371.353
+\i (00:10:05) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 316.298 -206.281 368.149 +
+\i (00:10:05) QtSignal 315.873 -207.836 368.636
+\i (00:10:05) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 316.467 -208.983 365.388 +
+\i (00:10:05) QtSignal 316.046 -210.547 365.848
+\i (00:10:05) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 316.66 -211.648 362.555 314.64 +
+\i (00:10:05) QtSignal -212.908 362.584
+\i (00:10:05) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 314.915 -213.279 361.378 +
+\i (00:10:05) QtSignal 314.506 -214.861 361.783
+\i (00:10:05) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 315.22 -215.874 358.42 314.816 +
+\i (00:10:05) QtSignal -217.464 358.797
+\i (00:10:05) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 315.551 -218.425 355.392 +
+\i (00:10:05) QtSignal 315.154 -220.023 355.742
+\i (00:10:05) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 315.91 -220.932 352.296 315.518 +
+\i (00:10:05) QtSignal -222.538 352.618
+\i (00:10:05) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 316.296 -223.393 349.132 +
+\i (00:10:05) QtSignal 314.31 -224.701 348.995
+\i (00:10:05) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 314.674 -225.008 347.607 +
+\i (00:10:05) QtSignal 314.674 -225.008 347.607
+\i (00:10:05) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 314.674 -225.008 347.606 +
+\i (00:10:05) QtSignal 314.296 -226.626 347.873
+\i (00:10:05) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 315.177 -227.382 344.327 +
+\i (00:10:05) QtSignal 314.805 -229.006 344.565
+\i (00:10:05) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 315.707 -229.705 340.982 +
+\i (00:10:05) QtSignal 315.343 -231.334 341.192
+\i (00:10:05) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 316.267 -231.974 337.573 +
+\i (00:10:05) QtSignal 315.909 -233.609 337.755
+\i (00:10:05) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 316.854 -234.189 334.1 316.504 +
+\i (00:10:05) QtSignal -235.828 334.254
+\i (00:10:05) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 317.471 -236.347 330.565 +
+\i (00:10:05) QtSignal 317.128 -237.99 330.691
+\i (00:10:05) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 318.115 -238.447 326.969 +
+\i (00:10:05) QtSignal 317.78 -240.094 327.067
+\i (00:10:05) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 318.789 -240.488 323.312 +
+\i (00:10:05) QtSignal 318.461 -242.137 323.382
+\i (00:10:05) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 319.49 -242.466 319.596 319.17 +
+\i (00:10:05) QtSignal -244.119 319.638
+\i (00:10:05) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 320.221 -244.382 315.822 +
+\i (00:10:05) QtSignal 321.502 -246.334 316.294
+\i (00:10:05) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 323.092 -246.646 310.248 +
+\i (00:10:05) QtSignal 322.787 -248.301 310.233
+\i (00:10:05) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 323.812 -248.419 306.342 +
+\i (00:10:05) QtSignal 325.413 -248.717 306.773
+\i (00:10:05) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 325.981 -248.761 304.552 +
+\i (00:10:05) QtSignal 327.292 -250.717 304.911
+\i (00:10:05) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 328.739 -250.777 298.7 330.064 +
+\i (00:10:05) QtSignal -252.733 299.002
+\i (00:10:05) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 331.436 -252.663 292.715 +
+\i (00:10:05) QtSignal 333.057 -252.963 293.06
+\i (00:10:05) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 333.543 -252.904 290.729 +
+\i (00:10:05) QtSignal 335.17 -253.203 291.045
+\i (00:10:05) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 335.621 -253.136 288.678 +
+\i (00:10:05) QtSignal 337.254 -253.434 288.965
+\i (00:10:05) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 337.668 -253.359 286.561 +
+\i (00:10:05) QtSignal 337.384 -255.015 286.46
+\i (00:10:05) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 338.054 -254.846 282.406 +
+\i (00:10:05) QtSignal 339.692 -255.143 282.664
+\i (00:10:05) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 340.077 -255.017 280.228 +
+\i (00:10:05) QtSignal 341.72 -255.313 280.457
+\i (00:10:05) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 342.067 -255.177 277.986 +
+\i (00:10:05) QtSignal 343.714 -255.472 278.187
+\i (00:10:05) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 344.022 -255.327 275.681 +
+\i (00:10:05) QtSignal 347.322 -255.912 276.023
+\i (00:10:05) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 347.82 -255.592 270.883 349.476 +
+\i (00:10:05) QtSignal -255.881 270.996
+\i (00:10:05) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 349.661 -255.708 268.391 +
+\i (00:10:05) QtSignal 351.318 -255.995 268.475
+\i (00:10:05) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 351.459 -255.811 265.839 +
+\i (00:10:05) QtSignal 353.119 -256.096 265.893
+\i (00:10:05) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 353.216 -255.903 263.226 +
+\i (00:10:05) QtSignal 354.876 -256.186 263.251
+\i (00:10:05) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 354.927 -255.982 260.554 +
+\i (00:10:05) QtSignal 356.588 -256.263 260.55
+\i (00:10:05) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 356.593 -256.05 257.824 358.254 +
+\i (00:10:05) QtSignal -256.328 257.791
+\i (00:10:05) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 358.211 -256.104 255.036 +
+\i (00:10:05) QtSignal 358.491 -254.449 255.166
+\i (00:10:05) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 358.596 -254.751 259.238 +
+\i (00:10:05) QtSignal 360.256 -255.026 259.175
+\i (00:10:06) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 360.157 -254.84 256.389 361.816 +
+\i (00:10:06) QtSignal -255.114 256.297
+\i (00:10:06) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 361.668 -254.918 253.485 +
+\i (00:10:06) QtSignal 361.947 -253.261 253.586
+\i (00:10:06) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 362.201 -253.514 257.625 +
+\i (00:10:06) QtSignal 363.859 -253.786 257.503
+\i (00:10:06) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 363.652 -253.629 254.663 +
+\i (00:10:06) QtSignal 365.307 -253.899 254.512
+\i (00:10:06) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 365.048 -253.732 251.647 +
+\i (00:10:06) QtSignal 366.702 -254.001 251.467
+\i (00:10:06) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 366.39 -253.824 248.579 368.317 +
+\i (00:10:06) QtSignal -252.432 248.441
+\i (00:10:06) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 368.492 -252.472 249.512 +
+\i (00:10:06) QtSignal 370.138 -252.737 249.273
+\i (00:10:06) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 369.71 -252.591 246.338 369.984 +
+\i (00:10:06) QtSignal -250.931 246.381
+\i (00:10:06) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 370.599 -251.097 250.325 +
+\i (00:10:06) QtSignal 372.51 -249.699 250.071
+\i (00:10:06) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 372.708 -249.704 251.019 +
+\i (00:10:06) QtSignal 374.609 -248.304 250.707
+\i (00:10:06) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 374.815 -248.293 251.593 +
+\i (00:10:06) QtSignal 375.073 -246.63 251.549
+\i (00:10:06) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 375.839 -246.612 255.38 377.723 +
+\i (00:10:06) QtSignal -245.212 254.982
+\i (00:10:06) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 377.93 -245.174 255.776 378.176 +
+\i (00:10:06) QtSignal -243.512 255.674
+\i (00:10:06) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 379.016 -243.372 259.427 +
+\i (00:10:06) QtSignal 379.255 -241.711 259.297
+\i (00:10:06) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 380.098 -241.506 263.016 +
+\i (00:10:06) QtSignal 380.331 -239.847 262.857
+\i (00:10:06) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 381.177 -239.578 266.542 +
+\i (00:10:06) QtSignal 381.63 -236.264 266.166
+\i (00:10:07) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 383.32 -235.543 273.399 381.695 +
+\i (00:10:07) QtSignal -235.281 273.753
+\i (00:10:07) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 382.362 -234.933 276.686 +
+\i (00:10:07) QtSignal 382.575 -233.281 276.441
+\i (00:10:07) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 383.364 -232.819 280.029 +
+\i (00:10:07) QtSignal 381.731 -232.56 280.354
+\i (00:10:07) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 382.348 -232.156 283.261 +
+\i (00:10:07) QtSignal 380.71 -231.901 283.558
+\i (00:10:07) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 381.27 -231.493 286.446 379.626 +
+\i (00:10:07) QtSignal -231.242 286.714
+\i (00:10:07) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 380.131 -230.83 289.581 378.482 +
+\i (00:10:07) QtSignal -230.583 289.821
+\i (00:10:07) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 378.932 -230.168 292.667 +
+\i (00:10:07) QtSignal 377.278 -229.926 292.878
+\i (00:10:07) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 377.674 -229.508 295.701 +
+\i (00:10:07) QtSignal 376.017 -229.269 295.883
+\i (00:10:07) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 376.36 -228.848 298.683 374.698 +
+\i (00:10:07) QtSignal -228.615 298.837
+\i (00:10:07) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 374.989 -228.191 301.612 +
+\i (00:10:07) QtSignal 373.325 -227.962 301.736
+\i (00:10:07) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 373.565 -227.536 304.486 +
+\i (00:10:07) QtSignal 373.772 -225.888 304.213
+\i (00:10:07) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 374.059 -225.293 307.826 +
+\i (00:10:07) QtSignal 374.264 -223.649 307.524
+\i (00:10:07) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 374.557 -222.997 311.096 +
+\i (00:10:07) QtSignal 374.759 -221.359 310.765
+\i (00:10:07) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 375.057 -220.65 314.296 375.456 +
+\i (00:10:07) QtSignal -217.385 313.577
+\i (00:10:07) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 376.065 -215.811 320.483 +
+\i (00:10:07) QtSignal 376.26 -214.191 320.067
+\i (00:10:07) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 376.572 -213.322 323.469 +
+\i (00:10:07) QtSignal 376.764 -211.71 323.024
+\i (00:10:07) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 377.081 -210.789 326.382 +
+\i (00:10:07) QtSignal 377.271 -209.184 325.909
+\i (00:10:07) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 377.591 -208.214 329.221 +
+\i (00:10:07) QtSignal 377.778 -206.618 328.72
+\i (00:10:07) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 378.103 -205.598 331.987 +
+\i (00:10:07) QtSignal 378.287 -204.011 331.458
+\i (00:10:07) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 378.616 -202.944 334.678 +
+\i (00:10:07) QtSignal 378.797 -201.366 334.121
+\i (00:10:07) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 379.129 -200.253 337.294 +
+\i (00:10:07) QtSignal 379.307 -198.684 336.709
+\i (00:10:07) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 379.643 -197.526 339.834 +
+\i (00:10:07) QtSignal 379.818 -195.968 339.222
+\i (00:10:07) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 380.156 -194.767 342.298 +
+\i (00:10:07) QtSignal 380.329 -193.219 341.659
+\i (00:10:07) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 380.67 -191.976 344.687 381.009 +
+\i (00:10:07) QtSignal -188.902 343.354
+\i (00:10:07) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 381.696 -186.306 349.233 +
+\i (00:10:07) QtSignal 381.696 -186.306 349.233
+\i (00:10:07) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 381.696 -186.306 349.233 +
+\i (00:10:07) QtSignal 381.859 -184.793 348.513
+\i (00:10:07) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 382.208 -183.431 351.391 +
+\i (00:10:07) QtSignal 382.368 -181.93 350.645
+\i (00:10:07) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 382.719 -180.532 353.471 +
+\i (00:10:07) QtSignal 382.875 -179.044 352.699
+\i (00:10:08) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 383.228 -177.61 355.474 383.381 +
+\i (00:10:08) QtSignal -176.136 354.676
+\i (00:10:08) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 383.736 -174.667 357.399 +
+\i (00:10:08) QtSignal 383.885 -173.207 356.575
+\i (00:10:08) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 384.241 -171.705 359.247 +
+\i (00:10:08) QtSignal 384.388 -170.259 358.397
+\i (00:10:08) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 384.745 -168.726 361.016 +
+\i (00:10:08) QtSignal 384.888 -167.295 360.142
+\i (00:10:08) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 385.246 -165.732 362.708 +
+\i (00:10:08) QtSignal 385.386 -164.316 361.809
+\i (00:10:08) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 385.745 -162.724 364.322 +
+\i (00:10:08) QtSignal 385.881 -161.323 363.398
+\i (00:10:08) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 386.24 -159.704 365.859 386.373 +
+\i (00:10:08) QtSignal -158.32 364.91
+\i (00:10:08) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 386.733 -156.674 367.317 +
+\i (00:10:08) QtSignal 386.862 -155.306 366.345
+\i (00:10:08) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 387.222 -153.636 368.699 +
+\i (00:10:08) QtSignal 387.348 -152.285 367.702
+\i (00:10:08) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 387.708 -150.591 370.003 +
+\i (00:10:08) QtSignal 387.952 -147.923 367.963
+\i (00:10:08) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 388.668 -144.488 372.38 388.783 +
+\i (00:10:08) QtSignal -143.19 371.314
+\i (00:10:08) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 389.142 -141.434 373.453 +
+\i (00:10:08) QtSignal 389.363 -138.875 371.277
+\i (00:10:08) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 390.077 -135.328 375.372 +
+\i (00:10:08) QtSignal 390.179 -134.087 374.24
+\i (00:10:08) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 390.537 -132.28 376.219 390.635 +
+\i (00:10:08) QtSignal -131.058 375.065
+\i (00:10:08) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 390.992 -129.237 376.99 389.325 +
+\i (00:10:08) QtSignal -129.012 377.085
+\i (00:10:08) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 389.67 -127.109 379.06 389.765 +
+\i (00:10:08) QtSignal -125.907 377.885
+\i (00:10:08) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasWheelEvent 788 252 788 317 4 33554432 +
+\i (00:10:08) QtSignal 120
+\i (00:10:08) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 360.316 -98.9534 359.638 +
+\i (00:10:08) QtSignal 358.98 -98.7896 359.697
+\i (00:10:08) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 359.217 -97.252 361.235 359.291 +
+\i (00:10:08) QtSignal -96.3069 360.278
+\i (00:10:08) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 359.501 -94.8216 361.736 +
+\i (00:10:08) QtSignal 359.572 -93.8932 360.763
+\i (00:10:08) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 359.782 -92.3996 362.179 +
+\i (00:10:08) QtSignal 359.85 -91.4882 361.19
+\i (00:10:08) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 360.059 -89.9875 362.563 +
+\i (00:10:08) QtSignal 358.786 -88.946 361.601
+\i (00:10:08) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 359.164 -85.8329 364.373 +
+\i (00:10:08) QtSignal 359.228 -84.9563 363.353
+\i (00:10:08) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 359.401 -83.4407 364.642 +
+\i (00:10:08) QtSignal 359.463 -82.5819 363.607
+\i (00:10:08) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 359.635 -81.0622 364.855 +
+\i (00:10:08) QtSignal 359.695 -80.2215 363.805
+\i (00:10:08) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 359.868 -78.6984 365.012 +
+\i (00:10:08) QtSignal 359.925 -77.8761 363.947
+\i (00:10:08) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 360.097 -76.351 365.113 360.153 +
+\i (00:10:08) QtSignal -75.5472 364.034
+\i (00:10:08) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 360.323 -74.021 365.159 360.377 +
+\i (00:10:08) QtSignal -73.2361 364.066
+\i (00:10:08) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 360.547 -71.7095 365.15 360.599 +
+\i (00:10:08) QtSignal -70.9437 364.044
+\i (00:10:08) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 360.768 -69.4176 365.088 +
+\i (00:10:08) QtSignal 360.817 -68.6711 363.968
+\i (00:10:08) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 360.985 -67.1468 364.973 +
+\i (00:10:08) QtSignal 361.032 -66.4199 363.84
+\i (00:10:08) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 361.199 -64.8978 364.805 +
+\i (00:10:08) QtSignal 361.245 -64.1906 363.66
+\i (00:10:08) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 361.411 -62.6723 364.586 +
+\i (00:10:08) QtSignal 361.453 -61.9851 363.429
+\i (00:10:08) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 361.618 -60.4708 364.316 +
+\i (00:10:08) QtSignal 361.659 -59.8038 363.147
+\i (00:10:08) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 361.822 -58.2946 363.996 +
+\i (00:10:08) QtSignal 361.861 -57.6479 362.815
+\i (00:10:08) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 362.023 -56.1449 363.627 +
+\i (00:10:08) QtSignal 362.059 -55.5188 362.435
+\i (00:10:08) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 362.22 -54.0226 363.209 362.288 +
+\i (00:10:08) QtSignal -52.8121 360.804
+\i (00:10:08) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 362.602 -49.8646 362.232 +
+\i (00:10:08) QtSignal 362.632 -49.3014 361.009
+\i (00:10:08) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 362.788 -47.8307 361.675 +
+\i (00:10:08) QtSignal 362.815 -47.2889 360.442
+\i (00:10:08) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 362.969 -45.8283 361.072 +
+\i (00:10:08) QtSignal 362.994 -45.3079 359.831
+\i (00:10:08) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 363.147 -43.8581 360.426 +
+\i (00:10:08) QtSignal 363.192 -42.8607 357.925
+\i (00:10:08) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 363.49 -40.0186 359.006 363.508 +
+\i (00:10:08) QtSignal -39.5636 357.739
+\i (00:10:08) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 363.655 -38.1509 358.234 +
+\i (00:10:08) QtSignal 363.686 -37.285 355.684
+\i (00:10:08) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 363.972 -34.5239 356.571 +
+\i (00:10:08) QtSignal 364.006 -33.3587 352.703
+\i (00:10:08) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 364.414 -29.3657 353.795 +
+\i (00:10:08) QtSignal 364.419 -29.045 352.488
+\i (00:10:08) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 364.553 -27.7248 352.799 +
+\i (00:10:08) QtSignal 364.557 -27.1289 350.173
+\i (00:10:08) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 364.816 -24.5647 350.708 +
+\i (00:10:08) QtSignal 364.811 -24.0604 348.062
+\i (00:10:08) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 365.061 -21.5709 348.491 +
+\i (00:10:08) QtSignal 365.046 -21.1588 345.83
+\i (00:10:08) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 365.286 -18.7487 346.158 +
+\i (00:10:08) QtSignal 365.238 -18.1098 340.81
+\i (00:10:08) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 365.679 -13.635 341.182 365.658 +
+\i (00:10:08) QtSignal -13.5685 339.837
+\i (00:10:08) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 365.765 -12.47 339.88 365.719 +
+\i (00:10:08) QtSignal -12.3838 337.188
+\i (00:10:08) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 365.923 -10.2785 337.215 +
+\i (00:10:08) QtSignal 365.895 -10.2822 335.869
+\i (00:10:08) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 365.994 -9.25298 335.855 +
+\i (00:10:08) QtSignal 365.964 -9.28004 334.509
+\i (00:10:08) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 366.061 -8.27436 334.478 +
+\i (00:10:08) QtSignal 366.029 -8.3248 333.132
+\i (00:10:08) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 366.123 -7.34343 333.085 +
+\i (00:10:08) QtSignal 366.088 -7.41725 331.74
+\i (00:10:08) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 366.179 -6.46001 331.677 +
+\i (00:10:08) QtSignal 366.142 -6.55717 330.334
+\i (00:10:08) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 366.231 -5.62438 330.256 +
+\i (00:10:08) QtSignal 366.192 -5.74486 328.916
+\i (00:10:08) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 366.278 -4.83702 328.823 +
+\i (00:10:08) QtSignal 366.237 -4.98077 327.485
+\i (00:10:08) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 366.32 -4.09761 327.38 366.277 +
+\i (00:10:08) QtSignal -4.26461 326.044
+\i (00:10:08) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 366.357 -3.40687 325.927 +
+\i (00:10:08) QtSignal 366.22 -3.97741 321.929
+\i (00:10:08) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 366.44 -1.62519 321.523 366.387 +
+\i (00:10:08) QtSignal -1.88455 320.202
+\i (00:10:08) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 366.457 -1.12853 320.044 +
+\i (00:10:08) QtSignal 366.349 -1.69308 317.413
+\i (00:10:08) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 366.479 -0.280783 317.078 +
+\i (00:10:08) QtSignal 366.42 -0.608616 315.774
+\i (00:10:08) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 366.482 0.0705799 315.594 +
+\i (00:10:08) QtSignal 366.422 -0.279887 314.295
+\i (00:10:08) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 366.481 0.373225 314.11 366.419 +
+\i (00:10:08) QtSignal 0.000232458 312.817
+\i (00:10:08) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 366.476 0.627738 312.627 +
+\i (00:10:08) QtSignal 366.411 0.232332 311.342
+\i (00:10:08) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 366.465 0.834235 311.148 +
+\i (00:10:08) QtSignal 366.332 -0.00116026 308.591
+\i (00:10:08) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 366.431 1.10392 308.203 366.361 +
+\i (00:10:08) QtSignal 0.642023 306.94
+\i (00:10:08) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 366.407 1.16732 306.74 366.335 +
+\i (00:10:08) QtSignal 0.683532 305.486
+\i (00:10:08) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 366.379 1.18361 305.285 364.889 +
+\i (00:10:08) QtSignal 0.302417 302.821
+\i (00:10:08) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 365.107 3.1822 301.621 365.03 +
+\i (00:10:08) QtSignal 2.63359 300.393
+\i (00:10:08) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 365.059 3.05943 300.197 364.98 +
+\i (00:10:08) QtSignal 2.48951 298.979
+\i (00:10:08) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 365.007 2.89087 298.785 364.927 +
+\i (00:10:08) QtSignal 2.29983 297.578
+\i (00:10:08) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 364.952 2.677 297.387 364.788 +
+\i (00:10:08) QtSignal 1.45304 294.994
+\i (00:10:08) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 364.832 2.11399 294.638 364.748 +
+\i (00:10:08) QtSignal 1.46069 293.463
+\i (00:10:08) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 364.767 1.76634 293.288 364.596 +
+\i (00:10:08) QtSignal 0.418999 290.962
+\i (00:10:08) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 364.629 0.940269 290.646 +
+\i (00:10:08) QtSignal 362.757 -3.23426 283.851
+\i (00:10:08) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 362.884 -0.639938 282.153 +
+\i (00:10:08) QtSignal 361.54 -0.551657 282.202
+\i (00:10:09) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 361.583 1.09362 280.909 361.211 +
+\i (00:10:09) QtSignal -2.2219 276.68
+\i (00:10:09) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 361.213 -2.00642 276.498 +
+\i (00:10:09) QtSignal 361.026 -3.8079 274.504
+\i (00:10:09) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 361.026 -3.7736 274.472 359.305 +
+\i (00:10:09) QtSignal -7.44398 270.677
+\i (00:10:09) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 359.301 -6.15297 269.44 359.301 +
+\i (00:10:09) QtSignal -6.15297 269.44
+\i (00:10:09) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 359.301 -6.15297 269.44 359.116 +
+\i (00:10:09) QtSignal -8.15351 267.646
+\i (00:10:09) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 359.12 -8.30762 267.824 358.845 +
+\i (00:10:09) QtSignal -11.4008 265.24
+\i (00:10:09) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 358.857 -11.7515 265.681 +
+\i (00:10:09) QtSignal 358.767 -12.8264 264.875
+\i (00:10:09) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 358.772 -12.9522 265.045 +
+\i (00:10:09) QtSignal 358.683 -14.0411 264.258
+\i (00:10:09) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 358.689 -14.1774 264.449 +
+\i (00:10:09) QtSignal 358.333 -18.5874 261.376
+\i (00:10:09) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 358.37 -19.3033 262.48 356.853 +
+\i (00:10:09) QtSignal -21.5576 261.181
+\i (00:10:09) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 356.81 -20.8803 260.079 356.642 +
+\i (00:10:09) QtSignal -23.2346 258.781
+\i (00:10:09) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 356.685 -23.6319 259.527 +
+\i (00:10:09) QtSignal 356.522 -26.0303 258.313
+\i (00:10:09) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 356.572 -26.4425 259.156 +
+\i (00:10:09) QtSignal 356.414 -28.8821 258.026
+\i (00:10:09) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 356.471 -29.3027 258.969 +
+\i (00:10:09) QtSignal 356.165 -34.2585 256.88
+\i (00:10:09) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 356.308 -35.1344 259.157 +
+\i (00:10:09) QtSignal 356.308 -35.1344 259.157
+\i (00:10:09) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 356.308 -35.1344 259.157 +
+\i (00:10:09) QtSignal 356.166 -37.6797 258.288
+\i (00:10:09) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 356.247 -38.0865 259.537 +
+\i (00:10:09) QtSignal 356.179 -39.3736 259.147
+\i (00:10:09) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 356.221 -39.5673 259.799 +
+\i (00:10:09) QtSignal 356.022 -43.4488 258.696
+\i (00:10:09) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 356.166 -44.0139 260.875 +
+\i (00:10:09) QtSignal 356.104 -45.3254 260.576
+\i (00:10:09) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 356.155 -45.4934 261.331 +
+\i (00:10:09) QtSignal 355.974 -49.4431 260.502
+\i (00:10:09) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 356.145 -49.9061 262.991 +
+\i (00:10:09) QtSignal 356.145 -49.9061 262.991
+\i (00:10:09) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 356.145 -49.9061 262.991 +
+\i (00:10:09) QtSignal 356.033 -52.5649 262.577
+\i (00:10:09) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 356.157 -52.8139 264.341 +
+\i (00:10:09) QtSignal 356.105 -54.1499 264.18
+\i (00:10:09) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 356.169 -54.2538 265.089 +
+\i (00:10:09) QtSignal 356.118 -55.5925 264.951
+\i (00:10:09) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 356.185 -55.6827 265.884 +
+\i (00:10:09) QtSignal 356.136 -57.0237 265.77
+\i (00:10:09) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 356.205 -57.0994 266.728 +
+\i (00:10:09) QtSignal 356.157 -58.4422 266.637
+\i (00:10:09) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 356.228 -58.5027 267.62 356.183 +
+\i (00:10:09) QtSignal -59.8469 267.553
+\i (00:10:09) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent 356.256 -59.8912 268.559 356.212 +
+\i (00:10:09) QtSignal -61.2364 268.515
+\i (00:10:09) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasMouseReleaseEvent 782 386 782 451 4 0 +
+\i (00:10:09) QtSignal 0 356.256 -59.8872 268.56
+\i (00:10:09) QtSignal pcb3dViewer pcb3dViewerCanvas keyPressEvent 16777251 134217728 false 1
+\i (00:10:10) zoom in 1 
+\i (00:10:10) setwindow pcb
+\i (00:10:10) zoom in 0.7258 0.0254
+\i (00:10:10) trapsize 477
+\i (00:10:10) zoom in 1 
+\i (00:10:10) setwindow pcb
+\i (00:10:10) zoom in 0.7258 0.0254
+\i (00:10:10) trapsize 239
+\i (00:10:11) zoom out 1 
+\i (00:10:11) setwindow pcb
+\i (00:10:11) zoom out 0.7020 0.0827
+\i (00:10:11) trapsize 477
+\i (00:10:13) show measure 
+\i (00:10:14) pick grid -0.0520 0.1305
+\t (00:10:14) last pick:  0.0000 0.0000
+\i (00:10:15) pick grid 1.9238 -0.0509
+\t (00:10:15) last pick:  1.9050 0.0000
+\i (00:10:17) setwindow text
+\i (00:10:17) close
+\i (00:10:18) zoom out 1 
+\i (00:10:18) setwindow pcb
+\i (00:10:18) zoom out 1.4847 -0.6236
+\i (00:10:18) trapsize 954
+\i (00:10:18) zoom out 1 
+\i (00:10:18) setwindow pcb
+\i (00:10:18) zoom out 1.4847 -0.6235
+\i (00:10:18) trapsize 1909
+\i (00:10:18) zoom in 1 
+\i (00:10:18) setwindow pcb
+\i (00:10:18) zoom in 2.2483 3.8817
+\i (00:10:18) trapsize 954
+\i (00:10:20) exit 
+\e (00:10:20) Do you want to save the changes you made to SAMTEC_MTMM-103-06-S-S-230.dra?
+\i (00:10:21) fillin menu_cancel 
+\i (00:10:21) etchedit 
+\i (00:10:24) step pkg map 
+\i (00:17:23) QtSignal pcb3dViewer pcb3dViewer closed
+\i (00:17:27) setwindow form.pkgmap3d
+\i (00:17:27) FORM pkgmap3d done  
+\i (00:17:27) setwindow pcb
+\i (00:17:27) etchedit 
+\i (00:17:28) exit 
+\e (00:17:28) Do you want to save the changes you made to SAMTEC_MTMM-103-06-S-S-230.dra?
+\i (00:17:30) fillin no 
+\t (00:17:34)     Journal end - Sat Nov  2 12:30:10 2024
