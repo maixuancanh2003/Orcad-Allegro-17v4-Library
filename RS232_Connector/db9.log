@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : DB9.dra                                       )
+(    Software Version : unreleased                                    )
+(    Date/Time        : Sat Nov  2 21:51:36 2024                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = D:/Allegro/Project/CanhMai/Lib/Schematic_And_FootPrint/RS232_Connector
+    Name      = db9.psm
+    User      = Admin
+    Machine   = DESKTOP-OLN9DLP
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+
