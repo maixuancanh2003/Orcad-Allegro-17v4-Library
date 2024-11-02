@@ -1,0 +1,493 @@
+
+(EDIF
+  (rename MCP6002_45_ISN "MCP6002-ISN")
+  (EDIFVersion 2 0 0)
+  (EDIFLevel 0)
+  (keywordMap (keywordLevel 0))
+  (status
+    (written
+      (timestamp 2024 03 27 13 07 34)
+      (dataOrigin "SnapEDA snapeda.comCopyright - This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0")
+      (program "SnapEDA Converter")
+    )
+  )
+  (library
+    (rename MCP6002_45_ISN "MCP6002-ISN")
+    (EDIFLevel 0)
+    (technology
+      (numberDefinition
+        (scale 1 (e 254 -9) (unit DISTANCE))
+        (gridMap 1 1)
+      )
+      (figureGroup PINNAME
+        (cornerType TRUNCATE)
+        (endType TRUNCATE)
+        (pathWidth 0)
+        (textHeight 4811)
+      )
+      (figureGroup PINNUMBER
+        (cornerType TRUNCATE)
+        (endType TRUNCATE)
+        (textHeight 9000)
+        (pathWidth 0)
+      )
+      (figureGroup PORT
+        (pathWidth 1000)
+        (textHeight 9000)
+      )
+      (figureGroup PARTBODY
+        (pathWidth 1000)
+        (borderWidth 1000)
+        (textHeight 6000)
+      )
+    )
+    (cell
+      (rename MCP6002_45_ISN_1 "MCP6002-ISN-1")
+      (cellType GENERIC)
+      (property (rename SOURCE_PACKAGE "Source Package") (string "MCP6002-ISN"))
+      (property (rename PACKAGEHETEROGENEOUS "PackageHeterogeneous") (string "MCP6002-ISN"))
+      (property (rename POSITIONINPACKAGE "PositionInPackage") (string "-1,_"))
+      (property (rename NUMBER_DEVICES_IN_PACKAGE "Number devices in Package") (string "1"))
+      (view
+        (rename NORMAL "Normal")
+        (viewType SCHEMATIC)
+        (interface
+          (designator "U")
+          (property (rename VALUE "Value") (string "MCP6002-ISN"))
+          (port
+            (rename VDD "VDD")
+            (property
+              (rename TYPE "Type")
+              (string "POWER")
+            )
+            (property PORTTYPE
+              (string "supply")
+              (owner "Schematic_TSC")
+            )
+            (property SUPPLYTYPE
+              (string "power")
+              (owner "Schematic_TSC")
+            )
+            (designator "8")
+            (property
+              (rename ORDER "Order")
+              (integer 0)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename VINA_43_ "VINA+")
+            (direction INPUT)
+            (property
+              (rename TYPE "Type")
+              (string "DBO_IN")
+            )
+            (designator "3")
+            (property
+              (rename ORDER "Order")
+              (integer 1)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename VINA_45_ "VINA-")
+            (direction INPUT)
+            (property
+              (rename TYPE "Type")
+              (string "DBO_IN")
+            )
+            (designator "2")
+            (property
+              (rename ORDER "Order")
+              (integer 2)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename VOUTA "VOUTA")
+            (direction OUTPUT)
+            (property
+              (rename TYPE "Type")
+              (string "DBO_OUT")
+            )
+            (designator "1")
+            (property
+              (rename ORDER "Order")
+              (integer 3)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename VSS "VSS")
+            (property
+              (rename TYPE "Type")
+              (string "POWER")
+            )
+            (property PORTTYPE
+              (string "supply")
+              (owner "Schematic_TSC")
+            )
+            (property SUPPLYTYPE
+              (string "power")
+              (owner "Schematic_TSC")
+            )
+            (designator "4")
+            (property
+              (rename ORDER "Order")
+              (integer 4)
+              (owner "OrCAD")
+            )
+          )
+          (symbol
+            (boundingBox (rectangle (pt -40000 -30000) (pt 40000 30000)))
+            (portImplementation
+              (name VINA_43_)
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin (pt -36062 -10000))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt -40000 -10000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt -40000 -10000)
+                    (pt -20000 -10000)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name VINA_45_)
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin (pt -36062 10000))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt -40000 10000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt -40000 10000)
+                    (pt -20000 10000)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name VDD)
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify LOWERCENTER)
+                  (orientation R0)
+                  (origin (pt 0 26062))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt 0 30000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt 0 30000)
+                    (pt 0 10000)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name VOUTA)
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERLEFT)
+                  (orientation R0)
+                  (origin (pt 36062 0))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt 40000 0)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt 40000 0)
+                    (pt 20000 0)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name VSS)
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify UPPERCENTER)
+                  (orientation R0)
+                  (origin (pt 0 -26062))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt 0 -30000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt 0 -30000)
+                    (pt 0 -10000)
+                  )
+                )
+              )
+            )
+            (figure PARTBODY
+              (path (pointList (pt -20000 20000) (pt -20000 -20000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -20000 -20000) (pt 20000 0)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 20000 0) (pt -20000 20000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -15000 -7500) (pt -15000 -12500)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -17500 10000) (pt -12500 10000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -17500 -10000) (pt -12500 -10000)))
+            )
+            (keywordDisplay DESIGNATOR
+              (display PARTBODY
+                (justify LOWERLEFT)
+                (orientation R0)
+                (origin (pt 20000 12500))
+              )
+            )
+            (propertyDisplay VALUE
+              (display PARTBODY
+                (justify LOWERLEFT)
+                (orientation R0)
+                (origin (pt 20000 -20000))
+              )
+            )
+            (annotate
+              (stringDisplay "VDD"
+                (display PARTBODY
+                  (justify LOWERLEFT)
+                  (orientation R90)
+                  (origin (pt 6000 15000))
+                )
+              )
+            )
+            (annotate
+              (stringDisplay "VSS"
+                (display PARTBODY
+                  (justify LOWERLEFT)
+                  (orientation R90)
+                  (origin (pt 6000 -25000))
+                )
+              )
+            )
+            (property (rename PCB_Footprint "PCB Footprint") (string "SOIC127P600X175-8N"))
+          )
+        )
+      )
+    )
+    (cell
+      (rename MCP6002_45_ISN_2 "MCP6002-ISN-2")
+      (cellType GENERIC)
+      (property (rename SOURCE_PACKAGE "Source Package") (string "MCP6002-ISN"))
+      (property (rename PACKAGEHETEROGENEOUS "PackageHeterogeneous") (string "MCP6002-ISN"))
+      (property (rename POSITIONINPACKAGE "PositionInPackage") (string "_,-2"))
+      (property (rename NUMBER_DEVICES_IN_PACKAGE "Number devices in Package") (string "1"))
+      (view
+        (rename NORMAL "Normal")
+        (viewType SCHEMATIC)
+        (interface
+          (designator "U")
+          (property (rename VALUE "Value") (string "MCP6002-ISN"))
+          (port
+            (rename VINB_43_ "VINB+")
+            (direction INPUT)
+            (property
+              (rename TYPE "Type")
+              (string "DBO_IN")
+            )
+            (designator "5")
+            (property
+              (rename ORDER "Order")
+              (integer 0)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename VINB_45_ "VINB-")
+            (direction INPUT)
+            (property
+              (rename TYPE "Type")
+              (string "DBO_IN")
+            )
+            (designator "6")
+            (property
+              (rename ORDER "Order")
+              (integer 1)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename VOUTB "VOUTB")
+            (direction OUTPUT)
+            (property
+              (rename TYPE "Type")
+              (string "DBO_OUT")
+            )
+            (designator "7")
+            (property
+              (rename ORDER "Order")
+              (integer 2)
+              (owner "OrCAD")
+            )
+          )
+          (symbol
+            (boundingBox (rectangle (pt -40000 -20000) (pt 40000 20000)))
+            (portImplementation
+              (name VINB_43_)
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin (pt -36062 -10000))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt -40000 -10000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt -40000 -10000)
+                    (pt -20000 -10000)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name VINB_45_)
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin (pt -36062 10000))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt -40000 10000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt -40000 10000)
+                    (pt -20000 10000)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name VOUTB)
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERLEFT)
+                  (orientation R0)
+                  (origin (pt 36062 0))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt 40000 0)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt 40000 0)
+                    (pt 20000 0)
+                  )
+                )
+              )
+            )
+            (figure PARTBODY
+              (path (pointList (pt -20000 20000) (pt -20000 -20000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -20000 -20000) (pt 20000 0)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 20000 0) (pt -20000 20000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -15000 -7500) (pt -15000 -12500)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -17500 10000) (pt -12500 10000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -17500 -10000) (pt -12500 -10000)))
+            )
+            (keywordDisplay DESIGNATOR
+              (display PARTBODY
+                (justify LOWERLEFT)
+                (orientation R0)
+                (origin (pt 10000 12500))
+              )
+            )
+            (propertyDisplay VALUE
+              (display PARTBODY
+                (justify LOWERLEFT)
+                (orientation R0)
+                (origin (pt 10000 -20000))
+              )
+            )
+            (property (rename PCB_Footprint "PCB Footprint") (string "SOIC127P600X175-8N"))
+          )
+        )
+      )
+    )
+  )
+)
