@@ -1,0 +1,2587 @@
+
+(EDIF
+  (rename &88874_45_050LF "88874-050LF")
+  (EDIFVersion 2 0 0)
+  (EDIFLevel 0)
+  (keywordMap (keywordLevel 0))
+  (status
+    (written
+      (timestamp 2022 09 12 18 30 23)
+      (dataOrigin "SnapEDA snapeda.comCopyright - This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0")
+      (program "SnapEDA Converter")
+    )
+  )
+  (library
+    (rename &88874_45_050LF "88874-050LF")
+    (EDIFLevel 0)
+    (technology
+      (numberDefinition
+        (scale 1 (e 254 -9) (unit DISTANCE))
+        (gridMap 1 1)
+      )
+      (figureGroup PINNAME
+        (cornerType TRUNCATE)
+        (endType TRUNCATE)
+        (pathWidth 0)
+        (textHeight 4811)
+      )
+      (figureGroup PINNUMBER
+        (cornerType TRUNCATE)
+        (endType TRUNCATE)
+        (textHeight 9000)
+        (pathWidth 0)
+      )
+      (figureGroup PORT
+        (pathWidth 1000)
+        (textHeight 9000)
+      )
+      (figureGroup PARTBODY
+        (pathWidth 1000)
+        (borderWidth 1000)
+        (textHeight 6000)
+      )
+    )
+    (cell
+      (rename &88874_45_050LF "88874-050LF")
+      (cellType GENERIC)
+      (view
+        (rename NORMAL "Normal")
+        (viewType SCHEMATIC)
+        (interface
+          (designator "J")
+          (property (rename VALUE "Value") (string "88874-050LF"))
+          (port
+            (rename &01 "01")
+            (property
+              (rename TYPE "Type")
+              (string "PAS")
+            )
+            (designator "01")
+            (property
+              (rename ORDER "Order")
+              (integer 0)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename &02 "02")
+            (property
+              (rename TYPE "Type")
+              (string "PAS")
+            )
+            (designator "02")
+            (property
+              (rename ORDER "Order")
+              (integer 1)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename &03 "03")
+            (property
+              (rename TYPE "Type")
+              (string "PAS")
+            )
+            (designator "03")
+            (property
+              (rename ORDER "Order")
+              (integer 2)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename &04 "04")
+            (property
+              (rename TYPE "Type")
+              (string "PAS")
+            )
+            (designator "04")
+            (property
+              (rename ORDER "Order")
+              (integer 3)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename &05 "05")
+            (property
+              (rename TYPE "Type")
+              (string "PAS")
+            )
+            (designator "05")
+            (property
+              (rename ORDER "Order")
+              (integer 4)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename &06 "06")
+            (property
+              (rename TYPE "Type")
+              (string "PAS")
+            )
+            (designator "06")
+            (property
+              (rename ORDER "Order")
+              (integer 5)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename &07 "07")
+            (property
+              (rename TYPE "Type")
+              (string "PAS")
+            )
+            (designator "07")
+            (property
+              (rename ORDER "Order")
+              (integer 6)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename &08 "08")
+            (property
+              (rename TYPE "Type")
+              (string "PAS")
+            )
+            (designator "08")
+            (property
+              (rename ORDER "Order")
+              (integer 7)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename &09 "09")
+            (property
+              (rename TYPE "Type")
+              (string "PAS")
+            )
+            (designator "09")
+            (property
+              (rename ORDER "Order")
+              (integer 8)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename &10 "10")
+            (property
+              (rename TYPE "Type")
+              (string "PAS")
+            )
+            (designator "10")
+            (property
+              (rename ORDER "Order")
+              (integer 9)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename &11 "11")
+            (property
+              (rename TYPE "Type")
+              (string "PAS")
+            )
+            (designator "11")
+            (property
+              (rename ORDER "Order")
+              (integer 10)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename &12 "12")
+            (property
+              (rename TYPE "Type")
+              (string "PAS")
+            )
+            (designator "12")
+            (property
+              (rename ORDER "Order")
+              (integer 11)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename &13 "13")
+            (property
+              (rename TYPE "Type")
+              (string "PAS")
+            )
+            (designator "13")
+            (property
+              (rename ORDER "Order")
+              (integer 12)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename &14 "14")
+            (property
+              (rename TYPE "Type")
+              (string "PAS")
+            )
+            (designator "14")
+            (property
+              (rename ORDER "Order")
+              (integer 13)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename &15 "15")
+            (property
+              (rename TYPE "Type")
+              (string "PAS")
+            )
+            (designator "15")
+            (property
+              (rename ORDER "Order")
+              (integer 14)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename &16 "16")
+            (property
+              (rename TYPE "Type")
+              (string "PAS")
+            )
+            (designator "16")
+            (property
+              (rename ORDER "Order")
+              (integer 15)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename &17 "17")
+            (property
+              (rename TYPE "Type")
+              (string "PAS")
+            )
+            (designator "17")
+            (property
+              (rename ORDER "Order")
+              (integer 16)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename &18 "18")
+            (property
+              (rename TYPE "Type")
+              (string "PAS")
+            )
+            (designator "18")
+            (property
+              (rename ORDER "Order")
+              (integer 17)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename &19 "19")
+            (property
+              (rename TYPE "Type")
+              (string "PAS")
+            )
+            (designator "19")
+            (property
+              (rename ORDER "Order")
+              (integer 18)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename &20 "20")
+            (property
+              (rename TYPE "Type")
+              (string "PAS")
+            )
+            (designator "20")
+            (property
+              (rename ORDER "Order")
+              (integer 19)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename &21 "21")
+            (property
+              (rename TYPE "Type")
+              (string "PAS")
+            )
+            (designator "21")
+            (property
+              (rename ORDER "Order")
+              (integer 20)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename &22 "22")
+            (property
+              (rename TYPE "Type")
+              (string "PAS")
+            )
+            (designator "22")
+            (property
+              (rename ORDER "Order")
+              (integer 21)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename &23 "23")
+            (property
+              (rename TYPE "Type")
+              (string "PAS")
+            )
+            (designator "23")
+            (property
+              (rename ORDER "Order")
+              (integer 22)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename &24 "24")
+            (property
+              (rename TYPE "Type")
+              (string "PAS")
+            )
+            (designator "24")
+            (property
+              (rename ORDER "Order")
+              (integer 23)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename &25 "25")
+            (property
+              (rename TYPE "Type")
+              (string "PAS")
+            )
+            (designator "25")
+            (property
+              (rename ORDER "Order")
+              (integer 24)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename &26 "26")
+            (property
+              (rename TYPE "Type")
+              (string "PAS")
+            )
+            (designator "26")
+            (property
+              (rename ORDER "Order")
+              (integer 25)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename &27 "27")
+            (property
+              (rename TYPE "Type")
+              (string "PAS")
+            )
+            (designator "27")
+            (property
+              (rename ORDER "Order")
+              (integer 26)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename &28 "28")
+            (property
+              (rename TYPE "Type")
+              (string "PAS")
+            )
+            (designator "28")
+            (property
+              (rename ORDER "Order")
+              (integer 27)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename &29 "29")
+            (property
+              (rename TYPE "Type")
+              (string "PAS")
+            )
+            (designator "29")
+            (property
+              (rename ORDER "Order")
+              (integer 28)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename &30 "30")
+            (property
+              (rename TYPE "Type")
+              (string "PAS")
+            )
+            (designator "30")
+            (property
+              (rename ORDER "Order")
+              (integer 29)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename &31 "31")
+            (property
+              (rename TYPE "Type")
+              (string "PAS")
+            )
+            (designator "31")
+            (property
+              (rename ORDER "Order")
+              (integer 30)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename &32 "32")
+            (property
+              (rename TYPE "Type")
+              (string "PAS")
+            )
+            (designator "32")
+            (property
+              (rename ORDER "Order")
+              (integer 31)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename &33 "33")
+            (property
+              (rename TYPE "Type")
+              (string "PAS")
+            )
+            (designator "33")
+            (property
+              (rename ORDER "Order")
+              (integer 32)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename &34 "34")
+            (property
+              (rename TYPE "Type")
+              (string "PAS")
+            )
+            (designator "34")
+            (property
+              (rename ORDER "Order")
+              (integer 33)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename &35 "35")
+            (property
+              (rename TYPE "Type")
+              (string "PAS")
+            )
+            (designator "35")
+            (property
+              (rename ORDER "Order")
+              (integer 34)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename &36 "36")
+            (property
+              (rename TYPE "Type")
+              (string "PAS")
+            )
+            (designator "36")
+            (property
+              (rename ORDER "Order")
+              (integer 35)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename &37 "37")
+            (property
+              (rename TYPE "Type")
+              (string "PAS")
+            )
+            (designator "37")
+            (property
+              (rename ORDER "Order")
+              (integer 36)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename &38 "38")
+            (property
+              (rename TYPE "Type")
+              (string "PAS")
+            )
+            (designator "38")
+            (property
+              (rename ORDER "Order")
+              (integer 37)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename &39 "39")
+            (property
+              (rename TYPE "Type")
+              (string "PAS")
+            )
+            (designator "39")
+            (property
+              (rename ORDER "Order")
+              (integer 38)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename &40 "40")
+            (property
+              (rename TYPE "Type")
+              (string "PAS")
+            )
+            (designator "40")
+            (property
+              (rename ORDER "Order")
+              (integer 39)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename &41 "41")
+            (property
+              (rename TYPE "Type")
+              (string "PAS")
+            )
+            (designator "41")
+            (property
+              (rename ORDER "Order")
+              (integer 40)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename &42 "42")
+            (property
+              (rename TYPE "Type")
+              (string "PAS")
+            )
+            (designator "42")
+            (property
+              (rename ORDER "Order")
+              (integer 41)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename &43 "43")
+            (property
+              (rename TYPE "Type")
+              (string "PAS")
+            )
+            (designator "43")
+            (property
+              (rename ORDER "Order")
+              (integer 42)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename &44 "44")
+            (property
+              (rename TYPE "Type")
+              (string "PAS")
+            )
+            (designator "44")
+            (property
+              (rename ORDER "Order")
+              (integer 43)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename &45 "45")
+            (property
+              (rename TYPE "Type")
+              (string "PAS")
+            )
+            (designator "45")
+            (property
+              (rename ORDER "Order")
+              (integer 44)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename &46 "46")
+            (property
+              (rename TYPE "Type")
+              (string "PAS")
+            )
+            (designator "46")
+            (property
+              (rename ORDER "Order")
+              (integer 45)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename &47 "47")
+            (property
+              (rename TYPE "Type")
+              (string "PAS")
+            )
+            (designator "47")
+            (property
+              (rename ORDER "Order")
+              (integer 46)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename &48 "48")
+            (property
+              (rename TYPE "Type")
+              (string "PAS")
+            )
+            (designator "48")
+            (property
+              (rename ORDER "Order")
+              (integer 47)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename &49 "49")
+            (property
+              (rename TYPE "Type")
+              (string "PAS")
+            )
+            (designator "49")
+            (property
+              (rename ORDER "Order")
+              (integer 48)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename &50 "50")
+            (property
+              (rename TYPE "Type")
+              (string "PAS")
+            )
+            (designator "50")
+            (property
+              (rename ORDER "Order")
+              (integer 49)
+              (owner "OrCAD")
+            )
+          )
+          (symbol
+            (boundingBox (rectangle (pt -50000 -130000) (pt 50000 130000)))
+            (portImplementation
+              (name &01
+                (display PINNAME
+                  (justify CENTERLEFT)
+                  (orientation R0)
+                  (origin (pt -30000 120000))
+                )
+              )
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin (pt -46062 120000))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt -50000 120000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt -50000 120000)
+                    (pt -30000 120000)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name &02
+                (display PINNAME
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin (pt 30000 120000))
+                )
+              )
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERLEFT)
+                  (orientation R0)
+                  (origin (pt 46062 120000))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt 50000 120000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt 50000 120000)
+                    (pt 30000 120000)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name &03
+                (display PINNAME
+                  (justify CENTERLEFT)
+                  (orientation R0)
+                  (origin (pt -30000 110000))
+                )
+              )
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin (pt -46062 110000))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt -50000 110000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt -50000 110000)
+                    (pt -30000 110000)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name &04
+                (display PINNAME
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin (pt 30000 110000))
+                )
+              )
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERLEFT)
+                  (orientation R0)
+                  (origin (pt 46062 110000))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt 50000 110000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt 50000 110000)
+                    (pt 30000 110000)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name &05
+                (display PINNAME
+                  (justify CENTERLEFT)
+                  (orientation R0)
+                  (origin (pt -30000 100000))
+                )
+              )
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin (pt -46062 100000))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt -50000 100000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt -50000 100000)
+                    (pt -30000 100000)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name &06
+                (display PINNAME
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin (pt 30000 100000))
+                )
+              )
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERLEFT)
+                  (orientation R0)
+                  (origin (pt 46062 100000))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt 50000 100000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt 50000 100000)
+                    (pt 30000 100000)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name &07
+                (display PINNAME
+                  (justify CENTERLEFT)
+                  (orientation R0)
+                  (origin (pt -30000 90000))
+                )
+              )
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin (pt -46062 90000))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt -50000 90000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt -50000 90000)
+                    (pt -30000 90000)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name &08
+                (display PINNAME
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin (pt 30000 90000))
+                )
+              )
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERLEFT)
+                  (orientation R0)
+                  (origin (pt 46062 90000))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt 50000 90000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt 50000 90000)
+                    (pt 30000 90000)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name &09
+                (display PINNAME
+                  (justify CENTERLEFT)
+                  (orientation R0)
+                  (origin (pt -30000 80000))
+                )
+              )
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin (pt -46062 80000))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt -50000 80000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt -50000 80000)
+                    (pt -30000 80000)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name &10
+                (display PINNAME
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin (pt 30000 80000))
+                )
+              )
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERLEFT)
+                  (orientation R0)
+                  (origin (pt 46062 80000))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt 50000 80000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt 50000 80000)
+                    (pt 30000 80000)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name &11
+                (display PINNAME
+                  (justify CENTERLEFT)
+                  (orientation R0)
+                  (origin (pt -30000 70000))
+                )
+              )
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin (pt -46062 70000))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt -50000 70000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt -50000 70000)
+                    (pt -30000 70000)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name &12
+                (display PINNAME
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin (pt 30000 70000))
+                )
+              )
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERLEFT)
+                  (orientation R0)
+                  (origin (pt 46062 70000))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt 50000 70000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt 50000 70000)
+                    (pt 30000 70000)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name &13
+                (display PINNAME
+                  (justify CENTERLEFT)
+                  (orientation R0)
+                  (origin (pt -30000 60000))
+                )
+              )
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin (pt -46062 60000))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt -50000 60000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt -50000 60000)
+                    (pt -30000 60000)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name &14
+                (display PINNAME
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin (pt 30000 60000))
+                )
+              )
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERLEFT)
+                  (orientation R0)
+                  (origin (pt 46062 60000))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt 50000 60000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt 50000 60000)
+                    (pt 30000 60000)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name &15
+                (display PINNAME
+                  (justify CENTERLEFT)
+                  (orientation R0)
+                  (origin (pt -30000 50000))
+                )
+              )
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin (pt -46062 50000))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt -50000 50000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt -50000 50000)
+                    (pt -30000 50000)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name &16
+                (display PINNAME
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin (pt 30000 50000))
+                )
+              )
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERLEFT)
+                  (orientation R0)
+                  (origin (pt 46062 50000))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt 50000 50000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt 50000 50000)
+                    (pt 30000 50000)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name &17
+                (display PINNAME
+                  (justify CENTERLEFT)
+                  (orientation R0)
+                  (origin (pt -30000 40000))
+                )
+              )
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin (pt -46062 40000))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt -50000 40000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt -50000 40000)
+                    (pt -30000 40000)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name &18
+                (display PINNAME
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin (pt 30000 40000))
+                )
+              )
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERLEFT)
+                  (orientation R0)
+                  (origin (pt 46062 40000))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt 50000 40000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt 50000 40000)
+                    (pt 30000 40000)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name &19
+                (display PINNAME
+                  (justify CENTERLEFT)
+                  (orientation R0)
+                  (origin (pt -30000 30000))
+                )
+              )
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin (pt -46062 30000))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt -50000 30000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt -50000 30000)
+                    (pt -30000 30000)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name &20
+                (display PINNAME
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin (pt 30000 30000))
+                )
+              )
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERLEFT)
+                  (orientation R0)
+                  (origin (pt 46062 30000))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt 50000 30000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt 50000 30000)
+                    (pt 30000 30000)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name &21
+                (display PINNAME
+                  (justify CENTERLEFT)
+                  (orientation R0)
+                  (origin (pt -30000 20000))
+                )
+              )
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin (pt -46062 20000))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt -50000 20000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt -50000 20000)
+                    (pt -30000 20000)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name &22
+                (display PINNAME
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin (pt 30000 20000))
+                )
+              )
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERLEFT)
+                  (orientation R0)
+                  (origin (pt 46062 20000))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt 50000 20000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt 50000 20000)
+                    (pt 30000 20000)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name &23
+                (display PINNAME
+                  (justify CENTERLEFT)
+                  (orientation R0)
+                  (origin (pt -30000 10000))
+                )
+              )
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin (pt -46062 10000))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt -50000 10000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt -50000 10000)
+                    (pt -30000 10000)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name &24
+                (display PINNAME
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin (pt 30000 10000))
+                )
+              )
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERLEFT)
+                  (orientation R0)
+                  (origin (pt 46062 10000))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt 50000 10000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt 50000 10000)
+                    (pt 30000 10000)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name &25
+                (display PINNAME
+                  (justify CENTERLEFT)
+                  (orientation R0)
+                  (origin (pt -30000 0))
+                )
+              )
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin (pt -46062 0))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt -50000 0)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt -50000 0)
+                    (pt -30000 0)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name &26
+                (display PINNAME
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin (pt 30000 0))
+                )
+              )
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERLEFT)
+                  (orientation R0)
+                  (origin (pt 46062 0))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt 50000 0)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt 50000 0)
+                    (pt 30000 0)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name &27
+                (display PINNAME
+                  (justify CENTERLEFT)
+                  (orientation R0)
+                  (origin (pt -30000 -10000))
+                )
+              )
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin (pt -46062 -10000))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt -50000 -10000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt -50000 -10000)
+                    (pt -30000 -10000)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name &28
+                (display PINNAME
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin (pt 30000 -10000))
+                )
+              )
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERLEFT)
+                  (orientation R0)
+                  (origin (pt 46062 -10000))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt 50000 -10000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt 50000 -10000)
+                    (pt 30000 -10000)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name &29
+                (display PINNAME
+                  (justify CENTERLEFT)
+                  (orientation R0)
+                  (origin (pt -30000 -20000))
+                )
+              )
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin (pt -46062 -20000))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt -50000 -20000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt -50000 -20000)
+                    (pt -30000 -20000)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name &30
+                (display PINNAME
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin (pt 30000 -20000))
+                )
+              )
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERLEFT)
+                  (orientation R0)
+                  (origin (pt 46062 -20000))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt 50000 -20000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt 50000 -20000)
+                    (pt 30000 -20000)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name &31
+                (display PINNAME
+                  (justify CENTERLEFT)
+                  (orientation R0)
+                  (origin (pt -30000 -30000))
+                )
+              )
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin (pt -46062 -30000))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt -50000 -30000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt -50000 -30000)
+                    (pt -30000 -30000)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name &32
+                (display PINNAME
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin (pt 30000 -30000))
+                )
+              )
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERLEFT)
+                  (orientation R0)
+                  (origin (pt 46062 -30000))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt 50000 -30000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt 50000 -30000)
+                    (pt 30000 -30000)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name &33
+                (display PINNAME
+                  (justify CENTERLEFT)
+                  (orientation R0)
+                  (origin (pt -30000 -40000))
+                )
+              )
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin (pt -46062 -40000))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt -50000 -40000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt -50000 -40000)
+                    (pt -30000 -40000)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name &34
+                (display PINNAME
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin (pt 30000 -40000))
+                )
+              )
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERLEFT)
+                  (orientation R0)
+                  (origin (pt 46062 -40000))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt 50000 -40000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt 50000 -40000)
+                    (pt 30000 -40000)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name &35
+                (display PINNAME
+                  (justify CENTERLEFT)
+                  (orientation R0)
+                  (origin (pt -30000 -50000))
+                )
+              )
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin (pt -46062 -50000))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt -50000 -50000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt -50000 -50000)
+                    (pt -30000 -50000)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name &36
+                (display PINNAME
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin (pt 30000 -50000))
+                )
+              )
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERLEFT)
+                  (orientation R0)
+                  (origin (pt 46062 -50000))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt 50000 -50000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt 50000 -50000)
+                    (pt 30000 -50000)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name &37
+                (display PINNAME
+                  (justify CENTERLEFT)
+                  (orientation R0)
+                  (origin (pt -30000 -60000))
+                )
+              )
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin (pt -46062 -60000))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt -50000 -60000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt -50000 -60000)
+                    (pt -30000 -60000)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name &38
+                (display PINNAME
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin (pt 30000 -60000))
+                )
+              )
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERLEFT)
+                  (orientation R0)
+                  (origin (pt 46062 -60000))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt 50000 -60000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt 50000 -60000)
+                    (pt 30000 -60000)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name &39
+                (display PINNAME
+                  (justify CENTERLEFT)
+                  (orientation R0)
+                  (origin (pt -30000 -70000))
+                )
+              )
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin (pt -46062 -70000))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt -50000 -70000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt -50000 -70000)
+                    (pt -30000 -70000)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name &40
+                (display PINNAME
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin (pt 30000 -70000))
+                )
+              )
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERLEFT)
+                  (orientation R0)
+                  (origin (pt 46062 -70000))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt 50000 -70000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt 50000 -70000)
+                    (pt 30000 -70000)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name &41
+                (display PINNAME
+                  (justify CENTERLEFT)
+                  (orientation R0)
+                  (origin (pt -30000 -80000))
+                )
+              )
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin (pt -46062 -80000))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt -50000 -80000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt -50000 -80000)
+                    (pt -30000 -80000)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name &42
+                (display PINNAME
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin (pt 30000 -80000))
+                )
+              )
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERLEFT)
+                  (orientation R0)
+                  (origin (pt 46062 -80000))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt 50000 -80000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt 50000 -80000)
+                    (pt 30000 -80000)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name &43
+                (display PINNAME
+                  (justify CENTERLEFT)
+                  (orientation R0)
+                  (origin (pt -30000 -90000))
+                )
+              )
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin (pt -46062 -90000))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt -50000 -90000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt -50000 -90000)
+                    (pt -30000 -90000)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name &44
+                (display PINNAME
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin (pt 30000 -90000))
+                )
+              )
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERLEFT)
+                  (orientation R0)
+                  (origin (pt 46062 -90000))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt 50000 -90000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt 50000 -90000)
+                    (pt 30000 -90000)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name &45
+                (display PINNAME
+                  (justify CENTERLEFT)
+                  (orientation R0)
+                  (origin (pt -30000 -100000))
+                )
+              )
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin (pt -46062 -100000))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt -50000 -100000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt -50000 -100000)
+                    (pt -30000 -100000)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name &46
+                (display PINNAME
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin (pt 30000 -100000))
+                )
+              )
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERLEFT)
+                  (orientation R0)
+                  (origin (pt 46062 -100000))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt 50000 -100000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt 50000 -100000)
+                    (pt 30000 -100000)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name &47
+                (display PINNAME
+                  (justify CENTERLEFT)
+                  (orientation R0)
+                  (origin (pt -30000 -110000))
+                )
+              )
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin (pt -46062 -110000))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt -50000 -110000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt -50000 -110000)
+                    (pt -30000 -110000)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name &48
+                (display PINNAME
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin (pt 30000 -110000))
+                )
+              )
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERLEFT)
+                  (orientation R0)
+                  (origin (pt 46062 -110000))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt 50000 -110000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt 50000 -110000)
+                    (pt 30000 -110000)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name &49
+                (display PINNAME
+                  (justify CENTERLEFT)
+                  (orientation R0)
+                  (origin (pt -30000 -120000))
+                )
+              )
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin (pt -46062 -120000))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt -50000 -120000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt -50000 -120000)
+                    (pt -30000 -120000)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name &50
+                (display PINNAME
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin (pt 30000 -120000))
+                )
+              )
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERLEFT)
+                  (orientation R0)
+                  (origin (pt 46062 -120000))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt 50000 -120000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt 50000 -120000)
+                    (pt 30000 -120000)
+                  )
+                )
+              )
+            )
+            (figure PARTBODY
+              (path (pointList (pt -30000 120000) (pt -22500 120000)))
+            )
+            (figure PARTBODY
+              (rectangle (pt -27500 118751) (pt -21248 121248))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 30000 120000) (pt 22500 120000)))
+            )
+            (figure PARTBODY
+              (rectangle (pt 27500 118751) (pt 21248 121248))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -30000 110000) (pt -22500 110000)))
+            )
+            (figure PARTBODY
+              (rectangle (pt -27500 108748) (pt -21248 111251))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 30000 110000) (pt 22500 110000)))
+            )
+            (figure PARTBODY
+              (rectangle (pt 27500 108748) (pt 21248 111251))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -30000 100000) (pt -22500 100000)))
+            )
+            (figure PARTBODY
+              (rectangle (pt -27500 98748) (pt -21248 101251))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 30000 100000) (pt 22500 100000)))
+            )
+            (figure PARTBODY
+              (rectangle (pt 27500 98748) (pt 21248 101251))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -30000 90000) (pt -22500 90000)))
+            )
+            (figure PARTBODY
+              (rectangle (pt -27500 88751) (pt -21248 91248))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 30000 90000) (pt 22500 90000)))
+            )
+            (figure PARTBODY
+              (rectangle (pt 27500 88751) (pt 21248 91248))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -30000 80000) (pt -22500 80000)))
+            )
+            (figure PARTBODY
+              (rectangle (pt -27500 78751) (pt -21248 81248))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 30000 80000) (pt 22500 80000)))
+            )
+            (figure PARTBODY
+              (rectangle (pt 27500 78751) (pt 21248 81248))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -30000 70000) (pt -22500 70000)))
+            )
+            (figure PARTBODY
+              (rectangle (pt -27500 68748) (pt -21248 71251))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 30000 70000) (pt 22500 70000)))
+            )
+            (figure PARTBODY
+              (rectangle (pt 27500 68748) (pt 21248 71251))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -30000 60000) (pt -22500 60000)))
+            )
+            (figure PARTBODY
+              (rectangle (pt -27500 58748) (pt -21248 61248))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 30000 60000) (pt 22500 60000)))
+            )
+            (figure PARTBODY
+              (rectangle (pt 27500 58748) (pt 21248 61248))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -30000 50000) (pt -22500 50000)))
+            )
+            (figure PARTBODY
+              (rectangle (pt -27500 48751) (pt -21248 51248))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 30000 50000) (pt 22500 50000)))
+            )
+            (figure PARTBODY
+              (rectangle (pt 27500 48751) (pt 21248 51248))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -30000 40000) (pt -22500 40000)))
+            )
+            (figure PARTBODY
+              (rectangle (pt -27500 38751) (pt -21248 41248))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 30000 40000) (pt 22500 40000)))
+            )
+            (figure PARTBODY
+              (rectangle (pt 27500 38751) (pt 21248 41248))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -30000 30000) (pt -22500 30000)))
+            )
+            (figure PARTBODY
+              (rectangle (pt -27500 28751) (pt -21248 31251))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 30000 30000) (pt 22500 30000)))
+            )
+            (figure PARTBODY
+              (rectangle (pt 27500 28751) (pt 21248 31251))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -30000 20000) (pt -22500 20000)))
+            )
+            (figure PARTBODY
+              (rectangle (pt -27500 18751) (pt -21248 21248))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 30000 20000) (pt 22500 20000)))
+            )
+            (figure PARTBODY
+              (rectangle (pt 27500 18751) (pt 21248 21248))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -30000 10000) (pt -22500 10000)))
+            )
+            (figure PARTBODY
+              (rectangle (pt -27500 8751) (pt -21248 11248))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 30000 10000) (pt 22500 10000)))
+            )
+            (figure PARTBODY
+              (rectangle (pt 27500 8751) (pt 21248 11248))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -30000 0) (pt -22500 0)))
+            )
+            (figure PARTBODY
+              (rectangle (pt -27500 -1251) (pt -21248 1251))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 30000 0) (pt 22500 0)))
+            )
+            (figure PARTBODY
+              (rectangle (pt 27500 -1251) (pt 21248 1251))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -30000 -10000) (pt -22500 -10000)))
+            )
+            (figure PARTBODY
+              (rectangle (pt -27500 -11248) (pt -21248 -8751))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 30000 -10000) (pt 22500 -10000)))
+            )
+            (figure PARTBODY
+              (rectangle (pt 27500 -11248) (pt 21248 -8751))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -30000 -20000) (pt -22500 -20000)))
+            )
+            (figure PARTBODY
+              (rectangle (pt -27500 -21248) (pt -21248 -18751))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 30000 -20000) (pt 22500 -20000)))
+            )
+            (figure PARTBODY
+              (rectangle (pt 27500 -21248) (pt 21248 -18751))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -30000 -30000) (pt -22500 -30000)))
+            )
+            (figure PARTBODY
+              (rectangle (pt -27500 -31251) (pt -21248 -28751))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 30000 -30000) (pt 22500 -30000)))
+            )
+            (figure PARTBODY
+              (rectangle (pt 27500 -31251) (pt 21248 -28751))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -30000 -40000) (pt -22500 -40000)))
+            )
+            (figure PARTBODY
+              (rectangle (pt -27500 -41248) (pt -21248 -38751))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 30000 -40000) (pt 22500 -40000)))
+            )
+            (figure PARTBODY
+              (rectangle (pt 27500 -41248) (pt 21248 -38751))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -30000 -50000) (pt -22500 -50000)))
+            )
+            (figure PARTBODY
+              (rectangle (pt -27500 -51248) (pt -21248 -48751))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 30000 -50000) (pt 22500 -50000)))
+            )
+            (figure PARTBODY
+              (rectangle (pt 27500 -51248) (pt 21248 -48751))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -30000 -60000) (pt -22500 -60000)))
+            )
+            (figure PARTBODY
+              (rectangle (pt -27500 -61248) (pt -21248 -58748))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 30000 -60000) (pt 22500 -60000)))
+            )
+            (figure PARTBODY
+              (rectangle (pt 27500 -61248) (pt 21248 -58748))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -30000 -70000) (pt -22500 -70000)))
+            )
+            (figure PARTBODY
+              (rectangle (pt -27500 -71251) (pt -21248 -68748))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 30000 -70000) (pt 22500 -70000)))
+            )
+            (figure PARTBODY
+              (rectangle (pt 27500 -71251) (pt 21248 -68748))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -30000 -80000) (pt -22500 -80000)))
+            )
+            (figure PARTBODY
+              (rectangle (pt -27500 -81248) (pt -21248 -78751))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 30000 -80000) (pt 22500 -80000)))
+            )
+            (figure PARTBODY
+              (rectangle (pt 27500 -81248) (pt 21248 -78751))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -30000 -90000) (pt -22500 -90000)))
+            )
+            (figure PARTBODY
+              (rectangle (pt -27500 -91248) (pt -21248 -88751))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 30000 -90000) (pt 22500 -90000)))
+            )
+            (figure PARTBODY
+              (rectangle (pt 27500 -91248) (pt 21248 -88751))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -30000 -100000) (pt -22500 -100000)))
+            )
+            (figure PARTBODY
+              (rectangle (pt -27500 -101251) (pt -21248 -98748))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 30000 -100000) (pt 22500 -100000)))
+            )
+            (figure PARTBODY
+              (rectangle (pt 27500 -101251) (pt 21248 -98748))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -30000 -110000) (pt -22500 -110000)))
+            )
+            (figure PARTBODY
+              (rectangle (pt -27500 -111251) (pt -21248 -108748))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 30000 -110000) (pt 22500 -110000)))
+            )
+            (figure PARTBODY
+              (rectangle (pt 27500 -111251) (pt 21248 -108748))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -30000 -120000) (pt -22500 -120000)))
+            )
+            (figure PARTBODY
+              (rectangle (pt -27500 -121248) (pt -21248 -118751))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 30000 -120000) (pt 22500 -120000)))
+            )
+            (figure PARTBODY
+              (rectangle (pt 27500 -121248) (pt 21248 -118751))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -30000 -130000) (pt -30000 130000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -30000 130000) (pt 30000 130000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 30000 130000) (pt 30000 -130000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 30000 -130000) (pt -30000 -130000)))
+            )
+            (keywordDisplay DESIGNATOR
+              (display PARTBODY
+                (justify LOWERLEFT)
+                (orientation R0)
+                (origin (pt -31968 130000))
+              )
+            )
+            (propertyDisplay VALUE
+              (display PARTBODY
+                (justify LOWERLEFT)
+                (orientation R0)
+                (origin (pt -30000 -140000))
+              )
+            )
+            (property (rename PCB_Footprint "PCB Footprint") (string "AMPHENOL_88874-050LF"))
+          )
+        )
+      )
+    )
+  )
+)
