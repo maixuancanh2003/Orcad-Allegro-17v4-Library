@@ -2,23 +2,22 @@
 (                                                                     )
 (    CREATE SYMBOL                                                    )
 (                                                                     )
-(    Drawing          : RESC1508X55N.dra                              )
+(    Drawing          : SAMTEC_ESQ-102-48-L-S.dra                     )
 (    Software Version : unreleased                                    )
-(    Date/Time        : Tue Nov  5 12:49:51 2024                      )
+(    Date/Time        : Tue Nov  5 15:38:32 2024                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
 
 Create Symbol of type: PACKAGE
-    Directory = D:/Allegro/Project/CanhMai/Lib/Schematic_And_FootPrint/Res_0603
-    Name      = resc1508x55n.psm
+    Directory = D:/Allegro/Project/CanhMai/Lib/Schematic_And_FootPrint/Jumper/1x2
+    Name      = samtec_esq-102-48-l-s.psm
     User      = Admin
     Machine   = DESKTOP-OLN9DLP
 
 
 Create symbol started.
  
- ERROR(SPMHCS-1): Symbol is missing a refdes. 
 
-ERROR(SPMHA1-291): Create symbol has been aborted.
+Create symbol completed.
 

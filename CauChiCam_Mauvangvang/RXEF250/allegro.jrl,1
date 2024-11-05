@@ -1,0 +1,34 @@
+\t (00:00:00) allegro 17.4 P001 Windows SPB 64-bit Edition
+\t (00:00:00)     Journal start - Sat Nov  2 23:32:51 2024
+\t (00:00:00)         Host=DESKTOP-OLN9DLP User=Admin Pid=38208 CPUs=8
+\t (00:00:00) CmdLine= c:\cadence\spb_17.4\tools\bin\allegro.exe D:\Allegro\Project\CanhMai\Lib\Schematic_And_FootPrint\CauChiCam_Mauvangvang\RXEF250\FUSRB1015W80L2080T300H2450.dra
+\t (00:00:00) 
+   (00:00:00) Loading axlcore.cxt 
+\t (00:00:03) Opening existing design...
+\i (00:00:07) fillin yes 
+\i (00:00:07) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged FUSRB1015W80L2080T300H2450
+\d (00:00:07) Design opened: D:/Allegro/Project/CanhMai/Lib/Schematic_And_FootPrint/CauChiCam_Mauvangvang/RXEF250/FUSRB1015W80L2080T300H2450.dra
+\i (00:00:07) trapsize 7843
+\i (00:00:07) trapsize 8090
+\i (00:00:07) trapsize 7843
+\i (00:00:07) trapsize 10011
+\i (00:00:07) trapsize 10011
+\i (00:00:08) etchedit 
+\i (00:00:08) zoom in 1 
+\i (00:00:08) setwindow pcb
+\i (00:00:08) zoom in -15.6410 7.2832
+\i (00:00:08) trapsize 5006
+\i (00:00:09) zoom in 1 
+\i (00:00:09) setwindow pcb
+\i (00:00:09) zoom in -6.1304 12.5890
+\i (00:00:09) trapsize 2503
+\i (00:00:09) zoom in 1 
+\i (00:00:09) setwindow pcb
+\i (00:00:09) zoom in -3.2271 11.6880
+\i (00:00:09) trapsize 1251
+\i (00:01:40) zoom out 1 
+\i (00:01:40) setwindow pcb
+\i (00:01:40) zoom out -4.9790 5.1558
+\i (00:01:40) trapsize 2503
+\i (00:11:03) exit 
+\t (00:11:05)     Journal end - Sat Nov  2 23:43:56 2024

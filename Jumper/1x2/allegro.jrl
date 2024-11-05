@@ -1,0 +1,37 @@
+\t (00:00:01) allegro 17.4 P001 Windows SPB 64-bit Edition
+\t (00:00:01)     Journal start - Tue Nov  5 15:37:41 2024
+\t (00:00:01)         Host=DESKTOP-OLN9DLP User=Admin Pid=19720 CPUs=8
+\t (00:00:01) CmdLine= c:\cadence\spb_17.4\tools\bin\allegro.exe D:\Allegro\Project\CanhMai\Lib\Schematic_And_FootPrint\Jumper\1x2\SAMTEC_ESQ-102-48-L-S.dra
+\t (00:00:01) 
+   (00:00:01) Loading axlcore.cxt 
+\t (00:00:04) Opening existing design...
+\i (00:00:04) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged SAMTEC_ESQ-102-48-L-S
+\d (00:00:04) Design opened: D:/Allegro/Project/CanhMai/Lib/Schematic_And_FootPrint/Jumper/1x2/SAMTEC_ESQ-102-48-L-S.dra
+\i (00:00:04) trapsize 3031
+\i (00:00:04) trapsize 3231
+\i (00:00:05) trapsize 3133
+\i (00:00:05) trapsize 3231
+\i (00:00:05) trapsize 3481
+\i (00:00:05) trapsize 3481
+\i (00:00:05) etchedit 
+\i (00:00:47) zoom in 1 
+\i (00:00:47) setwindow pcb
+\i (00:00:47) zoom in -4.7219 3.1913
+\i (00:00:47) trapsize 1740
+\i (00:00:48) show measure 
+\i (00:00:48) zoom in 1 
+\i (00:00:48) setwindow pcb
+\i (00:00:48) zoom in 2.4133 0.6796
+\i (00:00:48) trapsize 870
+\i (00:00:49) pick grid 0.0987 0.1923
+\t (00:00:49) last pick:  0.0000 0.0000
+\i (00:00:50) pick grid 2.4655 0.0531
+\t (00:00:50) last pick:  2.5400 0.0000
+\i (00:00:51) setwindow text
+\i (00:00:51) close
+\i (00:00:51) save 
+\i (00:00:52) fillin yes 
+\t (00:00:52) Symbol 'samtec_esq-102-48-l-s.psm' created.
+\i (00:00:53) etchedit 
+\i (00:00:57) exit 
+\t (00:00:58)     Journal end - Tue Nov  5 15:38:38 2024

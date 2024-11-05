@@ -2,16 +2,16 @@
 (                                                                     )
 (    CREATE SYMBOL                                                    )
 (                                                                     )
-(    Drawing          : CAPC0603X33N.dra                              )
+(    Drawing          : DIOM4336X265N.dra                             )
 (    Software Version : unreleased                                    )
-(    Date/Time        : Tue Oct 29 23:30:23 2024                      )
+(    Date/Time        : Mon Nov  4 10:47:48 2024                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
 
 Create Symbol of type: PACKAGE
-    Directory = D:/Allegro/Project/CanhMai/Lib/Schematic_And_FootPrint/Cap0603/GRM033C71C104KE14J
-    Name      = capc0603x33n.psm
+    Directory = D:/Allegro/Project/CanhMai/Lib/Schematic_And_FootPrint/TVS Diode/SMBJ12CA
+    Name      = diom4336x265n.psm
     User      = Admin
     Machine   = DESKTOP-OLN9DLP
 

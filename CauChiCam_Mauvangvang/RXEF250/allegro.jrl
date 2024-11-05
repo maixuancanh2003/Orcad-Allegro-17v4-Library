@@ -1,0 +1,21 @@
+\t (00:00:02) allegro 17.4 P001 Windows SPB 64-bit Edition
+\t (00:00:02)     Journal start - Mon Nov  4 10:43:38 2024
+\t (00:00:02)         Host=DESKTOP-OLN9DLP User=Admin Pid=13640 CPUs=8
+\t (00:00:02) CmdLine= C:\Cadence\SPB_17.4\tools\bin\allegro.exe
+\t (00:00:02) 
+   (00:00:02) Loading axlcore.cxt 
+\t (00:00:02) Starting new design...
+\i (00:00:03) trapsize 116667
+\i (00:00:04) etchedit 
+\i (00:00:08) new 
+\i (00:00:09) newdrawfillin "menu_cancel"
+\i (00:00:09) etchedit 
+\i (00:00:10) open 
+\i (00:00:21) fillin "D:/Allegro/Project/CanhMai/ThesisProject/test.brd"
+\i (00:00:21) cd "D:/Allegro/Project/CanhMai/ThesisProject"
+\i (00:00:22) trapsize 730
+\i (00:00:22) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged unnamed
+\t (00:00:22) Opening existing design...
+\t (00:00:22) Grids are drawn 100.0, 100.0 apart for enhanced viewing.
+\i (00:00:22) trapsize 255
+\t (00:00:22)     Journal end - Mon Nov  4 10:43:58 2024
