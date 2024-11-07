@@ -1,0 +1,85 @@
+\t (00:00:01) allegro 17.4 P001 Windows SPB 64-bit Edition
+\t (00:00:01)     Journal start - Thu Nov  7 23:07:40 2024
+\t (00:00:01)         Host=DESKTOP-OLN9DLP User=Admin Pid=24324 CPUs=8
+\t (00:00:01) CmdLine= c:\cadence\spb_17.4\tools\bin\allegro.exe D:\Allegro\Project\CanhMai\Lib\Schematic_And_FootPrint\Jumper\1x2\SAMTEC_ESQ-102-48-L-S.dra
+\t (00:00:01) 
+   (00:00:01) Loading axlcore.cxt 
+\t (00:00:01) Opening existing design...
+\i (00:00:01) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged SAMTEC_ESQ-102-48-L-S
+\d (00:00:01) Design opened: D:/Allegro/Project/CanhMai/Lib/Schematic_And_FootPrint/Jumper/1x2/SAMTEC_ESQ-102-48-L-S.dra
+\i (00:00:01) trapsize 682
+\i (00:00:01) trapsize 703
+\i (00:00:01) trapsize 682
+\i (00:00:01) trapsize 870
+\i (00:00:01) trapsize 870
+\i (00:00:18) step pkg map 
+\i (00:00:20) setwindow form.pkgmap3d
+\i (00:00:20) FORM pkgmap3d namefilter_stp 1x* 
+\i (00:00:21) FORM pkgmap3d stplist 1X2.STEP 
+\i (00:00:21) FORM pkgmap3d stplist 1X2.STEP 
+\i (00:00:24) FORM pkgmap3d save_current  
+\i (00:00:25) FORM pkgmap3d done  
+\i (00:00:27) setwindow pcb
+\i (00:00:27) 3d 
+\i (00:00:28) QtSignal pcb3dViewer pcb3dViewerCanvas keyPressEvent 16777248 33554432 false 1
+\i (00:00:29) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasMousePressEvent 648 299 648 364 4 4 33554432 +
+\i (00:00:29) QtSignal 14.0914 51.0833 274.779
+\i (00:00:29) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 14.0914 51.0833 274.779 14.3707 +
+\i (00:00:29) QtSignal 51.9208 275.463
+\i (00:00:29) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 15.3031 50.9422 276.221 16.4618 +
+\i (00:00:29) QtSignal 53.1327 277.623
+\i (00:00:29) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 17.9545 51.3135 278.832 19.2175 +
+\i (00:00:29) QtSignal 53.3864 280.32
+\i (00:00:29) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 20.7317 51.3254 281.519 22.4683 +
+\i (00:00:29) QtSignal 53.9991 283.847
+\i (00:00:29) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 24.8675 50.1972 285.689 28.0675 +
+\i (00:00:29) QtSignal 53.5179 288.294
+\i (00:00:29) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 29.8985 49.6667 289.701 30.8586 +
+\i (00:00:29) QtSignal 50.7709 291.388
+\i (00:00:29) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 32.4596 47.3601 292.491 33.4655 +
+\i (00:00:29) QtSignal 48.3694 294.211
+\i (00:00:29) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 35.0212 44.7766 295.193 37.6581 +
+\i (00:00:29) QtSignal 46.2491 296.409
+\i (00:00:29) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 38.0109 45.1479 296.64 38.5599 +
+\i (00:00:29) QtSignal 45.5414 297.529
+\i (00:00:29) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 39.2309 43.5765 297.931 40.5172 +
+\i (00:00:29) QtSignal 44.2206 298.955
+\i (00:00:29) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 41.058 42.4323 299.268 40.8915 +
+\i (00:00:29) QtSignal 42.5111 300.035
+\i (00:00:29) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 41.6044 40.2157 300.404 42.9155 +
+\i (00:00:29) QtSignal 40.7822 301.442
+\i (00:00:29) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 43.4306 38.8899 301.69 44.0162 +
+\i (00:00:29) QtSignal 39.1667 302.6
+\i (00:00:29) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 44.5768 37.0128 302.84 45.3248 +
+\i (00:00:29) QtSignal 37.2238 302.98
+\i (00:00:29) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 45.2742 37.4231 302.959 46.0256 +
+\i (00:00:29) QtSignal 37.6208 303.1
+\i (00:00:29) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 45.9816 37.8078 303.082 45.8262 +
+\i (00:00:29) QtSignal 37.8471 303.855
+\i (00:00:29) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 46.3735 35.4446 304.065 47.128 +
+\i (00:00:29) QtSignal 35.6289 304.208
+\i (00:00:29) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 47.0895 35.8035 304.194 47.6946 +
+\i (00:00:29) QtSignal 36.0004 305.112
+\i (00:00:29) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 48.1373 33.7259 305.253 48.7478 +
+\i (00:00:29) QtSignal 33.8958 306.172
+\i (00:00:29) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 49.1641 31.586 306.268 49.9268 +
+\i (00:00:29) QtSignal 31.7299 306.413
+\i (00:00:29) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 49.9033 31.8656 306.408 50.6684 +
+\i (00:00:29) QtSignal 31.9959 306.554
+\i (00:00:29) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 50.6493 32.1186 306.55 51.4165 +
+\i (00:00:29) QtSignal 32.2353 306.696
+\i (00:00:29) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 51.4014 32.3445 306.694 51.2541 +
+\i (00:00:29) QtSignal 32.3434 307.469
+\i (00:00:29) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 51.5813 29.8508 307.505 51.4358 +
+\i (00:00:29) QtSignal 29.836 308.281
+\i (00:00:29) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasMouseReleaseEvent 687 273 687 338 4 0 +
+\i (00:00:29) QtSignal 33554432 51.7729 27.3304 308.274
+\i (00:00:29) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasWheelEvent 687 273 687 338 0 0 -120
+\i (00:00:29) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasWheelEvent 687 273 687 338 0 0 -120
+\i (00:00:29) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasWheelEvent 687 273 687 338 0 0 -120
+\i (00:00:30) QtSignal pcb3dViewer pcb3dViewer closed
+\i (00:00:30) exit 
+\e (00:00:31) Do you want to save the changes you made to SAMTEC_ESQ-102-48-L-S.dra?
+\i (00:00:31) fillin yes 
+\t (00:00:32) Symbol 'samtec_esq-102-48-l-s.psm' created.
+\t (00:00:49)     Journal end - Thu Nov  7 23:08:28 2024

@@ -1,6 +1,6 @@
-\t (00:00:02) padstack_editor 17.4 P001 Windows SPB 64-bit Edition
-\t (00:00:02)     Journal start - Thu Oct 31 07:41:29 2024
-\t (00:00:02)         Host=DESKTOP-OLN9DLP User=Admin Pid=22584 CPUs=8
-\t (00:00:02) CmdLine= c:\cadence\spb_17.4\tools\bin\padstack_editor.exe D:\Allegro\Project\CanhMai\Lib\Schematic_And_FootPrint\TMS-101-21-G-S\222222222222.pad
-\t (00:00:02) 
-\t (00:00:03)     Journal end - Thu Oct 31 07:41:31 2024
+\t (00:00:00) padstack_editor 17.4 P001 Windows SPB 64-bit Edition
+\t (00:00:00)     Journal start - Thu Oct 31 09:33:26 2024
+\t (00:00:00)         Host=DESKTOP-OLN9DLP User=Admin Pid=29156 CPUs=8
+\t (00:00:00) CmdLine= c:\cadence\spb_17.4\tools\bin\padstack_editor.exe D:\Allegro\Project\CanhMai\Lib\Schematic_And_FootPrint\TMS-101-21-G-S\222222222222.pad
+\t (00:00:00) 
+\t (00:00:02)     Journal end - Thu Oct 31 09:33:28 2024

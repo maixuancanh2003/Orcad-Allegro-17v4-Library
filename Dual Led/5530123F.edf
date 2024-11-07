@@ -1,0 +1,396 @@
+
+(EDIF
+  (rename &5530123F "5530123F")
+  (EDIFVersion 2 0 0)
+  (EDIFLevel 0)
+  (keywordMap (keywordLevel 0))
+  (status
+    (written
+      (timestamp 2024 10 03 07 57 40)
+      (dataOrigin "SnapEDA snapeda.comCopyright - This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0")
+      (program "SnapEDA Converter")
+    )
+  )
+  (library
+    (rename &5530123F "5530123F")
+    (EDIFLevel 0)
+    (technology
+      (numberDefinition
+        (scale 1 (e 254 -9) (unit DISTANCE))
+        (gridMap 1 1)
+      )
+      (figureGroup PINNAME
+        (cornerType TRUNCATE)
+        (endType TRUNCATE)
+        (pathWidth 0)
+        (textHeight 4811)
+      )
+      (figureGroup PINNUMBER
+        (cornerType TRUNCATE)
+        (endType TRUNCATE)
+        (textHeight 9000)
+        (pathWidth 0)
+      )
+      (figureGroup PORT
+        (pathWidth 1000)
+        (textHeight 9000)
+      )
+      (figureGroup PARTBODY
+        (pathWidth 1000)
+        (borderWidth 1000)
+        (textHeight 6000)
+      )
+    )
+    (cell
+      (rename LEDX2 "LEDX2")
+      (cellType GENERIC)
+      (view
+        (rename NORMAL "Normal")
+        (viewType SCHEMATIC)
+        (interface
+          (designator "LED")
+          (property (rename VALUE "Value") (string "LEDX2"))
+          (port
+            (rename &1 "1")
+            (property
+              (rename TYPE "Type")
+              (string "PAS")
+            )
+            (designator "P$1")
+            (property
+              (rename ORDER "Order")
+              (integer 0)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename &2 "2")
+            (property
+              (rename TYPE "Type")
+              (string "PAS")
+            )
+            (designator "P$2")
+            (property
+              (rename ORDER "Order")
+              (integer 1)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename &3 "3")
+            (property
+              (rename TYPE "Type")
+              (string "PAS")
+            )
+            (designator "P$3")
+            (property
+              (rename ORDER "Order")
+              (integer 2)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename &4 "4")
+            (property
+              (rename TYPE "Type")
+              (string "PAS")
+            )
+            (designator "P$4")
+            (property
+              (rename ORDER "Order")
+              (integer 3)
+              (owner "OrCAD")
+            )
+          )
+          (symbol
+            (boundingBox (rectangle (pt -13499 0) (pt 26999 30000)))
+            (portImplementation
+              (name &3)
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt 20000 0)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt 20000 0)
+                    (pt 20000 10000)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name &4)
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt 20000 30000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt 20000 30000)
+                    (pt 20000 20000)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name &1)
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt 0 0)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt 0 0)
+                    (pt 0 10000)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name &2)
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt 0 30000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt 0 30000)
+                    (pt 0 20000)
+                  )
+                )
+              )
+            )
+            (figure PARTBODY
+              (path (pointList (pt 25000 20000) (pt 20000 10000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 20000 10000) (pt 15000 20000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 25000 10000) (pt 20000 10000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 20000 10000) (pt 15000 10000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 25000 20000) (pt 20000 20000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 20000 20000) (pt 15000 20000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 20000 20000) (pt 20000 10000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 12000 16999) (pt 6500 11500)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 12500 12500) (pt 7000 7000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 5000 20000) (pt 0 10000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 0 10000) (pt -5000 20000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 5000 10000) (pt 0 10000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 0 10000) (pt -5000 10000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 5000 20000) (pt 0 20000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 0 20000) (pt -5000 20000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 0 20000) (pt 0 10000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -8000 16999) (pt -13499 11500)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -7500 12500) (pt -13000 7000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -7000 24000) (pt -7000 6000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -7000 6000) (pt 26999 6000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 26999 6000) (pt 26999 24000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 26999 24000) (pt -7000 24000)))
+            )
+            (keywordDisplay DESIGNATOR
+              (display PARTBODY
+                (justify LOWERLEFT)
+                (orientation R0)
+                (origin (pt 30000 25000))
+              )
+            )
+            (propertyDisplay VALUE
+              (display PARTBODY
+                (justify LOWERLEFT)
+                (orientation R0)
+                (origin (pt 30000 15000))
+              )
+            )
+            (annotate
+              (stringDisplay "1"
+                (display PARTBODY
+                  (justify UPPERLEFT)
+                  (orientation R0)
+                  (origin (pt 2000 4000))
+                )
+              )
+            )
+            (annotate
+              (stringDisplay "2"
+                (display PARTBODY
+                  (justify LOWERLEFT)
+                  (orientation R0)
+                  (origin (pt 2000 26000))
+                )
+              )
+            )
+            (annotate
+              (stringDisplay "3"
+                (display PARTBODY
+                  (justify UPPERRIGHT)
+                  (orientation R0)
+                  (origin (pt 18000 4000))
+                )
+              )
+            )
+            (annotate
+              (stringDisplay "4"
+                (display PARTBODY
+                  (justify LOWERRIGHT)
+                  (orientation R0)
+                  (origin (pt 18000 26000))
+                )
+              )
+            )
+            (annotate
+              (stringDisplay "GR(4,3)"
+                (display PARTBODY
+                  (justify UPPERRIGHT)
+                  (orientation R90)
+                  (origin (pt 26999 4000))
+                )
+              )
+            )
+            (annotate
+              (stringDisplay "Y(2,1)"
+                (display PARTBODY
+                  (justify LOWERRIGHT)
+                  (orientation R90)
+                  (origin (pt -7000 4000))
+                )
+              )
+            )
+            (annotate
+              (stringDisplay ">ATONO_PN"
+                (display PARTBODY
+                  (justify LOWERLEFT)
+                  (orientation R0)
+                  (origin (pt 30000 5000))
+                )
+              )
+            )
+            (figure PARTBODY
+              (polygon
+                (pointList
+                  (pt 6500 11500)
+                  (pt 8000 15000)
+                  (pt 10000 13000)
+                )
+              )
+            )
+            (figure PARTBODY
+              (polygon
+                (pointList
+                  (pt 7000 7000)
+                  (pt 8499 10499)
+                  (pt 10499 8499)
+                )
+              )
+            )
+            (figure PARTBODY
+              (polygon
+                (pointList
+                  (pt -13499 11500)
+                  (pt -12000 15000)
+                  (pt -10000 13000)
+                )
+              )
+            )
+            (figure PARTBODY
+              (polygon
+                (pointList
+                  (pt -13000 7000)
+                  (pt -11500 10499)
+                  (pt -9500 8499)
+                )
+              )
+            )
+            (property (rename PCB_Footprint "PCB Footprint") (string "553_DIALIGHT_4P"))
+            (property
+              (rename SnapEDA_Link "SnapEDA_Link")
+              (string
+              (stringDisplay "https://www.snapeda.com/parts/553-0123F/Dialight/view-part/?ref=snap"))
+            )
+            (property
+              (rename Description "Description")
+              (string
+              (stringDisplay "
+Indicator LED PCB Mount 3mm Bulb Green/Yel Diffused Tinted Angl 45deg 16mcd | Dialight 553-0123F
+"))
+            )
+            (property
+              (rename Package "Package")
+              (string
+              (stringDisplay "None"))
+            )
+            (property
+              (rename MF "MF")
+              (string
+              (stringDisplay "Dialight"))
+            )
+            (property
+              (rename MP "MP")
+              (string
+              (stringDisplay "553-0123F"))
+            )
+            (property
+              (rename Check_prices "Check_prices")
+              (string
+              (stringDisplay "https://www.snapeda.com/parts/553-0123F/Dialight/view-part/?ref=eda"))
+            )
+          )
+        )
+      )
+    )
+  )
+)

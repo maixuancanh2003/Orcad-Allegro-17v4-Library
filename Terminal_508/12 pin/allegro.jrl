@@ -1,0 +1,23 @@
+\t (00:00:00) allegro 17.4 P001 Windows SPB 64-bit Edition
+\t (00:00:00)     Journal start - Wed Nov  6 08:53:29 2024
+\t (00:00:00)         Host=DESKTOP-OLN9DLP User=Admin Pid=12884 CPUs=8
+\t (00:00:00) CmdLine= C:\Cadence\SPB_17.4\tools\bin\allegro.exe
+\t (00:00:00) 
+   (00:00:00) Loading axlcore.cxt 
+\t (00:00:03) Opening existing design...
+\i (00:00:03) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged PHOENIX_1935268
+\d (00:00:03) Design opened: D:/Allegro/Project/CanhMai/Lib/Schematic_And_FootPrint/Terminal_508/12 pin/PHOENIX_1935268.dra
+\i (00:00:03) trapsize 5471
+\i (00:00:03) trapsize 5643
+\i (00:00:03) trapsize 5471
+\i (00:00:03) trapsize 6983
+\i (00:00:03) trapsize 6983
+\i (00:00:04) etchedit 
+\i (00:00:09) open 
+\i (00:00:28) fillin "D:/Allegro/Project/CanhMai/ThesisProject/test.brd"
+\i (00:00:28) cd "D:/Allegro/Project/CanhMai/ThesisProject"
+\t (00:00:28) Opening existing design...
+\i (00:00:28) trapsize 29600
+\i (00:00:28) trapsize 30797
+\i (00:00:28) trapsize 30797
+\t (00:00:28)     Journal end - Wed Nov  6 08:53:57 2024

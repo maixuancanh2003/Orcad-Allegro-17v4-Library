@@ -1,0 +1,13 @@
+﻿"Symbol";"Value";"Unit";
+"TraceParts.PartNumber";"10-22112012-063273";"";
+"REFERENCE";"20020110H121A01LF";"";
+"TraceParts.ClassPath";"";"";
+"TraceParts.PartVersion";"1.0.3";"";
+"TraceParts.InstanceId";"10-22112012-0632736UEXM2Y7JC6DT0498PIKU5GV6";"";
+"TraceParts.PartLanguage";"en";"";
+"TraceParts.PartTitle";"Terminal Blocks Pluggable socket, right angle, 5.08 mm pitch, 12 position";"";
+"SUPPLIER";"FCI";"";
+"DESIGN";"Terminal Blocks Pluggable socket, right angle, 5.08 mm pitch, 12 position";"";
+"TRACEPARTS";"TRACEPARTS";"";
+"TraceParts.PartStatus";"Published";"";
+"TraceParts.PartStatusId";"";"";

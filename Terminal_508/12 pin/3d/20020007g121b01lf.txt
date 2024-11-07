@@ -1,0 +1,10 @@
+﻿"Symbol";"Value";"Unit";
+"TraceParts.PartNumber";"10-22112012-054003";"";
+"REFERENCE";"20020007G121B01LF";"";
+"TraceParts.PartTitle";"Terminal Blocks Pluggable plug, contact down side, flange, 5.00mm pitch, 12 position";"";
+"TraceParts.InstanceId";"10-22112012-0540035KGCER8PIICQBNHC1085219MB";"";
+"SUPPLIER";"FCI";"";
+"DESIGN";"Terminal Blocks Pluggable plug, contact down side, flange, 5.00mm pitch, 12 position";"";
+"TRACEPARTS";"TRACEPARTS";"";
+"TraceParts.PartLanguage";"en";"";
+"TraceParts.PartVersion";"1.0.3";"";

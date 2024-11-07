@@ -1,37 +1,86 @@
 \t (00:00:01) allegro 17.4 P001 Windows SPB 64-bit Edition
-\t (00:00:01)     Journal start - Tue Nov  5 15:37:41 2024
-\t (00:00:01)         Host=DESKTOP-OLN9DLP User=Admin Pid=19720 CPUs=8
+\t (00:00:01)     Journal start - Thu Nov  7 23:10:50 2024
+\t (00:00:01)         Host=DESKTOP-OLN9DLP User=Admin Pid=22388 CPUs=8
 \t (00:00:01) CmdLine= c:\cadence\spb_17.4\tools\bin\allegro.exe D:\Allegro\Project\CanhMai\Lib\Schematic_And_FootPrint\Jumper\1x2\SAMTEC_ESQ-102-48-L-S.dra
 \t (00:00:01) 
    (00:00:01) Loading axlcore.cxt 
-\t (00:00:04) Opening existing design...
-\i (00:00:04) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged SAMTEC_ESQ-102-48-L-S
-\d (00:00:04) Design opened: D:/Allegro/Project/CanhMai/Lib/Schematic_And_FootPrint/Jumper/1x2/SAMTEC_ESQ-102-48-L-S.dra
-\i (00:00:04) trapsize 3031
-\i (00:00:04) trapsize 3231
-\i (00:00:05) trapsize 3133
-\i (00:00:05) trapsize 3231
-\i (00:00:05) trapsize 3481
-\i (00:00:05) trapsize 3481
-\i (00:00:05) etchedit 
-\i (00:00:47) zoom in 1 
-\i (00:00:47) setwindow pcb
-\i (00:00:47) zoom in -4.7219 3.1913
-\i (00:00:47) trapsize 1740
-\i (00:00:48) show measure 
-\i (00:00:48) zoom in 1 
-\i (00:00:48) setwindow pcb
-\i (00:00:48) zoom in 2.4133 0.6796
-\i (00:00:48) trapsize 870
-\i (00:00:49) pick grid 0.0987 0.1923
-\t (00:00:49) last pick:  0.0000 0.0000
-\i (00:00:50) pick grid 2.4655 0.0531
-\t (00:00:50) last pick:  2.5400 0.0000
-\i (00:00:51) setwindow text
-\i (00:00:51) close
-\i (00:00:51) save 
-\i (00:00:52) fillin yes 
-\t (00:00:52) Symbol 'samtec_esq-102-48-l-s.psm' created.
-\i (00:00:53) etchedit 
-\i (00:00:57) exit 
-\t (00:00:58)     Journal end - Tue Nov  5 15:38:38 2024
+\t (00:00:01) Opening existing design...
+\i (00:00:01) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged SAMTEC_ESQ-102-48-L-S
+\d (00:00:01) Design opened: D:/Allegro/Project/CanhMai/Lib/Schematic_And_FootPrint/Jumper/1x2/SAMTEC_ESQ-102-48-L-S.dra
+\i (00:00:01) trapsize 682
+\i (00:00:01) trapsize 703
+\i (00:00:02) trapsize 682
+\i (00:00:02) trapsize 870
+\i (00:00:02) trapsize 870
+\i (00:01:19) step pkg map 
+\i (00:01:22) setwindow form.pkgmap3d
+\i (00:01:22) FORM pkgmap3d namefilter_stp He* 
+\i (00:01:23) FORM pkgmap3d stplist Header1x2.STEP 
+\i (00:01:23) FORM pkgmap3d stplist Header1x2.STEP 
+\i (00:01:25) FORM pkgmap3d rotation_x 90 
+\i (00:01:28) FORM pkgmap3d overlay YES 
+\i (00:01:34) FORM pkgmap3d view_orientation Bottom 
+\i (00:01:40) FORM pkgmap3d offset_z -5 
+\i (00:01:51) FORM pkgmap3d save_current  
+\i (00:01:52) FORM pkgmap3d done  
+\i (00:01:53) setwindow pcb
+\i (00:01:53) 3d 
+\i (00:01:56) QtSignal pcb3dViewer pcb3dViewer closed
+\i (00:01:58) step pkg map 
+\i (00:02:00) setwindow form.pkgmap3d
+\i (00:02:00) FORM pkgmap3d offset_z -10 
+\i (00:02:02) FORM pkgmap3d offset_z -8 
+\i (00:02:04) FORM pkgmap3d offset_z -7 
+\i (00:02:07) FORM pkgmap3d save_current  
+\i (00:02:08) FORM pkgmap3d done  
+\i (00:02:10) setwindow pcb
+\i (00:02:10) 3d 
+\i (00:02:11) QtSignal pcb3dViewer pcb3dViewerCanvas keyPressEvent 16777248 33554432 false 1
+\i (00:02:11) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasMousePressEvent 889 362 889 427 4 4 33554432 +
+\i (00:02:11) QtSignal 214.383 223.902 414.517
+\i (00:02:11) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 214.383 223.902 414.517 214.383 +
+\i (00:02:11) QtSignal 225.581 416.573
+\i (00:02:11) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 219.255 220.561 420.531 218.529 +
+\i (00:02:11) QtSignal 222.961 424.733
+\i (00:02:11) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 226.072 214.858 430.286 227.114 +
+\i (00:02:11) QtSignal 217.162 432.495
+\i (00:02:11) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 234.653 208.6 437.481 235.476 +
+\i (00:02:11) QtSignal 211.1 440.856
+\i (00:02:11) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 244.218 200.374 446.227 245.481 +
+\i (00:02:11) QtSignal 202.414 448.575
+\i (00:02:11) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 252.854 192.737 452.631 253.274 +
+\i (00:02:11) QtSignal 193.927 454.966
+\i (00:02:11) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 258.203 187.13 457.403 259.632 +
+\i (00:02:11) QtSignal 188.948 459.838
+\i (00:02:11) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 266.819 178.465 463.067 267.578 +
+\i (00:02:11) QtSignal 179.307 464.305
+\i (00:02:11) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 271.109 173.913 465.715 271.688 +
+\i (00:02:11) QtSignal 174.872 468.121
+\i (00:02:11) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 276.415 167.367 469.832 278.224 +
+\i (00:02:11) QtSignal 168.766 471.18
+\i (00:02:11) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 283.821 159.399 472.952 284.667 +
+\i (00:02:11) QtSignal 160.104 474.22
+\i (00:02:11) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 287.963 154.272 475.165 288.668 +
+\i (00:02:11) QtSignal 155.02 477.612
+\i (00:02:11) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 293.068 146.918 478.678 294.999 +
+\i (00:02:11) QtSignal 148.103 480.062
+\i (00:02:11) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 300.144 138.086 481.025 300.936 +
+\i (00:02:11) QtSignal 138.67 483.491
+\i (00:02:11) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 305.045 130.158 484.042 308.124 +
+\i (00:02:11) QtSignal 131.692 485.547
+\i (00:02:11) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 314.626 117.052 485.999 314.52 +
+\i (00:02:11) QtSignal 117.02 487.18
+\i (00:02:11) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 315.512 114.662 487.184 316.602 +
+\i (00:02:11) QtSignal 115.121 487.294
+\i (00:02:11) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 318.321 110.944 487.258 319.418 +
+\i (00:02:11) QtSignal 111.383 487.368
+\i (00:02:11) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasMouseReleaseEvent 914 333 914 398 4 0 +
+\i (00:02:11) QtSignal 33554432 321.072 107.157 487.324
+\i (00:02:11) QtSignal pcb3dViewer pcb3dViewerCanvas keyPressEvent 16777251 134217728 false 1
+\i (00:02:12) QtSignal pcb3dViewer pcb3dViewerCanvas keyPressEvent 16777250 0 false 1
+\i (00:02:34) QtSignal pcb3dViewer pcb3dViewer closed
+\i (00:02:36) exit 
+\e (00:02:36) Do you want to save the changes you made to SAMTEC_ESQ-102-48-L-S.dra?
+\i (00:02:37) fillin yes 
+\t (00:02:38) Symbol 'samtec_esq-102-48-l-s.psm' created.
+\t (00:02:50)     Journal end - Thu Nov  7 23:13:39 2024

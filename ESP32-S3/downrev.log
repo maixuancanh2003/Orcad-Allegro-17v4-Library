@@ -1,0 +1,14 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Downrev Design                                                   )
+(                                                                     )
+(    Drawing          : XCVR_ESP32-S3-WROOM-1U-N16.dra                )
+(    Software Version : unreleased                                    )
+(    Date/Time        : Wed Nov  6 23:00:19 2024                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+
+Changes made to design for 17.2 compatibility.
+

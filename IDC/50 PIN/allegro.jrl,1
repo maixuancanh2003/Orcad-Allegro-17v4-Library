@@ -1,0 +1,145 @@
+\t (00:00:01) allegro 17.4 P001 Windows SPB 64-bit Edition
+\t (00:00:01)     Journal start - Wed Nov  6 21:04:03 2024
+\t (00:00:01)         Host=DESKTOP-OLN9DLP User=Admin Pid=15288 CPUs=8
+\t (00:00:01) CmdLine= c:\cadence\spb_17.4\tools\bin\allegro.exe D:\Allegro\Project\CanhMai\Lib\Schematic_And_FootPrint\IDC\50 PIN\AMPHENOL_88874-050LF.dra
+\t (00:00:01) 
+   (00:00:01) Loading axlcore.cxt 
+\t (00:00:01) Opening existing design...
+\i (00:00:02) fillin yes 
+\i (00:00:02) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged AMPHENOL_88874-050LF
+\d (00:00:02) Design opened: D:/Allegro/Project/CanhMai/Lib/Schematic_And_FootPrint/IDC/50 PIN/AMPHENOL_88874-050LF.dra
+\i (00:00:03) trapsize 6704
+\i (00:00:03) trapsize 6915
+\i (00:00:03) trapsize 6704
+\i (00:00:03) trapsize 8557
+\i (00:00:03) trapsize 8557
+\i (00:00:03) generaledit 
+\i (00:00:03) zoom in 1 
+\i (00:00:03) setwindow pcb
+\i (00:00:03) zoom in -2.3624 -14.0502
+\i (00:00:03) trapsize 4279
+\i (00:00:04) zoom out 1 
+\i (00:00:04) setwindow pcb
+\i (00:00:04) zoom out -1.6778 -7.8890
+\i (00:00:04) trapsize 8557
+\i (00:00:04) zoom in 1 
+\i (00:00:04) setwindow pcb
+\i (00:00:04) zoom in 31.0106 -10.7984
+\i (00:00:04) trapsize 4279
+\i (00:00:05) zoom in 1 
+\i (00:00:05) setwindow pcb
+\i (00:00:05) zoom in 31.2673 -10.7984
+\i (00:00:05) trapsize 2139
+\i (00:00:06) zoom in 1 
+\i (00:00:06) setwindow pcb
+\i (00:00:06) zoom in 35.6742 -2.5406
+\i (00:00:06) trapsize 1070
+\i (00:00:08) delete 
+\i (00:00:08) pick grid 37.4926 -10.7983
+\t (00:00:08) last pick:  37.4650 -10.7950
+\t (00:00:08) Text "Pcb Edge"
+\i (00:00:08) pick grid dbl 37.4926 -10.7983
+\t (00:00:08) last pick:  37.4650 -10.7950
+\i (00:00:09) pick grid 37.4498 -11.5256
+\t (00:00:09) last pick:  37.4650 -11.4300
+\t (00:00:09) Line "Package Geometry/Assembly_Top"
+\i (00:00:09) pick grid dbl 37.4498 -11.5256
+\t (00:00:09) last pick:  37.4650 -11.4300
+\i (00:00:11) undo 
+\i (00:00:11) trapsize 1070
+\i (00:00:11) generaledit 
+\i (00:00:12) zoom out 1 
+\i (00:00:12) setwindow pcb
+\i (00:00:12) zoom out 37.5140 -8.6376
+\i (00:00:12) trapsize 2139
+\i (00:00:12) zoom out 1 
+\i (00:00:12) setwindow pcb
+\i (00:00:12) zoom out 37.8991 -10.1350
+\i (00:00:12) trapsize 4279
+\i (00:00:13) zoom out 1 
+\i (00:00:13) setwindow pcb
+\i (00:00:13) zoom out 37.5568 -13.3012
+\i (00:00:13) trapsize 8557
+\i (00:00:14) zoom in 1 
+\i (00:00:14) setwindow pcb
+\i (00:00:14) zoom in 41.4931 -18.8424
+\i (00:00:14) trapsize 4279
+\i (00:00:14) zoom in 1 
+\i (00:00:14) setwindow pcb
+\i (00:00:14) zoom in 41.4931 -18.8424
+\i (00:00:14) trapsize 2139
+\i (00:00:14) zoom in 1 
+\i (00:00:14) setwindow pcb
+\i (00:00:14) zoom in 41.4931 -18.8424
+\i (00:00:14) trapsize 1070
+\i (00:00:15) pick grid 39.3752 -10.7345
+\t (00:00:15) last pick:  39.3700 -10.7950
+\i (00:00:15) pick grid dbl 39.3752 -10.7345
+\t (00:00:15) last pick:  39.3700 -10.7950
+\i (00:00:16) delete 
+\i (00:00:17) generaledit 
+\i (00:00:17) prepopup 38.1558 -9.7076
+\i (00:00:18) pick grid 36.0593 -10.5633
+\t (00:00:18) last pick:  36.1950 -10.7950
+\i (00:00:19) pick grid 36.6583 -11.5474
+\t (00:00:19) last pick:  36.8300 -11.4300
+\i (00:00:22) zoom out 1 
+\i (00:00:22) setwindow pcb
+\i (00:00:22) zoom out 31.6951 -9.1942
+\i (00:00:22) trapsize 2139
+\i (00:00:22) zoom out 1 
+\i (00:00:22) setwindow pcb
+\i (00:00:22) zoom out 31.6952 -9.3653
+\i (00:00:22) trapsize 4279
+\i (00:00:23) zoom in 1 
+\i (00:00:23) setwindow pcb
+\i (00:00:23) zoom in 38.1986 -7.9458
+\i (00:00:23) trapsize 2139
+\i (00:00:23) zoom in 1 
+\i (00:00:23) setwindow pcb
+\i (00:00:23) zoom in 38.1986 -7.9458
+\i (00:00:23) trapsize 1070
+\i (00:00:24) pick grid 37.6424 -11.2831
+\t (00:00:24) last pick:  37.4650 -11.4300
+\i (00:00:24) pick grid dbl 37.6424 -11.2831
+\t (00:00:24) last pick:  37.4650 -11.4300
+\i (00:00:24) pick grid 37.6424 -11.4328
+\t (00:00:24) last pick:  37.4650 -11.4300
+\i (00:00:24) pick grid dbl 37.6424 -11.4328
+\t (00:00:24) last pick:  37.4650 -11.4300
+\i (00:00:26) delete 
+\i (00:00:27) generaledit 
+\i (00:00:27) zoom out 1 
+\i (00:00:27) setwindow pcb
+\i (00:00:27) zoom out 37.0434 -10.2134
+\i (00:00:27) trapsize 2139
+\i (00:00:27) zoom out 1 
+\i (00:00:27) setwindow pcb
+\i (00:00:27) zoom out 37.0434 -10.2562
+\i (00:00:27) trapsize 4279
+\i (00:00:28) zoom out 1 
+\i (00:00:28) setwindow pcb
+\i (00:00:28) zoom out 33.3637 -10.5129
+\i (00:00:28) trapsize 8557
+\i (00:00:28) zoom out 1 
+\i (00:00:28) setwindow pcb
+\i (00:00:28) zoom out 0.6754 -12.5101
+\i (00:00:28) trapsize 17114
+\i (00:00:29) zoom in 1 
+\i (00:00:29) setwindow pcb
+\i (00:00:29) zoom in -10.6202 -0.5301
+\i (00:00:29) trapsize 8557
+\i (00:00:29) zoom in 1 
+\i (00:00:29) setwindow pcb
+\i (00:00:29) zoom in -18.3216 37.2927
+\i (00:00:29) trapsize 4279
+\i (00:00:29) zoom out 1 
+\i (00:00:29) setwindow pcb
+\i (00:00:29) zoom out -15.4121 31.3027
+\i (00:00:29) trapsize 8557
+\i (00:00:30) prepopup -14.3853 22.5743
+\i (00:00:31) exit 
+\e (00:00:31) Do you want to save the changes you made to AMPHENOL_88874-050LF.dra?
+\i (00:00:32) fillin yes 
+\t (00:00:32) Symbol 'amphenol_88874-050lf.psm' created.
+\t (00:00:46)     Journal end - Wed Nov  6 21:04:49 2024

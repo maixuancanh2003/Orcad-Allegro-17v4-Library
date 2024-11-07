@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : SAMTEC_SMA-J-P-X-RA-TH1.dra                   )
+(    Software Version : unreleased                                    )
+(    Date/Time        : Tue Nov  5 22:59:30 2024                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = D:/Allegro/Project/CanhMai/Lib/Schematic_And_FootPrint/Angten/SMA-J-P-X-RA-TH1
+    Name      = samtec_sma-j-p-x-ra-th1.psm
+    User      = Admin
+    Machine   = DESKTOP-OLN9DLP
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

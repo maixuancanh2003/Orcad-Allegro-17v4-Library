@@ -1,0 +1,147 @@
+\t (00:00:01) allegro 17.4 P001 Windows SPB 64-bit Edition
+\t (00:00:01)     Journal start - Thu Nov  7 12:05:46 2024
+\t (00:00:01)         Host=DESKTOP-OLN9DLP User=Admin Pid=5624 CPUs=8
+\t (00:00:01) CmdLine= c:\cadence\spb_17.4\tools\bin\allegro.exe D:\Allegro\Project\CanhMai\Lib\Schematic_And_FootPrint\IDC\10 pin\REAL\TE_5104338-1.dra
+\t (00:00:01) 
+   (00:00:01) Loading axlcore.cxt 
+\t (00:00:01) Opening existing design...
+\i (00:00:02) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged TE_5104338-1
+\d (00:00:02) Design opened: D:/Allegro/Project/CanhMai/Lib/Schematic_And_FootPrint/IDC/10 pin/REAL/TE_5104338-1.dra
+\i (00:00:02) trapsize 1963
+\i (00:00:02) trapsize 2024
+\i (00:00:02) trapsize 1963
+\i (00:00:02) trapsize 2505
+\i (00:00:02) trapsize 2505
+\i (00:00:16) zoom in 1 
+\i (00:00:16) setwindow pcb
+\i (00:00:16) zoom in -9.7919 -3.7217
+\i (00:00:16) trapsize 1252
+\i (00:00:18) zoom out 1 
+\i (00:00:18) setwindow pcb
+\i (00:00:18) zoom out -9.8420 -3.1706
+\i (00:00:18) trapsize 2505
+\i (00:00:18) zoom in 1 
+\i (00:00:18) setwindow pcb
+\i (00:00:18) zoom in -9.8420 -3.1705
+\i (00:00:18) trapsize 1252
+\i (00:00:19) zoom in 1 
+\i (00:00:19) setwindow pcb
+\i (00:00:19) zoom in -9.8420 -3.1705
+\i (00:00:19) trapsize 626
+\i (00:00:19) zoom out 1 
+\i (00:00:19) setwindow pcb
+\i (00:00:19) zoom out -9.8420 -3.1704
+\i (00:00:19) trapsize 1252
+\i (00:00:32) delete 
+\i (00:00:35) pick grid -7.2618 -5.8007
+\t (00:00:35) last pick:  -6.9850 -5.7150
+\t (00:00:35) Line "Package Geometry/Assembly_Top"
+\i (00:00:35) pick grid dbl -7.2618 -5.8007
+\t (00:00:35) last pick:  -6.9850 -5.7150
+\t (00:00:35) Line "Package Geometry/Silkscreen_Top"
+\i (00:00:35) pick grid -7.2618 -5.8007
+\t (00:00:35) last pick:  -6.9850 -5.7150
+\t (00:00:35) Shape "Package Geometry/Place_Bound_Top"
+\i (00:00:40) undo 
+\i (00:00:40) trapsize 1252
+\i (00:00:43) show element 
+\i (00:00:44) pick grid -11.8710 3.2924
+\t (00:00:44) last pick:  -12.0650 3.1750
+\i (00:00:46) setwindow text
+\i (00:00:46) close
+\i (00:00:49) add rect 
+\i (00:00:52) setwindow form.mini
+\i (00:00:52) FORM mini class BOARD GEOMETRY 
+\i (00:00:57) FORM mini class PACKAGE GEOMETRY 
+\i (00:01:03) setwindow pcb
+\i (00:01:03) pick grid -15.2527 1.6892
+\t (00:01:03) last pick:  -15.2400 2.5400
+\i (00:01:07) prepopup -0.5233 4.0439
+\i (00:01:07) oops 
+\i (00:01:11) define grid 
+\t (00:01:11) Spacing fields allow simple equations to aid calculations; prefix with =
+\i (00:01:14) setwindow form.grid
+\i (00:01:14) FORM grid non_etch non_etch_x_grids 0.01 
+\i (00:01:15) FORM grid non_etch non_etch_y_grids 0.01 
+\i (00:01:15) FORM grid top subclass_x_grids 0.01 
+\i (00:01:16) FORM grid top subclass_y_grids 0.01 
+\i (00:01:16) FORM grid bottom subclass_x_grids 0.01 
+\i (00:01:17) FORM grid bottom subclass_y_grids 0.01 
+\i (00:01:17) FORM grid done  
+\i (00:01:21) setwindow pcb
+\i (00:01:21) pick grid -3.3039 2.8666
+\t (00:01:21) last pick:  -3.3000 2.8700
+\i (00:01:21) show element 
+\i (00:01:21) pick grid -3.3039 3.1672
+\t (00:01:21) last pick:  -3.3000 3.1700
+\i (00:01:24) setwindow text
+\i (00:01:24) close
+\i (00:01:25) pick grid -2.3019 3.2423
+\t (00:01:25) last pick:  -2.3000 3.2400
+\i (00:01:27) setwindow text
+\i (00:01:27) close
+\i (00:01:29) add rect 
+\i (00:01:31) pick grid -15.2277 1.0129
+\t (00:01:31) last pick:  -15.2300 1.0100
+\i (00:01:34) pick grid 5.0628 -3.6464
+\t (00:01:34) last pick:  5.0600 -3.6500
+\i (00:01:38) prepopup -1.2748 5.6221
+\i (00:01:39) oops 
+\t (00:01:39) last pick:  -15.2300 1.0100
+\i (00:01:40) prepopup -12.7728 1.0630
+\i (00:01:41) oops 
+\i (00:01:42) pick grid -15.3028 2.0399
+\t (00:01:42) last pick:  -15.3000 2.0400
+\i (00:01:45) prepopup 5.0879 -3.3458
+\i (00:01:46) oops 
+\i (00:01:48) pick grid -15.2527 1.9147
+\t (00:01:48) last pick:  -15.2500 1.9100
+\i (00:01:53) pick grid 5.0879 -4.1725
+\t (00:01:53) last pick:  5.0900 -4.1700
+\i (00:01:53) prepopup 1.5308 3.7183
+\i (00:01:54) done 
+\i (00:01:58) delete 
+\i (00:02:01) pick grid -14.2006 3.2924
+\t (00:02:01) last pick:  -14.2000 3.2900
+\t (00:02:01) Line "Package Geometry/Assembly_Top"
+\i (00:02:01) pick grid dbl -14.2006 3.2924
+\t (00:02:01) last pick:  -14.2000 3.2900
+\t (00:02:01) Line "Package Geometry/Silkscreen_Top"
+\i (00:02:01) pick grid -14.2006 3.2924
+\t (00:02:01) last pick:  -14.2000 3.2900
+\t (00:02:01) Shape "Package Geometry/Place_Bound_Top"
+\i (00:02:02) prepopup -13.2237 4.9708
+\i (00:02:03) oops 
+\t (00:02:03) last pick:  -14.2000 3.2900
+\i (00:02:04) show element 
+\i (00:02:05) pick grid -12.6976 3.7433
+\t (00:02:05) last pick:  -12.7000 3.7400
+\i (00:02:05) pick grid -12.4221 3.4177
+\t (00:02:05) last pick:  -12.4200 3.4200
+\i (00:02:08) setwindow text
+\i (00:02:08) close
+\i (00:02:14) setwindow form.mini
+\i (00:02:14) FORM mini subclass PLACE_BOUND_TOP 
+\i (00:02:16) setwindow pcb
+\i (00:02:16) delete 
+\i (00:02:16) pick grid -9.5914 3.4678
+\t (00:02:16) last pick:  -9.5900 3.4700
+\t (00:02:16) Shape "Package Geometry/Place_Bound_Top"
+\i (00:02:16) pick grid dbl -9.5914 3.4678
+\t (00:02:16) last pick:  -9.5900 3.4700
+\i (00:02:18) add rect 
+\i (00:02:20) pick grid -15.6535 2.6411
+\t (00:02:20) last pick:  -15.6500 2.6400
+\i (00:02:26) prepopup 5.6139 -4.9991
+\i (00:02:27) oops 
+\i (00:02:29) pick grid -15.3279 2.3656
+\t (00:02:29) last pick:  -15.3300 2.3700
+\i (00:02:33) pick grid 5.1380 -4.6234
+\t (00:02:33) last pick:  5.1400 -4.6200
+\i (00:02:33) prepopup 4.8123 -5.5252
+\i (00:02:34) done 
+\i (00:02:35) save 
+\i (00:02:36) fillin yes 
+\t (00:02:36) Symbol 'te_5104338-1.psm' created.
+\i (00:02:37) exit 
+\t (00:02:39)     Journal end - Thu Nov  7 12:08:24 2024
