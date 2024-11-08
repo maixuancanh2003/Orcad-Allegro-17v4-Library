@@ -1,0 +1,19 @@
+\t (00:00:01) allegro 17.4 P001 Windows SPB 64-bit Edition
+\t (00:00:01)     Journal start - Fri Nov  8 18:58:30 2024
+\t (00:00:01)         Host=DESKTOP-OLN9DLP User=Admin Pid=18376 CPUs=8
+\t (00:00:01) CmdLine= C:\Cadence\SPB_17.4\tools\bin\allegro.exe
+\t (00:00:01) 
+   (00:00:01) Loading axlcore.cxt 
+\t (00:00:03) Opening existing design...
+\i (00:00:03) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged SW_500SSP1S1M2REA
+\d (00:00:03) Design opened: D:/Allegro/Project/CanhMai/Lib/Schematic_And_FootPrint/CongTac47/500SSP1S1M2REA/SW_500SSP1S1M2REA.dra
+\i (00:00:04) trapsize 5330
+\i (00:00:04) trapsize 5498
+\i (00:00:04) trapsize 5330
+\i (00:00:04) trapsize 6804
+\i (00:00:04) trapsize 6804
+\i (00:00:06) open 
+\i (00:00:27) fillin "menu_cancel"
+\i (00:00:28) trapsize 14561
+\i (00:00:29) exit 
+\t (00:00:30)     Journal end - Fri Nov  8 18:58:59 2024
