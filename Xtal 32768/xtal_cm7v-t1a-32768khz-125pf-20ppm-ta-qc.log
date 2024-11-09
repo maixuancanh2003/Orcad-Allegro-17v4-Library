@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : XTAL_CM7V-T1A-32768KHZ-125PF-20PPM-TA-QC.dra  )
+(    Software Version : unreleased                                    )
+(    Date/Time        : Sat Nov  9 16:16:07 2024                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = D:/Allegro/Project/CanhMai/Lib/Schematic_And_FootPrint/Xtal 32768
+    Name      = xtal_cm7v-t1a-32768khz-125pf-20ppm-ta-qc.psm
+    User      = Admin
+    Machine   = DESKTOP-OLN9DLP
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

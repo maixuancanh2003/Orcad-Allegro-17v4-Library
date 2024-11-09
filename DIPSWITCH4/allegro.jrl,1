@@ -1,27 +1,18 @@
 \t (00:00:01) allegro 17.4 P001 Windows SPB 64-bit Edition
-\t (00:00:01)     Journal start - Sat Oct 26 23:23:07 2024
-\t (00:00:01)         Host=DESKTOP-OLN9DLP User=Admin Pid=3140 CPUs=8
-\t (00:00:01) CmdLine= c:\cadence\spb_17.4\tools\bin\allegro.exe D:\Allegro\Project\CanhMai\Lib\Schematic_And_FootPrint\DIPSWITCH4\416131160804.dra
+\t (00:00:01)     Journal start - Sat Oct 26 23:45:46 2024
+\t (00:00:01)         Host=DESKTOP-OLN9DLP User=Admin Pid=5340 CPUs=8
+\t (00:00:01) CmdLine= C:\Cadence\SPB_17.4\tools\bin\allegro.exe
 \t (00:00:01) 
    (00:00:01) Loading axlcore.cxt 
-\t (00:00:03) Opening existing design...
-\i (00:00:06) fillin yes 
-\i (00:00:06) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged 416131160804
-\d (00:00:06) Design opened: D:/Allegro/Project/CanhMai/Lib/Schematic_And_FootPrint/DIPSWITCH4/416131160804.dra
-\i (00:00:07) trapsize 7687
-\i (00:00:07) trapsize 8194
-\i (00:00:07) trapsize 7945
-\i (00:00:07) trapsize 8194
-\i (00:00:07) trapsize 5060
-\i (00:00:07) trapsize 5060
-\i (00:00:07) generaledit 
-\i (00:00:08) zoom in 1 
-\i (00:00:08) setwindow pcb
-\i (00:00:08) zoom in -3.4886 -4.0583
-\i (00:00:08) trapsize 2530
-\i (00:00:09) zoom in 1 
-\i (00:00:09) setwindow pcb
-\i (00:00:09) zoom in -0.5719 0.0909
-\i (00:00:09) trapsize 1265
-\i (00:13:55) exit 
-\t (00:13:56)     Journal end - Sat Oct 26 23:37:02 2024
+\t (00:00:03) Starting new design...
+\i (00:00:04) trapsize 116667
+\i (00:00:04) generaledit 
+\i (00:00:13) open 
+\i (00:00:27) fillin "menu_cancel"
+\i (00:00:27) generaledit 
+\i (00:00:32) open 
+\i (00:00:33) fillin "menu_cancel"
+\i (00:00:33) generaledit 
+\i (00:00:35) new 
+\i (00:00:44) newdrawfillin "test.brd" "Board"
+\t (00:00:44)     Journal end - Sat Oct 26 23:46:30 2024

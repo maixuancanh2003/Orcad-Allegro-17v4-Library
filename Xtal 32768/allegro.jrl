@@ -1,0 +1,23 @@
+\t (00:00:01) allegro 17.4 P001 Windows SPB 64-bit Edition
+\t (00:00:01)     Journal start - Sat Nov  9 16:15:44 2024
+\t (00:00:01)         Host=DESKTOP-OLN9DLP User=Admin Pid=1076 CPUs=8
+\t (00:00:01) CmdLine= c:\cadence\spb_17.4\tools\bin\allegro.exe D:\Allegro\Project\CanhMai\Lib\Schematic_And_FootPrint\Xtal 32768\XTAL_CM7V-T1A-32768KHZ-125PF-20PPM-TA-QC.dra
+\t (00:00:01) 
+   (00:00:01) Loading axlcore.cxt 
+\t (00:00:01) Opening existing design...
+\i (00:00:01) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged XTAL_CM7V-T1A-32768KHZ-125PF-20PPM-TA-QC
+\d (00:00:01) Design opened: D:/Allegro/Project/CanhMai/Lib/Schematic_And_FootPrint/Xtal 32768/XTAL_CM7V-T1A-32768KHZ-125PF-20PPM-TA-QC.dra
+\i (00:00:01) trapsize 1826
+\i (00:00:01) trapsize 1883
+\i (00:00:01) trapsize 1826
+\i (00:00:01) trapsize 2331
+\i (00:00:01) trapsize 2331
+\i (00:00:05) step pkg map 
+\i (00:00:12) setwindow form.pkgmap3d
+\i (00:00:12) FORM pkgmap3d done  
+\i (00:00:23) setwindow pcb
+\i (00:00:23) exit 
+\e (00:00:23) Do you want to save the changes you made to XTAL_CM7V-T1A-32768KHZ-125PF-20PPM-TA-QC.dra?
+\i (00:00:24) fillin yes 
+\t (00:00:24) Symbol 'xtal_cm7v-t1a-32768khz-125pf-20ppm-ta-qc.psm' created.
+\t (00:00:26)     Journal end - Sat Nov  9 16:16:09 2024
