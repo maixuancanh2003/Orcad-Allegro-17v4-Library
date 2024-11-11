@@ -1,6 +1,31 @@
 \t (00:00:00) padstack_editor 17.4 P001 Windows SPB 64-bit Edition
-\t (00:00:00)     Journal start - Thu Oct 31 09:33:26 2024
-\t (00:00:00)         Host=DESKTOP-OLN9DLP User=Admin Pid=29156 CPUs=8
+\t (00:00:00)     Journal start - Sun Nov 10 11:47:42 2024
+\t (00:00:00)         Host=DESKTOP-OLN9DLP User=Admin Pid=27816 CPUs=8
 \t (00:00:00) CmdLine= c:\cadence\spb_17.4\tools\bin\padstack_editor.exe D:\Allegro\Project\CanhMai\Lib\Schematic_And_FootPrint\TMS-101-21-G-S\222222222222.pad
 \t (00:00:00) 
-\t (00:00:02)     Journal end - Thu Oct 31 09:33:28 2024
+\d (00:00:02) QtSignal GuidedTabsParent GuidedTabs currentChanged "Secondary Drill"
+\d (00:00:03) QtSignal GuidedTabsParent GuidedTabs currentChanged "Drill Symbol"
+\d (00:00:03) QtSignal GuidedTabsParent GuidedTabs currentChanged "Design Layers"
+\d (00:00:04) QtSignal GuidedTabsParent GuidedTabs currentChanged "Drill Offset"
+\d (00:00:04) QtSignal GuidedTabsParent GuidedTabs currentChanged "Drill Symbol"
+\d (00:00:05) QtSignal GuidedTabsParent GuidedTabs currentChanged "Secondary Drill"
+\d (00:00:06) QtSignal GuidedTabsParent GuidedTabs currentChanged "Drill Offset"
+\d (00:00:06) QtSignal GuidedTabsParent GuidedTabs currentChanged "Design Layers"
+\d (00:00:07) QtSignal GuidedDesignLayersTab LayersTable itemSelectionChanged 0 "Regular Pad"
+\d (00:00:07) QtSignal GuidedDesignLayersTab LayersTable cellClicked 0 "Regular Pad" 0 2
+\d (00:00:10) QtSignal GuidedDesignLayersTab PadDiameter editingFinished 5.0000
+\d (00:00:10) QtSignal GuidedTabsParent GuidedDesignLayersTab keyPressEvent 16777220 0 false 1 
+\d (00:00:12) QtSignal GuidedDesignLayersTab LayersTable itemSelectionChanged 1 "Regular Pad"
+\d (00:00:13) QtSignal GuidedDesignLayersTab LayersTable cellClicked 1 "Regular Pad" 1 2
+\d (00:00:17) QtSignal GuidedDesignLayersTab LayersTable itemSelectionChanged 2 "Regular Pad"
+\d (00:00:17) QtSignal GuidedDesignLayersTab LayersTable cellClicked 2 "Regular Pad" 2 2
+\d (00:00:20) QtSignal GuidedDesignLayersTab PadDiameter editingFinished 5.0000
+\d (00:00:20) QtSignal GuidedDesignLayersTab LayersTable itemSelectionChanged 1 "Regular Pad"
+\d (00:00:20) QtSignal GuidedDesignLayersTab LayersTable cellClicked 1 "Regular Pad" 1 2
+\d (00:00:23) QtSignal GuidedDesignLayersTab PadDiameter editingFinished 5.0000
+\d (00:00:26) QtSignal GuidedTabsParent GuidedDesignLayersTab keyPressEvent 16777249 67108864 false +
+\d (00:00:26) QtSignal 1
+\d (00:00:26) QtSignal GuidedTabsParent GuidedDesignLayersTab keyPressEvent 83 67108864 false 1 +
+\d (00:00:26) QtSignal 
+\d (00:00:27) QtFillin Yes
+\t (00:00:28)     Journal end - Sun Nov 10 11:48:09 2024

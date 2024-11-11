@@ -1,8 +1,6 @@
-\t (00:00:00) padstack_editor 17.4 P001 Windows SPB 64-bit Edition
-\t (00:00:00)     Journal start - Wed Nov  6 20:53:26 2024
-\t (00:00:00)         Host=DESKTOP-OLN9DLP User=Admin Pid=18436 CPUs=8
-\t (00:00:00) CmdLine= c:\cadence\spb_17.4\tools\bin\padstack_editor.exe D:\Allegro\Project\CanhMai\Lib\Schematic_And_FootPrint\TMS-101-21-G-S\222222222222.pad
-\t (00:00:00) 
-\d (00:00:03) QtSignal GuidedTabsParent GuidedTabs currentChanged "Secondary Drill"
-\d (00:00:03) QtSignal GuidedTabsParent GuidedTabs currentChanged Drill
-\t (00:00:04)     Journal end - Wed Nov  6 20:53:30 2024
+\t (00:00:01) padstack_editor 17.4 P001 Windows SPB 64-bit Edition
+\t (00:00:01)     Journal start - Sun Nov 10 11:48:22 2024
+\t (00:00:01)         Host=DESKTOP-OLN9DLP User=Admin Pid=29572 CPUs=8
+\t (00:00:01) CmdLine= padstack_editor -mpssession Admin -file D:/Allegro/Project/CanhMai/Lib/Schematic_And_FootPrint/TMS-101-21-G-S/222222222222.pad -tempout C:/Users/Admin/AppData/Local/Temp/#Taaaaag30652.tmp -p D:/Allegro/Project/CanhMai/Lib/Schematic_And_FootPrint/TMS-101-21-G-S
+\t (00:00:01) 
+\t (00:00:02)     Journal end - Sun Nov 10 11:48:24 2024

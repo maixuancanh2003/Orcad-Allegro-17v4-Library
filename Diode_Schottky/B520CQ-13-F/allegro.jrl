@@ -1,0 +1,31 @@
+\t (00:00:01) allegro 17.4 P001 Windows SPB 64-bit Edition
+\t (00:00:01)     Journal start - Mon Nov 11 15:32:13 2024
+\t (00:00:01)         Host=DESKTOP-OLN9DLP User=Admin Pid=4924 CPUs=8
+\t (00:00:01) CmdLine= c:\cadence\spb_17.4\tools\bin\allegro.exe D:\Allegro\Project\CanhMai\Lib\Schematic_And_FootPrint\Diode_Schottky\B520CQ-13-F\DIOM7959X250N.dra
+\t (00:00:01) 
+   (00:00:01) Loading axlcore.cxt 
+\t (00:00:01) Opening existing design...
+\i (00:00:01) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged DIOM7959X250N
+\d (00:00:01) Design opened: D:/Allegro/Project/CanhMai/Lib/Schematic_And_FootPrint/Diode_Schottky/B520CQ-13-F/DIOM7959X250N.dra
+\i (00:00:01) trapsize 5865
+\i (00:00:01) trapsize 6252
+\i (00:00:01) trapsize 6062
+\i (00:00:01) trapsize 6252
+\i (00:00:01) trapsize 5141
+\i (00:00:01) trapsize 5141
+\i (00:00:08) step pkg map 
+\i (00:00:11) setwindow form.pkgmap3d
+\i (00:00:11) FORM pkgmap3d namefilter_stp Dio* 
+\i (00:00:12) FORM pkgmap3d stplist Diode_schottky.STEP 
+\i (00:00:12) FORM pkgmap3d stplist Diode_schottky.STEP 
+\i (00:00:14) FORM pkgmap3d rotation_x 90 
+\i (00:00:17) FORM pkgmap3d save_current  
+\i (00:00:18) FORM pkgmap3d done  
+\i (00:00:19) setwindow pcb
+\i (00:00:19) 3d 
+\i (00:00:21) QtSignal pcb3dViewer pcb3dViewer closed
+\i (00:00:21) exit 
+\e (00:00:21) Do you want to save the changes you made to DIOM7959X250N.dra?
+\i (00:00:22) fillin yes 
+\t (00:00:22) Symbol 'diom7959x250n.psm' created.
+\t (00:00:23)     Journal end - Mon Nov 11 15:32:36 2024

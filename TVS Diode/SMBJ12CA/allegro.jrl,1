@@ -1,0 +1,66 @@
+\t (00:00:01) allegro 17.4 P001 Windows SPB 64-bit Edition
+\t (00:00:01)     Journal start - Mon Nov  4 10:47:43 2024
+\t (00:00:01)         Host=DESKTOP-OLN9DLP User=Admin Pid=14760 CPUs=8
+\t (00:00:01) CmdLine= c:\cadence\spb_17.4\tools\bin\allegro.exe D:\Allegro\Project\CanhMai\Lib\Schematic_And_FootPrint\TVS Diode\SMBJ12CA\DIOM4336X265N.dra
+\t (00:00:01) 
+   (00:00:01) Loading axlcore.cxt 
+\t (00:00:01) Opening existing design...
+\i (00:00:02) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged DIOM4336X265N
+\d (00:00:02) Design opened: D:/Allegro/Project/CanhMai/Lib/Schematic_And_FootPrint/TVS Diode/SMBJ12CA/DIOM4336X265N.dra
+\i (00:00:02) trapsize 3916
+\i (00:00:02) trapsize 4175
+\i (00:00:02) trapsize 4048
+\i (00:00:02) trapsize 4175
+\i (00:00:02) trapsize 3711
+\i (00:00:02) trapsize 3711
+\i (00:00:03) etchedit 
+\i (00:00:03) zoom in 1 
+\i (00:00:03) setwindow pcb
+\i (00:00:03) zoom in -6.6594 0.9811
+\i (00:00:03) trapsize 1856
+\i (00:00:04) zoom out 1 
+\i (00:00:04) setwindow pcb
+\i (00:00:04) zoom out -1.5005 1.4420
+\i (00:00:04) trapsize 3711
+\i (00:00:04) zoom out 1 
+\i (00:00:04) setwindow pcb
+\i (00:00:04) zoom out 4.7718 1.2780
+\i (00:00:04) trapsize 3711
+\i (00:00:04) zoom in 1 
+\i (00:00:04) setwindow pcb
+\i (00:00:04) zoom in 1.9511 1.9460
+\i (00:00:04) trapsize 1856
+\i (00:00:05) save 
+\i (00:00:06) fillin yes 
+\t (00:00:06) Symbol 'diom4336x265n.psm' created.
+\i (00:00:06) etchedit 
+\i (00:00:06) zoom in 1 
+\i (00:00:06) setwindow pcb
+\i (00:00:06) zoom in 3.3986 0.0904
+\i (00:00:06) trapsize 928
+\i (00:00:06) zoom in 1 
+\i (00:00:06) setwindow pcb
+\i (00:00:06) zoom in 3.3986 0.0904
+\i (00:00:06) trapsize 464
+\i (00:00:07) zoom out 1 
+\i (00:00:07) setwindow pcb
+\i (00:00:07) zoom out 3.2409 0.1368
+\i (00:00:07) trapsize 928
+\i (00:00:07) zoom out 1 
+\i (00:00:07) setwindow pcb
+\i (00:00:07) zoom out 3.2408 0.1369
+\i (00:00:07) trapsize 1856
+\i (00:00:09) move 
+\t (00:00:09) Select element(s) to move.
+\i (00:00:11) pick grid -0.5076 -3.1663
+\t (00:00:11) last pick:  -0.6350 -3.1750
+\t (00:00:11) last pick:  -3.5550 -3.8475
+\t (00:00:11) Pick new location for the element(s).
+\i (00:00:12) prepopup -3.4768 -3.6859
+\i (00:00:14) cancel 
+\i (00:00:14) etchedit 
+\i (00:00:15) exit 
+\e (00:00:15) Do you want to save the changes you made to D:/Allegro/Project/CanhMai/Lib/Schematic_And_FootPrint/TVS Diode/SMBJ12CA/DIOM4336X265N.dra?
+\i (00:00:15) fillin yes 
+\t (00:00:16) Symbol 'diom4336x265n.psm' created.
+\t (00:00:17)     Journal end - Mon Nov  4 10:47:58 2024
