@@ -36,3 +36,14 @@ This repository is intended for internal use and research purposes only. Redistr
 ---
 
 Feel free to reach out if you have any questions or encounter issues while using these scripts.
+## Contact
+
+For any questions or additional support, feel free to reach out:
+
+- **Name**: Mai Xuan Canh
+- **University**: Ho Chi Minh City University of Technology (HCMUT)
+- **Major**: Control and Automation Engineering
+- **LinkedIn**: [Canh Mai's LinkedIn](https://www.linkedin.com/in/maixuancanh2003/)
+- **Email**: canhmai.work@gmail.com
+
+---

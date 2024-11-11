@@ -1,11 +1,11 @@
 import os
 import shutil
 
-# Đường dẫn thư mục nguồn và thư mục đích
+# Source and destination folder paths
 source_folder = r"D:\Allegro\Project\CanhMai\Lib\Schematic_And_FootPrint"
 destination_folder = r"C:\Cadence\SPB_17.4\share\pcb\pcb_lib\symbols"
 
-# Hàm đếm số lượng file với các đuôi cụ thể
+# Function to count the number of files with specific extensions
 def count_files(folder, extensions):
     count = 0
     for root, dirs, files in os.walk(folder):
@@ -14,33 +14,33 @@ def count_files(folder, extensions):
                 count += 1
     return count
 
-# Đếm số file trước khi copy
-extensions = ('.pad', '.psm', '.dra','.ssm')
+# Count the number of files before copying
+extensions = ('.pad', '.psm', '.dra', '.ssm')
 source_file_count = count_files(source_folder, extensions)
 destination_file_count_before = count_files(destination_folder, extensions)
 
-print(f"Số file hợp lệ trong thư mục nguồn: {source_file_count}")
-print(f"Số file hợp lệ trong thư mục đích trước khi copy: {destination_file_count_before}")
+print(f"Number of valid files in the source folder: {source_file_count}")
+print(f"Number of valid files in the destination folder before copying: {destination_file_count_before}")
 
-# Tạo thư mục đích nếu chưa tồn tại
+# Create destination folder if it doesn't exist
 os.makedirs(destination_folder, exist_ok=True)
 
-# Duyệt qua tất cả các thư mục con và file trong thư mục nguồn
+# Traverse all subfolders and files in the source folder
 for root, dirs, files in os.walk(source_folder):
     for file in files:
-        # Kiểm tra nếu file có đuôi .PAD, .psm, .pad, .DRA
+        # Check if the file has an extension of .PAD, .psm, .pad, or .DRA
         if file.lower().endswith(extensions):
-            # Đường dẫn đầy đủ của file nguồn
+            # Full path of the source file
             source_file = os.path.join(root, file)
-            # Đường dẫn đầy đủ của file đích
+            # Full path of the destination file
             destination_file = os.path.join(destination_folder, file)
             
-            # Thực hiện copy file
+            # Copy the file
             shutil.copy2(source_file, destination_file)
-            print(f"Đã copy: {source_file} -> {destination_file}")
+            print(f"Copied: {source_file} -> {destination_file}")
 
-# Đếm số file sau khi copy
+# Count the number of files after copying
 destination_file_count_after = count_files(destination_folder, extensions)
 
-print(f"Số file hợp lệ trong thư mục đích sau khi copy: {destination_file_count_after}")
-print("Hoàn tất việc copy các file.")
+print(f"Number of valid files in the destination folder after copying: {destination_file_count_after}")
+print("File copying completed.")
